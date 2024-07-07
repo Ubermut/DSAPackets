@@ -1,0 +1,155 @@
+{
+  "id": "dsa-packets",
+  "title": "DSA Packets",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dsa5",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Simon"
+    }
+  ],
+  "packs": [
+    {
+      "name": "dsa-abenteuer",
+      "label": "DSA Abenteuer",
+      "path": "packs/dsa-abenteuer",
+      "type": "Adventure",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dsa-akteure",
+      "label": "DSA Akteure",
+      "path": "packs/dsa-akteure",
+      "type": "Actor",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dsa-notizen",
+      "label": "DSA Notizen",
+      "path": "packs/dsa-notizen",
+      "type": "JournalEntry",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dsa-gegenstande",
+      "label": "DSA Gegenstände",
+      "path": "packs/dsa-gegenstande",
+      "type": "Item",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dsa-kartendecks",
+      "label": "DSA Kartendecks",
+      "path": "packs/dsa-kartendecks",
+      "type": "Cards",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dsa-macros",
+      "label": "DSA Macros",
+      "path": "packs/dsa-macros",
+      "type": "Macro",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dsa-szenen",
+      "label": "DSA Szenen",
+      "path": "packs/dsa-szenen",
+      "type": "Scene",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dsa-wiedergabelisten",
+      "label": "DSA Wiedergabelisten",
+      "path": "packs/dsa-wiedergabelisten",
+      "type": "Playlist",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dsa-wurfeltabellen",
+      "label": "DSA Würfeltabellen",
+      "path": "packs/dsa-wurfeltabellen",
+      "type": "RollTable",
+      "system": "dsa5",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dsa-kreaturen",
+      "label": "DSA Kreaturen",
+      "path": "packs/dsa-kreaturen",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dsa5"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "DSA",
+      "sorting": "m",
+      "packs": [
+        "dsa-wurfeltabellen",
+        "dsa-wiedergabelisten",
+        "dsa-szenen",
+        "dsa-macros",
+        "dsa-szenen",
+        "dsa-kartendecks",
+        "dsa-gegenstande",
+        "dsa-notizen",
+        "dsa-akteure",
+        "dsa-abenteuer",
+		"dsa-kreaturen"
+      ],
+      "folders": []
+    }
+  ]
+}
