@@ -1,0 +1,98 @@
+{
+  "name": "Braunschlinge",
+  "type": "plant",
+  "img": "modules/dsa5-herbarium/icons/plant/Braunschlinge.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>»›Wo bist du hin? Das Schaf muss hier doch irgendwo sein.‹ Eberrecht suchte nach Spuren, aber bislang ohne Erfolg. Die Bäume und Sträucher hatten ein dichtes Astwerk gebildet. Unter seinen Füßen gab der Boden mit den gefallenen Nadeln und Blättern leicht nach.<br>Einige Vögel flatterten in der Ferne auf. ›Marle. Endlich gefunden.‹ Das Schaf mit dem schönen Fell stand unschlüssig auf der Stelle und schaute sich um. Der junge Mann passierte einige Sträucher und näherte sich langsam. ›Nein, nein, nicht weiter in die Richtung.‹ In der Nähe des Weidetiers wuchs eine farnartige Pflanze.<br>Die Blätter sahen nicht frisch aus, sondern waren von bräunlicher Farbe, als ob sie im Sterben lägen. ›Marle, komm her. Los.‹ Das Locken war erfolglos – ganz im Gegenteil. Eberrechts Herz schlug schneller, und er nahm keine Rücksicht auf im Weg stehende Sträucher. ›Das ist kein Farn, sondern eine Braunschlinge!‹ Die Schlinge sah zwar unauffällig aus, hatte sich ihren Namen aber verdient. Neben dem Kranz aus farnähnlichen Blättern besaß sie etwa zehn Schritt lange Ranken, die auf unvorsichtige Menschen oder Tiere warteten. Er nahm einen Ast und schleuderte ihn in Richtung der gefährlichen Schlingpflanzen. Marle hatte den Wurf bemerkt und entfernte sich einen Schritt. ›Gut so, Marle. Hierher zu mir. Ich darf nicht zu nah herankommen. Gut, dass ich das Schwert und nicht den Stab dabeihabe.‹ Stumpfe Waffen waren gegen die Ranken der Braunschlinge kein gutes Werkzeug. Klingen hatten eine bessere Chance. Es knackte laut unter seinen Füßen. Das Schaf horchte erschrocken auf und ging in die falsche Richtung. ›Nein, ich bin es. Du kennst mich doch. Gleich ist es zu spät.‹ Er hatte keine Wahl. ›Ich muss sie retten. Der große Zweig. Neuer Wurf, neues Glück.‹ Mit einem lauten Rascheln hob er den großen Ast auf und schleuderte ihn stöhnend in Richtung der Braunschlinge …«</em></p><p>—aus Zwölfmal zwölf Aventheurer – Band XXIII: „Im Griff der Todesranke, Pollenstaub der siebten Sphäre oder Was uns der Folianth der Kreutherkunde nicht lehrte“, Druckerei Stührmann Mezzani, Grangor, 1041 BF</p><p><b>Alltagsarzneien und Volksbrauchtum</b>: Wo mit begrenzten Ressourcen schnell entschieden werden muss, wer noch gerettet werden kann, wird manch mutiger Medicus kurze Stücke der Braunschlinge nutzen, um an Scheintoten vielleicht doch noch einen Puls bzw. schwächsten Herzschlag zu finden oder um zu messen, wer Borons Hallen noch am fernsten ist. Die Pflanze packt umso fester zu, je schneller und stärker das Herz des Opfers schlägt. Aus einer unfassbar widerspenstigen Braunschlinge soll ein Alchimist einmal ein Unverwundbarkeitselixier hergestellt haben, das so potent war, dass es ihn augenblicklich tötete. Seine Leiche soll noch immer unversehrt irgendwo in einem Labor liegen.</p><p><b>Haltbarkeit</b>: <em>Roh:</em> als Seil o. ä. bis zu 6 Monate (Schlingen, tot)\n\t\t\t<em>Verarbeitet:</em> in Blut eingelegt 2 Wochen (Schlingen, lebend)</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "price": {
+      "value": 2.5,
+      "raw": 2
+    },
+    "quantity": {
+      "value": 1
+    },
+    "weight": {
+      "value": 0.02
+    },
+    "effect": "<p>Roh:</p><p><em>Berührung:</em> Pflanze greift an @Compendium[dsa5-herbarium.herbariumbestiary.Braunschlinge]. Ein erfolgreich angegriffenes Opfer wird umschlungen, zerdrückt ([[/r 1d3+3]] SP pro KR) und gilt als Eingeengt. Das Sekret aus den Trieben und verletzten Schlingen der Pflanze ist giftig (@Compendium[dsa5-herbarium.herbariumequipment.Braunschlinge (Berührung)]). Befreien kann man sich aus der Umschlingung mittels einer Vergleichsprobe auf @Rq[Kraftakt 0] (Ziehen & Zerren). Die Pflanze verfügt über einen FW von 12 und würfelt auf 14/14/14.</p><p><em>Einatmung:</em> keine</p><p><em>Verzehr:</em> siehe Berührung</p><p>Verarbeitet: siehe Rezepte</p>",
+    "parent_id": 0,
+    "location": {
+      "landscape": "Grasländer, Heiden und Steppen, Sümpfe, Marschen und Moore, Wälder",
+      "region": "Nördliche Feuchtländer (gewöhnlich), Wälder des Nordens und mittelländische Wälder (gemäßigtes und tobrisches Klima; gelegentlich), Nördliche und Mittelländische Grasländer und Steppen (selten); ursprünglich Schwarztobrien, mittlerweile überall zwischen Riva und Neetha"
+    },
+    "difficulty": {
+      "search": -2,
+      "identify": -2
+    },
+    "usages": "1/1/1/1/1/1",
+    "recipes": "<p><em>Pflanzliche Hilfsmittel:</em> Seil (doppelt so belastbar wie Hanfseil), @Compendium[dsa5-herbarium.herbariumequipment.Schlängelbeutel]</p><p><em>Elixiere</em>: @Compendium[dsa5-herbarium.herbariumequipment.Unverwundbarkeitselixier]</p>",
+    "planttype": {
+      "healing": false,
+      "poison": true,
+      "physical": true,
+      "psychic": false,
+      "crop": true,
+      "defensive": false,
+      "supernatural": true
+    },
+    "availability": {
+      "highNorth": 0,
+      "grasLands": 2,
+      "swamps": 5,
+      "woods": 5,
+      "jungle": 0,
+      "mountains": 0,
+      "desert": 0,
+      "maraskan": 0
+    },
+    "infos": "@Info[Compendium.dsa5-herbarium.herbariuminfo.lITch6pHFBOP3MSk]",
+    "equipmentType": {
+      "value": "healing"
+    },
+    "targetEffect": false,
+    "transform": {
+      "value": false
+    },
+    "consumed": {
+      "value": false
+    },
+    "charges": 10,
+    "maxCharges": 10,
+    "QLList": "Heilkunde Wunden CH+1;",
+    "alchemydescription": {
+      "value": ""
+    },
+    "healingValue": "",
+    "duration": {
+      "value": ""
+    },
+    "attackEffect": false
+  },
+  "folder": "3lFQvO7wUpLyQLc2",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dsa5",
+    "systemVersion": "5.7.4",
+    "coreVersion": "12.331",
+    "createdTime": 1706252270069,
+    "modifiedTime": 1743607631767,
+    "lastModifiedBy": "k2irxkER7dd27yKp",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "k2irxkER7dd27yKp": 3
+  },
+  "_id": "t6npfpeLhTtC1woZ",
+  "sort": 0,
+  "_key": "!items!t6npfpeLhTtC1woZ"
+}

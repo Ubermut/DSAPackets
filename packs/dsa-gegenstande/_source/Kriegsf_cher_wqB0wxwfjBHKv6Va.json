@@ -1,0 +1,151 @@
+{
+  "name": "Kriegsfächer",
+  "img": "modules/dsa5-armory2/icons/meleeweapon/Kriegsfaecher.webp",
+  "flags": {
+    "core": {}
+  },
+  "type": "meleeweapon",
+  "system": {
+    "price": {
+      "value": 200
+    },
+    "quantity": {
+      "value": 1
+    },
+    "weight": {
+      "value": 1.25
+    },
+    "effect": {
+      "value": "",
+      "attributes": ""
+    },
+    "parent_id": 0,
+    "description": {
+      "value": "<p><em>»Ein schöner Fächer ist selten fehl am Platz. Und wahrhaft phexgefällig dazu, wenn er sich als Waffe nutzen lässt.«</em></p><p>—Ayshara, Mondsilberhadjina der Mada Basari</p><p>Der Kriegsfächer ist außerhalb Araniens nahezu unbekannt, wird er doch meistens belächelt. Unter Nichtaraniern erkennen und nutzen lediglich einige Diener Phexens, Leibwachen und Meuchelmörder seine Eigenschaft, sich ausgezeichnet als gewöhnlicher Fächer tarnen zu lassen. Doch die Könnerinnen, in deren Hand er sein ganzes, tödliches Potenzial entfaltet, stammen aus Aranien oder haben bei einer der dortigen Balayanim gelernt.</p><p>Der Kriegsfächer gleicht einem gewöhnlichen Fächer, doch wurden seine Stäbe verstärkt und mit Dornen versehen. Manch ein Fächer hat außerdem geschliffene Außenkanten oder wurde gleich vollständig aus dünnen Metallplatten angefertigt, die anschließend bemalt von einem Tuchfächer kaum zu unterscheiden sind.</p><p>Im Kampf kann er allein geführt werden, doch beliebter ist seine Nutzung als Parierwaffe, die es auch ermöglicht, Wurfgeschosse aus der Luft zu schlagen. In beiden Fällen eignet er sich für einen schnellen Kampfstil, bei dem er je nach aktueller Situation rasant geöffnet oder geschlossen wird.</p><p><b>Anmerkung</b>: kleiner Schild, 15 Strukturpunkte, oder Parierwaffe (PA-Bonus +1 für die Hauptwaffe).</p><p>Fächer ein- oder ausklappen dauert jeweils 1 Aktion.</p><p>Der AT-Abzug gilt nur für den Angriff mit dem ausgeklappten Fächer als Schild, aber nicht, wenn man ihn und eine andere Hauptwaffe führt.</p><p>Mit dem ausgeklappten Fächer kann man versuchen, ein Geschoss zu parieren, allerdings erleidet man bei der Parade zusätzlich zu den üblichen Modifikatoren (siehe Regelwerk Seite 244) noch eine Erschwernis von 1.</p><p>Mit einem offenen Fächer können nur Angriffe der Kampftechniken Raufen, Dolche und Fechtwaffen, sowie Fernkampftechniken (siehe oben) pariert werden. Nur ein offener Fächer kann als kleiner Schild dienen.</p><p>Mit geschlossenem Fächer können Waffen aller Kampftechniken außer Kettenwaffen, Zweihandhiebwaffen, Zweihandschwerter und Fernkampftechniken pariert werden. Nur ein geschlossener Fächer kann als Parierwaffe dienen.</p><p><b>Waffenvorteil</b>: Beim Einsatz des Manövers Angetäuschter Angriff (siehe Seite 125), bekommt der Träger des Kriegsfächers +2 TP (statt nur +1 TP).</p><p><b>Waffennachteil</b>: Bei einem bestätigten Patzer erleidet der Träger der Neunschwänzigen 2 SP zusätzlich zu allen anderen Auswirkungen des Patzers.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "specialization": {
+      "value": 0
+    },
+    "tpplus": {
+      "value": 12,
+      "step": 4
+    },
+    "damage": {
+      "value": "1W6+2"
+    },
+    "atmod": {
+      "value": 0,
+      "offhandMod": 0
+    },
+    "pamod": {
+      "value": 1,
+      "offhandMod": 0
+    },
+    "reach": {
+      "value": "H",
+      "shieldSize": "average"
+    },
+    "damageThreshold": {
+      "value": 15
+    },
+    "guidevalue": {
+      "value": "ge"
+    },
+    "combatskill": {
+      "value": "Hiebwaffen"
+    },
+    "worn": {
+      "value": false,
+      "offhand": false,
+      "wrongGrip": false
+    },
+    "structure": {
+      "max": 15,
+      "value": 15,
+      "hasStructure": true,
+      "canBeTarget": false,
+      "regeneration": false
+    },
+    "crit": 1,
+    "botch": 20,
+    "twohanded": {
+      "value": false
+    },
+    "damageType": "damage",
+    "attacktype": "cut",
+    "effects": {
+      "hasAmmoEffect": false
+    },
+    "otherMelee": [
+      1
+    ],
+    "otherMelee1": {
+      "damage": {
+        "value": "1d6+2"
+      },
+      "name": {
+        "value": "Kriegsfächer 1"
+      },
+      "specialization": {
+        "value": false
+      },
+      "combatskill": {
+        "value": "Parierwaffen"
+      },
+      "guidevalue": {
+        "value": "ge"
+      },
+      "damageType": "damage",
+      "attacktype": "cut",
+      "worn": {
+        "offHand": false
+      },
+      "twohanded": {
+        "value": false
+      },
+      "atmod": {
+        "value": 0,
+        "offhandMod": null
+      },
+      "pamod": {
+        "value": 2,
+        "offhandMod": null
+      },
+      "damageThreshold": {
+        "value": null
+      },
+      "tpplus": {
+        "value": 12,
+        "step": 3
+      },
+      "reach": {
+        "value": "H"
+      },
+      "effects": {
+        "hasAmmoEffect": false
+      }
+    }
+  },
+  "folder": "g6PlcJmilWWQmRDA",
+  "effects": [],
+  "_stats": {
+    "systemId": "dsa5",
+    "systemVersion": "5.7.4",
+    "coreVersion": "12.331",
+    "createdTime": 1713557097516,
+    "modifiedTime": 1722192247517,
+    "lastModifiedBy": "k2irxkER7dd27yKp",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "k2irxkER7dd27yKp": 3
+  },
+  "_id": "wqB0wxwfjBHKv6Va",
+  "sort": 400000,
+  "_key": "!items!wqB0wxwfjBHKv6Va"
+}

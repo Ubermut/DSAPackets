@@ -1,0 +1,113 @@
+{
+  "name": "Wirselkraut (Samen)",
+  "type": "schema",
+  "img": "modules/dsa5-herbarium/icons/plant/Wirselkraut.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>»Jedes Kind kennt Wirselkraut. Es gedeiht in allen Landen und wird daher von alters her als Inbegriff des heilenden Krautes, ja als perainegefällige Pflanze angesehen.«</em></p><p>—aus Folianth der Kreutherkunde, Festum-Ausgabe, 1042 BF</p><p><em>»Eine der vielen Selthsamkeiten auf, oder fielmehr unter der Erte isset, dass Zwerche den Wuersel gar nit moegen thun. Es isset sogar noch schlimmer! Nimmet doch einmal einer das heylende Krautt zu sich, musset man arg aufpaszen, nit vollgespeiht zu werden, denn sie thun es dann aus reiner Arglist dem Vulkane gleich!«</em></p><p>—aus Ueber die 66 Geheimnisze von Elferlingen und Zwerchen, um 413 BF, Autor unbekannt</p><p>Wirselkraut wächst in ganz Aventurien und kann, außer im Winter, immer geerntet werden. Es ist ein Gras mit fingerbreiten, grünweißen Blättern, deren Rand gesägt ist. In den Grasländern der gemäßigten Zone ist es zwischen all den anderen Gräsern nicht leicht zu identifizieren. In der Tundra hingegen gehört es zu den höchstgewachsenen Pflanzen und ist gut zu erkennen.</p><p>Jeder kennt Wirselkraut. Abenteurer, Handwerker und Bauern nutzen es gleichermaßen, um die Blessuren, die ihre Arbeit mit sich bringt, zu behandeln. Kräuterhändler, Alchimisten und Heiler schätzen es als Grundlage zahlloser Heilsalben und Tränke, vor allem, weil Nebenwirkungen bei einer übermäßigen Anwendung nicht bekannt sind. Einzig Zwerge mögen es überhaupt nicht, denn bei ihnen entfaltet Wirselkraut nur verminderte Heilwirkung und erzeugt, bei innerlicher Anwendung, zudem Übelkeit.</p><p>Wirselkraut ist denkbar einfach anzuwenden. Frisch gepflückt und unbehandelt auf eine Wunde gelegt, stoppt es die Blutung und unterstützt zudem die Regeneration.</p><p>Es kann auch eingenommen werden, ist dann aber nicht im selben Maß heilkräftig. Bei Kämpfern und Abenteurern sehr beliebt sind Verbände, die vorab mit Heilsalbe aus Wirselkraut bestrichen wurden und bei frischen Wunden umgehend die Blutung stoppen.</p><p>Für die Heilsalbe müssen drei Wirselkräuter zerrieben und mit Salbenfett vermengt werden. Eine wichtige Zutat des Heiltranks ist der Wirseltrank, ein schlichter Absud aus vier Blättern, die kleingerupft und mit heißem Wasser übergossen werden.</p><p>Nachdem er sieben Stunden gezogen hat, wird der Wirseltrank abgeseiht, auf Flaschen gezogen und entfaltet eine beachtliche Heilwirkung.</p><p><b>Alltagsarzneien und Volksbrauchtum</b>: Wirselkraut gilt in großen Teilen Aventuriens als Inbegriff und Sinnbild der Heilung. Wo es welkt, sei Mishkara am Werk, sodass am Wuchs der genügsamen Wirsel die Gesundheit ganzer Landstriche kontrolliert wird. Für unbehagliche Orte hat sich so der Spruch „Da bleibt die Wirsel fern“ etabliert. So überrascht es auch nicht, dass Wirselheim neben Alrikfurt der häufigste Dorfname Aventuriens ist. Tieren bindet man häufig Kränze oder Zöpfe aus Wirsel an, um Krankheiten fernzuhalten und damit sie sich selbstständig versorgen können, falls sie sich verletzen.</p><p><b>Haltbarkeit</b>: <em>Roh:</em> siehe Haltbarmachung</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "price": {
+      "value": 2.2,
+      "raw": 2
+    },
+    "quantity": {
+      "value": 1
+    },
+    "weight": {
+      "value": 0.01
+    },
+    "effect": "<p>Roh:</p><p><em>Berührung:</em> Blätter zerstoßen aufgetragen: pro Anwendung 1 LeP zusätzlich bei der nächsten Regeneration, maximal jedoch 3 LeP pro Regenerationsphase zusätzlich.</p><p><em>Einatmung:</em> keine</p><p><em>Verzehr:</em> Pro Anwendung 1 LeP zusätzlich bei der nächsten Regeneration, maximal jedoch 3 LeP pro Regenerationsphase zusätzlich.</p><p>Verarbeitet: siehe Rezepte</p>",
+    "parent_id": 0,
+    "location": {
+      "landscape": "alle",
+      "region": "alle außer Ewiges Eis und Wüste"
+    },
+    "difficulty": {
+      "search": -1,
+      "identify": -2,
+      "value": 0
+    },
+    "usages": "3/3/3/4/4/5",
+    "recipes": "<p><em>Pflanzliche Hilfsmittel:</em> @Compendium[dsa5-herbarium.herbariumequipment.Brandsalbe], @Compendium[dsa5-herbarium.herbariumequipment.Wirseltrank]</p><p><em>Elixiere</em>: @Compendium[dsa5-herbarium.herbariumequipment.Heilsalbe], @Compendium[dsa5-core.coreequipment.Heiltrank]</p>",
+    "planttype": {
+      "healing": true,
+      "poison": false,
+      "physical": false,
+      "psychic": false,
+      "crop": false,
+      "defensive": false,
+      "supernatural": false
+    },
+    "availability": {
+      "highNorth": 5,
+      "grasLands": 4,
+      "swamps": 5,
+      "woods": 5,
+      "jungle": 5,
+      "mountains": 5,
+      "desert": 5,
+      "maraskan": 5
+    },
+    "infos": "@Info[Compendium.dsa5-herbarium.herbariuminfo.D0L0yQnG4RF77IC0]",
+    "equipmentType": {
+      "value": "healing"
+    },
+    "targetEffect": false,
+    "transform": {
+      "value": true,
+      "newname": "Wirselsalbe",
+      "talent": "Heilkunde Wunden",
+      "difficulty": -2,
+      "effect": "",
+      "description": "",
+      "healingValue": "1d6+4"
+    },
+    "consumed": {
+      "value": false
+    },
+    "charges": 1,
+    "maxCharges": 1,
+    "QLList": "",
+    "alchemydescription": {
+      "value": ""
+    },
+    "healingValue": "5",
+    "duration": {
+      "value": ""
+    },
+    "schemaType": {
+      "value": "plant"
+    },
+    "schemaCreation": {
+      "value": "haselbusch"
+    },
+    "creationCost": {
+      "value": "2.5"
+    }
+  },
+  "folder": "3lFQvO7wUpLyQLc2",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dsa5",
+    "systemVersion": "5.7.4",
+    "coreVersion": "12.331",
+    "createdTime": 1706252270069,
+    "modifiedTime": 1722445887805,
+    "lastModifiedBy": "k2irxkER7dd27yKp",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "k2irxkER7dd27yKp": 3
+  },
+  "_id": "nqJj7Dm5xVVJFe8J",
+  "sort": 400000,
+  "_key": "!items!nqJj7Dm5xVVJFe8J"
+}

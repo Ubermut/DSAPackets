@@ -1,0 +1,30 @@
+{
+  "name": "Spukprobe",
+  "type": "script",
+  "scope": "global",
+  "author": "OkB1KdnOuvyQ8qU2",
+  "img": "icons/svg/d20-highlight.svg",
+  "command": "let argument, text;\ntry {\nargument = args[0]\n} catch (e) {argument=3\n}\ntry {\ntext = \"\"+args[1];\n} catch (e) {text = \"\"}\nif (!(Number(argument)>0 || Number(argument)<0 || Number(argument)===0)) {argument=0;}\nChatMessage.create({\nuser: game.user._id,\nspeaker: ChatMessage.getSpeaker({token: token}),\ncontent: text+'<a class=\"roll-button request-roll\" data-type=\"characteristic\" data-modifier=\"'+argument+'\" data-additionalOption=\"Spukprobe\" data-name=\"in\"><i class=\"fas fa-dice\"></i> Spukprobe! '+(argument!==0?argument:'')+'</a>'\n});\nAudioHelper.play({src:  \"systems/dsa5/sfx/aIce.wav\", volume: 0.8, loop: false}, true);",
+  "folder": null,
+  "ownership": {
+    "default": 3,
+    "tGl2ZLiI2uW132LH": 3,
+    "OkB1KdnOuvyQ8qU2": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dsa5",
+    "systemVersion": "5.7.4",
+    "coreVersion": "12.331",
+    "createdTime": 1681754157039,
+    "modifiedTime": 1719476044337,
+    "lastModifiedBy": "OkB1KdnOuvyQ8qU2",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "EmkzTcQxIr19MQKb",
+  "sort": 0,
+  "_key": "!macros!EmkzTcQxIr19MQKb"
+}

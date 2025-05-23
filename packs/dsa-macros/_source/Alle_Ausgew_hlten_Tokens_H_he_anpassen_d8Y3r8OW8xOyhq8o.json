@@ -1,0 +1,29 @@
+{
+  "name": "Alle Ausgewählten Tokens Höhe anpassen",
+  "type": "script",
+  "scope": "global",
+  "author": "OkB1KdnOuvyQ8qU2",
+  "img": "icons/svg/falling.svg",
+  "command": "if (canvas.tokens.controlled && canvas.tokens.controlled.length>0 ) {\n  canvas.tokens.controlled.forEach(x => {x.document.update({\"elevation\":0});})\n}",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "OkB1KdnOuvyQ8qU2": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dsa5",
+    "systemVersion": "5.7.4",
+    "coreVersion": "12.331",
+    "createdTime": 1703892798828,
+    "modifiedTime": 1719475982583,
+    "lastModifiedBy": "OkB1KdnOuvyQ8qU2",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "d8Y3r8OW8xOyhq8o",
+  "sort": 0,
+  "_key": "!macros!d8Y3r8OW8xOyhq8o"
+}
