@@ -1,48 +1,470 @@
 {
-  "name": "Krakenmolch",
+  "img": "tokenizer/npc-images/base/krakenmolch.Avatar.webp?1630244421196",
+  "_stats": {
+    "compendiumSource": null,
+    "modifiedTime": 1746637231850,
+    "systemId": "dsa5",
+    "lastModifiedBy": "k2irxkER7dd27yKp",
+    "createdTime": 1745135397153,
+    "duplicateSource": null,
+    "systemVersion": "6.2.3",
+    "coreVersion": "12.331"
+  },
+  "flags": {
+    "core": {}
+  },
+  "sort": 100000,
   "type": "creature",
-  "img": "systems/dsa5/icons/tokens/krakenmolch.Avatar.webp?1630244421196",
+  "prototypeToken": {
+    "displayBars": 50,
+    "ring": {
+      "effects": 1,
+      "subject": {
+        "texture": null,
+        "scale": 1
+      },
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      }
+    },
+    "displayName": 30,
+    "actorLink": true,
+    "lockRotation": false,
+    "texture": {
+      "scaleX": 1,
+      "offsetX": 0,
+      "fit": "contain",
+      "scaleY": 1,
+      "anchorY": 0.5,
+      "offsetY": 0,
+      "src": "tokenizer/npc-images/base/krakenmolch.Token.webp?1630244421196",
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "rotation": 0,
+    "detectionModes": [],
+    "flags": {
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "visibility": 40,
+            "invert": false,
+            "max": null,
+            "maxcolor": "#cf0e0e",
+            "style": "user",
+            "id": "bar1",
+            "attribute": "status.wounds",
+            "mincolor": "#650707",
+            "position": "bottom-inner"
+          },
+          "bar2": {
+            "visibility": 40,
+            "invert": false,
+            "max": null,
+            "maxcolor": "#80B3FF",
+            "style": "user",
+            "id": "bar2",
+            "attribute": "status.astralenergy",
+            "mincolor": "#000080",
+            "position": "top-inner"
+          }
+        }
+      },
+      "token-auras": {
+        "aura2": {
+          "square": false,
+          "colour": "#ffffff",
+          "distance": null,
+          "permission": "all",
+          "opacity": 0.5
+        },
+        "aura1": {
+          "square": false,
+          "colour": "#ffffff",
+          "distance": null,
+          "permission": "all",
+          "opacity": 0.5
+        }
+      }
+    },
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "randomImg": false,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "status.wounds"
+    },
+    "bar2": {
+      "attribute": "status.astralenergy"
+    },
+    "disposition": 0,
+    "light": {
+      "attenuation": 0.5,
+      "color": null,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "priority": 0,
+      "animation": {
+        "intensity": 5,
+        "type": null,
+        "reverse": false,
+        "speed": 5
+      },
+      "saturation": 0,
+      "negative": false,
+      "alpha": 0.25,
+      "contrast": 0,
+      "angle": 360,
+      "luminosity": 0.5,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "alpha": 1,
+    "name": "Krakenmolch",
+    "width": 3,
+    "sight": {
+      "saturation": 0,
+      "brightness": 0,
+      "attenuation": 0.1,
+      "color": null,
+      "visionMode": "basic",
+      "contrast": 0,
+      "angle": 360,
+      "range": 20,
+      "enabled": false
+    },
+    "occludable": {
+      "radius": 0
+    },
+    "height": 3
+  },
+  "effects": [],
+  "folder": "O33A46A1xF1ACiVX",
+  "system": {
+    "actionCount": {
+      "value": 1
+    },
+    "happyTalents": {
+      "value": ""
+    },
+    "flight": {
+      "value": ""
+    },
+    "characteristics": {
+      "ff": {
+        "color": "#d5b467",
+        "species": 0,
+        "initial": 11,
+        "advances": 0,
+        "abrev": "CHARAbbrev.FF",
+        "modifier": 0,
+        "label": "CHAR.FF"
+      },
+      "kk": {
+        "color": "#d6a878",
+        "species": 0,
+        "initial": 12,
+        "advances": 0,
+        "abrev": "CHARAbbrev.KK",
+        "modifier": 0,
+        "label": "CHAR.KK"
+      },
+      "kl": {
+        "color": "#8259a3",
+        "species": 0,
+        "initial": 7,
+        "advances": 0,
+        "abrev": "CHARAbbrev.KL",
+        "modifier": 0,
+        "label": "CHAR.KL"
+      },
+      "ko": {
+        "color": "#fbf5ea",
+        "species": 0,
+        "initial": 17,
+        "advances": 0,
+        "abrev": "CHARAbbrev.KO",
+        "modifier": 0,
+        "label": "CHAR.KO"
+      },
+      "in": {
+        "color": "#388834",
+        "species": 0,
+        "initial": 11,
+        "advances": 0,
+        "abrev": "CHARAbbrev.IN",
+        "modifier": 0,
+        "label": "CHAR.IN"
+      },
+      "ch": {
+        "color": "#0d0d0d",
+        "species": 0,
+        "initial": 7,
+        "advances": 0,
+        "abrev": "CHARAbbrev.CH",
+        "modifier": 0,
+        "label": "CHAR.CH"
+      },
+      "mu": {
+        "color": "#b3241a",
+        "initial": 15,
+        "species": 0,
+        "advances": 0,
+        "abrev": "CHARAbbrev.MU",
+        "modifier": 0,
+        "label": "CHAR.MU"
+      },
+      "ge": {
+        "color": "#688ec4",
+        "species": 0,
+        "initial": 12,
+        "advances": 0,
+        "abrev": "CHARAbbrev.GE",
+        "modifier": 0,
+        "label": "CHAR.GE"
+      }
+    },
+    "count": {
+      "label": "count",
+      "value": "1"
+    },
+    "description": {
+      "value": "<p>Der Krakenmolch ist durch seine amphibische Lebensweise besonders gef&auml;hrlich. Er dringt bisweilen weit bis ins Landesinnere vor, um in S&uuml;mpfen nach Beute zu suchen. Seine Intelligenz reicht gerade an die einer Ratte heran, und er greift ausschlie&szlig;lich an, um sich von seinen Opfern zu ern&auml;hren. Die Tentakel des Krakenmolchs sind stark genug, um einen Menschen darin gefangen zu halten, aber die Umschlingung verursacht keinen Schaden. Wirklich gef&auml;hrlich ist nur der Biss des Seeungeheuers.</p>"
+    },
+    "hitbox": 0,
+    "feature": {
+      "magical": "",
+      "clerical": ""
+    },
+    "guidevalue": {
+      "magical": "-",
+      "clerical": "-"
+    },
+    "specialRules": {
+      "value": ""
+    },
+    "energyfactor": {
+      "magical": 1,
+      "clerical": 1
+    },
+    "details": {
+      "experience": {
+        "total": 0,
+        "spent": 0
+      }
+    },
+    "creatureClass": {
+      "value": "animal"
+    },
+    "behaviour": {
+      "value": ""
+    },
+    "tradition": {
+      "magical": "",
+      "clerical": ""
+    },
+    "config": {
+      "autoSize": true,
+      "autoBar": true
+    },
+    "merchantType": false,
+    "status": {
+      "dodge": {
+        "max": 0,
+        "modifier": 0,
+        "value": 0
+      },
+      "wounds": {
+        "current": 8,
+        "initial": 0,
+        "max": 0,
+        "advances": 0,
+        "modifier": 60,
+        "value": 172
+      },
+      "initiative": {
+        "die": "1d6",
+        "initial": 8,
+        "multiplier": 1,
+        "modifier": 0,
+        "tooltip": "17+0+0+8+0+0+0+1 = 26 (KO + Modifikator + Effekte + (MU + MU + GE + IN)/5 + Modifikator + Belastung + Effekte + Initiativewürfel)",
+        "rolled": false,
+        "current": 0,
+        "diemodifier": "-",
+        "nextaction": 11,
+        "gearmodifier": 0,
+        "value": "8.08",
+        "currentdice": 0,
+        "fullmodifier": 0
+      },
+      "artifactradiation": {
+        "initial": 0,
+        "modifier": 0,
+        "value": 0
+      },
+      "atbasis": {
+        "current": 0,
+        "initial": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 0
+      },
+      "combat": {
+        "oneRoundEffects": [],
+        "oneTimeEffects": []
+      },
+      "captainvalue": {
+        "initial": 0,
+        "modifier": 0,
+        "value": 0
+      },
+      "speed": {
+        "initial": 0,
+        "modifier": 6,
+        "value": 0
+      },
+      "encumbrance": {
+        "current": 0,
+        "initial": 0,
+        "value": 0
+      },
+      "karmaenergy": {
+        "current": 0,
+        "initial": 0,
+        "max": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 0
+      },
+      "fatePoints": {
+        "current": 0,
+        "modifier": 0,
+        "value": 0
+      },
+      "soulpower": {
+        "initial": 0,
+        "modifier": 10,
+        "value": 0
+      },
+      "size": {
+        "value": "big"
+      },
+      "astralenergy": {
+        "current": 0,
+        "initial": 0,
+        "max": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 0
+      },
+      "bodyarmor": {
+        "current": 0,
+        "initial": 0,
+        "value": 0
+      },
+      "toughness": {
+        "initial": 0,
+        "modifier": 0,
+        "value": 17
+      },
+      "attackSize": {
+        "value": "DEFAULT"
+      },
+      "fkbasis": {
+        "current": 0,
+        "initial": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 0
+      },
+      "actions": {
+        "movementaction": 0,
+        "neutralactions": {
+          "current": 1,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "paaction": 1,
+        "lostActions": 0,
+        "paactions": {
+          "current": 0,
+          "mod": -1,
+          "max": 0,
+          "performed": 0
+        },
+        "movementactions": {
+          "current": 0,
+          "mod": 0,
+          "max": 0,
+          "performed": 0
+        },
+        "neutralaction": 1,
+        "onlyfreeaction": 0,
+        "freeaction": 1,
+        "freeactions": {
+          "current": 1,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "atactions": {
+          "current": 2,
+          "mod": 1,
+          "max": 2,
+          "performed": 0
+        },
+        "spendInitiative": false,
+        "ataction": 1
+      },
+      "pabasis": {
+        "current": 0,
+        "initial": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 0
+      }
+    },
+    "conjuringDifficulty": {
+      "control": 0,
+      "value": 0
+    },
+    "sheetLocked": {
+      "value": false
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "k2irxkER7dd27yKp": 3,
+    "OkB1KdnOuvyQ8qU2": 3
+  },
+  "name": "Krakenmolch",
+  "_id": "BMcmqXxiinhW9fON",
   "items": [
     {
-      "_id": "0TIvilxM1iNe3vpb",
-      "name": "Singen",
-      "type": "skill",
       "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
       "effects": [],
       "folder": null,
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.0TIvilxM1iNe3vpb"
-        }
-      },
       "system": {
-        "group": {
-          "value": "body"
-        },
-        "talentValue": {
-          "value": 7
-        },
-        "characteristic1": {
-          "value": "in"
-        },
-        "characteristic2": {
-          "value": "ch"
-        },
         "characteristic3": {
           "value": "ch"
+        },
+        "StF": {
+          "value": "D"
         },
         "RPr": {
           "value": "no"
         },
-        "burden": {
-          "value": "yes",
-          "valadd": -3,
-          "valmult": 1
-        },
-        "StF": {
-          "value": "D"
+        "talentValue": {
+          "value": 7
         },
         "gmdescription": {
           "value": ""
@@ -50,8 +472,22 @@
         "description": {
           "value": ""
         },
+        "characteristic1": {
+          "value": "in"
+        },
         "choice": {
           "value": false
+        },
+        "characteristic2": {
+          "value": "ch"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": -3,
+          "valmult": 1,
+          "value": "yes"
         }
       },
       "ownership": {
@@ -60,56 +496,42 @@
       },
       "_stats": {
         "compendiumSource": "Compendium.dsa5.skills.0TIvilxM1iNe3vpb",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.0TIvilxM1iNe3vpb"
-    },
-    {
-      "_id": "1BTon6zdpKKovyZ6",
-      "name": "Fesseln/Entfesseln",
-      "type": "skill",
-      "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
+      "name": "Singen",
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Item.8cYyQI7ggFHdNYdf"
+          "sourceId": "Compendium.dsa5.skills.0TIvilxM1iNe3vpb"
         }
       },
+      "_id": "0TIvilxM1iNe3vpb",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.0TIvilxM1iNe3vpb"
+    },
+    {
+      "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+      "effects": [],
+      "folder": null,
       "system": {
-        "group": {
-          "value": "nature"
-        },
-        "talentValue": {
-          "value": 7
-        },
-        "characteristic1": {
-          "value": "ff"
-        },
-        "characteristic2": {
-          "value": "ge"
-        },
         "characteristic3": {
           "value": "kk"
+        },
+        "StF": {
+          "value": "B"
         },
         "RPr": {
           "value": "no"
         },
-        "burden": {
-          "value": "no",
-          "valadd": 0,
-          "valmult": 1
-        },
-        "StF": {
-          "value": "B"
+        "talentValue": {
+          "value": 7
         },
         "gmdescription": {
           "value": ""
@@ -117,8 +539,22 @@
         "description": {
           "value": ""
         },
+        "characteristic1": {
+          "value": "ff"
+        },
         "choice": {
           "value": false
+        },
+        "characteristic2": {
+          "value": "ge"
+        },
+        "group": {
+          "value": "nature"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
         }
       },
       "ownership": {
@@ -127,56 +563,42 @@
       },
       "_stats": {
         "compendiumSource": "Item.8cYyQI7ggFHdNYdf",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.1BTon6zdpKKovyZ6"
-    },
-    {
-      "_id": "2BsDsSf3ZMxZN6XV",
-      "name": "Sternkunde",
-      "type": "skill",
-      "img": "icons/skills/trades/academics-astronomy-navigation-blue.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
+      "name": "Fesseln/Entfesseln",
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Item.52Ilxwnl04K3v9aM"
+          "sourceId": "Item.8cYyQI7ggFHdNYdf"
         }
       },
+      "_id": "1BTon6zdpKKovyZ6",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.1BTon6zdpKKovyZ6"
+    },
+    {
+      "img": "icons/skills/trades/academics-astronomy-navigation-blue.webp",
+      "effects": [],
+      "folder": null,
       "system": {
-        "group": {
-          "value": "knowledge"
-        },
-        "talentValue": {
-          "value": 1
-        },
-        "characteristic1": {
-          "value": "kl"
-        },
-        "characteristic2": {
-          "value": "kl"
-        },
         "characteristic3": {
           "value": "in"
+        },
+        "StF": {
+          "value": "B"
         },
         "RPr": {
           "value": "no"
         },
-        "burden": {
-          "value": "no",
-          "valadd": 0,
-          "valmult": 1
-        },
-        "StF": {
-          "value": "B"
+        "talentValue": {
+          "value": 1
         },
         "gmdescription": {
           "value": ""
@@ -184,8 +606,22 @@
         "description": {
           "value": ""
         },
+        "characteristic1": {
+          "value": "kl"
+        },
         "choice": {
           "value": false
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
+        "group": {
+          "value": "knowledge"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
         }
       },
       "ownership": {
@@ -194,56 +630,42 @@
       },
       "_stats": {
         "compendiumSource": "Item.52Ilxwnl04K3v9aM",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.2BsDsSf3ZMxZN6XV"
-    },
-    {
-      "_id": "BCPJXdx3K01lh0hz",
-      "name": "Schriftlicher Ausdruck",
-      "type": "skill",
-      "img": "icons/skills/trades/academics-merchant-scribe.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
+      "name": "Sternkunde",
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Item.RY4iq8vuohTFT8dG"
+          "sourceId": "Item.52Ilxwnl04K3v9aM"
         }
       },
+      "_id": "2BsDsSf3ZMxZN6XV",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.2BsDsSf3ZMxZN6XV"
+    },
+    {
+      "img": "icons/skills/trades/academics-merchant-scribe.webp",
+      "effects": [],
+      "folder": null,
       "system": {
-        "group": {
-          "value": "social"
-        },
-        "talentValue": {
-          "value": 10
-        },
-        "characteristic1": {
-          "value": "kl"
-        },
-        "characteristic2": {
-          "value": "in"
-        },
         "characteristic3": {
           "value": "in"
+        },
+        "StF": {
+          "value": "B"
         },
         "RPr": {
           "value": "no"
         },
-        "burden": {
-          "value": "no",
-          "valadd": 0,
-          "valmult": 1
-        },
-        "StF": {
-          "value": "B"
+        "talentValue": {
+          "value": 10
         },
         "gmdescription": {
           "value": ""
@@ -251,8 +673,22 @@
         "description": {
           "value": ""
         },
+        "characteristic1": {
+          "value": "kl"
+        },
         "choice": {
           "value": false
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "social"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
         }
       },
       "ownership": {
@@ -261,56 +697,42 @@
       },
       "_stats": {
         "compendiumSource": "Item.RY4iq8vuohTFT8dG",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.BCPJXdx3K01lh0hz"
-    },
-    {
-      "_id": "JVIsPi6Cbg4Xa3bX",
-      "name": "Schwimmen",
-      "type": "skill",
-      "img": "icons/creatures/fish/fish-shark-swimming.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
+      "name": "Schriftlicher Ausdruck",
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.JVIsPi6Cbg4Xa3bX"
+          "sourceId": "Item.RY4iq8vuohTFT8dG"
         }
       },
+      "_id": "BCPJXdx3K01lh0hz",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.BCPJXdx3K01lh0hz"
+    },
+    {
+      "img": "icons/creatures/fish/fish-shark-swimming.webp",
+      "effects": [],
+      "folder": null,
       "system": {
-        "group": {
-          "value": "body"
-        },
-        "talentValue": {
-          "value": 11
-        },
-        "characteristic1": {
-          "value": "ge"
-        },
-        "characteristic2": {
-          "value": "ko"
-        },
         "characteristic3": {
           "value": "kk"
+        },
+        "StF": {
+          "value": "D"
         },
         "RPr": {
           "value": "no"
         },
-        "burden": {
-          "value": "yes",
-          "valadd": 0,
-          "valmult": 2
-        },
-        "StF": {
-          "value": "D"
+        "talentValue": {
+          "value": 11
         },
         "gmdescription": {
           "value": ""
@@ -318,8 +740,22 @@
         "description": {
           "value": ""
         },
+        "characteristic1": {
+          "value": "ge"
+        },
         "choice": {
           "value": false
+        },
+        "characteristic2": {
+          "value": "ko"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 2,
+          "value": "yes"
         }
       },
       "ownership": {
@@ -328,36 +764,48 @@
       },
       "_stats": {
         "compendiumSource": "Compendium.dsa5.skills.JVIsPi6Cbg4Xa3bX",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.JVIsPi6Cbg4Xa3bX"
-    },
-    {
-      "_id": "ZMjpBAA1LekgDLfM",
-      "name": "Waffenpose",
-      "type": "skill",
-      "img": "systems/dsa5/icons/categories/Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
+      "name": "Schwimmen",
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Item.9z7KoEXMYtXYN8EW"
+          "sourceId": "Compendium.dsa5.skills.JVIsPi6Cbg4Xa3bX"
         }
       },
+      "_id": "JVIsPi6Cbg4Xa3bX",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.JVIsPi6Cbg4Xa3bX"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
-        "group": {
-          "value": "meta"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "H"
+        },
+        "RPr": {
+          "value": "no"
         },
         "talentValue": {
           "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Tanzen + Gaukeleien + Gaukeleien + Körperbeherrschung + Hiebwaffen / 5<br><br> Wild mit der Waffe herumzuwirbeln sieht sehr beeindruckend aus, kann aber auch ziemlich gefährlich sein. Sollte also nur von Leuten verwendet werden, die Ahnung haben, bevor sie sich selbst verletzen oder die Waffe beschädigen. Wahre Meister in dieser Kunst sind novadische Schattentänzer."
         },
         "characteristic1": {
           "value": "ge"
@@ -365,92 +813,80 @@
         "characteristic2": {
           "value": "ff"
         },
-        "characteristic3": {
-          "value": "ff"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "meta"
         },
         "burden": {
-          "value": "yes",
           "valadd": 0,
-          "valmult": 1
-        },
-        "StF": {
-          "value": "H"
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": "Tanzen + Gaukeleien + Gaukeleien + Körperbeherrschung + Hiebwaffen / 5<br><br> Wild mit der Waffe herumzuwirbeln sieht sehr beeindruckend aus, kann aber auch ziemlich gefährlich sein. Sollte also nur von Leuten verwendet werden, die Ahnung haben, bevor sie sich selbst verletzen oder die Waffe beschädigen. Wahre Meister in dieser Kunst sind novadische Schattentänzer."
+          "valmult": 1,
+          "value": "yes"
         }
       },
       "ownership": {
-        "default": 0,
-        "v5uUiCWZmMw3ltFz": 3
+        "v5uUiCWZmMw3ltFz": 3,
+        "default": 0
       },
       "_stats": {
         "compendiumSource": "Item.9z7KoEXMYtXYN8EW",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.ZMjpBAA1LekgDLfM"
-    },
-    {
-      "_id": "dgdDHVqmLkBqtYmd",
-      "name": "Empathie",
-      "type": "skill",
-      "img": "icons/magic/perception/third-eye-blue-red.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
+      "name": "Waffenpose",
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.dgdDHVqmLkBqtYmd"
+          "sourceId": "Item.9z7KoEXMYtXYN8EW"
         }
       },
+      "_id": "ZMjpBAA1LekgDLfM",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.ZMjpBAA1LekgDLfM"
+    },
+    {
+      "img": "icons/magic/perception/third-eye-blue-red.webp",
+      "effects": [],
+      "folder": null,
       "system": {
-        "group": {
-          "value": "gift"
-        },
-        "talentValue": {
-          "value": 6
-        },
-        "characteristic1": {
-          "value": "ch"
-        },
-        "characteristic2": {
-          "value": "ch"
-        },
         "characteristic3": {
           "value": "in"
-        },
-        "RPr": {
-          "value": "no"
-        },
-        "burden": {
-          "value": "no",
-          "valadd": 0,
-          "valmult": 1
         },
         "StF": {
           "value": "G"
         },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 6
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
         },
+        "characteristic1": {
+          "value": "ch"
+        },
         "choice": {
           "value": false
+        },
+        "characteristic2": {
+          "value": "ch"
+        },
+        "group": {
+          "value": "gift"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
         }
       },
       "ownership": {
@@ -459,56 +895,42 @@
       },
       "_stats": {
         "compendiumSource": "Compendium.dsa5.skills.dgdDHVqmLkBqtYmd",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.dgdDHVqmLkBqtYmd"
-    },
-    {
-      "_id": "wNnWcfCPgA7DcK82",
-      "name": "Holzbearbeitung",
-      "type": "skill",
-      "img": "icons/skills/trades/woodcutting-logging-saw.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
+      "name": "Empathie",
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Item.gGUDJNC0qOgaLKlm"
+          "sourceId": "Compendium.dsa5.skills.dgdDHVqmLkBqtYmd"
         }
       },
+      "_id": "dgdDHVqmLkBqtYmd",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.dgdDHVqmLkBqtYmd"
+    },
+    {
+      "img": "icons/skills/trades/woodcutting-logging-saw.webp",
+      "effects": [],
+      "folder": null,
       "system": {
-        "group": {
-          "value": "trade"
-        },
-        "talentValue": {
-          "value": 6
-        },
-        "characteristic1": {
-          "value": "kl"
-        },
-        "characteristic2": {
-          "value": "ff"
-        },
         "characteristic3": {
           "value": "kk"
+        },
+        "StF": {
+          "value": "B"
         },
         "RPr": {
           "value": "no"
         },
-        "burden": {
-          "value": "no",
-          "valadd": 0,
-          "valmult": 1
-        },
-        "StF": {
-          "value": "B"
+        "talentValue": {
+          "value": 6
         },
         "gmdescription": {
           "value": ""
@@ -516,8 +938,22 @@
         "description": {
           "value": ""
         },
+        "characteristic1": {
+          "value": "kl"
+        },
         "choice": {
           "value": false
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
         }
       },
       "ownership": {
@@ -526,56 +962,42 @@
       },
       "_stats": {
         "compendiumSource": "Item.gGUDJNC0qOgaLKlm",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.wNnWcfCPgA7DcK82"
-    },
-    {
-      "_id": "zkV5NWOYN7nQJRnx",
-      "name": "Seefahrt",
-      "type": "skill",
-      "img": "icons/skills/trades/profession-sailing-ship.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
+      "name": "Holzbearbeitung",
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Item.egzp2LR5udl6t9ow"
+          "sourceId": "Item.gGUDJNC0qOgaLKlm"
         }
       },
+      "_id": "wNnWcfCPgA7DcK82",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.wNnWcfCPgA7DcK82"
+    },
+    {
+      "img": "icons/skills/trades/profession-sailing-ship.webp",
+      "effects": [],
+      "folder": null,
       "system": {
-        "group": {
-          "value": "trade"
-        },
-        "talentValue": {
-          "value": 10
-        },
-        "characteristic1": {
-          "value": "ff"
-        },
-        "characteristic2": {
-          "value": "ge"
-        },
         "characteristic3": {
           "value": "kk"
+        },
+        "StF": {
+          "value": "B"
         },
         "RPr": {
           "value": "no"
         },
-        "burden": {
-          "value": "no",
-          "valadd": 0,
-          "valmult": 1
-        },
-        "StF": {
-          "value": "B"
+        "talentValue": {
+          "value": 10
         },
         "gmdescription": {
           "value": ""
@@ -583,8 +1005,22 @@
         "description": {
           "value": ""
         },
+        "characteristic1": {
+          "value": "ff"
+        },
         "choice": {
           "value": false
+        },
+        "characteristic2": {
+          "value": "ge"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
         }
       },
       "ownership": {
@@ -593,32 +1029,33 @@
       },
       "_stats": {
         "compendiumSource": "Item.egzp2LR5udl6t9ow",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
+      "name": "Seefahrt",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4",
+          "sourceId": "Item.egzp2LR5udl6t9ow"
+        }
+      },
+      "_id": "zkV5NWOYN7nQJRnx",
+      "sort": 0,
+      "type": "skill",
       "_key": "!actors.items!BMcmqXxiinhW9fON.zkV5NWOYN7nQJRnx"
     },
     {
-      "_id": "OCRi6UuKBIHCbZuF",
-      "name": "Money-D",
-      "type": "money",
       "img": "systems/dsa5/icons/money-D.webp",
       "effects": [],
       "folder": null,
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sourceId": "Item.BGfRbsrZ2M2Y2wZ3"
-        }
-      },
       "system": {
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "gmdescription": {
           "value": ""
@@ -626,16 +1063,16 @@
         "price": {
           "value": 10
         },
-        "quantity": {
-          "value": 0
-        },
-        "weight": {
-          "value": 0
-        },
+        "parent_id": 0,
         "effect": {
           "value": ""
         },
-        "parent_id": 0
+        "description": {
+          "value": ""
+        },
+        "weight": {
+          "value": 0
+        }
       },
       "ownership": {
         "default": 0,
@@ -643,32 +1080,32 @@
       },
       "_stats": {
         "compendiumSource": "Item.BGfRbsrZ2M2Y2wZ3",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
+      "name": "Money-D",
+      "flags": {
+        "core": {
+          "sourceId": "Item.BGfRbsrZ2M2Y2wZ3"
+        }
+      },
+      "_id": "OCRi6UuKBIHCbZuF",
+      "sort": 0,
+      "type": "money",
       "_key": "!actors.items!BMcmqXxiinhW9fON.OCRi6UuKBIHCbZuF"
     },
     {
-      "_id": "xN0OtnyZqB4BaWAX",
-      "name": "Money-S",
-      "type": "money",
       "img": "systems/dsa5/icons/money-S.webp",
       "effects": [],
       "folder": null,
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sourceId": "Item.ntX4yPa0e9rmmqSZ"
-        }
-      },
       "system": {
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "gmdescription": {
           "value": ""
@@ -676,16 +1113,16 @@
         "price": {
           "value": 1
         },
-        "quantity": {
-          "value": 0
-        },
-        "weight": {
-          "value": 0
-        },
+        "parent_id": 0,
         "effect": {
           "value": ""
         },
-        "parent_id": 0
+        "description": {
+          "value": ""
+        },
+        "weight": {
+          "value": 0
+        }
       },
       "ownership": {
         "default": 0,
@@ -693,32 +1130,32 @@
       },
       "_stats": {
         "compendiumSource": "Item.ntX4yPa0e9rmmqSZ",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
+      "name": "Money-S",
+      "flags": {
+        "core": {
+          "sourceId": "Item.ntX4yPa0e9rmmqSZ"
+        }
+      },
+      "_id": "xN0OtnyZqB4BaWAX",
+      "sort": 0,
+      "type": "money",
       "_key": "!actors.items!BMcmqXxiinhW9fON.xN0OtnyZqB4BaWAX"
     },
     {
-      "_id": "G4piFlEAWb2stJCn",
-      "name": "Money-H",
-      "type": "money",
       "img": "systems/dsa5/icons/money-H.webp",
       "effects": [],
       "folder": null,
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sourceId": "Item.2wwyflxgKCiz9UIQ"
-        }
-      },
       "system": {
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "gmdescription": {
           "value": ""
@@ -726,16 +1163,16 @@
         "price": {
           "value": 0.1
         },
-        "quantity": {
-          "value": 0
-        },
-        "weight": {
-          "value": 0
-        },
+        "parent_id": 0,
         "effect": {
           "value": ""
         },
-        "parent_id": 0
+        "description": {
+          "value": ""
+        },
+        "weight": {
+          "value": 0
+        }
       },
       "ownership": {
         "default": 0,
@@ -743,32 +1180,32 @@
       },
       "_stats": {
         "compendiumSource": "Item.2wwyflxgKCiz9UIQ",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
+      "name": "Money-H",
+      "flags": {
+        "core": {
+          "sourceId": "Item.2wwyflxgKCiz9UIQ"
+        }
+      },
+      "_id": "G4piFlEAWb2stJCn",
+      "sort": 0,
+      "type": "money",
       "_key": "!actors.items!BMcmqXxiinhW9fON.G4piFlEAWb2stJCn"
     },
     {
-      "_id": "NDf42upvVWmHi8Ty",
-      "name": "Money-K",
-      "type": "money",
       "img": "systems/dsa5/icons/money-K.webp",
       "effects": [],
       "folder": null,
-      "sort": 0,
-      "flags": {
-        "core": {
-          "sourceId": "Item.IHSzojKYEn0FloQm"
-        }
-      },
       "system": {
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "gmdescription": {
           "value": ""
@@ -776,16 +1213,16 @@
         "price": {
           "value": 0.01
         },
-        "quantity": {
-          "value": 0
-        },
-        "weight": {
-          "value": 0
-        },
+        "parent_id": 0,
         "effect": {
           "value": ""
         },
-        "parent_id": 0
+        "description": {
+          "value": ""
+        },
+        "weight": {
+          "value": 0
+        }
       },
       "ownership": {
         "default": 0,
@@ -793,122 +1230,122 @@
       },
       "_stats": {
         "compendiumSource": "Item.IHSzojKYEn0FloQm",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
+      "name": "Money-K",
+      "flags": {
+        "core": {
+          "sourceId": "Item.IHSzojKYEn0FloQm"
+        }
+      },
+      "_id": "NDf42upvVWmHi8Ty",
+      "sort": 0,
+      "type": "money",
       "_key": "!actors.items!BMcmqXxiinhW9fON.NDf42upvVWmHi8Ty"
     },
     {
-      "_id": "G9JQG3BxI5kHVeUx",
-      "name": "Schnabelbiss",
-      "type": "trait",
       "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "effects": [],
       "folder": null,
-      "sort": 0,
-      "flags": {
-        "dsa5": {
-          "actorId": "QlWaFv8hHVL3w6CH"
-        }
-      },
       "system": {
-        "description": {
-          "value": ""
+        "damage": {
+          "value": "1d6+6"
         },
         "gmdescription": {
           "value": ""
         },
-        "APValue": {
-          "value": "0"
-        },
-        "traitType": {
-          "value": "meleeAttack"
-        },
-        "creatureClass": {
-          "value": "unknown"
-        },
-        "at": {
-          "value": 16
-        },
-        "pa": 0,
         "reach": {
           "value": "H"
         },
-        "damage": {
-          "value": "1d6+6"
+        "tpplus": {
+          "step": null,
+          "value": null
         },
-        "reloadTime": {
-          "value": "1"
+        "selectable": {
+          "cost": null,
+          "value": false
         },
-        "AsPCost": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "duration": {
           "value": ""
         },
-        "aspect": {
-          "value": ""
+        "AsPCost": {
+          "value": 0
         },
-        "effect": {
-          "value": ""
+        "traitType": {
+          "value": "meleeAttack"
         },
         "mountEffect": {
           "value": ""
         },
-        "weight": {
-          "value": 0
+        "damageThreshold": {
+          "value": null
         },
-        "quantity": {
-          "value": 0
+        "guidevalue": {
+          "value": "mu"
         },
-        "damagetype": "damage",
-        "attackSize": {
-          "value": "DEFAULT"
+        "aspect": {
+          "value": ""
         },
         "twohanded": {
           "value": false
         },
-        "specialization": {
-          "value": false
+        "APValue": {
+          "value": "0"
+        },
+        "atmod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "quantity": {
+          "value": 0
         },
         "worn": {
           "offHand": false
         },
-        "atmod": {
-          "value": null,
-          "offhandMod": null
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
         },
         "pamod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "damageThreshold": {
+          "offhandMod": null,
           "value": null
         },
-        "damageType": "damage",
-        "attacktype": "standard",
-        "guidevalue": {
-          "value": "mu"
-        },
-        "tpplus": {
-          "value": null,
-          "step": null
-        },
-        "effects": {
-          "hasAmmoEffect": false
-        },
+        "damagetype": "damage",
         "structure": {
           "hasStructure": false
         },
-        "selectable": {
-          "value": false,
-          "cost": null
-        }
+        "pa": 0,
+        "effects": {
+          "hasAmmoEffect": false
+        },
+        "at": {
+          "value": 16
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "effect": {
+          "value": ""
+        },
+        "specialization": {
+          "value": false
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "attackSize": {
+          "value": "DEFAULT"
+        },
+        "damageType": "damage"
       },
       "ownership": {
         "default": 0,
@@ -916,62 +1353,80 @@
       },
       "_stats": {
         "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.G9JQG3BxI5kHVeUx"
-    },
-    {
-      "_id": "98x8hMVG0nFJsZje",
-      "name": "Krakenmolchhaut",
-      "type": "trait",
-      "img": "icons/creatures/tentacles/tentacles-suctioncups-pink.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
+      "name": "Schnabelbiss",
       "flags": {
         "dsa5": {
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
+      "_id": "G9JQG3BxI5kHVeUx",
+      "sort": 0,
+      "type": "trait",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.G9JQG3BxI5kHVeUx"
+    },
+    {
+      "img": "icons/creatures/tentacles/tentacles-suctioncups-pink.webp",
+      "effects": [],
+      "folder": null,
       "system": {
-        "description": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
         "APValue": {
           "value": "0"
-        },
-        "traitType": {
-          "value": "armor"
-        },
-        "creatureClass": {
-          "value": "unknown"
-        },
-        "at": {
-          "value": "1"
-        },
-        "pa": 0,
-        "reach": {
-          "value": "short"
         },
         "damage": {
           "value": "1d6"
         },
-        "reloadTime": {
-          "value": "1"
+        "quantity": {
+          "value": 0
         },
+        "gmdescription": {
+          "value": ""
+        },
+        "reach": {
+          "value": "short"
+        },
+        "description": {
+          "value": ""
+        },
+        "weight": {
+          "value": 0
+        },
+        "damagetype": "damage",
+        "protection": {
+          "head": 1,
+          "rightleg": 1,
+          "torso": 1,
+          "rightarm": 1,
+          "leftleg": 1,
+          "back": 1,
+          "stomach": 1,
+          "leftarm": 1,
+          "value": 1
+        },
+        "duration": {
+          "value": ""
+        },
+        "pa": 0,
         "AsPCost": {
           "value": 0
         },
-        "duration": {
+        "at": {
+          "value": "1"
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "traitType": {
+          "value": "armor"
+        },
+        "mountEffect": {
           "value": ""
         },
         "aspect": {
@@ -980,26 +1435,8 @@
         "effect": {
           "value": "+1 RS"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "quantity": {
-          "value": 0
-        },
-        "damagetype": "damage",
-        "protection": {
-          "value": 1,
-          "head": 1,
-          "leftleg": 1,
-          "rightleg": 1,
-          "leftarm": 1,
-          "rightarm": 1,
-          "torso": 1,
-          "stomach": 1,
-          "back": 1
+        "creatureClass": {
+          "value": "unknown"
         }
       },
       "ownership": {
@@ -1008,1056 +1445,1110 @@
       },
       "_stats": {
         "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.98x8hMVG0nFJsZje"
-    },
-    {
-      "name": "Tentakel 1",
-      "type": "trait",
-      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
+      "name": "Krakenmolchhaut",
       "flags": {
         "dsa5": {
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
+      "_id": "98x8hMVG0nFJsZje",
+      "sort": 0,
+      "type": "trait",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.98x8hMVG0nFJsZje"
+    },
+    {
+      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+      "effects": [],
+      "folder": null,
       "system": {
-        "description": {
-          "value": ""
+        "damage": {
+          "value": "0d6+1"
         },
         "gmdescription": {
           "value": ""
         },
-        "APValue": {
-          "value": "0"
-        },
-        "traitType": {
-          "value": "meleeAttack"
-        },
-        "creatureClass": {
-          "value": "unknown"
-        },
-        "at": {
-          "value": 8
-        },
-        "pa": 8,
         "reach": {
           "value": "HNS"
         },
-        "damage": {
-          "value": "0d6+1"
+        "tpplus": {
+          "step": null,
+          "value": null
         },
-        "reloadTime": {
-          "value": "1"
+        "selectable": {
+          "cost": null,
+          "value": false
         },
-        "AsPCost": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "duration": {
           "value": ""
         },
-        "aspect": {
-          "value": ""
+        "AsPCost": {
+          "value": 0
         },
-        "effect": {
-          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
+        "traitType": {
+          "value": "meleeAttack"
         },
         "mountEffect": {
           "value": ""
         },
-        "weight": {
-          "value": 0
+        "damageThreshold": {
+          "value": null
         },
-        "quantity": {
-          "value": 0
+        "guidevalue": {
+          "value": "-"
         },
-        "damagetype": "damage",
-        "attackSize": {
-          "value": "DEFAULT"
+        "aspect": {
+          "value": ""
         },
         "twohanded": {
           "value": false
         },
-        "specialization": {
-          "value": false
+        "APValue": {
+          "value": "0"
+        },
+        "atmod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "quantity": {
+          "value": 0
         },
         "worn": {
           "offHand": false
         },
-        "atmod": {
-          "value": null,
-          "offhandMod": null
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
         },
         "pamod": {
-          "value": null,
-          "offhandMod": null
+          "offhandMod": null,
+          "value": null
+        },
+        "damagetype": "damage",
+        "structure": {
+          "difficulty": 0,
+          "max": 14,
+          "hasStructure": true,
+          "difficultyRanged": 0,
+          "position": "leftarm",
+          "value": 14
+        },
+        "pa": 8,
+        "effects": {
+          "hasAmmoEffect": false
+        },
+        "at": {
+          "value": 8
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "effect": {
+          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
+        },
+        "specialization": {
+          "value": false
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "attackSize": {
+          "value": "DEFAULT"
+        },
+        "damageType": "damage"
+      },
+      "ownership": {
+        "default": 0,
+        "k2irxkER7dd27yKp": 3,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Tentakel 1",
+      "flags": {
+        "dsa5": {
+          "actorId": "QlWaFv8hHVL3w6CH"
+        }
+      },
+      "sort": 0,
+      "_id": "y4rXvIJwJYWdSrGZ",
+      "type": "trait",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.y4rXvIJwJYWdSrGZ"
+    },
+    {
+      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "damage": {
+          "value": "0d6+1"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "reach": {
+          "value": "HNS"
+        },
+        "tpplus": {
+          "step": null,
+          "value": null
+        },
+        "selectable": {
+          "cost": null,
+          "value": false
+        },
+        "description": {
+          "value": ""
+        },
+        "duration": {
+          "value": ""
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "traitType": {
+          "value": "meleeAttack"
+        },
+        "mountEffect": {
+          "value": ""
         },
         "damageThreshold": {
           "value": null
         },
-        "damageType": "damage",
-        "attacktype": "standard",
         "guidevalue": {
           "value": "-"
         },
-        "tpplus": {
-          "value": null,
-          "step": null
+        "aspect": {
+          "value": ""
         },
+        "twohanded": {
+          "value": false
+        },
+        "APValue": {
+          "value": "0"
+        },
+        "atmod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "quantity": {
+          "value": 0
+        },
+        "worn": {
+          "offHand": false
+        },
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
+        },
+        "pamod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "damagetype": "damage",
+        "structure": {
+          "difficulty": 0,
+          "max": 14,
+          "hasStructure": true,
+          "difficultyRanged": 0,
+          "position": "leftarm",
+          "value": 14
+        },
+        "pa": 8,
         "effects": {
           "hasAmmoEffect": false
         },
-        "structure": {
-          "hasStructure": true,
-          "value": 14,
-          "max": 14,
-          "difficulty": 0,
-          "difficultyRanged": 0,
-          "position": "leftarm"
+        "at": {
+          "value": 8
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "effect": {
+          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
+        },
+        "specialization": {
+          "value": false
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "attackSize": {
+          "value": "DEFAULT"
+        },
+        "damageType": "damage"
+      },
+      "ownership": {
+        "default": 0,
+        "k2irxkER7dd27yKp": 3,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "_stats": {
+        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Tentakel 2",
+      "flags": {
+        "dsa5": {
+          "actorId": "QlWaFv8hHVL3w6CH"
+        }
+      },
+      "sort": 3675000,
+      "_id": "oF999UQQLLJZ0VlR",
+      "type": "trait",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.oF999UQQLLJZ0VlR"
+    },
+    {
+      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "damage": {
+          "value": "0d6+1"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "reach": {
+          "value": "HNS"
+        },
+        "tpplus": {
+          "step": null,
+          "value": null
         },
         "selectable": {
-          "value": false,
-          "cost": null
+          "cost": null,
+          "value": false
+        },
+        "description": {
+          "value": ""
+        },
+        "duration": {
+          "value": ""
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "traitType": {
+          "value": "meleeAttack"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "damageThreshold": {
+          "value": null
+        },
+        "guidevalue": {
+          "value": "-"
+        },
+        "aspect": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "APValue": {
+          "value": "0"
+        },
+        "atmod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "quantity": {
+          "value": 0
+        },
+        "worn": {
+          "offHand": false
+        },
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
+        },
+        "pamod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "damagetype": "damage",
+        "structure": {
+          "difficulty": 0,
+          "max": 14,
+          "hasStructure": true,
+          "difficultyRanged": 0,
+          "position": "leftarm",
+          "value": 14
+        },
+        "pa": 8,
+        "effects": {
+          "hasAmmoEffect": false
+        },
+        "at": {
+          "value": 8
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "effect": {
+          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
+        },
+        "specialization": {
+          "value": false
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "attackSize": {
+          "value": "DEFAULT"
+        },
+        "damageType": "damage"
+      },
+      "ownership": {
+        "default": 0,
+        "k2irxkER7dd27yKp": 3,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "_stats": {
+        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Tentakel 3",
+      "flags": {
+        "dsa5": {
+          "actorId": "QlWaFv8hHVL3w6CH"
+        }
+      },
+      "sort": 3675000,
+      "_id": "Hb8XPMSSSPsEzvHQ",
+      "type": "trait",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.Hb8XPMSSSPsEzvHQ"
+    },
+    {
+      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "damage": {
+          "value": "0d6+1"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "reach": {
+          "value": "HNS"
+        },
+        "tpplus": {
+          "step": null,
+          "value": null
+        },
+        "selectable": {
+          "cost": null,
+          "value": false
+        },
+        "description": {
+          "value": ""
+        },
+        "duration": {
+          "value": ""
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "traitType": {
+          "value": "meleeAttack"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "damageThreshold": {
+          "value": null
+        },
+        "guidevalue": {
+          "value": "-"
+        },
+        "aspect": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "APValue": {
+          "value": "0"
+        },
+        "atmod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "quantity": {
+          "value": 0
+        },
+        "worn": {
+          "offHand": false
+        },
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
+        },
+        "pamod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "damagetype": "damage",
+        "structure": {
+          "difficulty": 0,
+          "max": 14,
+          "hasStructure": true,
+          "difficultyRanged": 0,
+          "position": "leftarm",
+          "value": 14
+        },
+        "pa": 8,
+        "effects": {
+          "hasAmmoEffect": false
+        },
+        "at": {
+          "value": 8
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "effect": {
+          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
+        },
+        "specialization": {
+          "value": false
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "attackSize": {
+          "value": "DEFAULT"
+        },
+        "damageType": "damage"
+      },
+      "ownership": {
+        "default": 0,
+        "k2irxkER7dd27yKp": 3,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "_stats": {
+        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Tentakel 5",
+      "flags": {
+        "dsa5": {
+          "actorId": "QlWaFv8hHVL3w6CH"
+        }
+      },
+      "sort": 3675000,
+      "_id": "zVOZ55jwn5ljbcn9",
+      "type": "trait",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.zVOZ55jwn5ljbcn9"
+    },
+    {
+      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "damage": {
+          "value": "0d6+1"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "reach": {
+          "value": "HNS"
+        },
+        "tpplus": {
+          "step": null,
+          "value": null
+        },
+        "selectable": {
+          "cost": null,
+          "value": false
+        },
+        "description": {
+          "value": ""
+        },
+        "duration": {
+          "value": ""
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "traitType": {
+          "value": "meleeAttack"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "damageThreshold": {
+          "value": null
+        },
+        "guidevalue": {
+          "value": "-"
+        },
+        "aspect": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "APValue": {
+          "value": "0"
+        },
+        "atmod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "quantity": {
+          "value": 0
+        },
+        "worn": {
+          "offHand": false
+        },
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
+        },
+        "pamod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "damagetype": "damage",
+        "structure": {
+          "difficulty": 0,
+          "max": 14,
+          "hasStructure": true,
+          "difficultyRanged": 0,
+          "position": "leftarm",
+          "value": 14
+        },
+        "pa": 8,
+        "effects": {
+          "hasAmmoEffect": false
+        },
+        "at": {
+          "value": 8
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "effect": {
+          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
+        },
+        "specialization": {
+          "value": false
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "attackSize": {
+          "value": "DEFAULT"
+        },
+        "damageType": "damage"
+      },
+      "ownership": {
+        "default": 0,
+        "k2irxkER7dd27yKp": 3,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "_stats": {
+        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Tentakel 4",
+      "flags": {
+        "dsa5": {
+          "actorId": "QlWaFv8hHVL3w6CH"
+        }
+      },
+      "sort": 3675000,
+      "_id": "Zj2117plpPFdYYLf",
+      "type": "trait",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.Zj2117plpPFdYYLf"
+    },
+    {
+      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "damage": {
+          "value": "0d6+1"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "reach": {
+          "value": "HNS"
+        },
+        "tpplus": {
+          "step": null,
+          "value": null
+        },
+        "selectable": {
+          "cost": null,
+          "value": false
+        },
+        "description": {
+          "value": ""
+        },
+        "duration": {
+          "value": ""
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "traitType": {
+          "value": "meleeAttack"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "damageThreshold": {
+          "value": null
+        },
+        "guidevalue": {
+          "value": "-"
+        },
+        "aspect": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "APValue": {
+          "value": "0"
+        },
+        "atmod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "quantity": {
+          "value": 0
+        },
+        "worn": {
+          "offHand": false
+        },
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
+        },
+        "pamod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "damagetype": "damage",
+        "structure": {
+          "difficulty": 0,
+          "max": 14,
+          "hasStructure": true,
+          "difficultyRanged": 0,
+          "position": "leftarm",
+          "value": 14
+        },
+        "pa": 8,
+        "effects": {
+          "hasAmmoEffect": false
+        },
+        "at": {
+          "value": 8
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "effect": {
+          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
+        },
+        "specialization": {
+          "value": false
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "attackSize": {
+          "value": "DEFAULT"
+        },
+        "damageType": "damage"
+      },
+      "ownership": {
+        "default": 0,
+        "k2irxkER7dd27yKp": 3,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "_stats": {
+        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Tentakel 6",
+      "flags": {
+        "dsa5": {
+          "actorId": "QlWaFv8hHVL3w6CH"
+        }
+      },
+      "sort": 3675000,
+      "_id": "2kmx2ehObLaHD8UM",
+      "type": "trait",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.2kmx2ehObLaHD8UM"
+    },
+    {
+      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "damage": {
+          "value": "0d6+1"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "reach": {
+          "value": "HNS"
+        },
+        "tpplus": {
+          "step": null,
+          "value": null
+        },
+        "selectable": {
+          "cost": null,
+          "value": false
+        },
+        "description": {
+          "value": ""
+        },
+        "duration": {
+          "value": ""
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "traitType": {
+          "value": "meleeAttack"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "damageThreshold": {
+          "value": null
+        },
+        "guidevalue": {
+          "value": "-"
+        },
+        "aspect": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "APValue": {
+          "value": "0"
+        },
+        "atmod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "quantity": {
+          "value": 0
+        },
+        "worn": {
+          "offHand": false
+        },
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
+        },
+        "pamod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "damagetype": "damage",
+        "structure": {
+          "difficulty": 0,
+          "max": 14,
+          "hasStructure": true,
+          "difficultyRanged": 0,
+          "position": "leftarm",
+          "value": 14
+        },
+        "pa": 8,
+        "effects": {
+          "hasAmmoEffect": false
+        },
+        "at": {
+          "value": 8
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "effect": {
+          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
+        },
+        "specialization": {
+          "value": false
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "attackSize": {
+          "value": "DEFAULT"
+        },
+        "damageType": "damage"
+      },
+      "ownership": {
+        "default": 0,
+        "k2irxkER7dd27yKp": 3,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "_stats": {
+        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Tentakel 7",
+      "flags": {
+        "dsa5": {
+          "actorId": "QlWaFv8hHVL3w6CH"
+        }
+      },
+      "sort": 3675000,
+      "_id": "5oQvS0lKJasM1ZYP",
+      "type": "trait",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.5oQvS0lKJasM1ZYP"
+    },
+    {
+      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "damage": {
+          "value": "0d6+1"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "reach": {
+          "value": "HNS"
+        },
+        "tpplus": {
+          "step": null,
+          "value": null
+        },
+        "selectable": {
+          "cost": null,
+          "value": false
+        },
+        "description": {
+          "value": ""
+        },
+        "duration": {
+          "value": ""
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "traitType": {
+          "value": "meleeAttack"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "damageThreshold": {
+          "value": null
+        },
+        "guidevalue": {
+          "value": "-"
+        },
+        "aspect": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "APValue": {
+          "value": "0"
+        },
+        "atmod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "quantity": {
+          "value": 0
+        },
+        "worn": {
+          "offHand": false
+        },
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
+        },
+        "pamod": {
+          "offhandMod": null,
+          "value": null
+        },
+        "damagetype": "damage",
+        "structure": {
+          "difficulty": 0,
+          "max": 14,
+          "hasStructure": true,
+          "difficultyRanged": 0,
+          "position": "leftarm",
+          "value": 14
+        },
+        "pa": 8,
+        "effects": {
+          "hasAmmoEffect": false
+        },
+        "at": {
+          "value": 8
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "effect": {
+          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
+        },
+        "specialization": {
+          "value": false
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "attackSize": {
+          "value": "DEFAULT"
+        },
+        "damageType": "damage"
+      },
+      "ownership": {
+        "default": 0,
+        "k2irxkER7dd27yKp": 3,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "_stats": {
+        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Tentakel 8",
+      "flags": {
+        "dsa5": {
+          "actorId": "QlWaFv8hHVL3w6CH"
+        }
+      },
+      "sort": 3675000,
+      "_id": "RpQhjnda1rQmxeNt",
+      "type": "trait",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.RpQhjnda1rQmxeNt"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 0
+        },
+        "StF": {
+          "value": "E"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 0
+        },
+        "talentValue": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -1,
+          "valmult": 1,
+          "value": "yes"
         }
       },
       "ownership": {
         "default": 0,
-        "OkB1KdnOuvyQ8qU2": 3,
+        "zWpZxX3ZjMhV6iLC": 3,
         "k2irxkER7dd27yKp": 3
       },
       "_stats": {
         "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "y4rXvIJwJYWdSrGZ",
-      "_key": "!actors.items!BMcmqXxiinhW9fON.y4rXvIJwJYWdSrGZ"
-    },
-    {
-      "name": "Tentakel 2",
-      "type": "trait",
-      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 3675000,
-      "flags": {
-        "dsa5": {
-          "actorId": "QlWaFv8hHVL3w6CH"
-        }
-      },
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "APValue": {
-          "value": "0"
-        },
-        "traitType": {
-          "value": "meleeAttack"
-        },
-        "creatureClass": {
-          "value": "unknown"
-        },
-        "at": {
-          "value": 8
-        },
-        "pa": 8,
-        "reach": {
-          "value": "HNS"
-        },
-        "damage": {
-          "value": "0d6+1"
-        },
-        "reloadTime": {
-          "value": "1"
-        },
-        "AsPCost": {
-          "value": 0
-        },
-        "duration": {
-          "value": ""
-        },
-        "aspect": {
-          "value": ""
-        },
-        "effect": {
-          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "quantity": {
-          "value": 0
-        },
-        "damagetype": "damage",
-        "attackSize": {
-          "value": "DEFAULT"
-        },
-        "twohanded": {
-          "value": false
-        },
-        "specialization": {
-          "value": false
-        },
-        "worn": {
-          "offHand": false
-        },
-        "atmod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "pamod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "damageThreshold": {
-          "value": null
-        },
-        "damageType": "damage",
-        "attacktype": "standard",
-        "guidevalue": {
-          "value": "-"
-        },
-        "tpplus": {
-          "value": null,
-          "step": null
-        },
-        "effects": {
-          "hasAmmoEffect": false
-        },
-        "structure": {
-          "hasStructure": true,
-          "value": 14,
-          "max": 14,
-          "difficulty": 0,
-          "difficultyRanged": 0,
-          "position": "leftarm"
-        },
-        "selectable": {
-          "value": false,
-          "cost": null
-        }
-      },
-      "ownership": {
-        "default": 0,
-        "OkB1KdnOuvyQ8qU2": 3,
-        "k2irxkER7dd27yKp": 3
-      },
-      "_stats": {
-        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
         "systemId": "dsa5",
-        "systemVersion": "6.2.3",
+        "lastModifiedBy": null,
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "oF999UQQLLJZ0VlR",
-      "_key": "!actors.items!BMcmqXxiinhW9fON.oF999UQQLLJZ0VlR"
-    },
-    {
-      "name": "Tentakel 3",
-      "type": "trait",
-      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 3675000,
-      "flags": {
-        "dsa5": {
-          "actorId": "QlWaFv8hHVL3w6CH"
-        }
-      },
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "APValue": {
-          "value": "0"
-        },
-        "traitType": {
-          "value": "meleeAttack"
-        },
-        "creatureClass": {
-          "value": "unknown"
-        },
-        "at": {
-          "value": 8
-        },
-        "pa": 8,
-        "reach": {
-          "value": "HNS"
-        },
-        "damage": {
-          "value": "0d6+1"
-        },
-        "reloadTime": {
-          "value": "1"
-        },
-        "AsPCost": {
-          "value": 0
-        },
-        "duration": {
-          "value": ""
-        },
-        "aspect": {
-          "value": ""
-        },
-        "effect": {
-          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "quantity": {
-          "value": 0
-        },
-        "damagetype": "damage",
-        "attackSize": {
-          "value": "DEFAULT"
-        },
-        "twohanded": {
-          "value": false
-        },
-        "specialization": {
-          "value": false
-        },
-        "worn": {
-          "offHand": false
-        },
-        "atmod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "pamod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "damageThreshold": {
-          "value": null
-        },
-        "damageType": "damage",
-        "attacktype": "standard",
-        "guidevalue": {
-          "value": "-"
-        },
-        "tpplus": {
-          "value": null,
-          "step": null
-        },
-        "effects": {
-          "hasAmmoEffect": false
-        },
-        "structure": {
-          "hasStructure": true,
-          "value": 14,
-          "max": 14,
-          "difficulty": 0,
-          "difficultyRanged": 0,
-          "position": "leftarm"
-        },
-        "selectable": {
-          "value": false,
-          "cost": null
-        }
-      },
-      "ownership": {
-        "default": 0,
-        "OkB1KdnOuvyQ8qU2": 3,
-        "k2irxkER7dd27yKp": 3
-      },
-      "_stats": {
-        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
         "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
         "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "coreVersion": "12.331"
       },
-      "_id": "Hb8XPMSSSPsEzvHQ",
-      "_key": "!actors.items!BMcmqXxiinhW9fON.Hb8XPMSSSPsEzvHQ"
-    },
-    {
-      "name": "Tentakel 5",
-      "type": "trait",
-      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 3675000,
-      "flags": {
-        "dsa5": {
-          "actorId": "QlWaFv8hHVL3w6CH"
-        }
-      },
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "APValue": {
-          "value": "0"
-        },
-        "traitType": {
-          "value": "meleeAttack"
-        },
-        "creatureClass": {
-          "value": "unknown"
-        },
-        "at": {
-          "value": 8
-        },
-        "pa": 8,
-        "reach": {
-          "value": "HNS"
-        },
-        "damage": {
-          "value": "0d6+1"
-        },
-        "reloadTime": {
-          "value": "1"
-        },
-        "AsPCost": {
-          "value": 0
-        },
-        "duration": {
-          "value": ""
-        },
-        "aspect": {
-          "value": ""
-        },
-        "effect": {
-          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "quantity": {
-          "value": 0
-        },
-        "damagetype": "damage",
-        "attackSize": {
-          "value": "DEFAULT"
-        },
-        "twohanded": {
-          "value": false
-        },
-        "specialization": {
-          "value": false
-        },
-        "worn": {
-          "offHand": false
-        },
-        "atmod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "pamod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "damageThreshold": {
-          "value": null
-        },
-        "damageType": "damage",
-        "attacktype": "standard",
-        "guidevalue": {
-          "value": "-"
-        },
-        "tpplus": {
-          "value": null,
-          "step": null
-        },
-        "effects": {
-          "hasAmmoEffect": false
-        },
-        "structure": {
-          "hasStructure": true,
-          "value": 14,
-          "max": 14,
-          "difficulty": 0,
-          "difficultyRanged": 0,
-          "position": "leftarm"
-        },
-        "selectable": {
-          "value": false,
-          "cost": null
-        }
-      },
-      "ownership": {
-        "default": 0,
-        "OkB1KdnOuvyQ8qU2": 3,
-        "k2irxkER7dd27yKp": 3
-      },
-      "_stats": {
-        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "zVOZ55jwn5ljbcn9",
-      "_key": "!actors.items!BMcmqXxiinhW9fON.zVOZ55jwn5ljbcn9"
-    },
-    {
-      "name": "Tentakel 4",
-      "type": "trait",
-      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 3675000,
-      "flags": {
-        "dsa5": {
-          "actorId": "QlWaFv8hHVL3w6CH"
-        }
-      },
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "APValue": {
-          "value": "0"
-        },
-        "traitType": {
-          "value": "meleeAttack"
-        },
-        "creatureClass": {
-          "value": "unknown"
-        },
-        "at": {
-          "value": 8
-        },
-        "pa": 8,
-        "reach": {
-          "value": "HNS"
-        },
-        "damage": {
-          "value": "0d6+1"
-        },
-        "reloadTime": {
-          "value": "1"
-        },
-        "AsPCost": {
-          "value": 0
-        },
-        "duration": {
-          "value": ""
-        },
-        "aspect": {
-          "value": ""
-        },
-        "effect": {
-          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "quantity": {
-          "value": 0
-        },
-        "damagetype": "damage",
-        "attackSize": {
-          "value": "DEFAULT"
-        },
-        "twohanded": {
-          "value": false
-        },
-        "specialization": {
-          "value": false
-        },
-        "worn": {
-          "offHand": false
-        },
-        "atmod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "pamod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "damageThreshold": {
-          "value": null
-        },
-        "damageType": "damage",
-        "attacktype": "standard",
-        "guidevalue": {
-          "value": "-"
-        },
-        "tpplus": {
-          "value": null,
-          "step": null
-        },
-        "effects": {
-          "hasAmmoEffect": false
-        },
-        "structure": {
-          "hasStructure": true,
-          "value": 14,
-          "max": 14,
-          "difficulty": 0,
-          "difficultyRanged": 0,
-          "position": "leftarm"
-        },
-        "selectable": {
-          "value": false,
-          "cost": null
-        }
-      },
-      "ownership": {
-        "default": 0,
-        "OkB1KdnOuvyQ8qU2": 3,
-        "k2irxkER7dd27yKp": 3
-      },
-      "_stats": {
-        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "Zj2117plpPFdYYLf",
-      "_key": "!actors.items!BMcmqXxiinhW9fON.Zj2117plpPFdYYLf"
-    },
-    {
-      "name": "Tentakel 6",
-      "type": "trait",
-      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 3675000,
-      "flags": {
-        "dsa5": {
-          "actorId": "QlWaFv8hHVL3w6CH"
-        }
-      },
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "APValue": {
-          "value": "0"
-        },
-        "traitType": {
-          "value": "meleeAttack"
-        },
-        "creatureClass": {
-          "value": "unknown"
-        },
-        "at": {
-          "value": 8
-        },
-        "pa": 8,
-        "reach": {
-          "value": "HNS"
-        },
-        "damage": {
-          "value": "0d6+1"
-        },
-        "reloadTime": {
-          "value": "1"
-        },
-        "AsPCost": {
-          "value": 0
-        },
-        "duration": {
-          "value": ""
-        },
-        "aspect": {
-          "value": ""
-        },
-        "effect": {
-          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "quantity": {
-          "value": 0
-        },
-        "damagetype": "damage",
-        "attackSize": {
-          "value": "DEFAULT"
-        },
-        "twohanded": {
-          "value": false
-        },
-        "specialization": {
-          "value": false
-        },
-        "worn": {
-          "offHand": false
-        },
-        "atmod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "pamod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "damageThreshold": {
-          "value": null
-        },
-        "damageType": "damage",
-        "attacktype": "standard",
-        "guidevalue": {
-          "value": "-"
-        },
-        "tpplus": {
-          "value": null,
-          "step": null
-        },
-        "effects": {
-          "hasAmmoEffect": false
-        },
-        "structure": {
-          "hasStructure": true,
-          "value": 14,
-          "max": 14,
-          "difficulty": 0,
-          "difficultyRanged": 0,
-          "position": "leftarm"
-        },
-        "selectable": {
-          "value": false,
-          "cost": null
-        }
-      },
-      "ownership": {
-        "default": 0,
-        "OkB1KdnOuvyQ8qU2": 3,
-        "k2irxkER7dd27yKp": 3
-      },
-      "_stats": {
-        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "2kmx2ehObLaHD8UM",
-      "_key": "!actors.items!BMcmqXxiinhW9fON.2kmx2ehObLaHD8UM"
-    },
-    {
-      "name": "Tentakel 7",
-      "type": "trait",
-      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 3675000,
-      "flags": {
-        "dsa5": {
-          "actorId": "QlWaFv8hHVL3w6CH"
-        }
-      },
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "APValue": {
-          "value": "0"
-        },
-        "traitType": {
-          "value": "meleeAttack"
-        },
-        "creatureClass": {
-          "value": "unknown"
-        },
-        "at": {
-          "value": 8
-        },
-        "pa": 8,
-        "reach": {
-          "value": "HNS"
-        },
-        "damage": {
-          "value": "0d6+1"
-        },
-        "reloadTime": {
-          "value": "1"
-        },
-        "AsPCost": {
-          "value": 0
-        },
-        "duration": {
-          "value": ""
-        },
-        "aspect": {
-          "value": ""
-        },
-        "effect": {
-          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "quantity": {
-          "value": 0
-        },
-        "damagetype": "damage",
-        "attackSize": {
-          "value": "DEFAULT"
-        },
-        "twohanded": {
-          "value": false
-        },
-        "specialization": {
-          "value": false
-        },
-        "worn": {
-          "offHand": false
-        },
-        "atmod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "pamod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "damageThreshold": {
-          "value": null
-        },
-        "damageType": "damage",
-        "attacktype": "standard",
-        "guidevalue": {
-          "value": "-"
-        },
-        "tpplus": {
-          "value": null,
-          "step": null
-        },
-        "effects": {
-          "hasAmmoEffect": false
-        },
-        "structure": {
-          "hasStructure": true,
-          "value": 14,
-          "max": 14,
-          "difficulty": 0,
-          "difficultyRanged": 0,
-          "position": "leftarm"
-        },
-        "selectable": {
-          "value": false,
-          "cost": null
-        }
-      },
-      "ownership": {
-        "default": 0,
-        "OkB1KdnOuvyQ8qU2": 3,
-        "k2irxkER7dd27yKp": 3
-      },
-      "_stats": {
-        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "5oQvS0lKJasM1ZYP",
-      "_key": "!actors.items!BMcmqXxiinhW9fON.5oQvS0lKJasM1ZYP"
-    },
-    {
-      "name": "Tentakel 8",
-      "type": "trait",
-      "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 3675000,
-      "flags": {
-        "dsa5": {
-          "actorId": "QlWaFv8hHVL3w6CH"
-        }
-      },
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "APValue": {
-          "value": "0"
-        },
-        "traitType": {
-          "value": "meleeAttack"
-        },
-        "creatureClass": {
-          "value": "unknown"
-        },
-        "at": {
-          "value": 8
-        },
-        "pa": 8,
-        "reach": {
-          "value": "HNS"
-        },
-        "damage": {
-          "value": "0d6+1"
-        },
-        "reloadTime": {
-          "value": "1"
-        },
-        "AsPCost": {
-          "value": 0
-        },
-        "duration": {
-          "value": ""
-        },
-        "aspect": {
-          "value": ""
-        },
-        "effect": {
-          "value": "1d6+2 Fesselnd; +1 Bonus-Aktion"
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "quantity": {
-          "value": 0
-        },
-        "damagetype": "damage",
-        "attackSize": {
-          "value": "DEFAULT"
-        },
-        "twohanded": {
-          "value": false
-        },
-        "specialization": {
-          "value": false
-        },
-        "worn": {
-          "offHand": false
-        },
-        "atmod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "pamod": {
-          "value": null,
-          "offhandMod": null
-        },
-        "damageThreshold": {
-          "value": null
-        },
-        "damageType": "damage",
-        "attacktype": "standard",
-        "guidevalue": {
-          "value": "-"
-        },
-        "tpplus": {
-          "value": null,
-          "step": null
-        },
-        "effects": {
-          "hasAmmoEffect": false
-        },
-        "structure": {
-          "hasStructure": true,
-          "value": 14,
-          "max": 14,
-          "difficulty": 0,
-          "difficultyRanged": 0,
-          "position": "leftarm"
-        },
-        "selectable": {
-          "value": false,
-          "cost": null
-        }
-      },
-      "ownership": {
-        "default": 0,
-        "OkB1KdnOuvyQ8qU2": 3,
-        "k2irxkER7dd27yKp": 3
-      },
-      "_stats": {
-        "compendiumSource": "Item.FQRdopKVk4MlL8ON",
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "RpQhjnda1rQmxeNt",
-      "_key": "!actors.items!BMcmqXxiinhW9fON.RpQhjnda1rQmxeNt"
-    },
-    {
-      "_id": "1VTZH8kUVh0cYHIN",
       "name": "Kettenstäbe",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2067,30 +2558,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "1VTZH8kUVh0cYHIN",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.1VTZH8kUVh0cYHIN"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2098,33 +2583,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -1,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": true,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 0,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.1VTZH8kUVh0cYHIN"
-    },
-    {
-      "_id": "GVsOoWjR3hFiG5NJ",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Lanzenreiten",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2134,30 +2625,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "GVsOoWjR3hFiG5NJ",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.GVsOoWjR3hFiG5NJ"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "E"
+          "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2165,33 +2650,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": true,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": 0,
-          "valmult": 0
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -5,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.GVsOoWjR3hFiG5NJ"
-    },
-    {
-      "_id": "6XYEiJuzUafFnA8Q",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Blasrohr",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2201,30 +2692,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "6XYEiJuzUafFnA8Q",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.6XYEiJuzUafFnA8Q"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2232,33 +2717,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "range",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -5,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -3,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.6XYEiJuzUafFnA8Q"
-    },
-    {
-      "_id": "Vx4qEM5QAM3vMgUV",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Kettenwaffen",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2268,30 +2759,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "Vx4qEM5QAM3vMgUV",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.Vx4qEM5QAM3vMgUV"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2299,33 +2784,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -3,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 0,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.Vx4qEM5QAM3vMgUV"
-    },
-    {
-      "_id": "J6Th86xqLXkC0w7m",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Belagerungswaffen",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2335,30 +2826,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "J6Th86xqLXkC0w7m",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.J6Th86xqLXkC0w7m"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "D"
+          "value": "C"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2366,33 +2851,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "range",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": 0,
-          "valmult": 0
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.J6Th86xqLXkC0w7m"
-    },
-    {
-      "_id": "9KZh52EWfi9a3K2W",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Raufen",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2402,30 +2893,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "9KZh52EWfi9a3K2W",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.9KZh52EWfi9a3K2W"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "C"
+          "value": "E"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2433,33 +2918,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": 0,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.9KZh52EWfi9a3K2W"
-    },
-    {
-      "_id": "o4zevuJTXX3kTlSu",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Anderthalbhänder",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2469,30 +2960,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "o4zevuJTXX3kTlSu",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.o4zevuJTXX3kTlSu"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "E"
+          "value": "C"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2500,33 +2985,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -2,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -3,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.o4zevuJTXX3kTlSu"
-    },
-    {
-      "_id": "triWj5DqliqddUPW",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Wurfmesser",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2536,30 +3027,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "triWj5DqliqddUPW",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.triWj5DqliqddUPW"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "C"
+          "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2567,33 +3052,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "range",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -3,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.triWj5DqliqddUPW"
-    },
-    {
-      "_id": "YWTVaB3j683ABbiJ",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Diskus",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2603,30 +3094,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "YWTVaB3j683ABbiJ",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.YWTVaB3j683ABbiJ"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "D"
+          "value": "C"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2634,33 +3119,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "range",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -2,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.YWTVaB3j683ABbiJ"
-    },
-    {
-      "_id": "0qsqV35YyCwd308H",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Wurfspeere",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2670,30 +3161,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "0qsqV35YyCwd308H",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.0qsqV35YyCwd308H"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "C"
+          "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2701,33 +3186,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "range",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -2,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -4,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.0qsqV35YyCwd308H"
-    },
-    {
-      "_id": "C3SvHLEasY43iYUh",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Hiebwaffen",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2737,30 +3228,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "C3SvHLEasY43iYUh",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.C3SvHLEasY43iYUh"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2768,33 +3253,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -4,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -3,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.C3SvHLEasY43iYUh"
-    },
-    {
-      "_id": "D4QuyocRLc766xN7",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Infanteriewaffen",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2804,30 +3295,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "D4QuyocRLc766xN7",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.D4QuyocRLc766xN7"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "D"
+          "value": "E"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2835,33 +3320,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -3,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": true,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -1,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.D4QuyocRLc766xN7"
-    },
-    {
-      "_id": "OAFvxVPSVkYoo7OC",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Peitsche",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2871,30 +3362,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "OAFvxVPSVkYoo7OC",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.OAFvxVPSVkYoo7OC"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "E"
+          "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2902,33 +3387,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": true,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -1,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -1,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.OAFvxVPSVkYoo7OC"
-    },
-    {
-      "_id": "xxV4QdJ9CP8GKclm",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Dolche",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -2938,30 +3429,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "xxV4QdJ9CP8GKclm",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.xxV4QdJ9CP8GKclm"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "D"
+          "value": "E"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -2969,33 +3454,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -1,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.xxV4QdJ9CP8GKclm"
-    },
-    {
-      "_id": "40hyVnWtOLAD7dQt",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Schleuder",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3005,30 +3496,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "40hyVnWtOLAD7dQt",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.40hyVnWtOLAD7dQt"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "E"
+          "value": "A"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3036,32 +3521,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "range",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -2,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -1,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.40hyVnWtOLAD7dQt"
-    },
-    {
+      "ownership": {
+        "default": 0,
+        "k2irxkER7dd27yKp": 3,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Parierwaffen",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3071,31 +3563,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
+      "sort": 0,
       "_id": "tvk9ZxYM00NCDDOq",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "OkB1KdnOuvyQ8qU2": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.tvk9ZxYM00NCDDOq"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "A"
+          "value": "C"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3103,33 +3588,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -1,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -5,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.tvk9ZxYM00NCDDOq"
-    },
-    {
-      "_id": "VGdi8zp1BABZfs57",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Armbrust",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3139,30 +3630,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "VGdi8zp1BABZfs57",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.VGdi8zp1BABZfs57"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "C"
+          "value": "E"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3170,33 +3655,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "range",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -5,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.VGdi8zp1BABZfs57"
-    },
-    {
-      "_id": "mp9teJwnXqVoSrQt",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Schwerter",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3206,30 +3697,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "mp9teJwnXqVoSrQt",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.mp9teJwnXqVoSrQt"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "E"
+          "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3237,33 +3722,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -2,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.mp9teJwnXqVoSrQt"
-    },
-    {
-      "_id": "cYInxMhbyUtslnsw",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Wurfbeile",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3273,30 +3764,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "cYInxMhbyUtslnsw",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.cYInxMhbyUtslnsw"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3304,33 +3789,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "range",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -2,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.cYInxMhbyUtslnsw"
-    },
-    {
-      "_id": "iTWibT4Y04UYNH5J",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Stäbe",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3340,30 +3831,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "iTWibT4Y04UYNH5J",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.iTWibT4Y04UYNH5J"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3371,33 +3856,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -2,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.iTWibT4Y04UYNH5J"
-    },
-    {
-      "_id": "1bs8Lx9cheQbKgZQ",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Ringen",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3407,30 +3898,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "1bs8Lx9cheQbKgZQ",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.1bs8Lx9cheQbKgZQ"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "D"
+          "value": "A"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3438,33 +3923,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": 0,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.1bs8Lx9cheQbKgZQ"
-    },
-    {
-      "_id": "Foao6RECeBDtJoI9",
+      "ownership": {
+        "default": 0,
+        "k2irxkER7dd27yKp": 3,
+        "fWmK8zmoQ7S1AhgH": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Schilde",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3474,30 +3965,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "fWmK8zmoQ7S1AhgH": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "Foao6RECeBDtJoI9",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.Foao6RECeBDtJoI9"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "A"
+          "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3505,33 +3990,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": 0,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -3,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.Foao6RECeBDtJoI9"
-    },
-    {
-      "_id": "8vpoQRyIS1r8drIY",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Zweihand-Hiebwaffen",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3541,30 +4032,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "8vpoQRyIS1r8drIY",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.8vpoQRyIS1r8drIY"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "D"
+          "value": "E"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3572,33 +4057,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -3,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -1,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.8vpoQRyIS1r8drIY"
-    },
-    {
-      "_id": "fFrCw9SoyRSA5DJe",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Fechtwaffen",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3608,30 +4099,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "fFrCw9SoyRSA5DJe",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.fFrCw9SoyRSA5DJe"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "E"
+          "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3639,33 +4124,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -1,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.fFrCw9SoyRSA5DJe"
-    },
-    {
-      "_id": "dBXtDerbKwaoOZEE",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Säbel",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3675,30 +4166,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "dBXtDerbKwaoOZEE",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.dBXtDerbKwaoOZEE"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3706,33 +4191,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -2,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.dBXtDerbKwaoOZEE"
-    },
-    {
-      "_id": "irwhSMGQodnPa7bN",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Zweihandflegel",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3742,30 +4233,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "irwhSMGQodnPa7bN",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.irwhSMGQodnPa7bN"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "D"
+          "value": "E"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3773,33 +4258,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": 0,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -3,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.irwhSMGQodnPa7bN"
-    },
-    {
-      "_id": "NQtHhhHSbNwBXkUR",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Bogen",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3809,30 +4300,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "NQtHhhHSbNwBXkUR",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.NQtHhhHSbNwBXkUR"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
-          "value": "E"
+          "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3840,33 +4325,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "range",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -3,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -3,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.NQtHhhHSbNwBXkUR"
-    },
-    {
-      "_id": "9CerNzOvH2GL6Eyd",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Speere",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3876,30 +4367,24 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
+      "_id": "9CerNzOvH2GL6Eyd",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!BMcmqXxiinhW9fON.9CerNzOvH2GL6Eyd"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
       "system": {
+        "parry": {
+          "value": 0
+        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
-        },
-        "parry": {
-          "value": 0
         },
         "attack": {
           "value": 0
@@ -3907,33 +4392,39 @@
         "talentValue": {
           "value": 0
         },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -3,
-          "valmult": 1
-        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
         }
       },
-      "_key": "!actors.items!BMcmqXxiinhW9fON.9CerNzOvH2GL6Eyd"
-    },
-    {
-      "_id": "vEG3kV65Qteujig3",
+      "ownership": {
+        "default": 0,
+        "zWpZxX3ZjMhV6iLC": 3,
+        "k2irxkER7dd27yKp": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
       "name": "Zweihandschwerter/-säbel",
-      "type": "combatskill",
-      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
@@ -3943,502 +4434,11 @@
           "actorId": "QlWaFv8hHVL3w6CH"
         }
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "dsa5",
-        "systemVersion": "6.2.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0,
-        "zWpZxX3ZjMhV6iLC": 3,
-        "k2irxkER7dd27yKp": 3
-      },
-      "system": {
-        "StF": {
-          "value": "D"
-        },
-        "guidevalue": {
-          "value": "kk"
-        },
-        "parry": {
-          "value": 0
-        },
-        "attack": {
-          "value": 0
-        },
-        "talentValue": {
-          "value": 0
-        },
-        "weapontype": {
-          "onlyattack": false,
-          "value": "melee",
-          "twoHanded": false
-        },
-        "burden": {
-          "value": "yes",
-          "valadd": -2,
-          "valmult": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
-        }
-      },
+      "_id": "vEG3kV65Qteujig3",
+      "sort": 0,
+      "type": "combatskill",
       "_key": "!actors.items!BMcmqXxiinhW9fON.vEG3kV65Qteujig3"
     }
   ],
-  "effects": [],
-  "folder": "O33A46A1xF1ACiVX",
-  "flags": {
-    "core": {}
-  },
-  "system": {
-    "characteristics": {
-      "mu": {
-        "label": "CHAR.MU",
-        "abrev": "CHARAbbrev.MU",
-        "color": "#b3241a",
-        "initial": 15,
-        "species": 0,
-        "modifier": 0,
-        "advances": 0
-      },
-      "kl": {
-        "label": "CHAR.KL",
-        "abrev": "CHARAbbrev.KL",
-        "color": "#8259a3",
-        "species": 0,
-        "initial": 7,
-        "modifier": 0,
-        "advances": 0
-      },
-      "in": {
-        "label": "CHAR.IN",
-        "abrev": "CHARAbbrev.IN",
-        "color": "#388834",
-        "species": 0,
-        "initial": 11,
-        "modifier": 0,
-        "advances": 0
-      },
-      "ch": {
-        "label": "CHAR.CH",
-        "abrev": "CHARAbbrev.CH",
-        "color": "#0d0d0d",
-        "species": 0,
-        "initial": 7,
-        "modifier": 0,
-        "advances": 0
-      },
-      "ff": {
-        "label": "CHAR.FF",
-        "abrev": "CHARAbbrev.FF",
-        "color": "#d5b467",
-        "species": 0,
-        "initial": 11,
-        "modifier": 0,
-        "advances": 0
-      },
-      "ge": {
-        "label": "CHAR.GE",
-        "abrev": "CHARAbbrev.GE",
-        "color": "#688ec4",
-        "species": 0,
-        "initial": 12,
-        "modifier": 0,
-        "advances": 0
-      },
-      "ko": {
-        "label": "CHAR.KO",
-        "abrev": "CHARAbbrev.KO",
-        "color": "#fbf5ea",
-        "species": 0,
-        "initial": 17,
-        "modifier": 0,
-        "advances": 0
-      },
-      "kk": {
-        "label": "CHAR.KK",
-        "abrev": "CHARAbbrev.KK",
-        "color": "#d6a878",
-        "species": 0,
-        "initial": 12,
-        "modifier": 0,
-        "advances": 0
-      }
-    },
-    "hitbox": 0,
-    "status": {
-      "wounds": {
-        "initial": 0,
-        "value": 172,
-        "advances": 0,
-        "modifier": 60,
-        "current": 8,
-        "max": 0
-      },
-      "astralenergy": {
-        "initial": 0,
-        "value": 0,
-        "advances": 0,
-        "modifier": 0,
-        "current": 0,
-        "max": 0
-      },
-      "karmaenergy": {
-        "initial": 0,
-        "value": 0,
-        "advances": 0,
-        "modifier": 0,
-        "current": 0,
-        "max": 0
-      },
-      "soulpower": {
-        "initial": 0,
-        "value": 0,
-        "modifier": 10
-      },
-      "toughness": {
-        "initial": 0,
-        "value": 17,
-        "modifier": 0
-      },
-      "captainvalue": {
-        "initial": 0,
-        "value": 0,
-        "modifier": 0
-      },
-      "artifactradiation": {
-        "initial": 0,
-        "value": 0,
-        "modifier": 0
-      },
-      "dodge": {
-        "value": 0,
-        "modifier": 0,
-        "max": 0
-      },
-      "fatePoints": {
-        "value": 0,
-        "modifier": 0,
-        "current": 0
-      },
-      "speed": {
-        "initial": 0,
-        "modifier": 6,
-        "value": 0
-      },
-      "initiative": {
-        "value": "8.08",
-        "modifier": 0,
-        "current": 0,
-        "die": "1d6",
-        "diemodifier": "-",
-        "initial": 8,
-        "currentdice": 0,
-        "multiplier": 1,
-        "gearmodifier": 0,
-        "nextaction": 11,
-        "rolled": false,
-        "fullmodifier": 0,
-        "tooltip": "17+0+0+8+0+0+0+1 = 26 (KO + Modifikator + Effekte + (MU + MU + GE + IN)/5 + Modifikator + Belastung + Effekte + Initiativewürfel)"
-      },
-      "atbasis": {
-        "initial": 0,
-        "value": 0,
-        "advances": 0,
-        "modifier": 0,
-        "current": 0
-      },
-      "encumbrance": {
-        "initial": 0,
-        "value": 0,
-        "current": 0
-      },
-      "bodyarmor": {
-        "initial": 0,
-        "value": 0,
-        "current": 0
-      },
-      "pabasis": {
-        "initial": 0,
-        "value": 0,
-        "advances": 0,
-        "modifier": 0,
-        "current": 0
-      },
-      "fkbasis": {
-        "initial": 0,
-        "value": 0,
-        "advances": 0,
-        "modifier": 0,
-        "current": 0
-      },
-      "size": {
-        "value": "big"
-      },
-      "actions": {
-        "atactions": {
-          "mod": 1,
-          "max": 2,
-          "current": 2,
-          "performed": 0
-        },
-        "paactions": {
-          "mod": -1,
-          "max": 0,
-          "current": 0,
-          "performed": 0
-        },
-        "neutralactions": {
-          "mod": 0,
-          "max": 1,
-          "current": 1,
-          "performed": 0
-        },
-        "ataction": 1,
-        "paaction": 1,
-        "freeaction": 1,
-        "freeactions": {
-          "max": 1,
-          "current": 1,
-          "mod": 0,
-          "performed": 0
-        },
-        "neutralaction": 1,
-        "movementactions": {
-          "max": 0,
-          "current": 0,
-          "mod": 0,
-          "performed": 0
-        },
-        "movementaction": 0,
-        "onlyfreeaction": 0,
-        "lostActions": 0,
-        "spendInitiative": false
-      },
-      "combat": {
-        "oneTimeEffects": [],
-        "oneRoundEffects": []
-      },
-      "attackSize": {
-        "value": "DEFAULT"
-      }
-    },
-    "guidevalue": {
-      "magical": "-",
-      "clerical": "-"
-    },
-    "energyfactor": {
-      "magical": 1,
-      "clerical": 1
-    },
-    "tradition": {
-      "magical": "",
-      "clerical": ""
-    },
-    "feature": {
-      "magical": "",
-      "clerical": ""
-    },
-    "happyTalents": {
-      "value": ""
-    },
-    "config": {
-      "autoBar": true,
-      "autoSize": true
-    },
-    "details": {
-      "experience": {
-        "total": 0,
-        "spent": 0
-      }
-    },
-    "actionCount": {
-      "value": 1
-    },
-    "count": {
-      "value": "1",
-      "label": "count"
-    },
-    "creatureClass": {
-      "value": "animal"
-    },
-    "behaviour": {
-      "value": ""
-    },
-    "flight": {
-      "value": ""
-    },
-    "specialRules": {
-      "value": ""
-    },
-    "conjuringDifficulty": {
-      "value": 0,
-      "control": 0
-    },
-    "description": {
-      "value": "<p>Der Krakenmolch ist durch seine amphibische Lebensweise besonders gef&auml;hrlich. Er dringt bisweilen weit bis ins Landesinnere vor, um in S&uuml;mpfen nach Beute zu suchen. Seine Intelligenz reicht gerade an die einer Ratte heran, und er greift ausschlie&szlig;lich an, um sich von seinen Opfern zu ern&auml;hren. Die Tentakel des Krakenmolchs sind stark genug, um einen Menschen darin gefangen zu halten, aber die Umschlingung verursacht keinen Schaden. Wirklich gef&auml;hrlich ist nur der Biss des Seeungeheuers.</p>"
-    },
-    "sheetLocked": {
-      "value": false
-    },
-    "merchantType": false
-  },
-  "ownership": {
-    "default": 0,
-    "OkB1KdnOuvyQ8qU2": 3,
-    "k2irxkER7dd27yKp": 3
-  },
-  "prototypeToken": {
-    "name": "Krakenmolch",
-    "displayName": 30,
-    "actorLink": true,
-    "width": 3,
-    "height": 3,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "disposition": 0,
-    "displayBars": 50,
-    "bar1": {
-      "attribute": "status.wounds"
-    },
-    "bar2": {
-      "attribute": "status.astralenergy"
-    },
-    "flags": {
-      "barbrawl": {
-        "resourceBars": {
-          "bar1": {
-            "id": "bar1",
-            "attribute": "status.wounds",
-            "max": null,
-            "mincolor": "#650707",
-            "maxcolor": "#cf0e0e",
-            "visibility": 40,
-            "position": "bottom-inner",
-            "style": "user",
-            "invert": false
-          },
-          "bar2": {
-            "id": "bar2",
-            "attribute": "status.astralenergy",
-            "max": null,
-            "mincolor": "#000080",
-            "maxcolor": "#80B3FF",
-            "visibility": 40,
-            "position": "top-inner",
-            "style": "user",
-            "invert": false
-          }
-        }
-      },
-      "token-auras": {
-        "aura1": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        },
-        "aura2": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        }
-      }
-    },
-    "randomImg": false,
-    "light": {
-      "alpha": 0.25,
-      "angle": 360,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "type": null,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      },
-      "color": null,
-      "attenuation": 0.5,
-      "negative": false,
-      "priority": 0
-    },
-    "texture": {
-      "src": "systems/dsa5/icons/tokens/krakenmolch.Token.webp?1630244421196",
-      "tint": "#ffffff",
-      "scaleX": 1,
-      "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "alphaThreshold": 0.75
-    },
-    "sight": {
-      "angle": 360,
-      "enabled": false,
-      "range": 20,
-      "brightness": 0,
-      "visionMode": "basic",
-      "color": null,
-      "attenuation": 0.1,
-      "saturation": 0,
-      "contrast": 0
-    },
-    "detectionModes": [],
-    "appendNumber": false,
-    "prependAdjective": false,
-    "hexagonalShape": 0,
-    "occludable": {
-      "radius": 0
-    },
-    "ring": {
-      "enabled": false,
-      "colors": {
-        "ring": null,
-        "background": null
-      },
-      "effects": 1,
-      "subject": {
-        "scale": 1,
-        "texture": null
-      }
-    }
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "coreVersion": "12.331",
-    "systemId": "dsa5",
-    "systemVersion": "6.2.3",
-    "createdTime": 1745135397153,
-    "modifiedTime": 1746637231850,
-    "lastModifiedBy": "k2irxkER7dd27yKp"
-  },
-  "_id": "BMcmqXxiinhW9fON",
-  "sort": 100000,
   "_key": "!actors!BMcmqXxiinhW9fON"
 }

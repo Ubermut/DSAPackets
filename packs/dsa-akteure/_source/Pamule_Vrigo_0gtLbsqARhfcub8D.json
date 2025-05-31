@@ -1,0 +1,6868 @@
+{
+  "img": "tokenizer/npc-images/base/pamule.Avatar.png?1621714786876",
+  "_stats": {
+    "compendiumSource": null,
+    "modifiedTime": 1748076586519,
+    "systemId": "dsa5",
+    "lastModifiedBy": "k2irxkER7dd27yKp",
+    "createdTime": 1748076567973,
+    "duplicateSource": null,
+    "systemVersion": "6.2.3",
+    "coreVersion": "12.331"
+  },
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "kartographen",
+      "system": "dsa5",
+      "systemVersion": "2.0.4",
+      "coreVersion": "9.269"
+    }
+  },
+  "sort": 500000,
+  "type": "character",
+  "prototypeToken": {
+    "displayBars": 50,
+    "ring": {
+      "effects": 1,
+      "subject": {
+        "texture": null,
+        "scale": 1
+      },
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      }
+    },
+    "displayName": 30,
+    "lockRotation": false,
+    "actorLink": true,
+    "texture": {
+      "scaleX": 1,
+      "offsetX": 0,
+      "fit": "contain",
+      "scaleY": 1,
+      "anchorY": 0.5,
+      "offsetY": 0,
+      "src": "tokenizer/npc-images/base/pamule.Token.png?1621714786876",
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "rotation": 0,
+    "detectionModes": [],
+    "flags": {
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "otherVisibility": 0,
+            "invert": false,
+            "max": null,
+            "maxcolor": "#cf0e0e",
+            "style": "user",
+            "id": "bar1",
+            "attribute": "status.wounds",
+            "mincolor": "#650707",
+            "position": "bottom-inner",
+            "ownerVisibility": 50
+          },
+          "bar2": {
+            "otherVisibility": 0,
+            "invert": false,
+            "max": null,
+            "maxcolor": "#80B3FF",
+            "style": "user",
+            "id": "bar2",
+            "attribute": "status.astralenergy",
+            "mincolor": "#000080",
+            "position": "top-inner",
+            "ownerVisibility": 50
+          }
+        }
+      },
+      "token-auras": {
+        "aura2": {
+          "square": false,
+          "colour": "#ffffff",
+          "distance": null,
+          "permission": "all",
+          "opacity": 0.5
+        },
+        "aura1": {
+          "square": false,
+          "colour": "#ffffff",
+          "distance": null,
+          "permission": "all",
+          "opacity": 0.5
+        }
+      }
+    },
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "randomImg": false,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "status.wounds"
+    },
+    "bar2": {
+      "attribute": "status.astralenergy"
+    },
+    "disposition": 1,
+    "light": {
+      "attenuation": 0.5,
+      "color": null,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "priority": 0,
+      "animation": {
+        "intensity": 5,
+        "type": null,
+        "reverse": false,
+        "speed": 5
+      },
+      "saturation": 0,
+      "negative": false,
+      "alpha": 1,
+      "contrast": 0,
+      "angle": 360,
+      "luminosity": 0.5,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "alpha": 1,
+    "name": "Pamule",
+    "width": 1,
+    "sight": {
+      "saturation": 0,
+      "brightness": 0,
+      "attenuation": 0.1,
+      "color": null,
+      "visionMode": "basic",
+      "contrast": 0,
+      "angle": 360,
+      "range": 20,
+      "enabled": false
+    },
+    "occludable": {
+      "radius": 0
+    },
+    "height": 1
+  },
+  "effects": [],
+  "folder": "2Jc8TZwOo2PSPCyr",
+  "system": {
+    "happyTalents": {
+      "value": ""
+    },
+    "characteristics": {
+      "ff": {
+        "cost": "Siehe Steigerungsspalte",
+        "color": "#d5b467",
+        "species": 0,
+        "initial": 13,
+        "advances": 2,
+        "bonus": 0,
+        "abrev": "CHARAbbrev.FF",
+        "modifier": 0,
+        "label": "CHAR.FF",
+        "type": "number",
+        "value": 15,
+        "refund": "Nope"
+      },
+      "kk": {
+        "cost": "Siehe Steigerungsspalte",
+        "color": "#d6a878",
+        "species": 0,
+        "initial": 12,
+        "advances": 0,
+        "bonus": 0,
+        "abrev": "CHARAbbrev.KK",
+        "modifier": 0,
+        "label": "CHAR.KK",
+        "type": "number",
+        "value": 12,
+        "refund": "Nope"
+      },
+      "kl": {
+        "cost": "Siehe Steigerungsspalte",
+        "color": "#8259a3",
+        "species": 0,
+        "initial": 13,
+        "advances": 0,
+        "bonus": 0,
+        "abrev": "CHARAbbrev.KL",
+        "modifier": 0,
+        "label": "CHAR.KL",
+        "type": "number",
+        "value": 13,
+        "refund": "Nope"
+      },
+      "ko": {
+        "cost": "Siehe Steigerungsspalte",
+        "color": "#fbf5ea",
+        "species": 0,
+        "initial": 11,
+        "advances": 0,
+        "bonus": 0,
+        "abrev": "CHARAbbrev.KO",
+        "modifier": 0,
+        "label": "CHAR.KO",
+        "type": "number",
+        "value": 11,
+        "refund": "Nope"
+      },
+      "in": {
+        "cost": "Siehe Steigerungsspalte",
+        "color": "#388834",
+        "species": 0,
+        "initial": 14,
+        "advances": 0,
+        "bonus": 0,
+        "abrev": "CHARAbbrev.IN",
+        "modifier": 1,
+        "label": "CHAR.IN",
+        "type": "number",
+        "value": 15,
+        "refund": "Nope"
+      },
+      "ch": {
+        "cost": "Siehe Steigerungsspalte",
+        "color": "#0d0d0d",
+        "species": 0,
+        "initial": 12,
+        "advances": 0,
+        "bonus": 0,
+        "abrev": "CHARAbbrev.CH",
+        "modifier": 0,
+        "label": "CHAR.CH",
+        "type": "number",
+        "value": 12,
+        "refund": "Nope"
+      },
+      "mu": {
+        "cost": "Siehe Steigerungsspalte",
+        "color": "#b3241a",
+        "initial": 12,
+        "species": 0,
+        "advances": 0,
+        "bonus": 0,
+        "abrev": "CHARAbbrev.MU",
+        "modifier": 0,
+        "label": "CHAR.MU",
+        "type": "number",
+        "value": 12,
+        "refund": "Nope"
+      },
+      "ge": {
+        "cost": "Siehe Steigerungsspalte",
+        "color": "#688ec4",
+        "species": 0,
+        "initial": 13,
+        "advances": 1,
+        "bonus": 0,
+        "abrev": "CHARAbbrev.GE",
+        "modifier": 0,
+        "label": "CHAR.GE",
+        "type": "number",
+        "value": 14,
+        "refund": "Nope"
+      }
+    },
+    "representations": {},
+    "hitbox": 0,
+    "freeLanguagePoints": {
+      "used": 0,
+      "value": 0
+    },
+    "feature": {
+      "magical": "",
+      "clerical": ""
+    },
+    "guidevalue": {
+      "magical": "-",
+      "clerical": "-"
+    },
+    "details": {
+      "career": {
+        "value": ""
+      },
+      "notes": {
+        "gmdescription": "",
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "biography": {
+        "value": ""
+      },
+      "experience": {
+        "total": 0,
+        "spent": 0
+      },
+      "home": {
+        "value": ""
+      },
+      "distinguishingmark": {
+        "value": ""
+      },
+      "species": {
+        "value": ""
+      },
+      "culture": {
+        "value": ""
+      },
+      "eyecolor": {
+        "value": ""
+      },
+      "family": {
+        "value": ""
+      },
+      "haircolor": {
+        "value": ""
+      },
+      "socialstate": {
+        "value": ""
+      },
+      "Home": {
+        "value": ""
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      }
+    },
+    "energyfactor": {
+      "magical": 1,
+      "clerical": 1
+    },
+    "tradition": {
+      "magical": "",
+      "clerical": ""
+    },
+    "config": {
+      "autoBar": true
+    },
+    "tempValues": {
+      "Klettern": {
+        "name": "Unterstützung von Zolin",
+        "taw": 0,
+        "tawplus": 0
+      }
+    },
+    "status": {
+      "dodge": {
+        "current": 0,
+        "max": 0,
+        "initial": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 8
+      },
+      "wounds": {
+        "current": 0,
+        "initial": 0,
+        "max": 0,
+        "advances": 0,
+        "modifier": 10,
+        "value": 27
+      },
+      "initiative": {
+        "die": "1d6",
+        "current": 0,
+        "diemodifier": "",
+        "initial": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 11,
+        "currentdice": null
+      },
+      "artifactradiation": {
+        "initial": 0,
+        "modifier": 0,
+        "value": 0
+      },
+      "exhaustion": {
+        "value": 0
+      },
+      "atbasis": {
+        "current": 0,
+        "initial": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 8
+      },
+      "captainvalue": {
+        "initial": 0,
+        "modifier": 0,
+        "value": 0
+      },
+      "speed": {
+        "current": 0,
+        "initial": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 8
+      },
+      "encumbrance": {
+        "current": 0,
+        "initial": 0,
+        "value": 0
+      },
+      "karmaenergy": {
+        "current": 0,
+        "initial": 0,
+        "max": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 0
+      },
+      "fatePoints": {
+        "current": null,
+        "initial": 3,
+        "advances": 0,
+        "modifier": 0,
+        "value": 3
+      },
+      "soulpower": {
+        "current": 0,
+        "initial": 0,
+        "advances": 0,
+        "modifier": -4,
+        "value": 3
+      },
+      "size": {
+        "value": "average"
+      },
+      "astralenergy": {
+        "current": 0,
+        "initial": 0,
+        "max": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 20
+      },
+      "bodyarmor": {
+        "current": 0,
+        "initial": 0,
+        "value": 0
+      },
+      "toughness": {
+        "current": 0,
+        "initial": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 14
+      },
+      "fkbasis": {
+        "current": 0,
+        "initial": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 8
+      },
+      "actions": {
+        "neutralaction": 0,
+        "neutralactions": {
+          "current": 0,
+          "mod": 0,
+          "max": 0,
+          "performed": 0
+        },
+        "paaction": 1,
+        "freeaction": 1,
+        "freeactions": {
+          "current": 1,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "atactions": {
+          "current": 1,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "ataction": 1,
+        "paactions": {
+          "current": 1,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        }
+      },
+      "pabasis": {
+        "current": 0,
+        "initial": 0,
+        "advances": 0,
+        "modifier": 0,
+        "value": 8
+      }
+    },
+    "sheetLocked": {
+      "value": false
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "gQLu34fr8AhLmbnJ": 0,
+    "wFlKnUPeDoMd5dcg": 0,
+    "k2irxkER7dd27yKp": 3,
+    "YU8wj86rEQtPb0DE": 0,
+    "tGl2ZLiI2uW132LH": 0,
+    "OkB1KdnOuvyQ8qU2": 3,
+    "fWmK8zmoQ7S1AhgH": 3,
+    "EqMXcBOEf3anOBht": 0
+  },
+  "name": "Pamule Vrigo",
+  "_id": "0gtLbsqARhfcub8D",
+  "items": [
+    {
+      "img": "systems/dsa5/icons/talents/Athletik_0.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 2
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "ge"
+        },
+        "characteristic2": {
+          "value": "ko"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 2,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Athletik",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "0bqbVpjgBxPOLizq",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.0bqbVpjgBxPOLizq"
+    },
+    {
+      "img": "icons/magic/life/heart-shadow-red.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 6
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "in"
+        },
+        "characteristic2": {
+          "value": "ch"
+        },
+        "group": {
+          "value": "social"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Betören",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "aeTigVrIrodc1H8g",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.aeTigVrIrodc1H8g"
+    },
+    {
+      "img": "icons/magic/air/wind-weather-sailing-ship.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 5
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "ge"
+        },
+        "characteristic2": {
+          "value": "ko"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Boote Fahren",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "L1WzoF4lL7QCwH4A",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.L1WzoF4lL7QCwH4A"
+    },
+    {
+      "img": "icons/skills/social/diplomacy-handshake.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 5
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "social"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Etikette",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "phmYhzGxZ1fWZvDo",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.phmYhzGxZ1fWZvDo"
+    },
+    {
+      "img": "icons/sundries/gaming/dice-pair-white-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 7
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "ch"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Falschspiel",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "iYsNOrTPhHyeAHdo",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.iYsNOrTPhHyeAHdo"
+    },
+    {
+      "img": "systems/dsa5/icons/talents/Fesseln_0.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 5
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "ff"
+        },
+        "characteristic2": {
+          "value": "ge"
+        },
+        "group": {
+          "value": "nature"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Fesseln/Entfesseln",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "1BTon6zdpKKovyZ6",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.1BTon6zdpKKovyZ6"
+    },
+    {
+      "img": "icons/tools/fishing/rod-simple-stick-brown.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "in"
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
+        "group": {
+          "value": "nature"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Fischen/Angeln",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "IWoiXoBQFepIG5gN",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.IWoiXoBQFepIG5gN"
+    },
+    {
+      "img": "icons/environment/settlement/tavern.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 7
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "social"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Gassenwissen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "OZPBC0LHde1PcnhM",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.OZPBC0LHde1PcnhM"
+    },
+    {
+      "img": "systems/dsa5/icons/talents/Gaukeleien_1.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 7
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "ch"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 2,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Gaukeleien",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "1OjhkmgQanh0mZHA",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.1OjhkmgQanh0mZHA"
+    },
+    {
+      "img": "systems/dsa5/icons/talents/Geschichtswissen.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "in"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 1
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
+        "group": {
+          "value": "knowledge"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Geschichtswissen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "JfGT668yV6OVU6hT",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.JfGT668yV6OVU6hT"
+    },
+    {
+      "img": "icons/magic/holy/saint-glass-portrait-halo.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "in"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 1
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
+        "group": {
+          "value": "knowledge"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Götter/Kulte",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "V6mZSyP98MYxxQMb",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.V6mZSyP98MYxxQMb"
+    },
+    {
+      "img": "icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 2
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Handel",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "rZsPXNEqD3qmuU6j",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.rZsPXNEqD3qmuU6j"
+    },
+    {
+      "img": "systems/dsa5/icons/talents/Selbstbeherrschung.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 1
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "in"
+        },
+        "characteristic2": {
+          "value": "ch"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Heilkunde Seele",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "WEmE71WqSe78QSrT",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.WEmE71WqSe78QSrT"
+    },
+    {
+      "img": "icons/sundries/flags/banner-symbol-sun-gold-red.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
+        "group": {
+          "value": "knowledge"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Heraldik",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "5nKsA6MobtzDEtom",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.5nKsA6MobtzDEtom"
+    },
+    {
+      "img": "icons/skills/trades/woodcutting-logging-saw.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Holzbearbeitung",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "wNnWcfCPgA7DcK82",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.wNnWcfCPgA7DcK82"
+    },
+    {
+      "img": "systems/dsa5/icons/itemicons/Sonstiges/Wurfhaken.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "ge"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 2,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Klettern",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "ulbug9HgAGfJO3xR",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.ulbug9HgAGfJO3xR"
+    },
+    {
+      "img": "systems/dsa5/icons/talents/Klettern.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ge"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 2,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Körperbeherrschung",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "rj7PXPTKksrIU3t7",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.rj7PXPTKksrIU3t7"
+    },
+    {
+      "img": "icons/sundries/documents/document-worn-symbol-brown.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "in"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 2
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
+        "group": {
+          "value": "knowledge"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Kryptographie",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "Hwy30L5ElRzw59zE",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.Hwy30L5ElRzw59zE"
+    },
+    {
+      "img": "icons/commodities/leather/leather-patch-tan.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Lederarbeiten",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "Cq70c546YIHKPpzq",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.Cq70c546YIHKPpzq"
+    },
+    {
+      "img": "systems/dsa5/icons/itemicons/Sonstiges/Codex_Albyricus.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "social"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Lehren",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "isvRsBZ1bGcx9f7R",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.isvRsBZ1bGcx9f7R"
+    },
+    {
+      "img": "icons/environment/people/group.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 7
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "social"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Menschenkenntnis",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "Iu2aySPc40NvrsSA",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.Iu2aySPc40NvrsSA"
+    },
+    {
+      "img": "icons/tools/navigation/compass-brass-blue-red.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "in"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
+        "group": {
+          "value": "nature"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Orientierung",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "2oajDicLYsfDWVn1",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.2oajDicLYsfDWVn1"
+    },
+    {
+      "img": "systems/dsa5/icons/itemicons/Sonstiges/Rechenschieber.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "in"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 5
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
+        "group": {
+          "value": "knowledge"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Rechnen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "WM1XUXV9WaLDiSay",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.WM1XUXV9WaLDiSay"
+    },
+    {
+      "img": "icons/skills/social/trading-justice-scale-gold.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "in"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
+        "group": {
+          "value": "knowledge"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Rechtskunde",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "uGnp49iBbEpC1E4f",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.uGnp49iBbEpC1E4f"
+    },
+    {
+      "img": "icons/commodities/treasure/dreamcatcher-brown.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "knowledge"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Sagen/Legenden",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "o9GTsshexbtBH1W1",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.o9GTsshexbtBH1W1"
+    },
+    {
+      "img": "icons/commodities/treasure/broach-gold-ruby.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 7
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
+        "group": {
+          "value": "knowledge"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Schaetzen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "3rjZUO7v6UOOhHCR",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.3rjZUO7v6UOOhHCR"
+    },
+    {
+      "img": "icons/equipment/head/mask-carved-wood-white.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 2
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
+        "group": {
+          "value": "social"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Schauspielerei",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "rg8xuKRtoPLalRjl",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.rg8xuKRtoPLalRjl"
+    },
+    {
+      "img": "systems/dsa5/icons/talents/Schleichen_0.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ge"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 8
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Schleichen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "Umc9cxwnheVwnFV7",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.Umc9cxwnheVwnFV7"
+    },
+    {
+      "img": "icons/sundries/misc/lock-open-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 8
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "in"
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Schlösser Knacken",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "fUYzAWpFatQpt9rk",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.fUYzAWpFatQpt9rk"
+    },
+    {
+      "img": "icons/commodities/cloth/thread-spindle-white.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Schneidern",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "QPJ4ICvyR5UnfI1Q",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.QPJ4ICvyR5UnfI1Q"
+    },
+    {
+      "img": "icons/creatures/fish/fish-shark-swimming.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "ge"
+        },
+        "characteristic2": {
+          "value": "ko"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 2,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Schwimmen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "JVIsPi6Cbg4Xa3bX",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.JVIsPi6Cbg4Xa3bX"
+    },
+    {
+      "img": "icons/skills/trades/profession-sailing-ship.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 8
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "ff"
+        },
+        "characteristic2": {
+          "value": "ge"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Seefahrt",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "zkV5NWOYN7nQJRnx",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.zkV5NWOYN7nQJRnx"
+    },
+    {
+      "img": "icons/tools/fishing/net-tan.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 1
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "in"
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
+        "group": {
+          "value": "nature"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Seefischerei",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "rkeFPvA0c5bRFgIg",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.rkeFPvA0c5bRFgIg"
+    },
+    {
+      "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 1
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "ko"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Selbstbeherrschung",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "pThidi82g5jluywC",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.pThidi82g5jluywC"
+    },
+    {
+      "img": "icons/equipment/back/cloak-heavy-fur-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ge"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 7
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "ch"
+        },
+        "group": {
+          "value": "social"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Sich Verkleiden",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "vt4UJEBQvp1Ghtjr",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.vt4UJEBQvp1Ghtjr"
+    },
+    {
+      "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ge"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 5
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Sich Verstecken",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "2vGOw7Gyemp4XEk5",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.2vGOw7Gyemp4XEk5"
+    },
+    {
+      "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "in"
+        },
+        "characteristic2": {
+          "value": "ch"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": -3,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Singen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "0TIvilxM1iNe3vpb",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.0TIvilxM1iNe3vpb"
+    },
+    {
+      "img": "icons/creatures/eyes/human-single-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "in"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 5
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "maybe"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Sinnenschärfe",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "6haNxbM6Rk9hTDJQ",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.6haNxbM6Rk9hTDJQ"
+    },
+    {
+      "img": "icons/tools/navigation/sextant-brass-brown.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 1
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "in"
+        },
+        "characteristic2": {
+          "value": "ch"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Steuermann",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "0mWxsqb5L7i9v3WX",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.0mWxsqb5L7i9v3WX"
+    },
+    {
+      "img": "systems/dsa5/icons/talents/Tanzen.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 8
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": -4,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Stimmen Imitieren",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "kyHEHf8wBLcuQG8n",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.kyHEHf8wBLcuQG8n"
+    },
+    {
+      "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 7
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 2,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Taschendiebstahl",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "bZlFVOyHgIOWYll3",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.bZlFVOyHgIOWYll3"
+    },
+    {
+      "img": "icons/creatures/mammals/rabbit-movement-glowing-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "in"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 1
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
+        "group": {
+          "value": "knowledge"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Tierkunde",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "ItIwHfascAFs74dq",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.ItIwHfascAFs74dq"
+    },
+    {
+      "img": "systems/dsa5/icons/talents/Etikette.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 7
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "social"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Überreden",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "zPXVld34n4J6PVp1",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.zPXVld34n4J6PVp1"
+    },
+    {
+      "img": "systems/dsa5/icons/talents/Ueberreden.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 2
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "social"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Überzeugen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "2HvfsLp7r77WP2mP",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.2HvfsLp7r77WP2mP"
+    },
+    {
+      "img": "icons/magic/air/weather-clouds-rainbow.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "in"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "nature"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Wettervorhersage",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "ZAzAddCGhllEOh4U",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.ZAzAddCGhllEOh4U"
+    },
+    {
+      "img": "icons/environment/wilderness/camp-improvised.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ko"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 2
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "in"
+        },
+        "characteristic2": {
+          "value": "ge"
+        },
+        "group": {
+          "value": "nature"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Wildnisleben",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "VRWltFOsFSEyu6r1",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.VRWltFOsFSEyu6r1"
+    },
+    {
+      "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-brown.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "kk"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 2
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "in"
+        },
+        "characteristic2": {
+          "value": "ko"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Zechen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "9xfNTs3LfQXVFJ3w",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.9xfNTs3LfQXVFJ3w"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 0
+        },
+        "StF": {
+          "value": "C"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 1
+        },
+        "talentValue": {
+          "value": 1
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -5,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Armbrust",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "awBvPLMvFu4KcQUE",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.awBvPLMvFu4KcQUE"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 2
+        },
+        "StF": {
+          "value": "D"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 5
+        },
+        "talentValue": {
+          "value": 7
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -1,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Dolche",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "UZ4W2yrSlJOEs4jB",
+      "sort": 100000,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.UZ4W2yrSlJOEs4jB"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 0
+        },
+        "StF": {
+          "value": "E"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 2
+        },
+        "talentValue": {
+          "value": 2
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -1,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Fechtwaffen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "o4BXASK78J7uakFZ",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.o4BXASK78J7uakFZ"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 0
+        },
+        "StF": {
+          "value": "D"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 3
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -3,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Infanteriewaffen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "OXVG7xUn8NgQcbSU",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.OXVG7xUn8NgQcbSU"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 1
+        },
+        "StF": {
+          "value": "C"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 3
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Raufen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "DVR2e9H5OmUwOTAx",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.DVR2e9H5OmUwOTAx"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 4
+        },
+        "StF": {
+          "value": "D"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 0
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Ringen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "jAUJXa4oSKGEijdC",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.jAUJXa4oSKGEijdC"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 4
+        },
+        "StF": {
+          "value": "D"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 0
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Säbel",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "oP79ub1B8wetV5xv",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.oP79ub1B8wetV5xv"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 3
+        },
+        "StF": {
+          "value": "D"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 5
+        },
+        "talentValue": {
+          "value": 8
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Speere",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "tCO38y9uOLT3y6gh",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.tCO38y9uOLT3y6gh"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 0
+        },
+        "StF": {
+          "value": "D"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 3
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Stäbe",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "gdCgGX8gOQZaPMck",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.gdCgGX8gOQZaPMck"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 0
+        },
+        "StF": {
+          "value": "D"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 8
+        },
+        "talentValue": {
+          "value": 8
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Wurfbeile",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "favwZuUV7oqLbaVM",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.favwZuUV7oqLbaVM"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 0
+        },
+        "StF": {
+          "value": "C"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 13
+        },
+        "talentValue": {
+          "value": 13
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -3,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Wurfmesser",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "Ju1yU6ebEnUMoo7c",
+      "sort": 200000,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.Ju1yU6ebEnUMoo7c"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 0
+        },
+        "StF": {
+          "value": "C"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 3
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "range"
+        },
+        "burden": {
+          "valadd": -2,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Wurfspeere",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "N87xkSBj7rLh9UCI",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.N87xkSBj7rLh9UCI"
+    },
+    {
+      "img": "systems/dsa5/icons/money-D.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "quantity": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "price": {
+          "value": 10
+        },
+        "parent_id": 0,
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weight": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Item.BGfRbsrZ2M2Y2wZ3",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Money-D",
+      "flags": {
+        "core": {
+          "sourceId": "Item.BGfRbsrZ2M2Y2wZ3"
+        }
+      },
+      "_id": "OCRi6UuKBIHCbZuF",
+      "sort": 0,
+      "type": "money",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.OCRi6UuKBIHCbZuF"
+    },
+    {
+      "img": "systems/dsa5/icons/money-S.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "quantity": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "price": {
+          "value": 1
+        },
+        "parent_id": 0,
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weight": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Item.ntX4yPa0e9rmmqSZ",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Money-S",
+      "flags": {
+        "core": {
+          "sourceId": "Item.ntX4yPa0e9rmmqSZ"
+        }
+      },
+      "_id": "xN0OtnyZqB4BaWAX",
+      "sort": 0,
+      "type": "money",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.xN0OtnyZqB4BaWAX"
+    },
+    {
+      "img": "systems/dsa5/icons/money-H.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "quantity": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "price": {
+          "value": 0.1
+        },
+        "parent_id": 0,
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weight": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Item.2wwyflxgKCiz9UIQ",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Money-H",
+      "flags": {
+        "core": {
+          "sourceId": "Item.2wwyflxgKCiz9UIQ"
+        }
+      },
+      "_id": "G4piFlEAWb2stJCn",
+      "sort": 0,
+      "type": "money",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.G4piFlEAWb2stJCn"
+    },
+    {
+      "img": "systems/dsa5/icons/money-K.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "quantity": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "price": {
+          "value": 0.01
+        },
+        "parent_id": 0,
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weight": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Item.IHSzojKYEn0FloQm",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Money-K",
+      "flags": {
+        "core": {
+          "sourceId": "Item.IHSzojKYEn0FloQm"
+        }
+      },
+      "_id": "NDf42upvVWmHi8Ty",
+      "sort": 0,
+      "type": "money",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.NDf42upvVWmHi8Ty"
+    },
+    {
+      "img": "systems/dsa5/icons/itemicons/fernkampfwaffen/Wurfmesser.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "damage": {
+          "value": "1d6"
+        },
+        "worn": {
+          "value": true
+        },
+        "quantity": {
+          "value": 7
+        },
+        "ammunitiongroup": {
+          "value": "-"
+        },
+        "reach": {
+          "value": "2/4/6/8/15"
+        },
+        "combatskill": {
+          "value": "Wurfmesser"
+        },
+        "weight": {
+          "value": null
+        },
+        "reachtp": {
+          "value": "+1/0/0/0/-1"
+        },
+        "currentAmmo": {
+          "value": ""
+        },
+        "structure": {
+          "max": 0,
+          "value": 0
+        },
+        "reloadTime": {
+          "progress": null,
+          "value": 1
+        },
+        "price": {
+          "value": null
+        },
+        "effect": {
+          "value": ""
+        },
+        "templates:": [
+          "equipment",
+          "description"
+        ],
+        "specialization": {
+          "value": false
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "OkB1KdnOuvyQ8qU2": 3,
+        "fWmK8zmoQ7S1AhgH": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dsa5.weaponsandshields.c6k6sX5cUKXqEVUM",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Wurfmesser",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dsa5.weaponsandshields.c6k6sX5cUKXqEVUM"
+        }
+      },
+      "_id": "yP3t4CA2oKzjPKEn",
+      "sort": 0,
+      "type": "rangeweapon",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.yP3t4CA2oKzjPKEn"
+    },
+    {
+      "img": "systems/dsa5/icons/itemicons/nahkampfwaffen/Dolch.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "damage": {
+          "value": "1d6+1"
+        },
+        "atmod": {
+          "offhandMod": 0,
+          "value": 0
+        },
+        "quantity": {
+          "value": 1
+        },
+        "worn": {
+          "value": true,
+          "offhand": false
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "tpplus": {
+          "step": 4,
+          "value": 11
+        },
+        "reach": {
+          "shieldSize": "average",
+          "value": "medium"
+        },
+        "combatskill": {
+          "value": "Dolche"
+        },
+        "weight": {
+          "value": 0
+        },
+        "description": {
+          "value": ""
+        },
+        "pamod": {
+          "offhandMod": 0,
+          "value": 0
+        },
+        "structure": {
+          "max": 0,
+          "value": 0
+        },
+        "damageThreshold": {
+          "value": 0
+        },
+        "price": {
+          "value": 0
+        },
+        "parent_id": 0,
+        "guidevalue": {
+          "value": "kk"
+        },
+        "effect": {
+          "value": ""
+        },
+        "specialization": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "OkB1KdnOuvyQ8qU2": 3,
+        "fWmK8zmoQ7S1AhgH": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dsa5.weaponsandshields.CkZi5AQhMK1IHXTL",
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Dolch",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dsa5.weaponsandshields.CkZi5AQhMK1IHXTL"
+        }
+      },
+      "_id": "ZbewA5sBUZYl1yyT",
+      "sort": 0,
+      "type": "meleeweapon",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.ZbewA5sBUZYl1yyT"
+    },
+    {
+      "img": "icons/magic/life/cross-worn-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "B"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 1
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "ch"
+        },
+        "group": {
+          "value": "trade"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Heilkunde Wunden",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "2wlYZczqOGRmHIX6",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.2wlYZczqOGRmHIX6"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": " 200"
+        },
+        "requirements": {
+          "value": " GE 12, FF 10"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": " Das Ziehen einer Waffe wird auf 1 freie Aktion reduziert. Das Anlegen eines Schilds sinkt auf 3 Aktionen."
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        },
+        "category": {
+          "sub": 0,
+          "value": "Combat"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Schnellziehen",
+      "flags": {},
+      "sort": 500000,
+      "_id": "eO2WbvRPT78n0A0P",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.eO2WbvRPT78n0A0P"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": ""
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        },
+        "category": {
+          "sub": 0,
+          "value": "language"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 3
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Mohisch",
+      "flags": {},
+      "sort": 500000,
+      "_id": "Y39ngYq33QiApDt4",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.Y39ngYq33QiApDt4"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": " 150, halbe Kosten mit Sozialer Anpassungsfähigkeit oder Empathie"
+        },
+        "requirements": {
+          "value": " IN 12, FF 12"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": " Der Held bewegt sich souverän in gesellschaftlichem Rahmen.Es gelten bei Ableitungen von Naturtalenten aus verminderte Zuschläge. Die Reduzierung der Erschwernis ist wie folgt: bei 0-5: 2, 6-8: 3, 9-10: 4, 11-15: 5, 16+: 8. Bei der Berechnung von Metatalenten werden alle dem Charakter bekannten Spezialisierungen von beteiligten Gesellschaftstalenten dazugezählt. "
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        },
+        "category": {
+          "sub": 0,
+          "value": "general"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Sozialkompetenz",
+      "flags": {},
+      "sort": 500000,
+      "_id": "rpL7DDLDAjQbe2nN",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.rpL7DDLDAjQbe2nN"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": " 100"
+        },
+        "requirements": {
+          "value": " [[Scharfschütze]]"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": " Erleichtert Schüsse auf kleine und komplizierte Ziele um 4 Punkte (sehr nah, nah) und auf mittlere Distanzen um 2 Punkte."
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        },
+        "category": {
+          "sub": 0,
+          "value": "Combat"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Trickschütze",
+      "flags": {},
+      "sort": 500000,
+      "_id": "uTjNvnOPTFub9daG",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.uTjNvnOPTFub9daG"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": " 150 für die erste, 100 für alle Folgenden\n"
+        },
+        "requirements": {
+          "value": " längerer Aufenthalt (min. 12 Monate, nicht zwingend am Stück) in entsprechendem Gelände, keine Lernzeit"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": "Naturtalente 3; Tierkunde 3; Pflanzenkunde 3; Pirschjagd 3; Ansitzjagd 3; Kräuter Suchen 3; Nachtwache 3;\n"
+        },
+        "description": {
+          "value": " Der Held kennt sich in bestimmten Arten von Wildnis besonders gut aus (siehe Liste, kann durch Meisterentscheid erweitert werden z.B. ''Norduthuriakundig''). Alle Proben die sich auf den Umgang mit dieser Wildnis (''Wettervorhersage'', ''Wildnisleben'', ''Tierkunde'', ''Pflanzenkunde'', weitere nach Meisterentscheid) beziehen sind um 3 Punkte erleichtert. \n<br />Mögliche Kundigkeiten: \n* ''Dschungel'' \n* ''Eis'' \n* ''Gebirge''\n* ''Höhlen''\n* ''Maraskan''\n* ''Meer''\n* ''Steppe''\n* ''Sumpf''\n* ''Wald''\n* ''Wüste''\n* weitere nach Meisterentscheid"
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        },
+        "category": {
+          "sub": 0,
+          "value": "general"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Meereskundig",
+      "flags": {},
+      "sort": 500000,
+      "_id": "icpUai7v8Fqzvtye",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.icpUai7v8Fqzvtye"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": ""
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 2
+        },
+        "category": {
+          "sub": 0,
+          "value": "language"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 3
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Tulamidya",
+      "flags": {},
+      "sort": 500000,
+      "_id": "d6W1sunMnh6qb0rK",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.d6W1sunMnh6qb0rK"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": " 200"
+        },
+        "requirements": {
+          "value": " IN 12"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": "IN 4"
+        },
+        "description": {
+          "value": " Die neutrale Aktion Orientieren kostet den Kämpfer nur 1 Akt. IN-Proben bei Hinterhalten sind um 4 Punkte erleichtert. Passierschläge gegen den Kämpfer sind zusätzlich um 4 Punkte erschwert. Bei der Verteilung von Akt. in AT-Akt und PA-Akt darf der Kämpfer nach allen Kämpfern ohne die SF Aufmerksamkeit seine Aktionen verteilen.\n"
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        },
+        "category": {
+          "sub": 0,
+          "value": "Combat"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Aufmerksamkeit",
+      "flags": {},
+      "sort": 500000,
+      "_id": "MzPxCzRSScaYaZGY",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.MzPxCzRSScaYaZGY"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": ""
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        },
+        "category": {
+          "sub": 0,
+          "value": "language"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 3
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Charypto",
+      "flags": {},
+      "sort": 500000,
+      "_id": "qgGW5bWeQLxTR5BU",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.qgGW5bWeQLxTR5BU"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": " 300"
+        },
+        "requirements": {
+          "value": " GE 10"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": "+3 AW"
+        },
+        "description": {
+          "value": " Erhöht den Ausweichen-Wert des Kämpfers um 3.\n"
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        },
+        "category": {
+          "sub": 0,
+          "value": "Combat"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Ausweichen I",
+      "flags": {},
+      "sort": 500000,
+      "_id": "g1Nvxf6mO8PqdSDr",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.g1Nvxf6mO8PqdSDr"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": " 300"
+        },
+        "requirements": {
+          "value": " Fernwaffen-Taw 7"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": " Gezielte Schüsse dauern nur 2 Akt. zusätzlich. Erschwernisse für gezielte Schüsse sind auf 3/4, Schnellschüsse sind nur um 1 erschwert."
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        },
+        "category": {
+          "sub": 0,
+          "value": "Combat"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Scharfschütze",
+      "flags": {},
+      "sort": 500000,
+      "_id": "sprmP1Becwiay7k6",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.sprmP1Becwiay7k6"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": ""
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 3
+        },
+        "category": {
+          "sub": 0,
+          "value": "language"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 3
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "AlAnfani",
+      "flags": {},
+      "sort": 500000,
+      "_id": "UhcqRQOgwGGElguw",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.UhcqRQOgwGGElguw"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": ""
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 3
+        },
+        "category": {
+          "sub": 0,
+          "value": "language"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 2
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "L/S Kusliker Zeichen",
+      "flags": {},
+      "sort": 500000,
+      "_id": "7RFFZs1fSC3aae1K",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.7RFFZs1fSC3aae1K"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": ""
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        },
+        "category": {
+          "sub": 0,
+          "value": "language"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 3
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Thorwalisch",
+      "flags": {},
+      "sort": 500000,
+      "_id": "zOn983WZrzWWChb1",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.zOn983WZrzWWChb1"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": " 100"
+        },
+        "requirements": {
+          "value": " Körperbeherrschung 7, GE 12"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": " Erschwernisse im Kampf in knie, hüft- und schulterhohem Wasser sind halbiert. In schulterhohem Wasser gilt die Erleichterung nur für Infanteriewaffen, Dolche und Speere."
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        },
+        "category": {
+          "sub": 0,
+          "value": "Combat"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Kampf im Wasser",
+      "flags": {},
+      "sort": 500000,
+      "_id": "v3WGrKCxSlvmPPgY",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.v3WGrKCxSlvmPPgY"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/ability_general.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": ""
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "rule": {
+          "value": ""
+        },
+        "step": {
+          "value": 3
+        },
+        "category": {
+          "sub": 0,
+          "value": "language"
+        },
+        "list": {
+          "value": ""
+        },
+        "maxRank": {
+          "value": 3
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Brabaci",
+      "flags": {},
+      "sort": 500000,
+      "_id": "x12X5XUN8puNAtb0",
+      "type": "specialability",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.x12X5XUN8puNAtb0"
+    },
+    {
+      "img": "icons/environment/settlement/watchtower-wood-simple.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ge"
+        },
+        "StF": {
+          "value": "H"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Wildnisleben + Fährtensuchen + Tierkunde + Sich Verstecken + Wurfmesser / 5"
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "meta"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Ansitzjagd",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "mdwd447vXIRhQAJN",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.mdwd447vXIRhQAJN"
+    },
+    {
+      "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ko"
+        },
+        "StF": {
+          "value": "H"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 6
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Sinnenschärfe + Sinnenschärfe + Selbstbeherrschung + Wildnisleben / 4 + Gefahreninstinkt"
+        },
+        "characteristic1": {
+          "value": "in"
+        },
+        "choice": {
+          "value": false
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
+        "group": {
+          "value": "meta"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Nachtwache",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "THM98KEemDF4xRm2",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.THM98KEemDF4xRm2"
+    },
+    {
+      "img": "systems/dsa5/icons/talents/Surfen.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ge"
+        },
+        "StF": {
+          "value": "H"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 2
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Schwimmen + Akrobatik + Körperbeherrschung / 3 + Skifahren"
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "ge"
+        },
+        "group": {
+          "value": "meta"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Surfen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "Y0g82qeDpBs39Hk7",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.Y0g82qeDpBs39Hk7"
+    },
+    {
+      "img": "icons/weapons/swords/sword-gold-holy.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "H"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 5
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Tanzen + Gaukeleien + Gaukeleien + Körperbeherrschung + Speere / 5<br><br> Wild mit der Waffe herumzuwirbeln sieht sehr beeindruckend aus, kann aber auch ziemlich gefährlich sein. Sollte also nur von Leuten verwendet werden, die Ahnung haben, bevor sie sich selbst verletzen oder die Waffe beschädigen. Wahre Meister in dieser Kunst sind novadische Schattentänzer."
+        },
+        "characteristic1": {
+          "value": "ge"
+        },
+        "choice": {
+          "value": false
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
+        "group": {
+          "value": "meta"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Waffenpose",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "ZMjpBAA1LekgDLfM",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.ZMjpBAA1LekgDLfM"
+    },
+    {
+      "img": "icons/commodities/materials/plant-branch-brown-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "H"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 2
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Wildnisleben + Pflanzenkunde + Sinnenschärfe / 3"
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "meta"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Kräuter Suchen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "eCLu8qF3JAb8nyd5",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.eCLu8qF3JAb8nyd5"
+    },
+    {
+      "img": "systems/dsa5/icons/categories/Combat_Skill.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "parry": {
+          "value": 0
+        },
+        "StF": {
+          "value": "A"
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "attack": {
+          "value": 0
+        },
+        "talentValue": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "weapontype": {
+          "twoHanded": false,
+          "onlyattack": false,
+          "value": "melee"
+        },
+        "burden": {
+          "valadd": -10,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Schilde",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "naOdsGgQ0g3TtFA5",
+      "sort": 0,
+      "type": "combatskill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.naOdsGgQ0g3TtFA5"
+    },
+    {
+      "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ko"
+        },
+        "StF": {
+          "value": "H"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 1
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Galanterie + Heilkunde Wunden + Anatomie + Heilkunde Wunden + Ringen / 5"
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
+        "group": {
+          "value": "meta"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Massage",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "2Sl6CFrN1rGAFo6w",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.2Sl6CFrN1rGAFo6w"
+    },
+    {
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ch"
+        },
+        "StF": {
+          "value": "H"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Kriegskunst + Kriegskunst + Sinnenschärfe + Menschenkenntnis / 4, +1 von Speere"
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "meta"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Gegner Einschätzen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "DNQzpNX6IhYCCvL8",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.DNQzpNX6IhYCCvL8"
+    },
+    {
+      "img": "icons/tools/scribal/magnifying-glass.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 8
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "body"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 0,
+          "value": "maybe"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Untersuchen",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "PAB2M2Yms0zp9dFV",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.PAB2M2Yms0zp9dFV"
+    },
+    {
+      "img": "icons/weapons/bows/shortbow-recurve-yellow-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ge"
+        },
+        "StF": {
+          "value": "H"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 5
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Wildnisleben + Fährtensuchen + Tierkunde + Schleichen + Wurfmesser / 5"
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "meta"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Pirschjagd",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "3TFzhd33OwnjjXOw",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.3TFzhd33OwnjjXOw"
+    },
+    {
+      "img": "systems/dsa5/icons/itemicons/Sonstiges/Schere.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "ff"
+        },
+        "StF": {
+          "value": "H"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 2
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Galanterie + Galanterie + Dolche + Schneidern + Tätowieren / 5"
+        },
+        "characteristic1": {
+          "value": "ch"
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
+        "group": {
+          "value": "meta"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "yes"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Barbier",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "9LKSA2I8yiHg8RHm",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.9LKSA2I8yiHg8RHm"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/Vorteil.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": "0"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "max": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Soziale Anpassungsfähigkeit",
+      "flags": {},
+      "_id": "L8OmqTnuumUn3f0t",
+      "sort": 0,
+      "type": "advantage",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.L8OmqTnuumUn3f0t"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/Vorteil.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": "0"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "max": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Gefahreninstinkt",
+      "flags": {},
+      "_id": "wxn8Oycz5G3PxZFL",
+      "sort": 0,
+      "type": "advantage",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.wxn8Oycz5G3PxZFL"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/Vorteil.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": "0"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "max": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Breitgefächerte Bildung",
+      "flags": {},
+      "_id": "eDNaEHXdlhFVnzcN",
+      "sort": 0,
+      "type": "advantage",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.eDNaEHXdlhFVnzcN"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/Vorteil.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": "0"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "max": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": "Körperbeherrschung 3, Tanzen 3, Akrobatik 3, Athletik 3, GE 2"
+        },
+        "description": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Balance",
+      "flags": {},
+      "_id": "3hi4FyR5TyyedY3f",
+      "sort": 0,
+      "type": "advantage",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.3hi4FyR5TyyedY3f"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/Vorteil.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": "0"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "max": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": "Gesellschaftstalente 1"
+        },
+        "description": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Gutaussehend",
+      "flags": {},
+      "_id": "mjq7m1vGRyvpO2F4",
+      "sort": 0,
+      "type": "advantage",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.mjq7m1vGRyvpO2F4"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/Nachteil.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": "0"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "max": {
+          "value": 21
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Gesucht",
+      "flags": {},
+      "_id": "S8Is4g9WhLY38mjz",
+      "sort": 0,
+      "type": "disadvantage",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.S8Is4g9WhLY38mjz"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/Nachteil.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": "0"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "max": {
+          "value": 21
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": "Gesellschaftstalente -1"
+        },
+        "description": {
+          "value": ""
+        },
+        "step": {
+          "value": 5
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Arroganz",
+      "flags": {},
+      "_id": "DJOXf2UzsMQF06fV",
+      "sort": 0,
+      "type": "disadvantage",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.DJOXf2UzsMQF06fV"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/Nachteil.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": "0"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "max": {
+          "value": 21
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": "Selbstbeherrschung -1"
+        },
+        "description": {
+          "value": ""
+        },
+        "step": {
+          "value": 6
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Goldgier",
+      "flags": {},
+      "_id": "qD27RcP65USupaLl",
+      "sort": 0,
+      "type": "disadvantage",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.qD27RcP65USupaLl"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/Nachteil.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": "0"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "max": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Schulden 500 D",
+      "flags": {},
+      "_id": "z3Ug63ef6iFGGilh",
+      "sort": 0,
+      "type": "disadvantage",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.z3Ug63ef6iFGGilh"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/Nachteil.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": "0"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "max": {
+          "value": 21
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": "Selbstbeherrschung -1"
+        },
+        "description": {
+          "value": ""
+        },
+        "step": {
+          "value": 7
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Neugier",
+      "flags": {},
+      "_id": "g5c3AINf7HCZGQzB",
+      "sort": 0,
+      "type": "disadvantage",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.g5c3AINf7HCZGQzB"
+    },
+    {
+      "effects": [],
+      "img": "systems/dsa5/icons/categories/Nachteil.webp",
+      "folder": null,
+      "system": {
+        "APValue": {
+          "value": "0"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "max": {
+          "value": 0
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "step": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Spielsucht",
+      "flags": {},
+      "_id": "cLkfijwbv0QinEgL",
+      "sort": 0,
+      "type": "disadvantage",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.cLkfijwbv0QinEgL"
+    },
+    {
+      "img": "systems/dsa5/icons/talents/Zwergennase.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "in"
+        },
+        "StF": {
+          "value": "G"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 9
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "ff"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "gift"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Zwergennase",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "kpTgVxjF3BYyZESh",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.kpTgVxjF3BYyZESh"
+    },
+    {
+      "img": "icons/magic/perception/hand-eye-pink.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "characteristic3": {
+          "value": "in"
+        },
+        "StF": {
+          "value": "G"
+        },
+        "RPr": {
+          "value": "no"
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
+        "group": {
+          "value": "gift"
+        },
+        "burden": {
+          "valadd": 0,
+          "valmult": 1,
+          "value": "no"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "modifiedTime": null,
+        "systemId": "dsa5",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "duplicateSource": null,
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.331"
+      },
+      "name": "Gefahreninstinkt",
+      "flags": {
+        "core": {
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
+        }
+      },
+      "_id": "mcqgkph6uZS5PgqG",
+      "sort": 0,
+      "type": "skill",
+      "_key": "!actors.items!0gtLbsqARhfcub8D.mcqgkph6uZS5PgqG"
+    }
+  ],
+  "_key": "!actors!0gtLbsqARhfcub8D"
+}
