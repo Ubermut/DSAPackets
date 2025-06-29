@@ -2,12 +2,12 @@
   "img": "tokenizer/npc-images/base/andra.Avatar.webp?1640117968393",
   "_stats": {
     "compendiumSource": null,
-    "modifiedTime": 1727554112232,
+    "modifiedTime": 1748759507439,
     "systemId": "dsa5",
-    "lastModifiedBy": "6pf0cxk66d2SSjZy",
+    "lastModifiedBy": "k2irxkER7dd27yKp",
     "createdTime": 1705008515200,
     "duplicateSource": null,
-    "systemVersion": "5.7.4",
+    "systemVersion": "6.2.3",
     "coreVersion": "12.331"
   },
   "flags": {
@@ -584,195 +584,409 @@
       "disabled": false,
       "_id": "FYdLDXrrdaW2IXZS",
       "_key": "!actors.effects!N1YPdS2x8W5lgvo5.FYdLDXrrdaW2IXZS"
+    },
+    {
+      "name": "Aktionen",
+      "img": "systems/dsa5/icons/actions/no_actions_frei.png",
+      "origin": "Andra",
+      "flags": {
+        "effectKey": "actioncounteffect",
+        "dsa5": {
+          "value": null,
+          "editable": true,
+          "customizable": true,
+          "description": "Andra hat keine Aktionen mehr",
+          "custom": true,
+          "auto": null,
+          "manual": 0
+        }
+      },
+      "changes": [],
+      "statuses": [
+        "0.7235734930790212"
+      ],
+      "_id": "s6subY44V24Ejws1",
+      "type": "base",
+      "system": {},
+      "disabled": false,
+      "duration": {
+        "startTime": 31233314140,
+        "seconds": null,
+        "combat": "25pPxRVz1m4OZYRI",
+        "rounds": null,
+        "turns": null,
+        "startRound": 19,
+        "startTurn": 0
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dsa5",
+        "systemVersion": "6.2.3",
+        "createdTime": 1748759501796,
+        "modifiedTime": 1748759501796,
+        "lastModifiedBy": "k2irxkER7dd27yKp"
+      },
+      "_key": "!actors.effects!N1YPdS2x8W5lgvo5.s6subY44V24Ejws1"
     }
   ],
   "folder": "tAxsg9rgLDlIkctC",
   "system": {
-    "happyTalents": {
-      "value": ""
-    },
     "characteristics": {
-      "ff": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#d5b467",
+      "mu": {
+        "label": "CHAR.MU",
+        "abrev": "CHARAbbrev.MU",
+        "color": "#b3241a",
+        "initial": 15,
         "species": 0,
-        "initial": 11,
-        "advances": 3,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.FF",
         "modifier": 1,
-        "label": "CHAR.FF",
-        "type": "number",
-        "value": 15,
-        "refund": "Nope"
-      },
-      "kk": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#d6a878",
-        "species": 0,
-        "initial": 11,
         "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
         "bonus": 0,
-        "abrev": "CHARAbbrev.KK",
-        "modifier": 2,
-        "label": "CHAR.KK",
         "type": "number",
-        "value": 13,
+        "value": 16,
         "refund": "Nope"
       },
       "kl": {
-        "cost": "Siehe Steigerungsspalte",
+        "label": "CHAR.KL",
+        "abrev": "CHARAbbrev.KL",
         "color": "#8259a3",
         "species": 0,
         "initial": 14,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.KL",
         "modifier": 1,
-        "label": "CHAR.KL",
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 15,
         "refund": "Nope"
       },
-      "ko": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#fbf5ea",
-        "species": 0,
-        "initial": 11,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.KO",
-        "modifier": 2,
-        "label": "CHAR.KO",
-        "type": "number",
-        "value": 13,
-        "refund": "Nope"
-      },
       "in": {
-        "cost": "Siehe Steigerungsspalte",
+        "label": "CHAR.IN",
+        "abrev": "CHARAbbrev.IN",
         "color": "#388834",
         "species": 0,
         "initial": 14,
-        "advances": 1,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.IN",
         "modifier": 0,
-        "label": "CHAR.IN",
+        "advances": 1,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 15,
         "refund": "Nope"
       },
       "ch": {
-        "cost": "Siehe Steigerungsspalte",
+        "label": "CHAR.CH",
+        "abrev": "CHARAbbrev.CH",
         "color": "#0d0d0d",
         "species": 0,
         "initial": 14,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.CH",
         "modifier": 1,
-        "label": "CHAR.CH",
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 15,
         "refund": "Nope"
       },
-      "mu": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#b3241a",
-        "initial": 15,
+      "ff": {
+        "label": "CHAR.FF",
+        "abrev": "CHARAbbrev.FF",
+        "color": "#d5b467",
         "species": 0,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.MU",
+        "initial": 11,
         "modifier": 1,
-        "label": "CHAR.MU",
+        "advances": 3,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
-        "value": 16,
+        "value": 15,
         "refund": "Nope"
       },
       "ge": {
-        "cost": "Siehe Steigerungsspalte",
+        "label": "CHAR.GE",
+        "abrev": "CHARAbbrev.GE",
         "color": "#688ec4",
         "species": 0,
         "initial": 12,
-        "advances": 2,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.GE",
         "modifier": -1,
-        "label": "CHAR.GE",
+        "advances": 2,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
+        "type": "number",
+        "value": 13,
+        "refund": "Nope"
+      },
+      "ko": {
+        "label": "CHAR.KO",
+        "abrev": "CHARAbbrev.KO",
+        "color": "#fbf5ea",
+        "species": 0,
+        "initial": 11,
+        "modifier": 2,
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
+        "type": "number",
+        "value": 13,
+        "refund": "Nope"
+      },
+      "kk": {
+        "label": "CHAR.KK",
+        "abrev": "CHARAbbrev.KK",
+        "color": "#d6a878",
+        "species": 0,
+        "initial": 11,
+        "modifier": 2,
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 13,
         "refund": "Nope"
       }
     },
-    "representations": {},
     "hitbox": 0,
-    "freeLanguagePoints": {
-      "used": 0,
-      "value": 0
-    },
-    "feature": {
-      "magical": "",
-      "clerical": ""
-    },
-    "guidevalue": {
-      "magical": "-",
-      "clerical": "-"
+    "status": {
+      "wounds": {
+        "initial": 0,
+        "value": 31,
+        "advances": 0,
+        "modifier": 11,
+        "current": 0,
+        "max": 0
+      },
+      "astralenergy": {
+        "initial": 0,
+        "value": 23,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0,
+        "max": 0
+      },
+      "karmaenergy": {
+        "initial": 0,
+        "value": 9,
+        "advances": 0,
+        "modifier": 34,
+        "current": 0,
+        "max": 0
+      },
+      "soulpower": {
+        "initial": 0,
+        "value": 5,
+        "modifier": -4,
+        "current": 0,
+        "advances": 0
+      },
+      "toughness": {
+        "initial": 0,
+        "value": 13,
+        "modifier": 0,
+        "current": 0,
+        "advances": 0
+      },
+      "captainvalue": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "artifactradiation": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "dodge": {
+        "value": 8,
+        "modifier": 0,
+        "max": 0,
+        "current": 0,
+        "initial": 0,
+        "advances": 0
+      },
+      "fatePoints": {
+        "value": 3,
+        "modifier": 0,
+        "current": null,
+        "initial": 3,
+        "advances": 0
+      },
+      "speed": {
+        "initial": 0,
+        "modifier": -2,
+        "value": 6,
+        "current": 0,
+        "advances": 0
+      },
+      "initiative": {
+        "value": 12,
+        "modifier": 0,
+        "current": 19.17,
+        "die": "1d6",
+        "diemodifier": "-",
+        "initial": 0,
+        "advances": 0,
+        "rolled": true,
+        "currentdice": 2
+      },
+      "atbasis": {
+        "initial": 0,
+        "value": 8,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "encumbrance": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "bodyarmor": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "pabasis": {
+        "initial": 0,
+        "value": 8,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "fkbasis": {
+        "initial": 0,
+        "value": 9,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "size": {
+        "value": "average"
+      },
+      "exhaustion": {
+        "value": 0
+      },
+      "combat": {
+        "oneRoundEffects": [
+          {
+            "toRound": true,
+            "name": "Meisterparade",
+            "type": "alles",
+            "value": 3
+          }
+        ],
+        "oneTimeEffects": [],
+        "stance": "equal"
+      },
+      "actions": {
+        "neutralaction": 0,
+        "neutralactions": {
+          "current": 0,
+          "mod": 0,
+          "max": 0,
+          "performed": 0
+        },
+        "onlyfreeaction": 0,
+        "paaction": 1,
+        "freeaction": 1,
+        "freeactions": {
+          "current": 1,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "lostActions": 0,
+        "atactions": {
+          "current": 0,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "spendInitiative": false,
+        "ataction": 1,
+        "paactions": {
+          "current": 0,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        }
+      },
+      "bodytype": {
+        "value": "none"
+      }
     },
     "details": {
-      "career": {
+      "species": {
         "value": ""
-      },
-      "notes": {
-        "gmdescription": "",
-        "value": null
       },
       "gender": {
-        "value": ""
-      },
-      "weight": {
-        "value": ""
-      },
-      "biography": {
-        "value": "<div class=\"w3-code notranslate htmlHigh\">&nbsp;</div>"
-      },
-      "experience": {
-        "total": 2100,
-        "spent": 1757
-      },
-      "home": {
-        "value": ""
-      },
-      "distinguishingmark": {
-        "value": ""
-      },
-      "species": {
         "value": ""
       },
       "culture": {
         "value": ""
       },
-      "eyecolor": {
-        "value": ""
-      },
-      "family": {
-        "value": ""
-      },
-      "haircolor": {
+      "career": {
         "value": ""
       },
       "socialstate": {
         "value": ""
       },
-      "Home": {
+      "home": {
+        "value": ""
+      },
+      "family": {
         "value": ""
       },
       "age": {
         "value": ""
       },
+      "haircolor": {
+        "value": ""
+      },
+      "eyecolor": {
+        "value": ""
+      },
       "height": {
         "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "distinguishingmark": {
+        "value": ""
+      },
+      "biography": {
+        "value": "<div class=\"w3-code notranslate htmlHigh\">&nbsp;</div>"
+      },
+      "notes": {
+        "value": null,
+        "gmdescription": ""
+      },
+      "experience": {
+        "total": 2100,
+        "spent": 1757
+      },
+      "Home": {
+        "value": ""
+      },
+      "soulanimal": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "organisation": {
+        "value": ""
       }
+    },
+    "guidevalue": {
+      "magical": "-",
+      "clerical": "-"
     },
     "energyfactor": {
       "magical": 1,
@@ -782,9 +996,24 @@
       "magical": "",
       "clerical": ""
     },
+    "feature": {
+      "magical": "",
+      "clerical": ""
+    },
+    "happyTalents": {
+      "value": ""
+    },
     "config": {
       "autoBar": true
     },
+    "freeLanguagePoints": {
+      "value": 0,
+      "used": 0
+    },
+    "sheetLocked": {
+      "value": false
+    },
+    "representations": {},
     "tempValues": {
       "Athletik": {
         "name": "Axxeleratus Blitzgeschwind",
@@ -821,174 +1050,6 @@
         "taw": 0,
         "tawplus": 0
       }
-    },
-    "status": {
-      "dodge": {
-        "current": 0,
-        "max": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 8
-      },
-      "wounds": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 11,
-        "value": 31
-      },
-      "initiative": {
-        "die": "1d6",
-        "current": 19.17,
-        "diemodifier": "",
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "rolled": true,
-        "value": 12,
-        "currentdice": 2
-      },
-      "artifactradiation": {
-        "initial": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "exhaustion": {
-        "value": 0
-      },
-      "atbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 8
-      },
-      "combat": {
-        "oneRoundEffects": [
-          {
-            "toRound": true,
-            "name": "Meisterparade",
-            "type": "alles",
-            "value": 3
-          }
-        ],
-        "oneTimeEffects": [],
-        "stance": "equal"
-      },
-      "captainvalue": {
-        "initial": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "speed": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": -2,
-        "value": 6
-      },
-      "encumbrance": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
-      },
-      "karmaenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 34,
-        "value": 9
-      },
-      "fatePoints": {
-        "current": null,
-        "initial": 3,
-        "advances": 0,
-        "modifier": 0,
-        "value": 3
-      },
-      "soulpower": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": -4,
-        "value": 5
-      },
-      "size": {
-        "value": "average"
-      },
-      "astralenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 23
-      },
-      "bodyarmor": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
-      },
-      "toughness": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 13
-      },
-      "fkbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 9
-      },
-      "actions": {
-        "neutralaction": 0,
-        "neutralactions": {
-          "current": 0,
-          "mod": 0,
-          "max": 0,
-          "performed": 0
-        },
-        "onlyfreeaction": 0,
-        "paaction": 1,
-        "freeaction": 1,
-        "freeactions": {
-          "current": 1,
-          "mod": 0,
-          "max": 1,
-          "performed": 0
-        },
-        "lostActions": 0,
-        "atactions": {
-          "current": 0,
-          "mod": 0,
-          "max": 1,
-          "performed": 0
-        },
-        "spendInitiative": false,
-        "ataction": 1,
-        "paactions": {
-          "current": 0,
-          "mod": 0,
-          "max": 1,
-          "performed": 0
-        }
-      },
-      "pabasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 8
-      }
-    },
-    "sheetLocked": {
-      "value": false
     }
   },
   "ownership": {
