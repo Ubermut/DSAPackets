@@ -2,13 +2,13 @@
   "img": "tokenizer/npc-images/base/gilion_schattent_nzer.Avatar.webp?1640117981121",
   "_stats": {
     "compendiumSource": null,
-    "modifiedTime": 1727554112232,
+    "modifiedTime": 1753905604983,
     "systemId": "dsa5",
     "lastModifiedBy": "6pf0cxk66d2SSjZy",
     "createdTime": 1692274476471,
     "duplicateSource": null,
-    "systemVersion": "5.7.4",
-    "coreVersion": "12.331"
+    "systemVersion": "6.2.3",
+    "coreVersion": "12.343"
   },
   "flags": {
     "core": {},
@@ -520,206 +520,357 @@
   ],
   "folder": "tAxsg9rgLDlIkctC",
   "system": {
-    "happyTalents": {
-      "value": ""
-    },
     "characteristics": {
-      "ff": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#d5b467",
+      "mu": {
+        "label": "CHAR.MU",
+        "abrev": "CHARAbbrev.MU",
+        "color": "#b3241a",
+        "initial": 13,
         "species": 0,
-        "initial": 12,
-        "advances": 4,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.FF",
         "modifier": 0,
-        "label": "CHAR.FF",
-        "type": "number",
-        "value": 16,
-        "refund": "Nope"
-      },
-      "kk": {
+        "advances": 1,
         "cost": "Siehe Steigerungsspalte",
-        "color": "#d6a878",
-        "species": 0,
-        "initial": 14,
-        "advances": 0,
         "bonus": 0,
-        "abrev": "CHARAbbrev.KK",
-        "modifier": -1,
-        "label": "CHAR.KK",
         "type": "number",
-        "value": 13,
+        "value": 14,
         "refund": "Nope"
       },
       "kl": {
-        "cost": "Siehe Steigerungsspalte",
+        "label": "CHAR.KL",
+        "abrev": "CHARAbbrev.KL",
         "color": "#8259a3",
         "species": 0,
         "initial": 13,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.KL",
         "modifier": -1,
-        "label": "CHAR.KL",
-        "type": "number",
-        "value": 12,
-        "refund": "Nope"
-      },
-      "ko": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#fbf5ea",
-        "species": 0,
-        "initial": 12,
         "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
         "bonus": 0,
-        "abrev": "CHARAbbrev.KO",
-        "modifier": 0,
-        "label": "CHAR.KO",
         "type": "number",
         "value": 12,
         "refund": "Nope"
       },
       "in": {
-        "cost": "Siehe Steigerungsspalte",
+        "label": "CHAR.IN",
+        "abrev": "CHARAbbrev.IN",
         "color": "#388834",
         "species": 0,
         "initial": 13,
-        "advances": 2,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.IN",
         "modifier": 2,
-        "label": "CHAR.IN",
+        "advances": 2,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 17,
         "refund": "Nope"
       },
       "ch": {
-        "cost": "Siehe Steigerungsspalte",
+        "label": "CHAR.CH",
+        "abrev": "CHARAbbrev.CH",
         "color": "#0d0d0d",
         "species": 0,
         "initial": 11,
-        "advances": 1,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.CH",
         "modifier": 1,
-        "label": "CHAR.CH",
+        "advances": 1,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 13,
         "refund": "Nope"
       },
-      "mu": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#b3241a",
-        "initial": 13,
+      "ff": {
+        "label": "CHAR.FF",
+        "abrev": "CHARAbbrev.FF",
+        "color": "#d5b467",
         "species": 0,
-        "advances": 1,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.MU",
+        "initial": 12,
         "modifier": 0,
-        "label": "CHAR.MU",
-        "type": "number",
-        "value": 14,
-        "refund": "Nope"
-      },
-      "ge": {
+        "advances": 4,
         "cost": "Siehe Steigerungsspalte",
-        "color": "#688ec4",
-        "species": 0,
-        "initial": 14,
-        "advances": 0,
         "bonus": 0,
-        "abrev": "CHARAbbrev.GE",
-        "modifier": 2,
-        "label": "CHAR.GE",
         "type": "number",
         "value": 16,
         "refund": "Nope"
+      },
+      "ge": {
+        "label": "CHAR.GE",
+        "abrev": "CHARAbbrev.GE",
+        "color": "#688ec4",
+        "species": 0,
+        "initial": 14,
+        "modifier": 2,
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
+        "type": "number",
+        "value": 16,
+        "refund": "Nope"
+      },
+      "ko": {
+        "label": "CHAR.KO",
+        "abrev": "CHARAbbrev.KO",
+        "color": "#fbf5ea",
+        "species": 0,
+        "initial": 12,
+        "modifier": 0,
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
+        "type": "number",
+        "value": 12,
+        "refund": "Nope"
+      },
+      "kk": {
+        "label": "CHAR.KK",
+        "abrev": "CHARAbbrev.KK",
+        "color": "#d6a878",
+        "species": 0,
+        "initial": 14,
+        "modifier": -1,
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
+        "type": "number",
+        "value": 13,
+        "refund": "Nope"
       }
     },
-    "representations": {},
     "hitbox": 0,
-    "freeLanguagePoints": {
-      "used": 0,
-      "value": 0
-    },
-    "healed": {
-      "tap": 0,
-      "source": ""
-    },
-    "feature": {
-      "magical": "",
-      "clerical": ""
-    },
-    "guidevalue": {
-      "magical": "in",
-      "effectToMessage": false,
-      "clerical": "-"
-    },
-    "imported": "Mi 25.09.2024 19:33",
-    "details": {
-      "career": {
-        "value": ""
+    "status": {
+      "wounds": {
+        "initial": 0,
+        "value": 32,
+        "advances": 0,
+        "modifier": 11,
+        "current": 0,
+        "max": 0
       },
-      "notes": {
-        "gmdescription": "",
-        "value": ""
+      "astralenergy": {
+        "initial": 0,
+        "value": 46,
+        "advances": 5,
+        "modifier": 19,
+        "current": 0,
+        "max": 0
+      },
+      "karmaenergy": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0,
+        "max": 0
+      },
+      "soulpower": {
+        "initial": 0,
+        "value": 6,
+        "modifier": -2,
+        "current": 0,
+        "advances": 0
+      },
+      "toughness": {
+        "initial": 0,
+        "value": 16,
+        "modifier": 0,
+        "current": 0,
+        "advances": 0
+      },
+      "captainvalue": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "artifactradiation": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "dodge": {
+        "value": 9,
+        "modifier": 0,
+        "max": 0,
+        "current": 0,
+        "initial": 0,
+        "advances": 0
+      },
+      "fatePoints": {
+        "value": 3,
+        "modifier": 0,
+        "current": null,
+        "initial": 3,
+        "advances": 0
+      },
+      "speed": {
+        "initial": 0,
+        "modifier": 0,
+        "value": 9,
+        "current": 0,
+        "advances": 0
+      },
+      "initiative": {
+        "value": 12,
+        "modifier": 0,
+        "current": 18.18,
+        "die": "1d6",
+        "diemodifier": "-",
+        "initial": 0,
+        "advances": 0,
+        "currentdice": 0
+      },
+      "atbasis": {
+        "initial": 0,
+        "value": 9,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "encumbrance": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "bodyarmor": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "pabasis": {
+        "initial": 0,
+        "value": 9,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "fkbasis": {
+        "initial": 0,
+        "value": 9,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "size": {
+        "value": "average"
+      },
+      "exhaustion": {
+        "value": 0
+      },
+      "combat": {
+        "oneRoundEffects": [],
+        "oneTimeEffects": [],
+        "stance": "equal"
+      },
+      "actions": {
+        "freeReloads": 0,
+        "movementaction": 1,
+        "neutralactions": {
+          "current": 0,
+          "mod": 0,
+          "max": 0,
+          "performed": 0
+        },
+        "paaction": 1,
+        "lostActions": 0,
+        "paactions": {
+          "current": 0,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "movementactions": {
+          "current": 1,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "neutralaction": 0,
+        "onlyfreeaction": 0,
+        "freeaction": 0,
+        "freeactions": {
+          "current": 1,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "atactions": {
+          "current": 0,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "spendInitiative": false,
+        "ataction": 1
+      },
+      "bodytype": {
+        "value": "none"
+      }
+    },
+    "details": {
+      "species": {
+        "value": "Elf"
       },
       "gender": {
         "value": "männlich"
       },
+      "culture": {
+        "value": "waldelfisch"
+      },
+      "career": {
+        "value": ""
+      },
+      "socialstate": {
+        "value": "8"
+      },
+      "home": {
+        "value": ""
+      },
+      "family": {
+        "value": "Sternenglanzsippe"
+      },
+      "age": {
+        "value": "33"
+      },
+      "haircolor": {
+        "value": "blauschwarz"
+      },
+      "eyecolor": {
+        "value": "dunkelbraun"
+      },
+      "height": {
+        "value": "1,96"
+      },
       "weight": {
         "value": "76"
       },
-      "organisation": {
+      "distinguishingmark": {
         "value": ""
       },
       "biography": {
         "value": ""
       },
+      "notes": {
+        "value": "",
+        "gmdescription": ""
+      },
       "experience": {
         "total": 2100,
         "spent": 409
       },
+      "organisation": {
+        "value": ""
+      },
       "title": {
         "value": ""
-      },
-      "home": {
-        "value": ""
-      },
-      "distinguishingmark": {
-        "value": ""
-      },
-      "species": {
-        "value": "Elf"
       },
       "soulanimal": {
         "value": ""
       },
-      "culture": {
-        "value": "waldelfisch"
-      },
-      "eyecolor": {
-        "value": "dunkelbraun"
-      },
-      "family": {
-        "value": "Sternenglanzsippe"
-      },
-      "haircolor": {
-        "value": "blauschwarz"
-      },
-      "socialstate": {
-        "value": "8"
-      },
       "Home": {
         "value": "Silz"
-      },
-      "age": {
-        "value": "33"
-      },
-      "height": {
-        "value": "1,96"
       }
+    },
+    "guidevalue": {
+      "magical": "in",
+      "clerical": "-",
+      "effectToMessage": false
     },
     "energyfactor": {
       "magical": "1",
@@ -729,9 +880,29 @@
       "magical": "",
       "clerical": ""
     },
+    "feature": {
+      "magical": "",
+      "clerical": ""
+    },
+    "happyTalents": {
+      "value": ""
+    },
     "config": {
       "autoBar": true
     },
+    "freeLanguagePoints": {
+      "value": 0,
+      "used": 0
+    },
+    "sheetLocked": {
+      "value": false
+    },
+    "representations": {},
+    "healed": {
+      "tap": 0,
+      "source": ""
+    },
+    "imported": "Mi 25.09.2024 19:33",
     "tempValues": {
       "Athletik": {
         "name": "Axxeleratus Blitzgeschwind",
@@ -788,174 +959,6 @@
         "taw": 0,
         "tawplus": 0
       }
-    },
-    "status": {
-      "dodge": {
-        "current": 0,
-        "max": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 9
-      },
-      "wounds": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 11,
-        "value": 32
-      },
-      "initiative": {
-        "die": "1d6",
-        "current": 18.18,
-        "diemodifier": "",
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 12,
-        "currentdice": 0
-      },
-      "artifactradiation": {
-        "initial": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "exhaustion": {
-        "value": 0
-      },
-      "atbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 9
-      },
-      "combat": {
-        "oneRoundEffects": [],
-        "oneTimeEffects": [],
-        "stance": "equal"
-      },
-      "captainvalue": {
-        "initial": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "speed": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 9
-      },
-      "encumbrance": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
-      },
-      "karmaenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "fatePoints": {
-        "current": null,
-        "initial": 3,
-        "advances": 0,
-        "modifier": 0,
-        "value": 3
-      },
-      "soulpower": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": -2,
-        "value": 6
-      },
-      "size": {
-        "value": "average"
-      },
-      "astralenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 5,
-        "modifier": 19,
-        "value": 46
-      },
-      "bodyarmor": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
-      },
-      "toughness": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 16
-      },
-      "fkbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 9
-      },
-      "actions": {
-        "freeReloads": 0,
-        "movementaction": 1,
-        "neutralactions": {
-          "current": 0,
-          "mod": 0,
-          "max": 0,
-          "performed": 0
-        },
-        "paaction": 1,
-        "lostActions": 0,
-        "paactions": {
-          "current": 0,
-          "mod": 0,
-          "max": 1,
-          "performed": 0
-        },
-        "movementactions": {
-          "current": 1,
-          "mod": 0,
-          "max": 1,
-          "performed": 0
-        },
-        "neutralaction": 0,
-        "onlyfreeaction": 0,
-        "freeaction": 0,
-        "freeactions": {
-          "current": 1,
-          "mod": 0,
-          "max": 1,
-          "performed": 0
-        },
-        "atactions": {
-          "current": 0,
-          "mod": 0,
-          "max": 1,
-          "performed": 0
-        },
-        "spendInitiative": false,
-        "ataction": 1
-      },
-      "pabasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 9
-      }
-    },
-    "sheetLocked": {
-      "value": false
     }
   },
   "ownership": {
@@ -10879,51 +10882,55 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "value": false
-        },
         "price": {
           "value": 0
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "-1 BE, Schleichen TaW+2, Sich Verstecken TaW+2, Chamaelioni Mimikry ZfW+4"
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": null
         },
+        "effect": {
+          "value": "-1 BE, Schleichen TaW+2, Sich Verstecken TaW+2, Chamaelioni Mimikry ZfW+4"
+        },
+        "parent_id": 0,
         "description": {
           "value": "<p>Schleichen TaW+2, Sich Verstecken TaW+2, Chamaelioni Mimikry ZfW+4, Chamaelioni Mimikry WDx2, Unsichtbarer J&auml;ger ZfW+2, Unsichtbarer J&auml;ger WDx2</p>"
         },
-        "protection": {
-          "head": 0,
-          "torso": 5,
-          "rightleg": 3,
-          "rightarm": 3,
-          "back": 5,
-          "leftleg": 3,
-          "stomach": 5,
-          "leftarm": 3,
-          "value": 4.5
+        "gmdescription": {
+          "value": ""
+        },
+        "encumbrance": {
+          "value": 2,
+          "adapted": null
         },
         "armortype": {
           "value": "Metallfrei"
         },
-        "encumbrance": {
-          "value": 2
+        "protection": {
+          "value": 4.5,
+          "head": 0,
+          "torso": 5,
+          "stomach": 5,
+          "back": 5,
+          "leftarm": 3,
+          "rightarm": 3,
+          "leftleg": 3,
+          "rightleg": 3
+        },
+        "worn": {
+          "value": false
         },
         "structure": {
           "max": 0,
+          "value": 0,
           "regeneration": false,
           "canBeTarget": false,
-          "hasStructure": false,
-          "value": 0
+          "hasStructure": false
+        },
+        "combinable": {
+          "value": false
         }
       },
       "ownership": {
@@ -10932,13 +10939,13 @@
       },
       "_stats": {
         "compendiumSource": "Compendium.dsa5.armor.cQ5Nf7xUguA2h0sn",
-        "modifiedTime": 1709750866157,
+        "modifiedTime": 1753905587757,
         "systemId": "dsa5",
-        "lastModifiedBy": "c7Ewdm3o5IrO2DhD",
+        "lastModifiedBy": "6pf0cxk66d2SSjZy",
         "createdTime": null,
         "duplicateSource": null,
-        "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.343"
       },
       "name": "Aranva Barad (Illusion)",
       "flags": {
@@ -11496,51 +11503,55 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "value": false
-        },
         "price": {
           "value": 0
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "-1 BE, Sinnenschärfe TaW+3"
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": null
         },
+        "effect": {
+          "value": "-1 BE, Sinnenschärfe TaW+3"
+        },
+        "parent_id": 0,
         "description": {
           "value": "<p>Sinnensch&auml;rfe TaW+3, Adlerauge WDx2, Blick aufs Wesen WDx2</p>"
         },
-        "protection": {
-          "head": 0,
-          "torso": 5,
-          "rightleg": 3,
-          "rightarm": 3,
-          "back": 5,
-          "leftleg": 3,
-          "stomach": 5,
-          "leftarm": 3,
-          "value": 4.5
+        "gmdescription": {
+          "value": ""
+        },
+        "encumbrance": {
+          "value": 2,
+          "adapted": null
         },
         "armortype": {
           "value": "Metallfrei"
         },
-        "encumbrance": {
-          "value": 2
+        "protection": {
+          "value": 4.5,
+          "head": 0,
+          "torso": 5,
+          "stomach": 5,
+          "back": 5,
+          "leftarm": 3,
+          "rightarm": 3,
+          "leftleg": 3,
+          "rightleg": 3
+        },
+        "worn": {
+          "value": false
         },
         "structure": {
           "max": 0,
+          "value": 0,
           "regeneration": false,
           "canBeTarget": false,
-          "hasStructure": false,
-          "value": 0
+          "hasStructure": false
+        },
+        "combinable": {
+          "value": false
         }
       },
       "ownership": {
@@ -11549,13 +11560,13 @@
       },
       "_stats": {
         "compendiumSource": "Compendium.dsa5.armor.cQ5Nf7xUguA2h0sn",
-        "modifiedTime": 1712171628304,
+        "modifiedTime": 1753905582093,
         "systemId": "dsa5",
-        "lastModifiedBy": "c7Ewdm3o5IrO2DhD",
+        "lastModifiedBy": "6pf0cxk66d2SSjZy",
         "createdTime": null,
         "duplicateSource": null,
-        "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "systemVersion": "6.2.3",
+        "coreVersion": "12.343"
       },
       "name": "Aranva Barad (Hellsicht)",
       "flags": {

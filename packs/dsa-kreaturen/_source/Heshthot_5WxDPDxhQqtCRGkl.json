@@ -1585,7 +1585,7 @@
           "value": "-"
         },
         "combatskill": {
-          "value": "Kettenstäbe"
+          "value": "Peitsche"
         },
         "worn": {
           "value": true,
@@ -1633,12 +1633,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1760168849682,
+        "lastModifiedBy": "k2irxkER7dd27yKp"
       },
       "_key": "!actors.items!5WxDPDxhQqtCRGkl.btLPYoCw54VsFh0x"
     },
@@ -2791,12 +2791,19 @@
         "core": {
           "sourceID": "Item.DGC7DGsJk0DnQXj4",
           "sourceId": "Compendium.dsa5.combatskills.Od7bzJ6edTm4CD6C"
+        },
+        "dsa5": {
+          "actorId": "5WxDPDxhQqtCRGkl"
         }
       },
       "system": {
         "StF": {
           "value": "E"
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -2804,10 +2811,10 @@
           "value": 0
         },
         "attack": {
-          "value": 0
+          "value": 9
         },
         "talentValue": {
-          "value": 0
+          "value": 9
         },
         "weapontype": {
           "onlyattack": true,
@@ -2834,12 +2841,12 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.Od7bzJ6edTm4CD6C",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1760168873429,
+        "lastModifiedBy": "k2irxkER7dd27yKp"
       },
       "_key": "!actors.items!5WxDPDxhQqtCRGkl.iatvKgxB11VUNzyA"
     },
@@ -4211,7 +4218,7 @@
       },
       "soulpower": {
         "initial": 2,
-        "value": 2,
+        "value": 4,
         "modifier": 0
       },
       "toughness": {
@@ -4231,7 +4238,7 @@
       },
       "dodge": {
         "value": 6.5,
-        "modifier": 0,
+        "modifier": 9,
         "max": 0
       },
       "fatePoints": {
@@ -4241,18 +4248,23 @@
       },
       "speed": {
         "initial": 0,
-        "modifier": 0,
+        "modifier": 8,
         "value": 0
       },
       "initiative": {
-        "value": 0,
+        "value": "15.15",
         "modifier": 0,
-        "current": 18.15,
+        "current": 0,
         "die": "1d6",
         "diemodifier": "-",
         "initial": 15,
-        "currentdice": 3,
-        "rolled": true
+        "currentdice": 0,
+        "rolled": false,
+        "multiplier": 1,
+        "gearmodifier": 0,
+        "fullmodifier": 0,
+        "nextaction": 21,
+        "tooltip": "15+0+0+15+0+0+0+3 = 33 (KO + Modifikator + Effekte + (MU + MU + GE + IN)/5 + Modifikator + Belastung + Effekte + Initiativewürfel)"
       },
       "atbasis": {
         "initial": 0,
@@ -4424,11 +4436,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "dsa5",
     "systemVersion": "6.2.3",
     "createdTime": 1746904436101,
-    "modifiedTime": 1747548568689,
+    "modifiedTime": 1760168965177,
     "lastModifiedBy": "k2irxkER7dd27yKp"
   },
   "ownership": {

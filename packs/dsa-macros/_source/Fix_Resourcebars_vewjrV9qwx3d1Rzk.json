@@ -1,0 +1,27 @@
+{
+  "name": "Fix Resourcebars",
+  "type": "script",
+  "command": "let resourceBars = {\n          \"bar1\": {\n            \"order\": 0,\n            \"id\": \"bar1\",\n            \"attribute\": \"status.wounds\",\n            \"max\": null,\n            \"mincolor\": \"#650707\",\n            \"maxcolor\": \"#cf0e0e\",\n            \"ownerVisibility\": -1,\n            \"otherVisibility\": 30,\n            \"position\": \"bottom-inner\",\n            \"invert\": false,\n            \"style\": \"user\",\n            \"gmVisibility\": -1,\n            \"hideFull\": false,\n            \"hideEmpty\": false,\n            \"hideCombat\": false,\n            \"hideNoCombat\": false,\n            \"indentLeft\": null,\n            \"indentRight\": null,\n            \"shareHeight\": false,\n            \"label\": \"\",\n            \"subdivisions\": null,\n            \"subdivisionsOwner\": false,\n            \"fgImage\": \"\",\n            \"bgImage\": \"\",\n            \"opacity\": null,\n            \"invertDirection\": false,\n            \"hideHud\": false\n          },\n          \"bar2\": {\n            \"order\": 1,\n            \"id\": \"bar2\",\n            \"attribute\": \"status.astralenergy\",\n            \"max\": null,\n            \"mincolor\": \"#000080\",\n            \"maxcolor\": \"#80B3FF\",\n            \"ownerVisibility\": 35,\n            \"otherVisibility\": 0,\n            \"position\": \"top-inner\",\n            \"invert\": false,\n            \"style\": \"user\",\n            \"gmVisibility\": -1,\n            \"hideFull\": false,\n            \"hideEmpty\": false,\n            \"hideCombat\": false,\n            \"hideNoCombat\": false,\n            \"indentLeft\": null,\n            \"indentRight\": null,\n            \"shareHeight\": false,\n            \"label\": \"\",\n            \"subdivisions\": null,\n            \"subdivisionsOwner\": false,\n            \"fgImage\": \"\",\n            \"bgImage\": \"\",\n            \"opacity\": null,\n            \"invertDirection\": false,\n            \"hideHud\": false\n          }\n        };\n\ngame.canvas.tokens.objects.children.forEach(x => x.document.update({\"flags.barbrawl.resourceBars\":resourceBars}));\n\ngame.collections.get(\"Actor\").forEach(x => x.update({\"prototypeToken.flags.barbrawl.resourceBars\":resourceBars}))",
+  "img": "icons/svg/circle.svg",
+  "author": "k2irxkER7dd27yKp",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "k2irxkER7dd27yKp": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dsa5",
+    "systemVersion": "6.2.3",
+    "createdTime": 1758365231578,
+    "modifiedTime": 1758365231578,
+    "lastModifiedBy": "k2irxkER7dd27yKp"
+  },
+  "_id": "vewjrV9qwx3d1Rzk",
+  "sort": 0,
+  "_key": "!macros!vewjrV9qwx3d1Rzk"
+}

@@ -2,13 +2,13 @@
   "img": "tokenizer/npc-images/base/alara_de_sylphur.Avatar.webp?1657453809862",
   "_stats": {
     "compendiumSource": null,
-    "modifiedTime": 1748075953305,
+    "modifiedTime": 1761217916662,
     "systemId": "dsa5",
-    "lastModifiedBy": "k2irxkER7dd27yKp",
+    "lastModifiedBy": "OkB1KdnOuvyQ8qU2",
     "createdTime": 1748075931993,
     "duplicateSource": null,
     "systemVersion": "6.2.3",
-    "coreVersion": "12.331"
+    "coreVersion": "12.343"
   },
   "flags": {
     "core": {},
@@ -443,201 +443,423 @@
       "disabled": true,
       "_id": "qd3jUw5YTwmO2VC6",
       "_key": "!actors.effects!mz3jfX7u9fWlG1kd.qd3jUw5YTwmO2VC6"
+    },
+    {
+      "name": "Pechfackel",
+      "origin": "Compendium.dsa-packets.dsa-akteure.Actor.mz3jfX7u9fWlG1kd.Item.7qvXKOECDK51uKyv",
+      "flags": {
+        "dsa5": {
+          "value": null,
+          "editable": true,
+          "customizable": true,
+          "description": "Pechfackel",
+          "custom": true,
+          "auto": null,
+          "manual": 0,
+          "hideOnToken": false,
+          "hidePlayers": false,
+          "auraEffect": false,
+          "effectValue": "",
+          "timed": false,
+          "hasEffect": false,
+          "effectTemplate": "",
+          "effect": "",
+          "damageValue": "",
+          "healingValue": ""
+        },
+        "effectKey": ""
+      },
+      "_id": "1xmOcEvuAhWnDE3o",
+      "changes": [
+        {
+          "key": "ATL.light.bright",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "ATL.light.dim",
+          "mode": 5,
+          "value": "7",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 31302014688,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "tint": "#ffffff",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dsa5",
+        "systemVersion": "6.2.3",
+        "createdTime": 1761217901923,
+        "modifiedTime": 1761217901923,
+        "lastModifiedBy": "OkB1KdnOuvyQ8qU2"
+      },
+      "img": "systems/dsa5/icons/itemicons/Sonstiges/Fackel.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!actors.effects!mz3jfX7u9fWlG1kd.1xmOcEvuAhWnDE3o"
     }
   ],
   "folder": "F3CZUiNmwPH1RFhz",
   "system": {
-    "happyTalents": {
-      "value": ""
-    },
     "characteristics": {
-      "ff": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#d5b467",
+      "mu": {
+        "label": "CHAR.MU",
+        "abrev": "CHARAbbrev.MU",
+        "color": "#b3241a",
+        "initial": 13,
         "species": 0,
-        "initial": 11,
+        "modifier": 0,
         "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.FF",
-        "modifier": 0,
-        "label": "CHAR.FF",
-        "type": "number",
-        "value": 11,
-        "refund": "Nope"
-      },
-      "kk": {
         "cost": "Siehe Steigerungsspalte",
-        "color": "#d6a878",
-        "species": 0,
-        "initial": 12,
-        "advances": 0,
         "bonus": 0,
-        "abrev": "CHARAbbrev.KK",
-        "modifier": 0,
-        "label": "CHAR.KK",
-        "type": "number",
-        "value": 12,
-        "refund": "Nope"
-      },
-      "kl": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#8259a3",
-        "species": 0,
-        "initial": 12,
-        "advances": 1,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.KL",
-        "modifier": 0,
-        "label": "CHAR.KL",
         "type": "number",
         "value": 13,
         "refund": "Nope"
       },
-      "ko": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#fbf5ea",
+      "kl": {
+        "label": "CHAR.KL",
+        "abrev": "CHARAbbrev.KL",
+        "color": "#8259a3",
         "species": 0,
         "initial": 12,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.KO",
         "modifier": 0,
-        "label": "CHAR.KO",
+        "advances": 1,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
-        "value": 12,
+        "value": 13,
         "refund": "Nope"
       },
       "in": {
-        "cost": "Siehe Steigerungsspalte",
+        "label": "CHAR.IN",
+        "abrev": "CHARAbbrev.IN",
         "color": "#388834",
         "species": 0,
         "initial": 14,
-        "advances": 1,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.IN",
         "modifier": 0,
-        "label": "CHAR.IN",
+        "advances": 1,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 15,
         "refund": "Nope"
       },
       "ch": {
-        "cost": "Siehe Steigerungsspalte",
+        "label": "CHAR.CH",
+        "abrev": "CHARAbbrev.CH",
         "color": "#0d0d0d",
         "species": 0,
         "initial": 14,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.CH",
         "modifier": 1,
-        "label": "CHAR.CH",
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 15,
         "refund": "Nope"
       },
-      "mu": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#b3241a",
-        "initial": 13,
+      "ff": {
+        "label": "CHAR.FF",
+        "abrev": "CHARAbbrev.FF",
+        "color": "#d5b467",
         "species": 0,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.MU",
+        "initial": 11,
         "modifier": 0,
-        "label": "CHAR.MU",
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
-        "value": 13,
+        "value": 11,
         "refund": "Nope"
       },
       "ge": {
-        "cost": "Siehe Steigerungsspalte",
+        "label": "CHAR.GE",
+        "abrev": "CHARAbbrev.GE",
         "color": "#688ec4",
         "species": 0,
         "initial": 12,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.GE",
         "modifier": 0,
-        "label": "CHAR.GE",
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
+        "type": "number",
+        "value": 12,
+        "refund": "Nope"
+      },
+      "ko": {
+        "label": "CHAR.KO",
+        "abrev": "CHARAbbrev.KO",
+        "color": "#fbf5ea",
+        "species": 0,
+        "initial": 12,
+        "modifier": 0,
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
+        "type": "number",
+        "value": 12,
+        "refund": "Nope"
+      },
+      "kk": {
+        "label": "CHAR.KK",
+        "abrev": "CHARAbbrev.KK",
+        "color": "#d6a878",
+        "species": 0,
+        "initial": 12,
+        "modifier": 0,
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 12,
         "refund": "Nope"
       }
     },
-    "representations": {},
     "hitbox": 0,
-    "freeLanguagePoints": {
-      "used": 0,
-      "value": 0
-    },
-    "healed": {
-      "tap": 0,
-      "source": ""
-    },
-    "feature": {
-      "magical": "",
-      "clerical": ""
-    },
-    "guidevalue": {
-      "magical": "-",
-      "effectToMessage": false,
-      "clerical": "-"
-    },
-    "imported": "Fr 17.11.2023 18:02",
-    "details": {
-      "career": {
-        "value": "Taugenichts"
+    "status": {
+      "wounds": {
+        "initial": 0,
+        "value": 28,
+        "advances": 0,
+        "modifier": 10,
+        "current": 0,
+        "max": 0
       },
-      "notes": {
-        "gmdescription": "",
+      "astralenergy": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0,
+        "max": 0
+      },
+      "karmaenergy": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0,
+        "max": 0
+      },
+      "soulpower": {
+        "initial": 0,
+        "value": 4,
+        "modifier": -4,
+        "current": 0,
+        "advances": 0
+      },
+      "toughness": {
+        "initial": 0,
+        "value": 12,
+        "modifier": 0,
+        "current": 0,
+        "advances": 0
+      },
+      "captainvalue": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 1
+      },
+      "artifactradiation": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "dodge": {
+        "value": 8,
+        "modifier": 0,
+        "max": 0,
+        "current": 0,
+        "initial": 0,
+        "advances": 0
+      },
+      "fatePoints": {
+        "value": 3,
+        "modifier": 0,
+        "current": null,
+        "initial": 3,
+        "advances": 0
+      },
+      "speed": {
+        "initial": 0,
+        "modifier": 0,
+        "value": 8,
+        "current": 0,
+        "advances": 0
+      },
+      "initiative": {
+        "value": 11,
+        "modifier": 0,
+        "current": 14.14,
+        "die": "1d6",
+        "diemodifier": "-",
+        "initial": 0,
+        "advances": 0,
+        "currentdice": 0
+      },
+      "atbasis": {
+        "initial": 0,
+        "value": 7,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "encumbrance": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "bodyarmor": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "pabasis": {
+        "initial": 0,
+        "value": 8,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "fkbasis": {
+        "initial": 0,
+        "value": 8,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "size": {
+        "value": "average"
+      },
+      "exhaustion": {
+        "value": 0
+      },
+      "combat": {
+        "oneRoundEffects": [],
+        "oneTimeEffects": [],
+        "stance": "WEAPONLENGTH.equal"
+      },
+      "actions": {
+        "neutralaction": 0,
+        "neutralactions": {
+          "current": 0,
+          "mod": 0,
+          "max": 0,
+          "performed": 0
+        },
+        "onlyfreeaction": 0,
+        "paaction": 1,
+        "freeaction": 0,
+        "freeactions": {
+          "current": 1,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "lostActions": 0,
+        "atactions": {
+          "current": 1,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        },
+        "spendInitiative": false,
+        "ataction": 1,
+        "paactions": {
+          "current": 1,
+          "mod": 0,
+          "max": 1,
+          "performed": 0
+        }
+      },
+      "bodytype": {
+        "value": "none"
+      }
+    },
+    "details": {
+      "species": {
         "value": ""
       },
       "gender": {
         "value": ""
       },
-      "weight": {
-        "value": ""
-      },
-      "biography": {
-        "value": ""
-      },
-      "experience": {
-        "total": 900,
-        "spent": 386
-      },
-      "home": {
-        "value": ""
-      },
-      "distinguishingmark": {
-        "value": ""
-      },
-      "species": {
-        "value": ""
-      },
       "culture": {
         "value": ""
       },
-      "eyecolor": {
+      "career": {
+        "value": "Taugenichts"
+      },
+      "socialstate": {
+        "value": "12"
+      },
+      "home": {
         "value": ""
       },
       "family": {
         "value": ""
       },
+      "age": {
+        "value": ""
+      },
       "haircolor": {
         "value": ""
       },
-      "socialstate": {
-        "value": "12"
-      },
-      "Home": {
-        "value": ""
-      },
-      "age": {
+      "eyecolor": {
         "value": ""
       },
       "height": {
         "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "distinguishingmark": {
+        "value": ""
+      },
+      "biography": {
+        "value": ""
+      },
+      "notes": {
+        "value": "",
+        "gmdescription": ""
+      },
+      "experience": {
+        "total": 900,
+        "spent": 386
+      },
+      "Home": {
+        "value": ""
+      },
+      "soulanimal": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "organisation": {
+        "value": ""
       }
+    },
+    "guidevalue": {
+      "magical": "-",
+      "clerical": "-",
+      "effectToMessage": false
     },
     "energyfactor": {
       "magical": "1",
@@ -647,9 +869,29 @@
       "magical": "",
       "clerical": ""
     },
+    "feature": {
+      "magical": "",
+      "clerical": ""
+    },
+    "happyTalents": {
+      "value": ""
+    },
     "config": {
       "autoBar": true
     },
+    "freeLanguagePoints": {
+      "value": 0,
+      "used": 0
+    },
+    "sheetLocked": {
+      "value": false
+    },
+    "representations": {},
+    "healed": {
+      "tap": 0,
+      "source": ""
+    },
+    "imported": "Fr 17.11.2023 18:02",
     "tempValues": {
       "Kriegskunst": {
         "name": "Unterstützung von Ëurydíca",
@@ -726,166 +968,6 @@
         "taw": 0,
         "tawplus": 0
       }
-    },
-    "status": {
-      "dodge": {
-        "current": 0,
-        "max": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 8
-      },
-      "wounds": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 10,
-        "value": 28
-      },
-      "initiative": {
-        "die": "1d6",
-        "current": 14.14,
-        "diemodifier": "",
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 11,
-        "currentdice": 0
-      },
-      "artifactradiation": {
-        "initial": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "exhaustion": {
-        "value": 0
-      },
-      "atbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 7
-      },
-      "combat": {
-        "oneRoundEffects": [],
-        "oneTimeEffects": [],
-        "stance": "WEAPONLENGTH.equal"
-      },
-      "captainvalue": {
-        "initial": 0,
-        "modifier": 1,
-        "value": 0
-      },
-      "speed": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 8
-      },
-      "encumbrance": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
-      },
-      "karmaenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "fatePoints": {
-        "current": null,
-        "initial": 3,
-        "advances": 0,
-        "modifier": 0,
-        "value": 3
-      },
-      "soulpower": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": -4,
-        "value": 4
-      },
-      "size": {
-        "value": "average"
-      },
-      "astralenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "bodyarmor": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
-      },
-      "toughness": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 12
-      },
-      "fkbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 8
-      },
-      "actions": {
-        "neutralaction": 0,
-        "neutralactions": {
-          "current": 0,
-          "mod": 0,
-          "max": 0,
-          "performed": 0
-        },
-        "onlyfreeaction": 0,
-        "paaction": 1,
-        "freeaction": 0,
-        "freeactions": {
-          "current": 1,
-          "mod": 0,
-          "max": 1,
-          "performed": 0
-        },
-        "lostActions": 0,
-        "atactions": {
-          "current": 1,
-          "mod": 0,
-          "max": 1,
-          "performed": 0
-        },
-        "spendInitiative": false,
-        "ataction": 1,
-        "paactions": {
-          "current": 1,
-          "mod": 0,
-          "max": 1,
-          "performed": 0
-        }
-      },
-      "pabasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 8
-      }
-    },
-    "sheetLocked": {
-      "value": false
     }
   },
   "ownership": {
@@ -5433,52 +5515,59 @@
       "_key": "!actors.items!mz3jfX7u9fWlG1kd.3TFzhd33OwnjjXOw"
     },
     {
-      "img": "icons/equipment/chest/breastplate-layered-leather-green.webp",
+      "img": "systems/dsa5/icons/itemicons/ruestungen/muschelruestung.webp",
       "effects": [],
       "folder": null,
       "system": {
+        "price": {
+          "value": 1280
+        },
         "quantity": {
           "value": 1
-        },
-        "worn": {
-          "value": true
-        },
-        "price": {
-          "value": 280
-        },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Schwimmen 1; -1 BE;"
         },
         "weight": {
           "value": 4
         },
+        "effect": {
+          "value": "Schwimmen 1; -1 BE;"
+        },
+        "parent_id": 0,
         "description": {
           "value": ""
         },
-        "protection": {
-          "head": 0,
-          "torso": 3,
-          "rightleg": 1,
-          "rightarm": 2,
-          "back": 2,
-          "leftleg": 1,
-          "stomach": 2,
-          "leftarm": 2,
-          "value": 1.8
+        "gmdescription": {
+          "value": ""
+        },
+        "encumbrance": {
+          "value": 1.8,
+          "adapted": 1.8
         },
         "armortype": {
           "value": "Metallfrei"
         },
-        "encumbrance": {
-          "value": 1.8
+        "protection": {
+          "value": 1.8,
+          "head": 0,
+          "torso": 3,
+          "stomach": 2,
+          "back": 2,
+          "leftarm": 2,
+          "rightarm": 2,
+          "leftleg": 1,
+          "rightleg": 1
+        },
+        "worn": {
+          "value": true
         },
         "structure": {
           "max": 0,
-          "value": 0
+          "value": 0,
+          "hasStructure": false,
+          "canBeTarget": false,
+          "regeneration": false
+        },
+        "combinable": {
+          "value": false
         }
       },
       "ownership": {
@@ -5486,16 +5575,20 @@
       },
       "_stats": {
         "compendiumSource": null,
-        "modifiedTime": null,
+        "modifiedTime": 1761306925611,
         "systemId": "dsa5",
-        "lastModifiedBy": null,
+        "lastModifiedBy": "BjRA51V62nGFKtZ3",
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "12.343"
       },
       "name": "Perlmutt-Muschelrüstung",
-      "flags": {},
+      "flags": {
+        "dsa5": {
+          "actorId": "mz3jfX7u9fWlG1kd"
+        }
+      },
       "_id": "2RGzdOOHMXcM0hrM",
       "sort": 800000,
       "type": "armor",
@@ -9429,41 +9522,43 @@
       "effects": [],
       "folder": "1e8Ljy98Ho8Arb5g",
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 25
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Alchimie +2"
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 0.7
         },
+        "effect": {
+          "value": "Alchimie +2"
+        },
+        "parent_id": 0,
         "description": {
           "value": ""
         },
+        "gmdescription": {
+          "value": ""
+        },
         "equipmentType": {
-          "value": "misc"
+          "value": "writing"
         },
         "structure": {
           "max": 0,
+          "value": 0,
           "hasStructure": false,
-          "value": 0
+          "canBeTarget": false,
+          "regeneration": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "ownership": {
         "default": 0,
@@ -9471,13 +9566,13 @@
       },
       "_stats": {
         "compendiumSource": null,
-        "modifiedTime": null,
+        "modifiedTime": 1761217868931,
         "systemId": "dsa5",
-        "lastModifiedBy": null,
+        "lastModifiedBy": "OkB1KdnOuvyQ8qU2",
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "12.343"
       },
       "name": "Grundlagen der Alchimie vom Roten Salamander",
       "flags": {},
@@ -13253,77 +13348,6 @@
       "_key": "!actors.items!mz3jfX7u9fWlG1kd.s4QSGNMxIGsBqgVk"
     },
     {
-      "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
-      "effects": [],
-      "system": {
-        "quantity": {
-          "value": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "qualityValue": 10,
-        "alchemydescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0.1
-        },
-        "sideEffect": "Kein Nebeneffekt",
-        "equipmentType": {
-          "value": "alchemy"
-        },
-        "quality": {
-          "secretValue": "Alchemy.B",
-          "value": "Alchemy.U"
-        },
-        "recipeName": "Heiltrank",
-        "duration": {
-          "value": ""
-        },
-        "QLList": "",
-        "charges": 1,
-        "transform": {
-          "value": false
-        },
-        "price": {
-          "value": 50
-        },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "healingValue": "",
-        "targetEffect": false,
-        "maxCharges": 1
-      },
-      "folder": null,
-      "ownership": {
-        "default": 0,
-        "OkB1KdnOuvyQ8qU2": 3,
-        "6pf0cxk66d2SSjZy": 3
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "modifiedTime": null,
-        "systemId": "dsa5",
-        "lastModifiedBy": null,
-        "createdTime": null,
-        "duplicateSource": null,
-        "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
-      },
-      "name": "Heiltrank",
-      "flags": {},
-      "sort": 0,
-      "_id": "J8iBwKg8PtwSKN67",
-      "type": "consumable",
-      "_key": "!actors.items!mz3jfX7u9fWlG1kd.J8iBwKg8PtwSKN67"
-    },
-    {
       "img": "systems/dsa5/icons/itemicons/pflanzen/mibelrohr.webp",
       "effects": [],
       "system": {
@@ -13646,41 +13670,41 @@
       "img": "systems/dsa5/icons/itemicons/kleidung/roter_kaftan.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": false
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 280
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Überreden 1; Überzeugen 1; Betören 1;"
+        "quantity": {
+          "value": 2
         },
         "weight": {
           "value": 0.5
         },
+        "effect": {
+          "value": "Überreden 1; Überzeugen 1; Betören 1;"
+        },
+        "parent_id": 0,
         "description": {
           "value": "<p>Kleidung einer noblen Novadi, die innerhalb der&nbsp;Novadi-Kultur auch Boni verleiht.</p>"
+        },
+        "gmdescription": {
+          "value": ""
         },
         "equipmentType": {
           "value": "clothes"
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": false,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -13689,18 +13713,21 @@
       },
       "_stats": {
         "compendiumSource": "Item.AuQJFUzTezNTpp6F",
-        "modifiedTime": null,
+        "modifiedTime": 1761306964965,
         "systemId": "dsa5",
-        "lastModifiedBy": null,
+        "lastModifiedBy": "BjRA51V62nGFKtZ3",
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "12.343"
       },
       "name": "Roter Kaftan",
       "flags": {
         "core": {
           "sourceId": "Item.AuQJFUzTezNTpp6F"
+        },
+        "dsa5": {
+          "actorId": "mz3jfX7u9fWlG1kd"
         }
       },
       "_id": "OWmQqgtIKFDK7XVy",
@@ -15365,6 +15392,1090 @@
       "_id": "7OfwYaxnWLlxdN66",
       "type": "meleeweapon",
       "_key": "!actors.items!mz3jfX7u9fWlG1kd.7OfwYaxnWLlxdN66"
+    },
+    {
+      "name": "Eulentränen (3)",
+      "type": "consumable",
+      "img": "icons/consumables/drinks/alcohol-spirits-bottle-green.webp",
+      "effects": [],
+      "system": {
+        "description": {
+          "value": "In die Augen geträufelt, bekommen diese nicht nur Glanz und erweiterte Pupillen (ein beliebter Effekt, weshalb die Tollkirsche auch Belladonna genannt wird), sondern lassen den Anwender im Dunkeln auch besser sehen: Erschwernisse durch Dunkelheit entfallen (außer bei absoluter Dunkelheit)"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "price": {
+          "value": 0
+        },
+        "quantity": {
+          "value": 1
+        },
+        "weight": {
+          "value": 0.1
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
+        "equipmentType": {
+          "value": "alchemy"
+        },
+        "QLList": "",
+        "quality": {
+          "value": "Alchemy.U",
+          "secretValue": "Alchemy.B"
+        },
+        "charges": 1,
+        "maxCharges": 1,
+        "qualityValue": 9,
+        "targetEffect": false,
+        "attackEffect": false,
+        "sideEffect": "Der Anwender sieht für 1 Stunde keine Farben mehr",
+        "recipeName": "Eulentränen",
+        "transform": {
+          "value": false
+        },
+        "alchemydescription": {
+          "value": ""
+        },
+        "healingValue": "",
+        "duration": {
+          "value": ""
+        },
+        "consumed": {
+          "value": false
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "EqMXcBOEf3anOBht": 3,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "flags": {
+        "dsa5": {
+          "actorId": "mz3jfX7u9fWlG1kd"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dsa5",
+        "systemVersion": "6.2.3",
+        "createdTime": 1761217849575,
+        "modifiedTime": 1761217849575,
+        "lastModifiedBy": "OkB1KdnOuvyQ8qU2"
+      },
+      "_id": "cl0xooH4QnNyBybz",
+      "_key": "!actors.items!mz3jfX7u9fWlG1kd.cl0xooH4QnNyBybz"
+    },
+    {
+      "folder": "WlHYLYf1L31BLT92",
+      "name": "Verkleidung als Al'Anfanische Wache",
+      "type": "equipment",
+      "img": "systems/dsa5/icons/itemicons/ruestungen/gambeson_4.webp",
+      "system": {
+        "price": {
+          "value": 4
+        },
+        "quantity": {
+          "value": 1
+        },
+        "weight": {
+          "value": 0.85
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "equipmentType": {
+          "value": "clothes"
+        },
+        "structure": {
+          "max": 0,
+          "value": 0,
+          "hasStructure": false,
+          "canBeTarget": false,
+          "regeneration": false
+        },
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.19ArnTi83xumNogP"
+        },
+        "dsa5": {
+          "actorId": "mz3jfX7u9fWlG1kd"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.19ArnTi83xumNogP",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dsa5",
+        "systemVersion": "6.2.3",
+        "createdTime": 1761217883495,
+        "modifiedTime": 1761217883495,
+        "lastModifiedBy": "OkB1KdnOuvyQ8qU2"
+      },
+      "_id": "9NiYS3gmoYlRGaro",
+      "_key": "!actors.items!mz3jfX7u9fWlG1kd.9NiYS3gmoYlRGaro"
+    },
+    {
+      "name": "Schwarzes Kleid",
+      "type": "equipment",
+      "img": "systems/dsa5/icons/itemicons/kleidung/schwarzes_kleid.webp",
+      "system": {
+        "price": {
+          "value": 21
+        },
+        "quantity": {
+          "value": 1
+        },
+        "weight": {
+          "value": 0.25
+        },
+        "effect": {
+          "value": "Etikette 1;"
+        },
+        "parent_id": 0,
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "equipmentType": {
+          "value": "clothes"
+        },
+        "structure": {
+          "max": 0,
+          "value": 0,
+          "regeneration": false,
+          "canBeTarget": false,
+          "hasStructure": false
+        },
+        "capacity": 0,
+        "worn": {
+          "value": false,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.cdmBVM6xB3Jl7hOm"
+        },
+        "dsa5": {
+          "actorId": "mz3jfX7u9fWlG1kd"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.cdmBVM6xB3Jl7hOm",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dsa5",
+        "systemVersion": "6.2.3",
+        "createdTime": 1761217889626,
+        "modifiedTime": 1761217889626,
+        "lastModifiedBy": "OkB1KdnOuvyQ8qU2"
+      },
+      "_id": "4UQaFL0r3Lo579RJ",
+      "_key": "!actors.items!mz3jfX7u9fWlG1kd.4UQaFL0r3Lo579RJ"
+    },
+    {
+      "name": "Schwarzer Mantel",
+      "type": "equipment",
+      "img": "systems/dsa5/icons/itemicons/kleidung/schwarzer_mantel.webp",
+      "system": {
+        "price": {
+          "value": 25
+        },
+        "quantity": {
+          "value": 1
+        },
+        "weight": {
+          "value": 0.6
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "equipmentType": {
+          "value": "clothes"
+        },
+        "structure": {
+          "max": 0,
+          "value": 0,
+          "regeneration": false,
+          "canBeTarget": false,
+          "hasStructure": false
+        },
+        "capacity": 0,
+        "worn": {
+          "value": false,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.cdmBVM6xB3Jl7hOm"
+        },
+        "dsa5": {
+          "actorId": "mz3jfX7u9fWlG1kd"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.cdmBVM6xB3Jl7hOm",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dsa5",
+        "systemVersion": "6.2.3",
+        "createdTime": 1761217891293,
+        "modifiedTime": 1761217891293,
+        "lastModifiedBy": "OkB1KdnOuvyQ8qU2"
+      },
+      "_id": "iSlSFKLCpS6r3egy",
+      "_key": "!actors.items!mz3jfX7u9fWlG1kd.iSlSFKLCpS6r3egy"
+    },
+    {
+      "name": "Pechfackel",
+      "type": "equipment",
+      "img": "systems/dsa5/icons/itemicons/Sonstiges/Fackel.webp",
+      "effects": [
+        {
+          "name": "Pechfackel",
+          "origin": "Item.cgYsQocZFanq8gji",
+          "flags": {
+            "dsa5": {
+              "value": null,
+              "editable": true,
+              "customizable": true,
+              "description": "Pechfackel",
+              "custom": true,
+              "auto": null,
+              "manual": 0,
+              "hideOnToken": false,
+              "hidePlayers": false,
+              "auraEffect": false,
+              "effectValue": "",
+              "timed": false,
+              "hasEffect": false,
+              "effectTemplate": "",
+              "effect": "",
+              "damageValue": "",
+              "healingValue": ""
+            },
+            "effectKey": ""
+          },
+          "_id": "AkO3n5aQTKBcpLzI",
+          "changes": [
+            {
+              "key": "ATL.light.bright",
+              "mode": 5,
+              "value": "1",
+              "priority": null
+            },
+            {
+              "key": "ATL.light.dim",
+              "mode": 5,
+              "value": "7",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.343",
+            "systemId": "dsa5",
+            "systemVersion": "6.2.3",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "systems/dsa5/icons/itemicons/Sonstiges/Fackel.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!mz3jfX7u9fWlG1kd.7qvXKOECDK51uKyv.AkO3n5aQTKBcpLzI"
+        }
+      ],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dsa5.equipment.Item.yTCeT8y9RC72TV5q"
+        },
+        "dsa5": {
+          "actorId": "mz3jfX7u9fWlG1kd"
+        }
+      },
+      "system": {
+        "price": {
+          "value": 0.5
+        },
+        "quantity": {
+          "value": 1
+        },
+        "weight": {
+          "value": 0.5
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "equipmentType": {
+          "value": "light"
+        },
+        "structure": {
+          "max": 0,
+          "value": 0,
+          "hasStructure": false
+        },
+        "capacity": 10,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.dsa5.equipment.Item.yTCeT8y9RC72TV5q",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dsa5",
+        "systemVersion": "6.2.3",
+        "createdTime": 1761217901782,
+        "modifiedTime": 1761217901782,
+        "lastModifiedBy": "OkB1KdnOuvyQ8qU2"
+      },
+      "folder": null,
+      "sort": 0,
+      "_id": "7qvXKOECDK51uKyv",
+      "_key": "!actors.items!mz3jfX7u9fWlG1kd.7qvXKOECDK51uKyv"
+    },
+    {
+      "folder": "WlHYLYf1L31BLT92",
+      "name": "Merit'ka ziehen",
+      "type": "equipment",
+      "img": "systems/dsa5/icons/itemicons/Sonstiges/werkzeug/schubkarren.webp",
+      "system": {
+        "price": {
+          "value": 0
+        },
+        "quantity": {
+          "value": 1
+        },
+        "weight": {
+          "value": 0
+        },
+        "effect": {
+          "value": "-2 GS; -4 AT; -4 PA; -7 AW; -6 FK; -2 GE; -1 KK; -1 FF; "
+        },
+        "parent_id": 0,
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "equipmentType": {
+          "value": "survival"
+        },
+        "structure": {
+          "max": 0,
+          "value": 0,
+          "hasStructure": false,
+          "canBeTarget": false,
+          "regeneration": false
+        },
+        "capacity": 0,
+        "worn": {
+          "value": false,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.TeoFPzwX917q6y6q"
+        },
+        "dsa5": {
+          "actorId": "mz3jfX7u9fWlG1kd"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.TeoFPzwX917q6y6q",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dsa5",
+        "systemVersion": "6.2.3",
+        "createdTime": 1761217905843,
+        "modifiedTime": 1761217905843,
+        "lastModifiedBy": "OkB1KdnOuvyQ8qU2"
+      },
+      "_id": "2u1LdfphiQJdH7sR",
+      "_key": "!actors.items!mz3jfX7u9fWlG1kd.2u1LdfphiQJdH7sR"
+    },
+    {
+      "name": "Siegelring des Patriarchen",
+      "type": "equipment",
+      "img": "systems/dsa5/icons/itemicons/schmuck/ring_13_rabe.webp",
+      "system": {
+        "price": {
+          "value": 150
+        },
+        "quantity": {
+          "value": 1
+        },
+        "weight": {
+          "value": 0.01
+        },
+        "effect": {
+          "value": "Überzeugen CH+1; CH 1;"
+        },
+        "parent_id": 0,
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "equipmentType": {
+          "value": "luxus"
+        },
+        "structure": {
+          "max": 0,
+          "value": 0,
+          "hasStructure": false,
+          "canBeTarget": false,
+          "regeneration": false
+        },
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "trigger": {
+          "value": "Unbekannt"
+        },
+        "period": {},
+        "artifactType": {
+          "value": "onetime"
+        },
+        "artifactReady": {
+          "value": true
+        },
+        "artifactFinished": {
+          "value": true
+        },
+        "artifactAsP": {
+          "value": "0"
+        },
+        "neededZfP": {
+          "value": -1
+        },
+        "spellempty": {
+          "value": true
+        },
+        "aufladungen": {
+          "max": 3,
+          "value": 3
+        },
+        "savedSpell": {
+          "value": {
+            "opposable": false,
+            "source": {
+              "_id": "x9O2ygSP2LeQZpal",
+              "name": "Ruf zur Ruhe",
+              "type": "liturgy",
+              "img": "systems/dsa5/icons/categories/Liturgy.webp",
+              "system": {
+                "description": {
+                  "value": " <a href=\"https://41.verschluesse.lt/wiki/Ruf zur Ruhe\">Link ins Wiki</a> "
+                },
+                "gmdescription": {
+                  "value": "1"
+                },
+                "characteristic1": {
+                  "value": "mu"
+                },
+                "characteristic2": {
+                  "value": "in"
+                },
+                "characteristic3": {
+                  "value": "ch"
+                },
+                "effect": {
+                  "value": ""
+                },
+                "castingTime": {
+                  "value": "Stoßgebet (12 Kampfrunden)"
+                },
+                "AsPCost": {
+                  "value": 5
+                },
+                "AsPCostDetail": {
+                  "value": 5
+                },
+                "maintainCost": {
+                  "value": "0"
+                },
+                "distribution": {
+                  "value": "Boron (Punin, Al’Anfa, Lowangen und Svelttal, Mengbilla, Khefu), Kamaluq; Etilias Zeit der Meditation (Etilianer), Kleines Tabu (Kamaluq)"
+                },
+                "StF": {
+                  "value": "G"
+                },
+                "resistanceModifier": {
+                  "value": "-"
+                },
+                "canChangeCastingTime": {
+                  "value": "false"
+                },
+                "canChangeCost": {
+                  "value": "false"
+                },
+                "canChangeRange": {
+                  "value": "false"
+                },
+                "modifications": [
+                  {
+                    "name": "",
+                    "mod": 0,
+                    "rep": "all",
+                    "zfw": 0
+                  }
+                ],
+                "variableBaseCost": "false",
+                "effectFormula": {
+                  "value": ""
+                },
+                "range": {
+                  "value": "Sicht"
+                },
+                "duration": {
+                  "value": "maximal LkP* Wochen"
+                },
+                "targetCategory": {
+                  "value": "P"
+                },
+                "talentValue": {
+                  "value": 14
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 0,
+              "ownership": {
+                "default": 0,
+                "WTSIkYB0ZJRvCqhC": 3,
+                "OkB1KdnOuvyQ8qU2": 3
+              },
+              "flags": {
+                "core": {
+                  "sourceId": "Compendium.dsa5.liturgien.Item.JIME0fbygn0hoXtA"
+                }
+              },
+              "_stats": {
+                "systemId": "dsa5",
+                "systemVersion": "2.0.4",
+                "coreVersion": "11.315",
+                "createdTime": 1711742217843,
+                "modifiedTime": 1711742922926,
+                "lastModifiedBy": "OkB1KdnOuvyQ8qU2"
+              }
+            },
+            "maneuvers": [
+              {
+                "name": "noname",
+                "displayname": "noname",
+                "templateElements": [],
+                "actioncosts": {},
+                "spellnames": [
+                  "Ruf zur Ruhe"
+                ],
+                "isManeuver": true,
+                "disabled": false,
+                "erschwernis": 0,
+                "noCheckbox": true,
+                "noDisplay": true,
+                "spell": {
+                  "img": "systems/dsa5/icons/categories/Liturgy.webp",
+                  "name": "Ruf zur Ruhe",
+                  "_id": "x9O2ygSP2LeQZpal",
+                  "type": "liturgy",
+                  "effects": [],
+                  "system": {
+                    "description": {
+                      "value": " <a href=\"https://41.verschluesse.lt/wiki/Ruf zur Ruhe\">Link ins Wiki</a> "
+                    },
+                    "gmdescription": {
+                      "value": "1"
+                    },
+                    "characteristic1": {
+                      "value": "mu"
+                    },
+                    "characteristic2": {
+                      "value": "in"
+                    },
+                    "characteristic3": {
+                      "value": "ch"
+                    },
+                    "effect": {
+                      "value": ""
+                    },
+                    "castingTime": {
+                      "value": "Stoßgebet (12 Kampfrunden)"
+                    },
+                    "AsPCost": {
+                      "value": 5
+                    },
+                    "AsPCostDetail": {
+                      "value": 5
+                    },
+                    "maintainCost": {
+                      "value": "0"
+                    },
+                    "distribution": {
+                      "value": "Boron (Punin, Al’Anfa, Lowangen und Svelttal, Mengbilla, Khefu), Kamaluq; Etilias Zeit der Meditation (Etilianer), Kleines Tabu (Kamaluq)"
+                    },
+                    "StF": {
+                      "value": "G"
+                    },
+                    "resistanceModifier": {
+                      "value": "-"
+                    },
+                    "canChangeCastingTime": {
+                      "value": "false"
+                    },
+                    "canChangeCost": {
+                      "value": "false"
+                    },
+                    "canChangeRange": {
+                      "value": "false"
+                    },
+                    "modifications": [
+                      {
+                        "name": "",
+                        "mod": 0,
+                        "rep": "all",
+                        "zfw": 0
+                      }
+                    ],
+                    "variableBaseCost": "false",
+                    "effectFormula": {
+                      "value": ""
+                    },
+                    "range": {
+                      "value": "Sicht"
+                    },
+                    "duration": {
+                      "value": "maximal LkP* Wochen"
+                    },
+                    "targetCategory": {
+                      "value": "P"
+                    },
+                    "talentValue": {
+                      "value": 14
+                    }
+                  },
+                  "ownership": {
+                    "default": 0,
+                    "WTSIkYB0ZJRvCqhC": 3,
+                    "OkB1KdnOuvyQ8qU2": 3
+                  },
+                  "folder": null,
+                  "sort": 0,
+                  "flags": {
+                    "core": {
+                      "sourceId": "Compendium.dsa5.liturgien.Item.JIME0fbygn0hoXtA"
+                    }
+                  },
+                  "_stats": {
+                    "systemId": "dsa5",
+                    "systemVersion": "2.0.4",
+                    "coreVersion": "11.315",
+                    "createdTime": 1711742217843,
+                    "modifiedTime": 1711742922926,
+                    "lastModifiedBy": "OkB1KdnOuvyQ8qU2"
+                  }
+                },
+                "hasSpell": true,
+                "checkboxtooltip": "",
+                "tooltip": "noname: ",
+                "dialogresults": {
+                  "checked": true
+                },
+                "classname": "RUF_ZUR_RUHE"
+              },
+              {
+                "name": "Erinnere_mich_in",
+                "displayname": "Erinnere mich in",
+                "templateElements": [
+                  {
+                    "type": "combo",
+                    "name": "anztype",
+                    "tooltip": "Anzahl berechnung",
+                    "defaultvalue": "anz",
+                    "vals": {
+                      "anz": "Anzahl von",
+                      "tap": "ZfP*/LkP* mal"
+                    }
+                  },
+                  {
+                    "type": "number",
+                    "name": "anz",
+                    "tooltip": "Anzahl",
+                    "defaultvalue": "1"
+                  },
+                  {
+                    "type": "combo",
+                    "name": "stepsize",
+                    "tooltip": "Schrittgröße",
+                    "defaultvalue": "day",
+                    "vals": {
+                      "kr": "KR",
+                      "sr": "SR",
+                      "hour": "Stunden",
+                      "day": "Tagen",
+                      "month": "Monaten",
+                      "year": "Jahren"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "name": "description",
+                    "tooltip": "Beschreibung",
+                    "defaultvalue": "",
+                    "width": 100
+                  },
+                  {
+                    "type": "text",
+                    "name": "reminder_title",
+                    "tooltip": "Titel",
+                    "defaultvalue": "",
+                    "width": 100
+                  }
+                ],
+                "actioncosts": {},
+                "spellnames": [
+                  "all"
+                ],
+                "isManeuver": true,
+                "disabled": false,
+                "erschwernis": 0,
+                "noCheckbox": false,
+                "checkboxtooltip": "",
+                "tooltip": "Erinnere mich in: ",
+                "dialogresults": {
+                  "checked": false,
+                  "anztype": {
+                    "value": "anz",
+                    "info": "read"
+                  },
+                  "anz": {
+                    "value": 1,
+                    "info": "read"
+                  },
+                  "stepsize": {
+                    "value": "day",
+                    "info": "read"
+                  },
+                  "description": {
+                    "value": "",
+                    "info": "read"
+                  },
+                  "reminder_title": {
+                    "value": "",
+                    "info": "read"
+                  }
+                },
+                "classname": "ERINNERUNG"
+              }
+            ],
+            "testDifficulty": 0,
+            "testModifier": 0,
+            "situationalModifiers": [
+              {
+                "name": "Liturgiegrad",
+                "value": 0
+              },
+              {
+                "name": "Aus einer Notlage heraus",
+                "value": 0
+              },
+              {
+                "name": "-",
+                "value": "0"
+              },
+              {
+                "name": "-",
+                "value": "0"
+              },
+              {
+                "name": "Zähigkeit (Ziel)",
+                "value": 0
+              },
+              {
+                "name": "Magieresistenz (Ziel)",
+                "value": 0
+              },
+              {
+                "name": "Aufrechterhaltene Zauber/Liturgien (je -1)",
+                "value": 0
+              },
+              {
+                "name": "Artefakt",
+                "value": -2,
+                "type": ""
+              },
+              {
+                "name": "Händisch",
+                "value": 0,
+                "type": ""
+              },
+              {
+                "name": "Schwierigkeit",
+                "value": 0,
+                "type": ""
+              }
+            ],
+            "calculatedSpellModifiers": {
+              "castingTime": "Stoßgebet (12 Kampfrunden)",
+              "cost": "5",
+              "baseCost": 5,
+              "reach": "Sicht",
+              "maintainCost": "0",
+              "reduceCostFixed": 0,
+              "artifactDescription": "",
+              "skipCost": true
+            },
+            "extensions": "",
+            "advancedModifiers": {
+              "chars": [
+                0,
+                0,
+                0
+              ],
+              "fws": 0,
+              "qls": 0
+            },
+            "spezialized": false,
+            "roll": {
+              "class": "Roll",
+              "options": {},
+              "dice": [],
+              "formula": "1d20[mu] + 1d20[in] + 1d20[ch]",
+              "terms": [
+                {
+                  "class": "Die",
+                  "options": {
+                    "flavor": "mu"
+                  },
+                  "evaluated": true,
+                  "number": 1,
+                  "faces": 20,
+                  "modifiers": [],
+                  "results": [
+                    {
+                      "result": 14,
+                      "active": true
+                    }
+                  ]
+                },
+                {
+                  "class": "OperatorTerm",
+                  "options": {},
+                  "evaluated": true,
+                  "operator": "+"
+                },
+                {
+                  "class": "Die",
+                  "options": {
+                    "flavor": "in"
+                  },
+                  "evaluated": true,
+                  "number": 1,
+                  "faces": 20,
+                  "modifiers": [],
+                  "results": [
+                    {
+                      "result": 4,
+                      "active": true
+                    }
+                  ]
+                },
+                {
+                  "class": "OperatorTerm",
+                  "options": {},
+                  "evaluated": true,
+                  "operator": "+"
+                },
+                {
+                  "class": "Die",
+                  "options": {
+                    "flavor": "ch"
+                  },
+                  "evaluated": true,
+                  "number": 1,
+                  "faces": 20,
+                  "modifiers": [],
+                  "results": [
+                    {
+                      "result": 13,
+                      "active": true
+                    }
+                  ]
+                }
+              ],
+              "total": 45,
+              "evaluated": true
+            },
+            "rollMode": "publicroll",
+            "function": "rollTest",
+            "skip": false,
+            "hasIcon": true,
+            "overrideQualityStep": 12,
+            "overrideCharacteristics": [
+              {
+                "char": "mu",
+                "res": 14,
+                "suc": true,
+                "tar": 14
+              },
+              {
+                "char": "in",
+                "res": 4,
+                "suc": true,
+                "tar": 14
+              },
+              {
+                "char": "ch",
+                "res": 13,
+                "suc": true,
+                "tar": 14
+              }
+            ]
+          }
+        },
+        "spellDescription": {
+          "value": "Unbekannt"
+        },
+        "choice": {
+          "battlechoice": false,
+          "value": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "OkB1KdnOuvyQ8qU2": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.WgQjpzTXIIRuUygk"
+        },
+        "dsa5": {
+          "actorId": "mz3jfX7u9fWlG1kd"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.WgQjpzTXIIRuUygk",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dsa5",
+        "systemVersion": "6.2.3",
+        "createdTime": 1761217908178,
+        "modifiedTime": 1761217908178,
+        "lastModifiedBy": "OkB1KdnOuvyQ8qU2"
+      },
+      "_id": "KmF6NtxMSyVXrMn1",
+      "_key": "!actors.items!mz3jfX7u9fWlG1kd.KmF6NtxMSyVXrMn1"
     }
   ],
   "_key": "!actors!mz3jfX7u9fWlG1kd"
