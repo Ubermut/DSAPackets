@@ -1,0 +1,31 @@
+{
+  "name": "10 Schritt steigen",
+  "type": "script",
+  "scope": "global",
+  "author": "6pf0cxk66d2SSjZy",
+  "img": "icons/svg/up.svg",
+  "command": "if (token) {\n  let elevation = foundry.utils.getProperty(token, \"document.elevation\") +10;\n  console.dir(token);\n   token.document.update({elevation:elevation})\n}",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "OkB1KdnOuvyQ8qU2": 3,
+    "6pf0cxk66d2SSjZy": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dsa5",
+    "systemVersion": "6.2.3",
+    "createdTime": 1762290690637,
+    "modifiedTime": 1762290693391,
+    "lastModifiedBy": "6pf0cxk66d2SSjZy",
+    "exportSource": null
+  },
+  "_id": "c7IAZcVkgpZcD4gQ",
+  "sort": 400000,
+  "_key": "!macros!c7IAZcVkgpZcD4gQ"
+}

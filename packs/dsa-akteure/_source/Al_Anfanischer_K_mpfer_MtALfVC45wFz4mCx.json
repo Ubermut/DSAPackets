@@ -8,7 +8,8 @@
     "createdTime": 1681592537514,
     "duplicateSource": null,
     "systemVersion": "5.7.4",
-    "coreVersion": "12.331"
+    "coreVersion": "13.351",
+    "exportSource": null
   },
   "flags": {
     "core": {}
@@ -130,7 +131,6 @@
       }
     },
     "prependAdjective": false,
-    "hexagonalShape": 0,
     "randomImg": false,
     "appendNumber": false,
     "bar1": {
@@ -182,7 +182,14 @@
     "occludable": {
       "radius": 0
     },
-    "height": 1
+    "height": 1,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "effects": [
     {
@@ -196,11 +203,11 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "changes": [],
       "flags": {
-        "effectKey": "",
         "dsa5": {
           "damageValue": "",
           "auto": null,
@@ -215,7 +222,8 @@
           "healingValue": "",
           "hasEffect": true,
           "value": null,
-          "effectValue": ""
+          "effectValue": "",
+          "effectKey": ""
         }
       },
       "description": "",
@@ -242,259 +250,184 @@
   ],
   "folder": "BYzMcg9ae217BvFY",
   "system": {
-    "happyTalents": {
-      "value": ""
-    },
     "characteristics": {
-      "ff": {
-        "color": "#d5b467",
-        "species": 0,
-        "initial": 12,
-        "advances": 0,
-        "abrev": "CHARAbbrev.FF",
-        "modifier": 0,
-        "label": "CHAR.FF"
-      },
-      "kk": {
-        "color": "#d6a878",
-        "species": 0,
-        "initial": 14,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KK",
-        "modifier": 0,
-        "label": "CHAR.KK"
-      },
-      "kl": {
-        "color": "#8259a3",
-        "species": 0,
-        "initial": 10,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KL",
-        "modifier": 0,
-        "label": "CHAR.KL"
-      },
-      "ko": {
-        "color": "#fbf5ea",
-        "species": 0,
-        "initial": 13,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KO",
-        "modifier": 0,
-        "label": "CHAR.KO"
-      },
-      "in": {
-        "color": "#388834",
-        "species": 0,
-        "initial": 12,
-        "advances": 0,
-        "abrev": "CHARAbbrev.IN",
-        "modifier": 0,
-        "label": "CHAR.IN"
-      },
-      "ch": {
-        "color": "#0d0d0d",
-        "species": 0,
-        "initial": 10,
-        "advances": 0,
-        "abrev": "CHARAbbrev.CH",
-        "modifier": 0,
-        "label": "CHAR.CH"
-      },
       "mu": {
+        "label": "CHAR.MU",
+        "abrev": "CHARAbbrev.MU",
         "color": "#b3241a",
         "initial": 12,
         "species": 0,
-        "advances": 0,
-        "abrev": "CHARAbbrev.MU",
         "modifier": 0,
-        "label": "CHAR.MU"
+        "advances": 0
+      },
+      "kl": {
+        "label": "CHAR.KL",
+        "abrev": "CHARAbbrev.KL",
+        "color": "#8259a3",
+        "species": 0,
+        "initial": 10,
+        "modifier": 0,
+        "advances": 0
+      },
+      "in": {
+        "label": "CHAR.IN",
+        "abrev": "CHARAbbrev.IN",
+        "color": "#388834",
+        "species": 0,
+        "initial": 12,
+        "modifier": 0,
+        "advances": 0
+      },
+      "ch": {
+        "label": "CHAR.CH",
+        "abrev": "CHARAbbrev.CH",
+        "color": "#0d0d0d",
+        "species": 0,
+        "initial": 10,
+        "modifier": 0,
+        "advances": 0
+      },
+      "ff": {
+        "label": "CHAR.FF",
+        "abrev": "CHARAbbrev.FF",
+        "color": "#d5b467",
+        "species": 0,
+        "initial": 12,
+        "modifier": 0,
+        "advances": 0
       },
       "ge": {
+        "label": "CHAR.GE",
+        "abrev": "CHARAbbrev.GE",
         "color": "#688ec4",
         "species": 0,
         "initial": 12,
-        "advances": 0,
-        "abrev": "CHARAbbrev.GE",
         "modifier": 0,
-        "label": "CHAR.GE"
+        "advances": 0
+      },
+      "ko": {
+        "label": "CHAR.KO",
+        "abrev": "CHARAbbrev.KO",
+        "color": "#fbf5ea",
+        "species": 0,
+        "initial": 13,
+        "modifier": 0,
+        "advances": 0
+      },
+      "kk": {
+        "label": "CHAR.KK",
+        "abrev": "CHARAbbrev.KK",
+        "color": "#d6a878",
+        "species": 0,
+        "initial": 14,
+        "modifier": 0,
+        "advances": 0
       }
-    },
-    "feature": {
-      "magical": "",
-      "clerical": ""
-    },
-    "guidevalue": {
-      "magical": "-",
-      "clerical": "-"
-    },
-    "merchant": {
-      "merchantType": "none"
-    },
-    "details": {
-      "career": {
-        "value": ""
-      },
-      "notes": {
-        "gmdescription": "",
-        "value": ""
-      },
-      "gender": {
-        "value": ""
-      },
-      "weight": {
-        "value": ""
-      },
-      "organisation": {
-        "value": ""
-      },
-      "biography": {
-        "value": ""
-      },
-      "title": {
-        "value": ""
-      },
-      "home": {
-        "value": ""
-      },
-      "distinguishingmark": {
-        "value": ""
-      },
-      "species": {
-        "value": ""
-      },
-      "culture": {
-        "value": ""
-      },
-      "eyecolor": {
-        "value": ""
-      },
-      "family": {
-        "value": ""
-      },
-      "haircolor": {
-        "value": ""
-      },
-      "socialstate": {
-        "value": ""
-      },
-      "Home": {
-        "value": ""
-      },
-      "age": {
-        "value": ""
-      },
-      "height": {
-        "value": ""
-      }
-    },
-    "energyfactor": {
-      "magical": 1,
-      "clerical": 1
-    },
-    "tradition": {
-      "magical": "",
-      "clerical": ""
     },
     "hitbox": 0,
-    "config": {
-      "autoBar": true
-    },
     "status": {
-      "dodge": {
-        "max": 0,
-        "modifier": 0,
-        "value": 0
-      },
       "wounds": {
-        "current": 8,
         "initial": 0,
-        "max": 0,
+        "value": 30,
         "advances": 0,
         "modifier": 10,
-        "value": 30
+        "current": 8,
+        "max": 0
       },
-      "initiative": {
-        "die": "1d6",
-        "current": 0,
-        "diemodifier": "",
-        "modifier": 0,
+      "astralenergy": {
+        "initial": 0,
         "value": 0,
-        "currentdice": null
-      },
-      "artifactradiation": {
-        "initial": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "exhaustion": {
-        "value": 0
-      },
-      "atbasis": {
-        "current": 0,
-        "initial": 0,
         "advances": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0,
+        "max": 0
+      },
+      "karmaenergy": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0,
+        "max": 0
+      },
+      "soulpower": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "toughness": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
       },
       "captainvalue": {
         "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "artifactradiation": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "dodge": {
+        "value": 0,
         "modifier": 0,
-        "value": 0
+        "max": 0
+      },
+      "fatePoints": {
+        "value": 0,
+        "modifier": 0,
+        "current": 0
       },
       "speed": {
         "initial": 0,
         "modifier": 0,
         "value": 0
       },
-      "encumbrance": {
+      "initiative": {
+        "value": 0,
+        "modifier": 0,
         "current": 0,
-        "initial": 0,
-        "value": 0
+        "die": "1d6",
+        "diemodifier": "",
+        "currentdice": null
       },
-      "karmaenergy": {
-        "current": 0,
+      "atbasis": {
         "initial": 0,
-        "max": 0,
+        "value": 0,
         "advances": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0
       },
-      "fatePoints": {
-        "current": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "soulpower": {
+      "encumbrance": {
         "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "bodyarmor": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "pabasis": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0
+      },
+      "fkbasis": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
       },
       "size": {
         "value": "average"
       },
-      "astralenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "bodyarmor": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
-      },
-      "toughness": {
-        "initial": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "fkbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
+      "exhaustion": {
         "value": 0
       },
       "actions": {
@@ -527,17 +460,92 @@
           "max": 1,
           "performed": 0
         }
-      },
-      "pabasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
       }
+    },
+    "details": {
+      "species": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "culture": {
+        "value": ""
+      },
+      "career": {
+        "value": ""
+      },
+      "socialstate": {
+        "value": ""
+      },
+      "home": {
+        "value": ""
+      },
+      "family": {
+        "value": ""
+      },
+      "age": {
+        "value": ""
+      },
+      "haircolor": {
+        "value": ""
+      },
+      "eyecolor": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "distinguishingmark": {
+        "value": ""
+      },
+      "biography": {
+        "value": ""
+      },
+      "notes": {
+        "value": "",
+        "gmdescription": ""
+      },
+      "organisation": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "Home": {
+        "value": ""
+      }
+    },
+    "guidevalue": {
+      "magical": "-",
+      "clerical": "-"
+    },
+    "energyfactor": {
+      "magical": 1,
+      "clerical": 1
+    },
+    "tradition": {
+      "magical": "",
+      "clerical": ""
+    },
+    "feature": {
+      "magical": "",
+      "clerical": ""
+    },
+    "happyTalents": {
+      "value": ""
+    },
+    "config": {
+      "autoBar": true
     },
     "sheetLocked": {
       "value": false
+    },
+    "merchant": {
+      "merchantType": "none"
     }
   },
   "ownership": {
@@ -552,14 +560,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -567,21 +575,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -596,13 +604,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kettenstäbe",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.226BaiUnbC8a02EI"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "226BaiUnbC8a02EI",
@@ -615,14 +623,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -630,21 +638,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": true,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 0
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": true,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 0,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -659,13 +667,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Lanzenreiten",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.4lQMyQA76B3k2qC3"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "4lQMyQA76B3k2qC3",
@@ -678,14 +686,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -693,21 +701,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -5,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -5,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -722,13 +730,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Blasrohr",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.5RIyzGs1cZlo5KSM"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "5RIyzGs1cZlo5KSM",
@@ -741,14 +749,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -756,21 +764,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -785,13 +793,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kettenwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.BnyH20zV6sSUVP6L"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "BnyH20zV6sSUVP6L",
@@ -804,14 +812,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -819,21 +827,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 0
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 0,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -848,13 +856,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Belagerungswaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.C35OB8c3U96PkOi4"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "C35OB8c3U96PkOi4",
@@ -867,14 +875,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -882,21 +890,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -911,13 +919,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Raufen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.DVR2e9H5OmUwOTAx"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "DVR2e9H5OmUwOTAx",
@@ -930,14 +938,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -945,21 +953,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -974,13 +982,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Anderthalbhänder",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.DbhjV4W59gLQtOCD"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "DbhjV4W59gLQtOCD",
@@ -993,14 +1001,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1008,21 +1016,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1037,13 +1045,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfmesser",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.Ju1yU6ebEnUMoo7c"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "Ju1yU6ebEnUMoo7c",
@@ -1056,14 +1064,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1071,21 +1079,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1100,13 +1108,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Diskus",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.LEG7m1tkOxrTocUG"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "LEG7m1tkOxrTocUG",
@@ -1119,14 +1127,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1134,21 +1142,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1163,13 +1171,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfspeere",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.N87xkSBj7rLh9UCI"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "N87xkSBj7rLh9UCI",
@@ -1182,14 +1190,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1197,21 +1205,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -4,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -4,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1226,13 +1234,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Hiebwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.NtAsVa3mRdfHWbLT"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "NtAsVa3mRdfHWbLT",
@@ -1245,14 +1253,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 2
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 2
         },
         "attack": {
           "value": 5
@@ -1260,21 +1268,21 @@
         "talentValue": {
           "value": 7
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1289,13 +1297,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Infanteriewaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.OXVG7xUn8NgQcbSU"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "OXVG7xUn8NgQcbSU",
@@ -1308,14 +1316,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1323,21 +1331,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": true,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": true,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1352,13 +1360,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Peitsche",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.Od7bzJ6edTm4CD6C"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "Od7bzJ6edTm4CD6C",
@@ -1371,14 +1379,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 2
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 2
         },
         "attack": {
           "value": 4
@@ -1386,21 +1394,21 @@
         "talentValue": {
           "value": 6
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1415,13 +1423,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Dolche",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.UZ4W2yrSlJOEs4jB"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "UZ4W2yrSlJOEs4jB",
@@ -1434,14 +1442,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1449,21 +1457,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1478,13 +1486,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schleuder",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.UhfzjjnojBQjxBDJ"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "UhfzjjnojBQjxBDJ",
@@ -1497,14 +1505,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "A"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1512,21 +1520,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1541,13 +1549,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Parierwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Item.0aN7R5SL6xkbAsBO"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "sort": 0,
@@ -1560,14 +1568,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1575,21 +1583,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -5,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -5,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1604,13 +1612,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Armbrust",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.awBvPLMvFu4KcQUE"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "awBvPLMvFu4KcQUE",
@@ -1623,14 +1631,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1638,21 +1646,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1667,13 +1675,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schwerter",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.cvEA2xbXgOfrocqA"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "cvEA2xbXgOfrocqA",
@@ -1686,14 +1694,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1701,21 +1709,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1730,13 +1738,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfbeile",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.favwZuUV7oqLbaVM"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "favwZuUV7oqLbaVM",
@@ -1749,14 +1757,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1764,21 +1772,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1793,13 +1801,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Stäbe",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.gdCgGX8gOQZaPMck"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "gdCgGX8gOQZaPMck",
@@ -1812,14 +1820,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1827,21 +1835,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1856,13 +1864,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Ringen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.jAUJXa4oSKGEijdC"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "jAUJXa4oSKGEijdC",
@@ -1875,14 +1883,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "A"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1890,21 +1898,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1919,13 +1927,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schilde",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.naOdsGgQ0g3TtFA5"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "naOdsGgQ0g3TtFA5",
@@ -1938,14 +1946,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1953,21 +1961,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1982,13 +1990,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihand-Hiebwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.njo6NjEzUBDpsjEv"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "njo6NjEzUBDpsjEv",
@@ -2001,14 +2009,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2016,21 +2024,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2045,13 +2053,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Fechtwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.o4BXASK78J7uakFZ"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "o4BXASK78J7uakFZ",
@@ -2064,14 +2072,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 3
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 3
         },
         "attack": {
           "value": 8
@@ -2079,21 +2087,21 @@
         "talentValue": {
           "value": 11
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2108,13 +2116,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Säbel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.oP79ub1B8wetV5xv"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "oP79ub1B8wetV5xv",
@@ -2127,14 +2135,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2142,21 +2150,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2171,13 +2179,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihandflegel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.sVSpXuv6xffj8PNW"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "sVSpXuv6xffj8PNW",
@@ -2190,14 +2198,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2205,21 +2213,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2234,13 +2242,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Bogen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.t1HFkkvYGP0M8JuD"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "t1HFkkvYGP0M8JuD",
@@ -2253,14 +2261,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 3
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 3
         },
         "attack": {
           "value": 6
@@ -2268,21 +2276,21 @@
         "talentValue": {
           "value": 9
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2297,13 +2305,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Speere",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.tCO38y9uOLT3y6gh"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "tCO38y9uOLT3y6gh",
@@ -2316,14 +2324,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2331,21 +2339,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2360,13 +2368,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihandschwerter/-säbel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.y4qU3t8GP8URMRDW"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "y4qU3t8GP8URMRDW",
@@ -2378,8 +2386,8 @@
       "img": "systems/dsa5/icons/money-D.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2387,16 +2395,16 @@
         "price": {
           "value": 10
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2411,13 +2419,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-D",
       "flags": {
-        "core": {
-          "sourceId": "Item.BGfRbsrZ2M2Y2wZ3"
-        }
+        "core": {}
       },
       "_id": "OCRi6UuKBIHCbZuF",
       "sort": 0,
@@ -2428,8 +2435,8 @@
       "img": "systems/dsa5/icons/money-S.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2437,16 +2444,16 @@
         "price": {
           "value": 1
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2461,13 +2468,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-S",
       "flags": {
-        "core": {
-          "sourceId": "Item.ntX4yPa0e9rmmqSZ"
-        }
+        "core": {}
       },
       "_id": "xN0OtnyZqB4BaWAX",
       "sort": 0,
@@ -2478,8 +2484,8 @@
       "img": "systems/dsa5/icons/money-H.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 2
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2487,16 +2493,16 @@
         "price": {
           "value": 0.1
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 2
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2511,13 +2517,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-H",
       "flags": {
-        "core": {
-          "sourceId": "Item.2wwyflxgKCiz9UIQ"
-        }
+        "core": {}
       },
       "_id": "G4piFlEAWb2stJCn",
       "sort": 0,
@@ -2528,8 +2533,8 @@
       "img": "systems/dsa5/icons/money-K.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 7
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2537,16 +2542,16 @@
         "price": {
           "value": 0.01
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 7
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2561,13 +2566,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-K",
       "flags": {
-        "core": {
-          "sourceId": "Item.IHSzojKYEn0FloQm"
-        }
+        "core": {}
       },
       "_id": "NDf42upvVWmHi8Ty",
       "sort": 0,
@@ -2579,39 +2583,39 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": " Die Angreiferin wählt eine Erschwernis x. Die Reaktion auf eine Finte ist um x/2 (x mit der Kenntnis der SF Finte) erschwert. Trägt die Angreiferin einen Schild so ist das Manöver um zusätzlich +2 erschwert. Bei einer Finte zur Verwirrung erleidet der Gegner keine TP sondern verliert INI."
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 200"
         },
         "requirements": {
           "value": " GE 12"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": " Die Angreiferin wählt eine Erschwernis x. Die Reaktion auf eine Finte ist um x/2 (x mit der Kenntnis der SF Finte) erschwert. Trägt die Angreiferin einen Schild so ist das Manöver um zusätzlich +2 erschwert. Bei einer Finte zur Verwirrung erleidet der Gegner keine TP sondern verliert INI."
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2627,7 +2631,8 @@
         "createdTime": 1681593298802,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Finte",
       "flags": {},
@@ -2641,39 +2646,39 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": " Gelingt die Parade so hat die Verteidigerin eine Erleichterung von x Punkten auf ihre nächste Angriffs oder Verteidigungsaktion."
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 200"
         },
         "requirements": {
           "value": " PA-Basis 8"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": " Gelingt die Parade so hat die Verteidigerin eine Erleichterung von x Punkten auf ihre nächste Angriffs oder Verteidigungsaktion."
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2689,7 +2694,8 @@
         "createdTime": 1681593308047,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Meisterparade",
       "flags": {},
@@ -2703,39 +2709,39 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": " Reduziert Erschwernisse beim Kampf mit der falschen Hand auf +6/+6. Erhöht die PA beim Kampf mit Parierwaffen und Schilden um 1."
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 300"
         },
         "requirements": {
           "value": " KK 10, GE 10"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "+1 Schild-PA"
-        },
-        "description": {
-          "value": " Reduziert Erschwernisse beim Kampf mit der falschen Hand auf +6/+6. Erhöht die PA beim Kampf mit Parierwaffen und Schilden um 1."
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": "+1 Schild-PA"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2751,7 +2757,8 @@
         "createdTime": 1681593310394,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Linkhand",
       "flags": {},
@@ -2764,39 +2771,39 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "effects": [],
       "system": {
+        "description": {
+          "value": " Die neutrale Aktion Orientieren kostet den Kämpfer nur 1 Akt. IN-Proben bei Hinterhalten sind um 4 Punkte erleichtert. Passierschläge gegen den Kämpfer sind zusätzlich um 4 Punkte erschwert. Bei der Verteilung von Akt. in AT-Akt und PA-Akt darf der Kämpfer nach allen Kämpfern ohne die SF Aufmerksamkeit seine Aktionen verteilen.\n"
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 200"
         },
         "requirements": {
           "value": " IN 12"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "IN 4"
-        },
-        "description": {
-          "value": " Die neutrale Aktion Orientieren kostet den Kämpfer nur 1 Akt. IN-Proben bei Hinterhalten sind um 4 Punkte erleichtert. Passierschläge gegen den Kämpfer sind zusätzlich um 4 Punkte erschwert. Bei der Verteilung von Akt. in AT-Akt und PA-Akt darf der Kämpfer nach allen Kämpfern ohne die SF Aufmerksamkeit seine Aktionen verteilen.\n"
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": "IN 4"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": null,
@@ -2812,7 +2819,8 @@
         "createdTime": 1681593330873,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Aufmerksamkeit",
       "flags": {},
@@ -2825,39 +2833,39 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "effects": [],
       "system": {
+        "description": {
+          "value": " Der BE einer speziellen Rüstung sinkt um 1."
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 150"
         },
         "requirements": {
           "value": " KK 10"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": " Der BE einer speziellen Rüstung sinkt um 1."
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": null,
@@ -2873,7 +2881,8 @@
         "createdTime": 1681593369129,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Rüstungsgewöhnung I",
       "flags": {},
@@ -2886,39 +2895,39 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "effects": [],
       "system": {
+        "description": {
+          "value": " Der BE jeder Rüstung sinkt um 1 (nicht kumulativ mit [[Rüstungsgewöhnung I]])"
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 300"
         },
         "requirements": {
           "value": " KK 12, mind. 1 Jahr regelmäßig in Rüstung (BE 3+)"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "-1 BE"
-        },
-        "description": {
-          "value": " Der BE jeder Rüstung sinkt um 1 (nicht kumulativ mit [[Rüstungsgewöhnung I]])"
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": "0",
-          "value": "Combat"
+          "value": "Combat",
+          "sub": "0"
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": "-1 BE"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": null,
@@ -2934,7 +2943,8 @@
         "createdTime": 1681593377376,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Rüstungsgewöhnung II",
       "flags": {},
@@ -2948,44 +2958,44 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "value": true
-        },
         "price": {
           "value": 50
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 1.5
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
           "value": ""
         },
-        "protection": {
-          "head": 0,
-          "torso": 0,
-          "rightleg": 3,
-          "rightarm": 0,
-          "back": 0,
-          "leftleg": 3,
-          "stomach": 0,
-          "leftarm": 0,
+        "gmdescription": {
+          "value": ""
+        },
+        "encumbrance": {
           "value": 0.8
         },
         "armortype": {
           "value": "Plattenrüstung"
         },
-        "encumbrance": {
-          "value": 0.8
+        "protection": {
+          "value": 0.8,
+          "head": 0,
+          "torso": 0,
+          "stomach": 0,
+          "back": 0,
+          "leftarm": 0,
+          "rightarm": 0,
+          "leftleg": 3,
+          "rightleg": 3
+        },
+        "worn": {
+          "value": true
         },
         "structure": {
           "max": 0,
@@ -3004,13 +3014,12 @@
         "createdTime": 1700919689114,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Beinschienen, Stahl",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.armor.xhH6HZqRaelcb0On"
-        }
+        "core": {}
       },
       "_id": "z0vcVgjcYsJ9yeR4",
       "sort": 7500000,
@@ -3022,44 +3031,44 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "value": true
-        },
         "price": {
           "value": 35
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 0.75
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
           "value": ""
         },
-        "protection": {
-          "head": 0,
-          "torso": 0,
-          "rightleg": 0,
-          "rightarm": 3,
-          "back": 0,
-          "leftleg": 0,
-          "stomach": 0,
-          "leftarm": 3,
+        "gmdescription": {
+          "value": ""
+        },
+        "encumbrance": {
           "value": 0.4
         },
         "armortype": {
           "value": "Plattenrüstung"
         },
-        "encumbrance": {
-          "value": 0.4
+        "protection": {
+          "value": 0.4,
+          "head": 0,
+          "torso": 0,
+          "stomach": 0,
+          "back": 0,
+          "leftarm": 3,
+          "rightarm": 3,
+          "leftleg": 0,
+          "rightleg": 0
+        },
+        "worn": {
+          "value": true
         },
         "structure": {
           "max": 0,
@@ -3078,13 +3087,12 @@
         "createdTime": 1700919696527,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Armschienen, Stahl",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.armor.hopbb0cW0LGmAGZW"
-        }
+        "core": {}
       },
       "_id": "CwlInXG0toyYumeb",
       "sort": 5900000,
@@ -3096,44 +3104,44 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "value": true
-        },
         "price": {
           "value": 200
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 3.5
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
           "value": ""
         },
-        "protection": {
-          "head": 0,
-          "torso": 5,
-          "rightleg": 0,
-          "rightarm": 0,
-          "back": 4,
-          "leftleg": 0,
-          "stomach": 4,
-          "leftarm": 0,
+        "gmdescription": {
+          "value": ""
+        },
+        "encumbrance": {
           "value": 2.8
         },
         "armortype": {
           "value": "Plattenrüstung"
         },
-        "encumbrance": {
-          "value": 2.8
+        "protection": {
+          "value": 2.8,
+          "head": 0,
+          "torso": 5,
+          "stomach": 4,
+          "back": 4,
+          "leftarm": 0,
+          "rightarm": 0,
+          "leftleg": 0,
+          "rightleg": 0
+        },
+        "worn": {
+          "value": true
         },
         "structure": {
           "max": 0,
@@ -3153,13 +3161,12 @@
         "createdTime": 1691911871217,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Plattenharnisch",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.armor.cIK4jNgxEfN05TP1"
-        }
+        "core": {}
       },
       "sort": 4600000,
       "_id": "xZTQzPeKueGHvQwU",
@@ -3171,44 +3178,44 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "value": true
-        },
         "price": {
           "value": 70
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 1.75
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
           "value": ""
         },
-        "protection": {
-          "head": 3,
-          "torso": 0,
-          "rightleg": 0,
-          "rightarm": 0,
-          "back": 0,
-          "leftleg": 0,
-          "stomach": 0,
-          "leftarm": 0,
+        "gmdescription": {
+          "value": ""
+        },
+        "encumbrance": {
           "value": 0.4
         },
         "armortype": {
           "value": "Plattenrüstung"
         },
-        "encumbrance": {
-          "value": 0.4
+        "protection": {
+          "value": 0.4,
+          "head": 3,
+          "torso": 0,
+          "stomach": 0,
+          "back": 0,
+          "leftarm": 0,
+          "rightarm": 0,
+          "leftleg": 0,
+          "rightleg": 0
+        },
+        "worn": {
+          "value": true
         },
         "structure": {
           "max": 0,
@@ -3227,13 +3234,12 @@
         "createdTime": 1691911876763,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Sturmhaube",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.armor.HSxIp2WbYWySKUlQ"
-        }
+        "core": {}
       },
       "sort": 2600000,
       "_id": "IRrFo386FtdA8V5b",
@@ -3254,11 +3260,11 @@
             "createdTime": null,
             "duplicateSource": null,
             "systemVersion": null,
-            "coreVersion": "12.331"
+            "coreVersion": "13.351",
+            "exportSource": null
           },
           "changes": [],
           "flags": {
-            "effectKey": "",
             "dsa5": {
               "damageValue": "",
               "auto": null,
@@ -3273,7 +3279,8 @@
               "healingValue": "",
               "hasEffect": true,
               "value": null,
-              "effectValue": ""
+              "effectValue": "",
+              "effectKey": ""
             }
           },
           "description": "",
@@ -3300,39 +3307,39 @@
       ],
       "folder": null,
       "system": {
+        "description": {
+          "value": "Eine eingespielte Gruppe hat eine Erleichterung von 2 Punkte bei Eigenschafts, und Talentproben bei denen die Gruppe interagiert. Kämpft die Gruppe gemeinsam erhält jedes Mitglied INI +1, und zählt erst ab Gruppengröße +2 in der Unterzahl. Fremdparaden für ein Mitglied der Gruppe sind nur noch um 4 Punkte erschwert.\n"
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": "75"
         },
         "requirements": {
           "value": "-"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": "Eine eingespielte Gruppe hat eine Erleichterung von 2 Punkte bei Eigenschafts, und Talentproben bei denen die Gruppe interagiert. Kämpft die Gruppe gemeinsam erhält jedes Mitglied INI +1, und zählt erst ab Gruppengröße +2 in der Unterzahl. Fremdparaden für ein Mitglied der Gruppe sind nur noch um 4 Punkte erschwert.\n"
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "general"
+          "value": "general",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -3347,13 +3354,12 @@
         "createdTime": 1681640005928,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Eingespielt I",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.generalspecialabilities.uTjNvnOPTFub5daG"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "fJS7iZpIdG9JNqfx",
@@ -3365,39 +3371,39 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": " Der Kämpfer erlegt sich selbst eine Erschwernis x auf um mehr TP zu verursachen. Die TP werden um x/2 erhöht (um x bei Kenntnis der SF Wuchtschlag). Der Wuchtschlag kann mit beliebigen anderen Angriffsaktionen kombiniert werden."
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 200"
         },
         "requirements": {
           "value": " KK 12"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": " Der Kämpfer erlegt sich selbst eine Erschwernis x auf um mehr TP zu verursachen. Die TP werden um x/2 erhöht (um x bei Kenntnis der SF Wuchtschlag). Der Wuchtschlag kann mit beliebigen anderen Angriffsaktionen kombiniert werden."
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -3413,7 +3419,8 @@
         "createdTime": 1700919887334,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wuchtschlag",
       "flags": {},
@@ -3426,39 +3433,39 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "effects": [],
       "system": {
+        "description": {
+          "value": " Erhöht die INI des Kämpfers um 4, wenn die BE < 4 ist.\n"
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 300"
         },
         "requirements": {
           "value": " INI-Basis 10"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "+4 INI"
-        },
-        "description": {
-          "value": " Erhöht die INI des Kämpfers um 4, wenn die BE < 4 ist.\n"
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": "+4 INI"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": null,
@@ -3474,7 +3481,8 @@
         "createdTime": 1681639727506,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kampfreflexe",
       "flags": {},
@@ -3487,39 +3495,39 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "effects": [],
       "system": {
+        "description": {
+          "value": "<p>Erh&ouml;ht die PA mit Schilden um 4 Punkte.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 200"
         },
         "requirements": {
           "value": " KK 12, [[Linkhand]]"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "+4 Schild-PA"
-        },
-        "description": {
-          "value": "<p>Erh&ouml;ht die PA mit Schilden um 4 Punkte.</p>"
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": "0",
-          "value": "Combat"
+          "value": "Combat",
+          "sub": "0"
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": "+4 Schild-PA"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": null,
@@ -3535,13 +3543,12 @@
         "createdTime": 1711884256716,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schildkampf I",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.fightingspecialabilities.Item.3tsABm8ErjOybLcW"
-        }
+        "core": {}
       },
       "sort": 500000,
       "_id": "UFjgPXtA1jIUdURs",
@@ -3553,71 +3560,71 @@
       "effects": [],
       "folder": "y3YqnAVDjY1Y6oUp",
       "system": {
+        "price": {
+          "value": 250
+        },
+        "quantity": {
+          "value": 1
+        },
+        "weight": {
+          "value": 2
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
+        "description": {
+          "value": "<p><em>&raquo;Um die armen Sklaven unter Kontrolle zu halten, haben diese Rohlinge zwei Arten von Waffen. Die Peitsche, die h&auml;ufig eingesetzt wird, und eine Variante des S&auml;bels. Sie gleicht einem tulamidischen Khunchomer und wurde sicher aus diesem entwickelt, doch befindet sich im vorderen Drittel der Klinge eine Ansammlung an Zacken. Zuerst dachte ich, sie dienten lediglich der Abschreckung, doch die Aufseher prahlten mir gegen&uuml;ber damit, dass diese Modifikation besonders gut in die Haut bei&szlig;e. Wahrlich, &uuml;beraus grausam!&laquo;</em></p>\n<p>&mdash;aus dem Brief des reisenden Botanikers Hesindian Tausendblum an seine Schwester, 1024 BF</p>\n<p>Die Klinge dieses Krumms&auml;bels ist mit Zacken, Spitzen oder Ausbuchtungen versehen, die vorwiegend dem Zweck dienen, die Waffe noch gef&auml;hrlicher erscheinen zu lassen. Tats&auml;chlich neigen sie dazu, sich bei der Parade in der Waffe des Gegners zu verfangen, was den Schwung aus den Bewegungen nimmt. Dennoch tr&ouml;stet die meisten das brutale Aussehen der Waffe &uuml;ber diesen Nachteil hinweg. Obendrein richten die Spitzen der Klinge bei Unger&uuml;steten besonders schmerzhafte Verletzungen an, da sie Haut und Gewebe regelrecht einrei&szlig;en.</p>\n<p>Verbreitung hat diese Waffe im ganzen S&uuml;den gefunden, wo sie aufgrund ihrer Eigenschaften vor allem bei Sklavenaufsehern und -j&auml;gern au&szlig;erordentlich beliebt ist. Doch auch so mancher Pirat greift zu dieser Waffe, besonders, wenn er selbst ehemals Sklave war und nun auf der Jagd nach Menschenh&auml;ndlern ist. Seitdem etliche Seer&auml;uber entsprechend aufgetreten sind, hei&szlig;t der S&auml;bel entsprechend auch Sklavenj&auml;gertod.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "specialization": {
+          "value": 0
+        },
+        "tpplus": {
+          "value": 12,
+          "step": 3
+        },
         "damage": {
           "value": "1d6+4"
         },
         "atmod": {
-          "offhandMod": 0,
+          "value": 0,
+          "offhandMod": 0
+        },
+        "pamod": {
+          "value": 0,
+          "offhandMod": 0
+        },
+        "reach": {
+          "value": "N",
+          "shieldSize": "average"
+        },
+        "damageThreshold": {
           "value": 0
         },
-        "quantity": {
-          "value": 1
+        "guidevalue": {
+          "value": "kk"
+        },
+        "combatskill": {
+          "value": "Säbel"
         },
         "worn": {
           "value": true,
           "offhand": false
         },
-        "gmdescription": {
-          "value": ""
-        },
-        "tpplus": {
-          "step": 3,
-          "value": 12
-        },
-        "reach": {
-          "shieldSize": "average",
-          "value": "N"
-        },
-        "attacktype": "brunt",
-        "combatskill": {
-          "value": "Säbel"
-        },
-        "weight": {
-          "value": 2
-        },
-        "description": {
-          "value": "<p><em>&raquo;Um die armen Sklaven unter Kontrolle zu halten, haben diese Rohlinge zwei Arten von Waffen. Die Peitsche, die h&auml;ufig eingesetzt wird, und eine Variante des S&auml;bels. Sie gleicht einem tulamidischen Khunchomer und wurde sicher aus diesem entwickelt, doch befindet sich im vorderen Drittel der Klinge eine Ansammlung an Zacken. Zuerst dachte ich, sie dienten lediglich der Abschreckung, doch die Aufseher prahlten mir gegen&uuml;ber damit, dass diese Modifikation besonders gut in die Haut bei&szlig;e. Wahrlich, &uuml;beraus grausam!&laquo;</em></p>\n<p>&mdash;aus dem Brief des reisenden Botanikers Hesindian Tausendblum an seine Schwester, 1024 BF</p>\n<p>Die Klinge dieses Krumms&auml;bels ist mit Zacken, Spitzen oder Ausbuchtungen versehen, die vorwiegend dem Zweck dienen, die Waffe noch gef&auml;hrlicher erscheinen zu lassen. Tats&auml;chlich neigen sie dazu, sich bei der Parade in der Waffe des Gegners zu verfangen, was den Schwung aus den Bewegungen nimmt. Dennoch tr&ouml;stet die meisten das brutale Aussehen der Waffe &uuml;ber diesen Nachteil hinweg. Obendrein richten die Spitzen der Klinge bei Unger&uuml;steten besonders schmerzhafte Verletzungen an, da sie Haut und Gewebe regelrecht einrei&szlig;en.</p>\n<p>Verbreitung hat diese Waffe im ganzen S&uuml;den gefunden, wo sie aufgrund ihrer Eigenschaften vor allem bei Sklavenaufsehern und -j&auml;gern au&szlig;erordentlich beliebt ist. Doch auch so mancher Pirat greift zu dieser Waffe, besonders, wenn er selbst ehemals Sklave war und nun auf der Jagd nach Menschenh&auml;ndlern ist. Seitdem etliche Seer&auml;uber entsprechend aufgetreten sind, hei&szlig;t der S&auml;bel entsprechend auch Sklavenj&auml;gertod.</p>"
-        },
-        "pamod": {
-          "offhandMod": 0,
-          "value": 0
-        },
-        "damagetype": "damage",
         "structure": {
           "max": 0,
+          "value": 0,
           "regeneration": false,
           "canBeTarget": false,
-          "hasStructure": false,
-          "value": 0
+          "hasStructure": false
         },
+        "attacktype": "brunt",
+        "damagetype": "damage",
         "effects": {
           "hasAmmoEffect": false
-        },
-        "damageThreshold": {
-          "value": 0
-        },
-        "price": {
-          "value": 250
-        },
-        "parent_id": 0,
-        "guidevalue": {
-          "value": "kk"
-        },
-        "effect": {
-          "value": ""
-        },
-        "specialization": {
-          "value": 0
         },
         "damageType": "damage",
         "twohanded": {
@@ -3637,13 +3644,12 @@
         "createdTime": 1717750943502,
         "duplicateSource": null,
         "systemVersion": "5.7.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Sklaventod",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa-packets.dsa-gegenstande.Item.arSpbbvHzFeOmCfV"
-        }
+        "core": {}
       },
       "_id": "gGNSjLxaYfVXIaEP",
       "sort": 100000,
@@ -3655,71 +3661,71 @@
       "effects": [],
       "folder": "g6PlcJmilWWQmRDA",
       "system": {
+        "price": {
+          "value": 100
+        },
+        "quantity": {
+          "value": 1
+        },
+        "weight": {
+          "value": 5
+        },
+        "effect": {
+          "value": "-2 AT; -2 INI; +5 FK-Ers; Projektile-PA 2;"
+        },
+        "parent_id": 0,
+        "description": {
+          "value": "<p><em>&raquo;Schild? Das Ding ist genauso gro&szlig; wie ich!&laquo;</em></p>\n<p>&mdash;Hardas Sohn des Kurolas, zwergischer Krieger, neuzeitlich</p>\n<p>Der Gro&szlig;schild ist noch deutlich gr&ouml;&szlig;er als ein Thorwalerschild und die wahrscheinlich gr&ouml;&szlig;te Schildform, die noch von einem K&auml;mpfer sinnvoll im Zweikampf eingesetzt werden kann. Dennoch ist dieser Schild nicht ausschlie&szlig;lich f&uuml;r den Kampf am Boden gemacht worden, sondern als Schutz f&uuml;r Reiter. Seine meist tropfenf&ouml;rmige Form kann passabel eine Seite des Reiters sch&uuml;tzen. Der Gro&szlig;schild ist bestens dazu geeignet, Pfeile und Bolzen abzuwehren, da man ihn kaum bewegen muss, um ein solches Geschoss abzublocken, vorausgesetzt, der Angriff kommt von der richtigen Seite. Die Beweglichkeit mit einem solchen Schild l&auml;sst jedoch am Boden sehr zu w&uuml;nschen &uuml;brig. Man ist deutlich langsamer und auch die Reaktion wird durch das Gewicht beeintr&auml;chtigt.</p>\n<p><strong>Anmerkung</strong>: gro&szlig;er Schild, 30 Strukturpunkte; zus&auml;tzlich &ndash;1 AT auf die Hauptwaffe</p>\n<p><strong>Waffenvorteil</strong>: Bei der Abwehr von Pfeilen und Bolzen bekommt der Gro&szlig;schild einen Bonus von +1 PA (nach der Verdopplung des Schild-Paradebonus).</p>\n<p><strong>Waffennachteil</strong>: Verf&uuml;gen zwei K&auml;mpfer &uuml;ber den gleichen INI-Wert, schl&auml;gt der Gegner des Tr&auml;gers eines Gro&szlig;schildes immer zuerst zu. F&uuml;hrt der Gegner ebenfalls einen Gro&szlig;schild, kommen die normalen Regeln zur Reihenfolge des Handelns (siehe Regelwerk Seite 227) zum Tragen. Der Tr&auml;ger eines Gro&szlig;schilds erleidet einen Abzug von 1 auf GS.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "specialization": {
+          "value": 0
+        },
+        "tpplus": {
+          "value": 10,
+          "step": 3
+        },
         "damage": {
           "value": "1d6+0"
         },
         "atmod": {
-          "offhandMod": 0,
-          "value": -2
+          "value": -2,
+          "offhandMod": 0
         },
-        "quantity": {
-          "value": 1
+        "pamod": {
+          "value": 5,
+          "offhandMod": 0
+        },
+        "reach": {
+          "value": "H",
+          "shieldSize": "short"
+        },
+        "damageThreshold": {
+          "value": 0
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "combatskill": {
+          "value": "Schilde"
         },
         "worn": {
           "value": true,
           "offhand": false
         },
-        "gmdescription": {
-          "value": ""
-        },
-        "tpplus": {
-          "step": 3,
-          "value": 10
-        },
-        "reach": {
-          "shieldSize": "short",
-          "value": "H"
-        },
-        "attacktype": "standard",
-        "combatskill": {
-          "value": "Schilde"
-        },
-        "weight": {
-          "value": 5
-        },
-        "description": {
-          "value": "<p><em>&raquo;Schild? Das Ding ist genauso gro&szlig; wie ich!&laquo;</em></p>\n<p>&mdash;Hardas Sohn des Kurolas, zwergischer Krieger, neuzeitlich</p>\n<p>Der Gro&szlig;schild ist noch deutlich gr&ouml;&szlig;er als ein Thorwalerschild und die wahrscheinlich gr&ouml;&szlig;te Schildform, die noch von einem K&auml;mpfer sinnvoll im Zweikampf eingesetzt werden kann. Dennoch ist dieser Schild nicht ausschlie&szlig;lich f&uuml;r den Kampf am Boden gemacht worden, sondern als Schutz f&uuml;r Reiter. Seine meist tropfenf&ouml;rmige Form kann passabel eine Seite des Reiters sch&uuml;tzen. Der Gro&szlig;schild ist bestens dazu geeignet, Pfeile und Bolzen abzuwehren, da man ihn kaum bewegen muss, um ein solches Geschoss abzublocken, vorausgesetzt, der Angriff kommt von der richtigen Seite. Die Beweglichkeit mit einem solchen Schild l&auml;sst jedoch am Boden sehr zu w&uuml;nschen &uuml;brig. Man ist deutlich langsamer und auch die Reaktion wird durch das Gewicht beeintr&auml;chtigt.</p>\n<p><strong>Anmerkung</strong>: gro&szlig;er Schild, 30 Strukturpunkte; zus&auml;tzlich &ndash;1 AT auf die Hauptwaffe</p>\n<p><strong>Waffenvorteil</strong>: Bei der Abwehr von Pfeilen und Bolzen bekommt der Gro&szlig;schild einen Bonus von +1 PA (nach der Verdopplung des Schild-Paradebonus).</p>\n<p><strong>Waffennachteil</strong>: Verf&uuml;gen zwei K&auml;mpfer &uuml;ber den gleichen INI-Wert, schl&auml;gt der Gegner des Tr&auml;gers eines Gro&szlig;schildes immer zuerst zu. F&uuml;hrt der Gegner ebenfalls einen Gro&szlig;schild, kommen die normalen Regeln zur Reihenfolge des Handelns (siehe Regelwerk Seite 227) zum Tragen. Der Tr&auml;ger eines Gro&szlig;schilds erleidet einen Abzug von 1 auf GS.</p>"
-        },
-        "pamod": {
-          "offhandMod": 0,
-          "value": 5
-        },
-        "damagetype": "damage",
         "structure": {
           "max": 0,
+          "value": 0,
           "regeneration": false,
           "canBeTarget": false,
-          "hasStructure": false,
-          "value": 0
+          "hasStructure": false
         },
+        "attacktype": "standard",
+        "damagetype": "damage",
         "effects": {
           "hasAmmoEffect": false
-        },
-        "damageThreshold": {
-          "value": 0
-        },
-        "price": {
-          "value": 100
-        },
-        "parent_id": 0,
-        "guidevalue": {
-          "value": "kk"
-        },
-        "effect": {
-          "value": "-2 AT; -2 INI; +5 FK-Ers; Projektile-PA 2;"
-        },
-        "specialization": {
-          "value": 0
         },
         "damageType": "damage",
         "twohanded": {
@@ -3739,13 +3745,12 @@
         "createdTime": 1717736551262,
         "duplicateSource": null,
         "systemVersion": "5.7.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Großschild",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa-packets.dsa-gegenstande.Item.b9HMzmqlR6l6eYWM"
-        }
+        "core": {}
       },
       "_id": "te32Uwk9BG4IosoV",
       "sort": 1300000,
@@ -3757,71 +3762,71 @@
       "effects": [],
       "folder": "kiYKf03NFLzIvphE",
       "system": {
+        "price": {
+          "value": 45
+        },
+        "quantity": {
+          "value": 1
+        },
+        "weight": {
+          "value": 0.75
+        },
+        "effect": {
+          "value": "DK-Verringern-AT 1;"
+        },
+        "parent_id": 0,
+        "description": {
+          "value": "<p><em>&raquo;Vernachl&auml;ssige nie deine Parade, auch nicht, wenn du mit dem Langdolch parieren willst.&laquo;</em></p>\n<p>&mdash;Fechtmeisterin Metelessa Galora zu einem ihrer Sch&uuml;ler</p>\n<p>Der Langdolch ist der schlankste und zugleich l&auml;ngste Dolch und &auml;hnelt weniger einem Messer als vielmehr einer kleinen Fechtwaffe. Er verf&uuml;gt &uuml;ber eine Parierstange, die oft gro&szlig; genug ist, die Hand vor dem Schlag einer Nahkampfwaffe zu sch&uuml;tzen. Aus diesem Grund ist der Langdolch eine sehr beliebte Parierwaffe bei vielen Fechtern und Schwertk&auml;mpfern.</p>\n<p>Im Nahkampf kann er jedoch auch unangenehme Wunden hinterlassen. Da er sich zudem auch gut verbergen l&auml;sst, ist er auch in weniger gesetzestreuen Kreisen beliebt. Einige Messerstecher, Auftragsm&ouml;rder und Spione, aber auch Phexensdiener, bewaffnen sich mit zwei Langdolchen.</p>\n<p>Einige Mitglieder der Oberschicht f&uuml;hren verzierte Langdolche auch als repr&auml;sentative Waffen, besonders in Situationen, in denen gr&ouml;&szlig;ere Waffen unpraktisch w&auml;ren.</p>\n<p>Dar&uuml;ber hinaus l&auml;sst er sich, wie jeder Dolch, auch als improvisiertes Werkzeug einsetzen, um Gem&uuml;se zu schneiden, eine Fessel zu l&ouml;sen oder einen Verband zu k&uuml;rzen.</p>\n<p>Gegen&uuml;ber anderen Dolchen hat er im Kampf einen kleinen Vorteil aufgrund seiner L&auml;nge, aber Gegner mit Metallr&uuml;stungen zeigen ihm dennoch schnell seine Grenzen auf.</p>\n<p><strong>Anmerkung</strong>:&nbsp;</p>\n<p><strong>Waffenvorteil</strong>:&nbsp;</p>\n<p><strong>Waffennachteil</strong>: Gegen R&uuml;stungen mit RS 4 oder mehr richtet der Langdolch &ndash;1 TP an.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "specialization": {
+          "value": 0
+        },
+        "tpplus": {
+          "value": 12,
+          "step": 4
+        },
         "damage": {
           "value": "1d6+2"
         },
         "atmod": {
-          "offhandMod": 0,
+          "value": 0,
+          "offhandMod": 0
+        },
+        "pamod": {
+          "value": 0,
+          "offhandMod": 0
+        },
+        "reach": {
+          "value": "H",
+          "shieldSize": "average"
+        },
+        "damageThreshold": {
           "value": 0
         },
-        "quantity": {
-          "value": 1
+        "guidevalue": {
+          "value": "kk"
+        },
+        "combatskill": {
+          "value": "Dolche"
         },
         "worn": {
           "value": false,
           "offhand": false
         },
-        "gmdescription": {
-          "value": ""
-        },
-        "tpplus": {
-          "step": 4,
-          "value": 12
-        },
-        "reach": {
-          "shieldSize": "average",
-          "value": "H"
-        },
-        "attacktype": "standard",
-        "combatskill": {
-          "value": "Dolche"
-        },
-        "weight": {
-          "value": 0.75
-        },
-        "description": {
-          "value": "<p><em>&raquo;Vernachl&auml;ssige nie deine Parade, auch nicht, wenn du mit dem Langdolch parieren willst.&laquo;</em></p>\n<p>&mdash;Fechtmeisterin Metelessa Galora zu einem ihrer Sch&uuml;ler</p>\n<p>Der Langdolch ist der schlankste und zugleich l&auml;ngste Dolch und &auml;hnelt weniger einem Messer als vielmehr einer kleinen Fechtwaffe. Er verf&uuml;gt &uuml;ber eine Parierstange, die oft gro&szlig; genug ist, die Hand vor dem Schlag einer Nahkampfwaffe zu sch&uuml;tzen. Aus diesem Grund ist der Langdolch eine sehr beliebte Parierwaffe bei vielen Fechtern und Schwertk&auml;mpfern.</p>\n<p>Im Nahkampf kann er jedoch auch unangenehme Wunden hinterlassen. Da er sich zudem auch gut verbergen l&auml;sst, ist er auch in weniger gesetzestreuen Kreisen beliebt. Einige Messerstecher, Auftragsm&ouml;rder und Spione, aber auch Phexensdiener, bewaffnen sich mit zwei Langdolchen.</p>\n<p>Einige Mitglieder der Oberschicht f&uuml;hren verzierte Langdolche auch als repr&auml;sentative Waffen, besonders in Situationen, in denen gr&ouml;&szlig;ere Waffen unpraktisch w&auml;ren.</p>\n<p>Dar&uuml;ber hinaus l&auml;sst er sich, wie jeder Dolch, auch als improvisiertes Werkzeug einsetzen, um Gem&uuml;se zu schneiden, eine Fessel zu l&ouml;sen oder einen Verband zu k&uuml;rzen.</p>\n<p>Gegen&uuml;ber anderen Dolchen hat er im Kampf einen kleinen Vorteil aufgrund seiner L&auml;nge, aber Gegner mit Metallr&uuml;stungen zeigen ihm dennoch schnell seine Grenzen auf.</p>\n<p><strong>Anmerkung</strong>:&nbsp;</p>\n<p><strong>Waffenvorteil</strong>:&nbsp;</p>\n<p><strong>Waffennachteil</strong>: Gegen R&uuml;stungen mit RS 4 oder mehr richtet der Langdolch &ndash;1 TP an.</p>"
-        },
-        "pamod": {
-          "offhandMod": 0,
-          "value": 0
-        },
-        "damagetype": "damage",
         "structure": {
           "max": 0,
+          "value": 0,
           "regeneration": false,
           "canBeTarget": false,
-          "hasStructure": false,
-          "value": 0
+          "hasStructure": false
         },
+        "attacktype": "standard",
+        "damagetype": "damage",
         "effects": {
           "hasAmmoEffect": false
-        },
-        "damageThreshold": {
-          "value": 0
-        },
-        "price": {
-          "value": 45
-        },
-        "parent_id": 0,
-        "guidevalue": {
-          "value": "kk"
-        },
-        "effect": {
-          "value": "DK-Verringern-AT 1;"
-        },
-        "specialization": {
-          "value": 0
         },
         "damageType": "damage",
         "twohanded": {
@@ -3841,13 +3846,12 @@
         "createdTime": 1717741773874,
         "duplicateSource": null,
         "systemVersion": "5.7.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Langdolch",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa-packets.dsa-gegenstande.Item.22iVzoU4JrDoEQDY"
-        }
+        "core": {}
       },
       "_id": "FkyRgF3SptOq8wgY",
       "sort": 1000000,

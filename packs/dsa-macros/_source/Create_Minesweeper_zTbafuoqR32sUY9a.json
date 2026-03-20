@@ -1,0 +1,28 @@
+{
+  "name": "Create Minesweeper",
+  "type": "script",
+  "command": "let array = [\n    [0,1,1,0,0,0,0,0,1,1,1,1],\n    [0,0,0,0,1,1,1,1,1,1,1,1],\n    [0,1,1,0,0,1,0,0,0,1,1,1],\n    [1,1,0,0,1,0,0,0,0,0,1,1],\n    [1,0,0,0,1,1,0,0,0,0,0,1],\n    [0,0,0,1,1,0,0,0,1,0,0,1],\n    [0,1,0,0,1,0,0,0,0,0,1,1],\n    [0,0,0,0,0,1,0,0,0,1,1,1],\n    [0,0,0,1,0,0,0,0,0,1,1,1],\n    [0,1,0,1,1,0,0,1,0,0,0,0],\n    [1,1,0,0,1,0,0,0,0,0,0,0],\n    [1,0,0,0,0,1,1,1,0,1,0,0],\n    [1,0,0,0,1,1,1,0,0,0,0,0],\n    [0,0,0,1,0,0,0,1,1,1,1,0],\n    [0,0,1,1,0,0,0,0,1,1,1,0],\n    [0,0,0,1,0,0,0,0,1,0,0,0],\n    [0,0,1,1,1,0,1,0,0,0,1,1],\n    [0,0,1,0,1,0,1,1,1,0,0,1],\n    [1,0,1,1,0,0,0,1,0,0,0,0],\n    [1,0,1,1,0,0,0,1,0,1,0,0]\n];\n\nlet defaultObject = {\n    \"texture\": {\n        \"src\": \"worlds/der-adler-und-der-wal/assets/minesweeper/nrUnknown.png\",\n        \"anchorX\": 0.5,\n        \"anchorY\": 0.5,\n        \"offsetX\": 0,\n        \"offsetY\": 0,\n        \"fit\": \"fill\",\n        \"scaleX\": 1,\n        \"scaleY\": 1,\n        \"rotation\": 0,\n        \"tint\": \"#ffffff\",\n        \"alphaThreshold\": 0.75\n    },\n    \"x\": 1500,\n    \"y\": 900,\n    \"width\": 100,\n    \"height\": 100,\n    \"elevation\": 0,\n    \"sort\": 0,\n    \"occlusion\": {\n        \"mode\": 0,\n        \"alpha\": 0\n    },\n    \"rotation\": 0,\n    \"alpha\": 1,\n    \"hidden\": false,\n    \"locked\": false,\n    \"restrictions\": {\n        \"light\": false,\n        \"weather\": false\n    },\n    \"video\": {\n        \"loop\": true,\n        \"autoplay\": true,\n        \"volume\": 0\n    },\n    \"flags\": {\n        \"dsa5\": {\n            \"x\": 0,\n            \"y\": 0\n        },\n        \"betterroofs\": {\n            \"brMode\": false,\n            \"occlusionLinkId\": \"\",\n            \"occlusionLinkSource\": false\n        },\n        \"levels\": {\n            \"rangeTop\": null,\n            \"showIfAbove\": false,\n            \"showAboveRange\": null,\n            \"noCollision\": false,\n            \"noFogHide\": false,\n            \"isBasement\": false,\n            \"allWallBlockSight\": true\n        }\n    }\n};\nlet creates = [];\n\nfor (let i=0;i<array.length;i++) {\n    for (let j=0;j<array[0].length;j++) {\n        let newObject = foundry.utils.duplicate(defaultObject);\n        newObject.x = newObject.x + j*110;\n        newObject.y = newObject.y + i*110;\n        newObject.flags.dsa5.x = j;\n        newObject.flags.dsa5.y = i;\n        creates.push(newObject);\n    }\n}\n\ncanvas.scene.createEmbeddedDocuments(\"Tile\", creates);\ncanvas.scene.setFlag(\"dsa5\",\"minesweeper\",array);",
+  "img": "icons/svg/eye.svg",
+  "author": "BjRA51V62nGFKtZ3",
+  "scope": "global",
+  "folder": "M6yDEaGYvqSSYXRU",
+  "ownership": {
+    "default": 0,
+    "BjRA51V62nGFKtZ3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dsa5",
+    "systemVersion": "7.0.0",
+    "createdTime": 1772350140525,
+    "modifiedTime": 1772350143627,
+    "lastModifiedBy": "BjRA51V62nGFKtZ3"
+  },
+  "_id": "zTbafuoqR32sUY9a",
+  "sort": 400000,
+  "_key": "!macros!zTbafuoqR32sUY9a"
+}

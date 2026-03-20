@@ -1,0 +1,29 @@
+{
+  "name": "Aufdecken",
+  "type": "script",
+  "command": "let mouseX = foundry.utils.getProperty(canvas,\"mousePosition.x\");\nlet mouseY = foundry.utils.getProperty(canvas,\"mousePosition.y\");\nlet tile = canvas.scene.tiles.find(x => x.flags.dsa5.x>=0 && x.flags.dsa5.y>=0 && x.x<=mouseX && x.y<=mouseY && x.x+x.width>=mouseX && x.y+x.height>=mouseY);\nif (!tile) {\n  return;\n}\nlet x = tile.flags.dsa5.x;\nlet y = tile.flags.dsa5.y;\nlet sceneUuid = canvas.scene.uuid;\ngame.dsa5.apps.minesweeper(x,y,sceneUuid,false);",
+  "img": "icons/svg/sword.svg",
+  "author": "BjRA51V62nGFKtZ3",
+  "scope": "global",
+  "folder": "M6yDEaGYvqSSYXRU",
+  "ownership": {
+    "default": 0,
+    "fupHmcXuDhHWNALe": 3,
+    "BjRA51V62nGFKtZ3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dsa5",
+    "systemVersion": "6.2.3",
+    "createdTime": 1771015714241,
+    "modifiedTime": 1772350143627,
+    "lastModifiedBy": "BjRA51V62nGFKtZ3"
+  },
+  "_id": "riAO1GeqReItwDUX",
+  "sort": 300000,
+  "_key": "!macros!riAO1GeqReItwDUX"
+}

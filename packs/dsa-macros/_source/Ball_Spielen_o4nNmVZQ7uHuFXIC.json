@@ -1,0 +1,28 @@
+{
+  "name": "Ball Spielen",
+  "type": "script",
+  "command": "let sprite, container;\nlet status = {\n  \"name\": \"Trägt Ball\",\n  \"type\": \"specialability\",\n  \"img\": \"systems/dsa5/icons/categories/ability_general.webp\",\n  \"system\": {\n    \"step\": {\n      \"value\": 1\n    },\n    \"category\": {\n      \"value\": \"fatePoints\",\n      \"sub\": 0\n    },\n    \"effect\": {\n      \"value\": \"-3 GS;\"\n    }\n  }\n};\nif (!game.ball || !game.ball.container) {\n  game.ball = {\n    container: new PIXI.Container(),\n    sprite: PIXI.Sprite.from(\"/worlds/der-adler-und-der-wal/assets/immanball.png\")\n  }\n  sprite = game.ball.sprite;\n  container = game.ball.container;\n  sprite.anchor.set(0.5,0.5);\n  container.addChild(sprite);\n  game.ball.interval = setInterval(()=>{\n  try { game.ball.sprite.rotation+=0.01;} catch (e) {clearInterval(game.ball.interval); game.ball = {};}\n  },10);\n}\nsprite = game.ball.sprite;\ncontainer = game.ball.container;\nif (game.ball.token) {\n  game.ball.token.removeChild(container);\n  if (game.ball.token.actor) {\n    let hasItem = game.ball.token.actor.items.find(x => x.name===status.name&& x.type===\"specialability\");\n    if (hasItem) {\n      game.ball.token.actor.deleteEmbeddedDocuments(\"Item\",[hasItem._id]);\n    }\n  }\n}\nlet token = game.user.targets.first();\ngame.socket.emit('system.dsa5', {\n    type: 'pixieContainer',\n    pixi: {\n      rotate: true,\n      id: \"immanBall\",\n      src: \"/worlds/der-adler-und-der-wal/assets/immanball.png\"\n    },\n    tokenId: token?token.id:false\n});\nif (!token) {\n  return;\n}\ngame.ball.token = token;\ncontainer.x = token.w/2;\ncontainer.y = token.h/2;\nlet scale = Math.max(token.document.width, token.document.height) * ((Math.abs(token.document.texture.scaleX) + Math.abs(token.document.texture.scaleY)) / 2);\nsprite.width = canvas.dimensions.size * 1.4 * scale;\nsprite.height = canvas.dimensions.size * 1.4 * scale;\ntoken.addChildAt(container,0);\nif (token.actor) {\n  token.actor.createEmbeddedDocuments(\"Item\",[status]);\n}",
+  "img": "icons/svg/sun.svg",
+  "author": "BjRA51V62nGFKtZ3",
+  "scope": "global",
+  "folder": "M6yDEaGYvqSSYXRU",
+  "ownership": {
+    "default": 0,
+    "BjRA51V62nGFKtZ3": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dsa5",
+    "systemVersion": "7.0.0",
+    "createdTime": 1772350162301,
+    "modifiedTime": 1772350162301,
+    "lastModifiedBy": "BjRA51V62nGFKtZ3"
+  },
+  "_id": "o4nNmVZQ7uHuFXIC",
+  "sort": 0,
+  "_key": "!macros!o4nNmVZQ7uHuFXIC"
+}

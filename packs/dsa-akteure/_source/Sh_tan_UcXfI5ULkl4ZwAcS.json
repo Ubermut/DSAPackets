@@ -2,13 +2,14 @@
   "img": "tokenizer/npc-images/base/pferd_3.Avatar.webp?1682158508989",
   "_stats": {
     "compendiumSource": null,
-    "modifiedTime": 1748075974812,
+    "modifiedTime": 1763189772605,
     "systemId": "dsa5",
-    "lastModifiedBy": "k2irxkER7dd27yKp",
+    "lastModifiedBy": "BjRA51V62nGFKtZ3",
     "createdTime": 1748075974606,
     "duplicateSource": null,
     "systemVersion": "6.2.3",
-    "coreVersion": "12.331"
+    "coreVersion": "13.351",
+    "exportSource": null
   },
   "flags": {
     "core": {}
@@ -128,7 +129,6 @@
       }
     },
     "prependAdjective": false,
-    "hexagonalShape": 0,
     "randomImg": false,
     "appendNumber": false,
     "bar1": {
@@ -180,7 +180,14 @@
     "occludable": {
       "radius": 0
     },
-    "height": 1.5
+    "height": 1.5,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "effects": [
     {
@@ -194,7 +201,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "flags": {
         "dsa5": {
@@ -236,237 +244,192 @@
   ],
   "folder": "rsOPLg18T2ox420r",
   "system": {
-    "actionCount": {
-      "value": 1
-    },
-    "happyTalents": {
-      "value": ""
-    },
-    "flight": {
-      "value": ""
-    },
     "characteristics": {
-      "ff": {
-        "color": "#d5b467",
-        "species": 0,
-        "initial": 8,
-        "advances": 0,
-        "abrev": "CHARAbbrev.FF",
-        "modifier": 0,
-        "label": "CHAR.FF"
-      },
-      "kk": {
-        "color": "#d6a878",
-        "species": 0,
-        "initial": 21,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KK",
-        "modifier": 0,
-        "label": "CHAR.KK"
-      },
-      "kl": {
-        "color": "#8259a3",
-        "species": 0,
-        "initial": 11,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KL",
-        "modifier": 0,
-        "label": "CHAR.KL"
-      },
-      "ko": {
-        "color": "#fbf5ea",
-        "species": 0,
-        "initial": 18,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KO",
-        "modifier": 0,
-        "label": "CHAR.KO"
-      },
-      "in": {
-        "color": "#388834",
-        "species": 0,
-        "initial": 13,
-        "advances": 0,
-        "abrev": "CHARAbbrev.IN",
-        "modifier": 0,
-        "label": "CHAR.IN"
-      },
-      "ch": {
-        "color": "#0d0d0d",
-        "species": 0,
-        "initial": 13,
-        "advances": 0,
-        "abrev": "CHARAbbrev.CH",
-        "modifier": 0,
-        "label": "CHAR.CH"
-      },
       "mu": {
+        "label": "CHAR.MU",
+        "abrev": "CHARAbbrev.MU",
         "color": "#b3241a",
         "initial": 11,
         "species": 0,
-        "advances": 0,
-        "abrev": "CHARAbbrev.MU",
         "modifier": 0,
-        "label": "CHAR.MU"
+        "advances": 0
+      },
+      "kl": {
+        "label": "CHAR.KL",
+        "abrev": "CHARAbbrev.KL",
+        "color": "#8259a3",
+        "species": 0,
+        "initial": 11,
+        "modifier": 0,
+        "advances": 0
+      },
+      "in": {
+        "label": "CHAR.IN",
+        "abrev": "CHARAbbrev.IN",
+        "color": "#388834",
+        "species": 0,
+        "initial": 13,
+        "modifier": 0,
+        "advances": 0
+      },
+      "ch": {
+        "label": "CHAR.CH",
+        "abrev": "CHARAbbrev.CH",
+        "color": "#0d0d0d",
+        "species": 0,
+        "initial": 13,
+        "modifier": 0,
+        "advances": 0
+      },
+      "ff": {
+        "label": "CHAR.FF",
+        "abrev": "CHARAbbrev.FF",
+        "color": "#d5b467",
+        "species": 0,
+        "initial": 8,
+        "modifier": 0,
+        "advances": 0
       },
       "ge": {
+        "label": "CHAR.GE",
+        "abrev": "CHARAbbrev.GE",
         "color": "#688ec4",
         "species": 0,
         "initial": 14,
-        "advances": 0,
-        "abrev": "CHARAbbrev.GE",
         "modifier": 0,
-        "label": "CHAR.GE"
+        "advances": 0
+      },
+      "ko": {
+        "label": "CHAR.KO",
+        "abrev": "CHARAbbrev.KO",
+        "color": "#fbf5ea",
+        "species": 0,
+        "initial": 18,
+        "modifier": 0,
+        "advances": 0
+      },
+      "kk": {
+        "label": "CHAR.KK",
+        "abrev": "CHARAbbrev.KK",
+        "color": "#d6a878",
+        "species": 0,
+        "initial": 21,
+        "modifier": 0,
+        "advances": 0
       }
-    },
-    "count": {
-      "label": "count",
-      "value": "1"
-    },
-    "description": {
-      "value": ""
     },
     "hitbox": 0,
-    "feature": {
-      "magical": "",
-      "clerical": ""
-    },
-    "guidevalue": {
-      "magical": "-",
-      "clerical": "-"
-    },
-    "specialRules": {
-      "value": ""
-    },
-    "energyfactor": {
-      "magical": 1,
-      "clerical": 1
-    },
-    "details": {
-      "experience": {
-        "total": 0,
-        "spent": 0
-      }
-    },
-    "creatureClass": {
-      "value": "animal"
-    },
-    "behaviour": {
-      "value": ""
-    },
-    "tradition": {
-      "magical": "",
-      "clerical": ""
-    },
-    "config": {
-      "autoSize": true,
-      "autoBar": true
-    },
-    "merchantType": true,
     "status": {
-      "dodge": {
-        "max": 0,
-        "modifier": 8,
-        "value": 0
-      },
       "wounds": {
-        "current": 8,
         "initial": 57,
-        "max": 0,
+        "value": 57,
         "advances": 0,
         "modifier": 0,
-        "value": 57
+        "current": 8,
+        "max": 0
       },
-      "initiative": {
-        "die": "1d6",
-        "current": 10.09,
-        "diemodifier": "",
-        "nextaction": 11,
-        "initial": 9,
-        "multiplier": 1,
-        "modifier": 0,
-        "gearmodifier": 1,
-        "rolled": true,
-        "value": "10.10",
-        "currentdice": 1,
-        "fullmodifier": 1
-      },
-      "artifactradiation": {
+      "astralenergy": {
         "initial": 0,
+        "value": 0,
+        "advances": 0,
         "modifier": 0,
-        "value": 0
-      },
-      "atbasis": {
         "current": 0,
+        "max": 0
+      },
+      "karmaenergy": {
         "initial": 0,
+        "value": 0,
         "advances": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0,
+        "max": 0
       },
-      "combat": {
-        "oneRoundEffects": [],
-        "oneTimeEffects": []
+      "soulpower": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "toughness": {
+        "initial": 0,
+        "value": 18,
+        "modifier": 0
       },
       "captainvalue": {
         "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "artifactradiation": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "dodge": {
+        "value": 0,
+        "modifier": 8,
+        "max": 0
+      },
+      "fatePoints": {
+        "value": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0
       },
       "speed": {
         "initial": 0,
         "modifier": 15,
         "value": 0
       },
-      "encumbrance": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
+      "initiative": {
+        "value": "10.10",
+        "modifier": 0,
+        "current": 10.09,
+        "die": "1d6",
+        "diemodifier": "-",
+        "nextaction": 11,
+        "initial": 9,
+        "multiplier": 1,
+        "gearmodifier": 1,
+        "rolled": true,
+        "currentdice": 1,
+        "fullmodifier": 1
       },
-      "karmaenergy": {
-        "current": 0,
+      "atbasis": {
         "initial": 0,
-        "max": 0,
+        "value": 0,
         "advances": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0
       },
-      "fatePoints": {
-        "current": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "soulpower": {
+      "encumbrance": {
         "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "bodyarmor": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "pabasis": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0
+      },
+      "fkbasis": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
       },
       "size": {
         "value": "big"
       },
-      "astralenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "bodyarmor": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
-      },
-      "toughness": {
-        "initial": 0,
-        "modifier": 0,
-        "value": 18
-      },
-      "fkbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
+      "combat": {
+        "oneRoundEffects": [],
+        "oneTimeEffects": []
       },
       "actions": {
         "movementaction": 0,
@@ -508,21 +471,72 @@
         "spendInitiative": false,
         "ataction": 0
       },
-      "pabasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
+      "attackSize": {
+        "value": "DEFAULT"
+      },
+      "bodytype": {
+        "value": "none"
       }
     },
+    "guidevalue": {
+      "magical": "-",
+      "clerical": "-"
+    },
+    "energyfactor": {
+      "magical": 1,
+      "clerical": 1
+    },
+    "tradition": {
+      "magical": "",
+      "clerical": ""
+    },
+    "feature": {
+      "magical": "",
+      "clerical": ""
+    },
+    "happyTalents": {
+      "value": ""
+    },
+    "config": {
+      "autoBar": true,
+      "autoSize": true
+    },
+    "details": {
+      "experience": {
+        "total": 0,
+        "spent": 0
+      }
+    },
+    "actionCount": {
+      "value": 1
+    },
+    "count": {
+      "value": "1",
+      "label": "count"
+    },
+    "creatureClass": {
+      "value": "animal"
+    },
+    "behaviour": {
+      "value": ""
+    },
+    "flight": {
+      "value": ""
+    },
+    "specialRules": {
+      "value": ""
+    },
     "conjuringDifficulty": {
-      "control": 0,
-      "value": 0
+      "value": 0,
+      "control": 0
+    },
+    "description": {
+      "value": ""
     },
     "sheetLocked": {
       "value": false
-    }
+    },
+    "merchantType": true
   },
   "ownership": {
     "default": 1,
@@ -537,14 +551,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -552,21 +566,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -581,13 +595,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kettenstäbe",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.226BaiUnbC8a02EI"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "226BaiUnbC8a02EI",
@@ -600,14 +614,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -615,21 +629,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": true,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 0
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": true,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 0,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -644,13 +658,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Lanzenreiten",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.4lQMyQA76B3k2qC3"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "4lQMyQA76B3k2qC3",
@@ -663,14 +677,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -678,21 +692,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -5,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -5,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -707,13 +721,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Blasrohr",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.5RIyzGs1cZlo5KSM"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "5RIyzGs1cZlo5KSM",
@@ -726,14 +740,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -741,21 +755,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -770,13 +784,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kettenwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.BnyH20zV6sSUVP6L"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "BnyH20zV6sSUVP6L",
@@ -789,14 +803,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -804,21 +818,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 0
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 0,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -833,13 +847,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Belagerungswaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.C35OB8c3U96PkOi4"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "C35OB8c3U96PkOi4",
@@ -852,14 +866,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -867,21 +881,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -896,13 +910,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Raufen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.DVR2e9H5OmUwOTAx"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "DVR2e9H5OmUwOTAx",
@@ -915,14 +929,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -930,21 +944,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -959,13 +973,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Anderthalbhänder",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.DbhjV4W59gLQtOCD"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "DbhjV4W59gLQtOCD",
@@ -978,14 +992,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -993,21 +1007,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1022,13 +1036,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfmesser",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.Ju1yU6ebEnUMoo7c"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "Ju1yU6ebEnUMoo7c",
@@ -1041,14 +1055,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1056,21 +1070,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1085,13 +1099,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Diskus",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.LEG7m1tkOxrTocUG"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "LEG7m1tkOxrTocUG",
@@ -1104,14 +1118,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1119,21 +1133,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1148,13 +1162,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfspeere",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.N87xkSBj7rLh9UCI"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "N87xkSBj7rLh9UCI",
@@ -1167,14 +1181,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1182,21 +1196,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -4,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -4,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1211,13 +1225,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Hiebwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.NtAsVa3mRdfHWbLT"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "NtAsVa3mRdfHWbLT",
@@ -1230,14 +1244,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1245,21 +1259,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1274,13 +1288,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Infanteriewaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.OXVG7xUn8NgQcbSU"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "OXVG7xUn8NgQcbSU",
@@ -1293,14 +1307,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1308,21 +1322,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": true,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": true,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1337,13 +1351,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Peitsche",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.Od7bzJ6edTm4CD6C"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "Od7bzJ6edTm4CD6C",
@@ -1356,14 +1370,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1371,21 +1385,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1400,13 +1414,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Dolche",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.UZ4W2yrSlJOEs4jB"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "UZ4W2yrSlJOEs4jB",
@@ -1419,14 +1433,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1434,21 +1448,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1463,13 +1477,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schleuder",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.UhfzjjnojBQjxBDJ"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "UhfzjjnojBQjxBDJ",
@@ -1482,14 +1496,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "A"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1497,21 +1511,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1526,13 +1540,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Parierwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Item.0aN7R5SL6xkbAsBO"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "sort": 0,
@@ -1545,14 +1559,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1560,21 +1574,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -5,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -5,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1589,13 +1603,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Armbrust",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.awBvPLMvFu4KcQUE"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "awBvPLMvFu4KcQUE",
@@ -1608,14 +1622,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1623,21 +1637,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1652,13 +1666,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schwerter",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.cvEA2xbXgOfrocqA"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "cvEA2xbXgOfrocqA",
@@ -1671,14 +1685,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1686,21 +1700,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1715,13 +1729,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfbeile",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.favwZuUV7oqLbaVM"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "favwZuUV7oqLbaVM",
@@ -1734,14 +1748,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1749,21 +1763,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1778,13 +1792,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Stäbe",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.gdCgGX8gOQZaPMck"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "gdCgGX8gOQZaPMck",
@@ -1797,14 +1811,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1812,21 +1826,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1841,13 +1855,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Ringen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.jAUJXa4oSKGEijdC"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "jAUJXa4oSKGEijdC",
@@ -1860,14 +1874,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "A"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1875,21 +1889,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1904,13 +1918,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schilde",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.naOdsGgQ0g3TtFA5"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "naOdsGgQ0g3TtFA5",
@@ -1923,14 +1937,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1938,21 +1952,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1967,13 +1981,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihand-Hiebwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.njo6NjEzUBDpsjEv"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "njo6NjEzUBDpsjEv",
@@ -1986,14 +2000,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2001,21 +2015,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2030,13 +2044,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Fechtwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.o4BXASK78J7uakFZ"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "o4BXASK78J7uakFZ",
@@ -2049,14 +2063,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2064,21 +2078,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2093,13 +2107,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Säbel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.oP79ub1B8wetV5xv"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "oP79ub1B8wetV5xv",
@@ -2112,14 +2126,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2127,21 +2141,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2156,13 +2170,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihandflegel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.sVSpXuv6xffj8PNW"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "sVSpXuv6xffj8PNW",
@@ -2175,14 +2189,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2190,21 +2204,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2219,13 +2233,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Bogen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.t1HFkkvYGP0M8JuD"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "t1HFkkvYGP0M8JuD",
@@ -2238,14 +2252,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2253,21 +2267,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2282,13 +2296,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Speere",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.tCO38y9uOLT3y6gh"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "tCO38y9uOLT3y6gh",
@@ -2301,14 +2315,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2316,21 +2330,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2345,13 +2359,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihandschwerter/-säbel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.y4qU3t8GP8URMRDW"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "y4qU3t8GP8URMRDW",
@@ -2363,8 +2377,8 @@
       "img": "systems/dsa5/icons/money-D.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2372,16 +2386,16 @@
         "price": {
           "value": 10
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2396,13 +2410,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-D",
       "flags": {
-        "core": {
-          "sourceId": "Item.BGfRbsrZ2M2Y2wZ3"
-        }
+        "core": {}
       },
       "_id": "OCRi6UuKBIHCbZuF",
       "sort": 0,
@@ -2413,8 +2426,8 @@
       "img": "systems/dsa5/icons/money-S.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2422,16 +2435,16 @@
         "price": {
           "value": 1
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2446,13 +2459,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-S",
       "flags": {
-        "core": {
-          "sourceId": "Item.ntX4yPa0e9rmmqSZ"
-        }
+        "core": {}
       },
       "_id": "xN0OtnyZqB4BaWAX",
       "sort": 0,
@@ -2463,8 +2475,8 @@
       "img": "systems/dsa5/icons/money-H.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2472,16 +2484,16 @@
         "price": {
           "value": 0.1
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2496,13 +2508,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-H",
       "flags": {
-        "core": {
-          "sourceId": "Item.2wwyflxgKCiz9UIQ"
-        }
+        "core": {}
       },
       "_id": "G4piFlEAWb2stJCn",
       "sort": 0,
@@ -2513,8 +2524,8 @@
       "img": "systems/dsa5/icons/money-K.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2522,16 +2533,16 @@
         "price": {
           "value": 0.01
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2546,13 +2557,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-K",
       "flags": {
-        "core": {
-          "sourceId": "Item.IHSzojKYEn0FloQm"
-        }
+        "core": {}
       },
       "_id": "NDf42upvVWmHi8Ty",
       "sort": 0,
@@ -2564,46 +2574,38 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "damage": {
-          "value": "1d6+1"
-        },
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
         },
-        "reach": {
-          "value": "medium"
-        },
-        "attacktype": "standard",
-        "description": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "damagetype": "damage",
-        "duration": {
-          "value": ""
-        },
-        "pa": 8,
-        "AsPCost": {
-          "value": 0
-        },
-        "at": {
-          "value": 11
-        },
-        "reloadTime": {
-          "value": "1"
+        "APValue": {
+          "value": "0"
         },
         "traitType": {
           "value": "meleeAttack"
         },
-        "mountEffect": {
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "at": {
+          "value": 11
+        },
+        "pa": 8,
+        "reach": {
+          "value": "medium"
+        },
+        "damage": {
+          "value": "1d6+1"
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "duration": {
           "value": ""
         },
         "aspect": {
@@ -2612,9 +2614,17 @@
         "effect": {
           "value": ""
         },
-        "creatureClass": {
-          "value": "unknown"
+        "mountEffect": {
+          "value": ""
         },
+        "quantity": {
+          "value": 0
+        },
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
+        },
+        "damagetype": "damage",
         "damageType": "damage"
       },
       "ownership": {
@@ -2630,7 +2640,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Biss",
       "flags": {},
@@ -2644,46 +2655,38 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "damage": {
-          "value": "1d6+2"
-        },
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
         },
-        "reach": {
-          "value": "medium"
-        },
-        "attacktype": "standard",
-        "description": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "damagetype": "damage",
-        "duration": {
-          "value": ""
-        },
-        "pa": 8,
-        "AsPCost": {
-          "value": 0
-        },
-        "at": {
-          "value": 11
-        },
-        "reloadTime": {
-          "value": "1"
+        "APValue": {
+          "value": "0"
         },
         "traitType": {
           "value": "meleeAttack"
         },
-        "mountEffect": {
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "at": {
+          "value": 11
+        },
+        "pa": 8,
+        "reach": {
+          "value": "medium"
+        },
+        "damage": {
+          "value": "1d6+2"
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "duration": {
           "value": ""
         },
         "aspect": {
@@ -2692,9 +2695,17 @@
         "effect": {
           "value": ""
         },
-        "creatureClass": {
-          "value": "unknown"
+        "mountEffect": {
+          "value": ""
         },
+        "quantity": {
+          "value": 0
+        },
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
+        },
+        "damagetype": "damage",
         "damageType": "damage"
       },
       "ownership": {
@@ -2710,7 +2721,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Pferdetritt",
       "flags": {},
@@ -2724,44 +2736,38 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "damage": {
-          "value": "1d6"
-        },
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
         },
-        "reach": {
-          "value": "short"
-        },
-        "description": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "duration": {
-          "value": ""
-        },
-        "pa": 0,
-        "AsPCost": {
-          "value": 0
-        },
-        "at": {
-          "value": "1"
-        },
-        "reloadTime": {
-          "value": "1"
+        "APValue": {
+          "value": "0"
         },
         "traitType": {
           "value": "armor"
         },
-        "mountEffect": {
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "at": {
+          "value": "1"
+        },
+        "pa": 0,
+        "reach": {
+          "value": "short"
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "duration": {
           "value": ""
         },
         "aspect": {
@@ -2770,8 +2776,14 @@
         "effect": {
           "value": "+1 RS"
         },
-        "creatureClass": {
-          "value": "unknown"
+        "mountEffect": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 0
+        },
+        "weight": {
+          "value": 0
         }
       },
       "ownership": {
@@ -2787,7 +2799,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Fell",
       "flags": {},
@@ -2800,46 +2813,39 @@
       "img": "systems/dsa5/icons/categories/trait.webp",
       "effects": [],
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "damage": {
-          "value": "1d6"
-        },
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
         },
-        "reach": {
-          "value": "short"
-        },
-        "attacktype": "standard",
-        "description": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0
-        },
-        "duration": {
-          "value": ""
-        },
-        "pa": 0,
-        "AsPCost": {
-          "value": 0
-        },
-        "at": {
-          "value": null
-        },
-        "reloadTime": {
-          "value": "1"
+        "APValue": {
+          "value": "0"
         },
         "traitType": {
           "value": "general"
         },
-        "mountEffect": {
-          "value": "Reiten 3; Abrichten 3;"
+        "creatureClass": {
+          "value": "animal"
+        },
+        "at": {
+          "value": null
+        },
+        "pa": 0,
+        "reach": {
+          "value": "short"
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "duration": {
+          "value": ""
         },
         "aspect": {
           "value": ""
@@ -2847,8 +2853,15 @@
         "effect": {
           "value": ""
         },
-        "creatureClass": {
-          "value": "animal"
+        "mountEffect": {
+          "value": "Reiten 3; Abrichten 3;"
+        },
+        "quantity": {
+          "value": 0
+        },
+        "attacktype": "standard",
+        "weight": {
+          "value": 0
         },
         "damageType": "damage"
       },
@@ -2865,7 +2878,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Mag Avessandra",
       "flags": {},
@@ -2878,20 +2892,23 @@
       "img": "icons/consumables/food/shank-meat-bone-glazed-red.webp",
       "effects": [],
       "system": {
+        "price": {
+          "value": 0
+        },
         "quantity": {
           "value": 150
-        },
-        "worn": {
-          "wearable": false,
-          "value": true
-        },
-        "gmdescription": {
-          "value": ""
         },
         "weight": {
           "value": 0.5
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -2899,10 +2916,14 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
         "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": false
+        },
         "transform": {
           "difficulty": 0,
           "price": 0.5,
@@ -2912,13 +2933,6 @@
           "equipmentType": "food"
         },
         "mountEffect": {
-          "value": ""
-        },
-        "price": {
-          "value": 0
-        },
-        "parent_id": 0,
-        "effect": {
           "value": ""
         }
       },
@@ -2936,13 +2950,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Pferdefleisch",
       "flags": {
-        "core": {
-          "sourceId": "Item.OKiUo4YO6GuGkVJH"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "UX2IIq6HgvBH1JrD",
@@ -2953,20 +2966,23 @@
       "img": "icons/commodities/leather/fur-brown-gold.webp",
       "effects": [],
       "system": {
+        "price": {
+          "value": 0
+        },
         "quantity": {
           "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "gmdescription": {
-          "value": ""
         },
         "weight": {
           "value": 2.5
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -2974,10 +2990,14 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
         "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
         "transform": {
           "difficulty": -1,
           "price": 30,
@@ -2987,13 +3007,6 @@
           "equipmentType": "resource"
         },
         "mountEffect": {
-          "value": ""
-        },
-        "price": {
-          "value": 0
-        },
-        "parent_id": 0,
-        "effect": {
           "value": ""
         }
       },
@@ -3010,13 +3023,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Pferdefell",
       "flags": {
-        "core": {
-          "sourceId": "Item.WA2HL1yk75mAm4VL"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "HUaNahsMB5QqTOkY",
@@ -3027,30 +3039,23 @@
       "img": "systems/dsa5/icons/itemicons/artefakte/Halthars%20Sattel.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": "Reiten -1"
-        },
         "price": {
           "value": 100
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 7
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3058,10 +3063,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": "Reiten -1"
+        }
       },
       "folder": null,
       "ownership": {
@@ -3076,13 +3088,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Satteltaschen und Tragegestell",
       "flags": {
-        "core": {
-          "sourceId": "Item.GPIDKnze4DhPsdj4"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "7DAS5Zsafce7PbxG",
@@ -3093,30 +3104,23 @@
       "img": "systems/dsa5/icons/itemicons/nahkampfwaffen/belegnagel.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": false
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 0.01
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Sinnenschärfe"
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 0.75
         },
+        "effect": {
+          "value": "Sinnenschärfe"
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3124,10 +3128,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": false,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -3142,13 +3153,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zerbrochener Stock",
       "flags": {
-        "core": {
-          "sourceId": "Item.4wOasLIStMhSK4xO"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "SJVwoVwiyhNhrydW",
@@ -3160,30 +3170,23 @@
       "effects": [],
       "folder": "cjyvfkeVoQUrHOUo",
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 0.3
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 0.3
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3191,10 +3194,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 10
+        "capacity": 10,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "ownership": {
         "default": 0,
@@ -3208,13 +3218,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kurze Hose",
       "flags": {
-        "core": {
-          "sourceId": "Item.Pd5RE55uapYLEXkD"
-        }
+        "core": {}
       },
       "sort": 200000,
       "_id": "Foy73lP93SNltvOs",
@@ -3225,30 +3234,23 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 2
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 1
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3256,10 +3258,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -3275,13 +3284,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "alter Schmiedehammer",
       "flags": {
-        "core": {
-          "sourceId": "Item.CbGdQMTXLNHVdan2"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "jCca71Ri6lk7EZ5e",
@@ -3292,30 +3300,23 @@
       "img": "systems/dsa5/icons/itemicons/Sonstiges/kessel.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 4
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 0.5
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3323,10 +3324,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -3341,13 +3349,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Eisentopf",
       "flags": {
-        "core": {
-          "sourceId": "Item.GfEM2wURO7o4ukmE"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "MrO1ROxg8DW49Bna",
@@ -3358,30 +3365,23 @@
       "img": "systems/dsa5/icons/itemicons/Sonstiges/schuessel.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 0.05
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 0.02
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3389,10 +3389,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -3407,13 +3414,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Holzschüssel",
       "flags": {
-        "core": {
-          "sourceId": "Item.TG3mEuN5E0UG7rNp"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "RL0UARFxLmuL6ZrR",
@@ -3424,20 +3430,23 @@
       "img": "icons/commodities/materials/feather-orange.webp",
       "effects": [],
       "system": {
+        "price": {
+          "value": 0.04
+        },
         "quantity": {
           "value": 5
-        },
-        "worn": {
-          "wearable": false,
-          "value": true
-        },
-        "gmdescription": {
-          "value": ""
         },
         "weight": {
           "value": 0.25
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3445,10 +3454,14 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
         "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": false
+        },
         "transform": {
           "difficulty": -2,
           "price": 0.05,
@@ -3458,13 +3471,6 @@
           "equipmentType": "food"
         },
         "mountEffect": {
-          "value": ""
-        },
-        "price": {
-          "value": 0.04
-        },
-        "parent_id": 0,
-        "effect": {
           "value": ""
         }
       },
@@ -3482,13 +3488,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Federn (mangelhaft)",
       "flags": {
-        "core": {
-          "sourceId": "Item.OKiUo4YO6GuGkVJH"
-        }
+        "core": {}
       },
       "sort": 100000,
       "_id": "KRwQTe5tuvT67d6N",
@@ -3499,30 +3504,23 @@
       "img": "systems/dsa5/icons/itemicons/Sonstiges/krug.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 4
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 1
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 4
         },
         "weight": {
           "value": 0.5
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3530,10 +3528,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -3549,13 +3554,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Tonkrug",
       "flags": {
-        "core": {
-          "sourceId": "Item.YwivlRFSFoLxlQIQ"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "Rxstny5BYGjHs5eQ",
@@ -3566,30 +3570,23 @@
       "img": "systems/dsa5/icons/itemicons/Sonstiges/krug_0.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 0.5
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 1
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3597,10 +3594,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 5
+        "capacity": 5,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -3616,13 +3620,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Krug",
       "flags": {
-        "core": {
-          "sourceId": "Item.AFQMTJEzRVLg1TPK"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "MhfR0KtvMSmvsMsj",
@@ -3633,30 +3636,23 @@
       "img": "systems/dsa5/icons/itemicons/Sonstiges/Rucksack.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 4
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 0.75
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3664,10 +3660,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 10
+        "capacity": 10,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -3682,13 +3685,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Rucksack",
       "flags": {
-        "core": {
-          "sourceId": "Item.Pd5RE55uapYLEXkD"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "d19XrluCxhQPlRAT",
@@ -3699,30 +3701,23 @@
       "img": "icons/commodities/wood/logs-rough-brown.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 0
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 0.5
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3730,10 +3725,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -3748,13 +3750,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Holzreste",
       "flags": {
-        "core": {
-          "sourceId": "Item.wQP1pQ3RlxKb9lt7"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "pDzbdBi1NH5MK80Q",
@@ -3765,30 +3766,23 @@
       "img": "systems/dsa5/icons/itemicons/pflanzen/menchalkaktus.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 20
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 1
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 20
         },
         "weight": {
           "value": 0.2
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3796,10 +3790,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -3814,13 +3815,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Menchal-Leder",
       "flags": {
-        "core": {
-          "sourceId": "Item.1hUmbTT4gl3xUQI2"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "mJcOREmV5zcvRB0Y",
@@ -3831,30 +3831,23 @@
       "img": "icons/commodities/cloth/cloth-bolt-grey.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 10
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 0
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 10
         },
         "weight": {
           "value": 0.1
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3862,10 +3855,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -3880,13 +3880,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Stoffetzen",
       "flags": {
-        "core": {
-          "sourceId": "Item.T9C43kQVdKP85RlD"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "QIYXAqE46Xg1bUsJ",
@@ -3897,30 +3896,23 @@
       "img": "icons/tools/smithing/pincers.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 0.5
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Kräuter Suchen 4;"
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 1
         },
+        "effect": {
+          "value": "Kräuter Suchen 4;"
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -3928,10 +3920,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -3947,13 +3946,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Stachelentferner",
       "flags": {
-        "core": {
-          "sourceId": "Item.q8LgHFio6gV3xEo4"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "XFYxzuvWVZDkz4IW",
@@ -3965,43 +3963,43 @@
       "effects": [],
       "folder": "1e8Ljy98Ho8Arb5g",
       "system": {
-        "quantity": {
-          "value": 134
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
         },
-        "alchemydescription": {
-          "value": "Extra Wasserration"
+        "price": {
+          "value": 0.01
         },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 134
         },
         "weight": {
           "value": 1
         },
-        "equipmentType": {
-          "value": "food"
-        },
-        "quality": {
-          "secretValue": "Alchemy.C",
-          "value": "Alchemy.U"
-        },
-        "QLList": "KO 2; Selbstbeherrschung 1;",
-        "charges": 1,
-        "transform": {
-          "value": false
-        },
-        "price": {
-          "value": 0.01
-        },
-        "parent_id": 0,
         "effect": {
           "value": ""
         },
+        "parent_id": 0,
+        "equipmentType": {
+          "value": "food"
+        },
+        "QLList": "KO 2; Selbstbeherrschung 1;",
+        "quality": {
+          "value": "Alchemy.U",
+          "secretValue": "Alchemy.C"
+        },
+        "charges": 1,
+        "maxCharges": 1,
+        "alchemydescription": {
+          "value": "Extra Wasserration"
+        },
+        "transform": {
+          "value": false
+        },
         "healingValue": "",
-        "targetEffect": false,
-        "maxCharges": 1
+        "targetEffect": false
       },
       "ownership": {
         "default": 0,
@@ -4015,13 +4013,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wasserration",
       "flags": {
-        "core": {
-          "sourceId": "Item.J9hYiB6QsXa2fNH4"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "3pURBtLZdMjQ8Byv",
@@ -4033,29 +4030,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
-          "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
+        "description": {
+          "value": "<p><strong> </strong>Das Tiere ist in bestimmten Geschwindigkeiten sehr ausdauernd.</p>"
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
-          "value": "<p><strong> </strong>Das Tiere ist in bestimmten Geschwindigkeiten sehr ausdauernd.</p>"
+        "max": {
+          "value": 0
+        },
+        "requirements": {
+          "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4071,13 +4068,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Ausdauernd",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.creaturetraits.Item.3ADxxmi05DT4mQgg"
-        }
+        "core": {}
       },
       "_id": "Ti0fwEzRaysP76e6",
       "sort": 100000,
@@ -4088,29 +4084,29 @@
       "img": "systems/dsa5/icons/categories/Vorteil.webp",
       "effects": [],
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
-          "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
+        "description": {
+          "value": "<p>Das Tier ist besonders schnell.</p>"
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": "+2 GS;"
+        "APValue": {
+          "value": "0"
         },
-        "description": {
-          "value": "<p>Das Tier ist besonders schnell.</p>"
+        "max": {
+          "value": 0
+        },
+        "requirements": {
+          "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": "+2 GS;"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": null,
@@ -4126,19 +4122,18 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": {
+          "worldId": "der_loewe_und_der_rabe",
+          "uuid": null,
+          "coreVersion": "10.291",
+          "systemId": "dsa5",
+          "systemVersion": "2.0.4"
+        }
       },
       "name": "Sehr Schnell",
       "flags": {
-        "core": {
-          "sourceId": "Item.FkelfeVaZAJdzmEP"
-        },
-        "exportSource": {
-          "world": "der_loewe_und_der_rabe",
-          "system": "dsa5",
-          "systemVersion": "2.0.4",
-          "coreVersion": "10.291"
-        }
+        "core": {}
       },
       "sort": 1300000,
       "_id": "YenKtzIivu4GoPQM",
@@ -4149,29 +4144,29 @@
       "img": "systems/dsa5/icons/categories/Vorteil.webp",
       "effects": [],
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
+        "description": {
           "value": ""
-        },
-        "mountEffect": {
-          "value": "Abrichten 1;"
-        },
-        "max": {
-          "value": 0
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
+        "max": {
+          "value": 0
+        },
+        "requirements": {
           "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": "Abrichten 1;"
         }
       },
       "folder": null,
@@ -4187,19 +4182,18 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": {
+          "worldId": "der_loewe_und_der_rabe",
+          "uuid": null,
+          "coreVersion": "10.291",
+          "systemId": "dsa5",
+          "systemVersion": "2.0.4"
+        }
       },
       "name": "Sehr Lernfähig",
       "flags": {
-        "core": {
-          "sourceId": "Item.FkelfeVaZAJdzmEP"
-        },
-        "exportSource": {
-          "world": "der_loewe_und_der_rabe",
-          "system": "dsa5",
-          "systemVersion": "2.0.4",
-          "coreVersion": "10.291"
-        }
+        "core": {}
       },
       "sort": 1000000,
       "_id": "XT23BYPKwRrx6PT8",
@@ -4210,29 +4204,29 @@
       "img": "systems/dsa5/icons/categories/Nachteil.webp",
       "effects": [],
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
-          "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
+        "description": {
+          "value": "<p>Ein Tier dieser Rasse hat ein schw&auml;cheres Nerven-<br>kost&uuml;m (die Sonderfertigkeiten Schrecksicher und Stillstand ist<br>diesem Tier nur mit einer gesonderten Abrichten-Probe+8 bei-<br>zubringen).</p>"
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": "-1 IN;"
+        "APValue": {
+          "value": "0"
         },
-        "description": {
-          "value": "<p>Ein Tier dieser Rasse hat ein schw&auml;cheres Nerven-<br>kost&uuml;m (die Sonderfertigkeiten Schrecksicher und Stillstand ist<br>diesem Tier nur mit einer gesonderten Abrichten-Probe+8 bei-<br>zubringen).</p>"
+        "max": {
+          "value": 0
+        },
+        "requirements": {
+          "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": "-1 IN;"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": null,
@@ -4248,13 +4242,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Nervosität",
       "flags": {
-        "core": {
-          "sourceId": "Item.LUnxsEl4po0YyXU6"
-        }
+        "core": {}
       },
       "_id": "PvJa4yOlj38ObcN5",
       "sort": 0,
@@ -4265,29 +4258,29 @@
       "img": "systems/dsa5/icons/categories/Vorteil.webp",
       "effects": [],
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
+        "description": {
           "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
+        "max": {
+          "value": 0
+        },
+        "requirements": {
           "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": null,
@@ -4303,13 +4296,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Hitzeresistenz",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.advantages.Item.74PVWSAPUpOgWfrr"
-        }
+        "core": {}
       },
       "_id": "56thnPDuRmq0al9X",
       "sort": 0,
@@ -4321,29 +4313,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
+        "description": {
           "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
+        "max": {
+          "value": 0
+        },
+        "requirements": {
           "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4360,7 +4352,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Großer Gegner",
       "flags": {},
@@ -4373,29 +4366,29 @@
       "img": "systems/dsa5/icons/categories/Nachteil.webp",
       "effects": [],
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
-          "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
+        "description": {
+          "value": "<p>Das Tier ist neugierig. Wenn es nicht angebunden wird, wandert es gerne umher.</p>"
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": "-1 IN;"
+        "APValue": {
+          "value": "0"
         },
-        "description": {
-          "value": "<p>Das Tier ist neugierig. Wenn es nicht angebunden wird, wandert es gerne umher.</p>"
+        "max": {
+          "value": 0
+        },
+        "requirements": {
+          "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": "-1 IN;"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": null,
@@ -4411,13 +4404,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Neugierig",
       "flags": {
-        "core": {
-          "sourceId": "Item.LUnxsEl4po0YyXU6"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "ZKfYBYA4obYt5sRm",
@@ -4428,29 +4420,29 @@
       "img": "systems/dsa5/icons/categories/Vorteil.webp",
       "effects": [],
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
-          "value": ""
-        },
-        "mountEffect": {
-          "value": "Überreden 2;"
-        },
-        "max": {
-          "value": 0
+        "description": {
+          "value": "<p>Das Tier hat ein besonders pr&auml;chtiges Fell</p>"
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
-          "value": "<p>Das Tier hat ein besonders pr&auml;chtiges Fell</p>"
+        "max": {
+          "value": 0
+        },
+        "requirements": {
+          "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": "Überreden 2;"
         }
       },
       "folder": null,
@@ -4466,19 +4458,18 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": {
+          "worldId": "der_loewe_und_der_rabe",
+          "uuid": null,
+          "coreVersion": "10.291",
+          "systemId": "dsa5",
+          "systemVersion": "2.0.4"
+        }
       },
       "name": "Prächtiges Fell",
       "flags": {
-        "core": {
-          "sourceId": "Item.FkelfeVaZAJdzmEP"
-        },
-        "exportSource": {
-          "world": "der_loewe_und_der_rabe",
-          "system": "dsa5",
-          "systemVersion": "2.0.4",
-          "coreVersion": "10.291"
-        }
+        "core": {}
       },
       "sort": 1000000,
       "_id": "N06uUBqw5oqhL7aG",
@@ -4489,25 +4480,53 @@
       "img": "systems/dsa5/icons/categories/trait.webp",
       "effects": [],
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "damage": {
-          "value": "1d6"
-        },
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
         },
+        "APValue": {
+          "value": "0"
+        },
+        "traitType": {
+          "value": "animalSpecialAbility"
+        },
+        "creatureClass": {
+          "value": "animal"
+        },
+        "at": {
+          "value": null
+        },
+        "pa": 0,
         "reach": {
           "value": "short"
         },
-        "attacktype": "standard",
-        "description": {
+        "damage": {
+          "value": "1d6"
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "duration": {
           "value": ""
         },
+        "aspect": {
+          "value": ""
+        },
+        "effect": {
+          "value": "Reiten 1;"
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 0
+        },
+        "attacktype": "standard",
         "weight": {
           "value": 0
         },
@@ -4517,34 +4536,6 @@
         },
         "structure": {
           "hasStructure": false
-        },
-        "duration": {
-          "value": ""
-        },
-        "pa": 0,
-        "AsPCost": {
-          "value": 0
-        },
-        "at": {
-          "value": null
-        },
-        "reloadTime": {
-          "value": "1"
-        },
-        "traitType": {
-          "value": "animalSpecialAbility"
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "aspect": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Reiten 1;"
-        },
-        "creatureClass": {
-          "value": "animal"
         },
         "damageType": "damage"
       },
@@ -4561,7 +4552,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Eingeritten",
       "flags": {},
@@ -4575,30 +4567,23 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": false
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 2
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Gesellschaftstalente 9"
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 1
         },
+        "effect": {
+          "value": "Gesellschaftstalente 9"
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -4606,10 +4591,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": false,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "ownership": {
         "default": 3,
@@ -4624,7 +4616,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Al'Anfanische Verkleidung",
       "flags": {},
@@ -4637,30 +4630,23 @@
       "img": "systems/dsa5/icons/itemicons/Sonstiges/hufeisen_teuer.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 120
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "+1 GS; +1 FF; +1 GE;"
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 1
         },
+        "effect": {
+          "value": "+1 GS; +1 FF; +1 GE;"
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -4668,10 +4654,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": null,
       "ownership": {
@@ -4686,13 +4679,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Gute Hufeisen",
       "flags": {
-        "core": {
-          "sourceId": "Item.GLzOQF8N0NWUZlb4"
-        }
+        "core": {}
       },
       "_id": "RWeN3sUnGKdHXGkf",
       "sort": 0,
@@ -4703,30 +4695,23 @@
       "img": "icons/commodities/leather/leather-scraps-yellow.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 2
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "price": {
           "value": 0.1
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
+        "quantity": {
+          "value": 2
         },
         "weight": {
           "value": 0.2
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -4734,10 +4719,17 @@
         },
         "structure": {
           "max": 0,
-          "hasStructure": false,
-          "value": 0
+          "value": 0,
+          "hasStructure": false
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        },
+        "mountEffect": {
+          "value": ""
+        }
       },
       "folder": "1e8Ljy98Ho8Arb5g",
       "ownership": {
@@ -4752,13 +4744,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Lederstücke",
       "flags": {
-        "core": {
-          "sourceId": "Item.a7tQSWNlsbsf5TtN"
-        }
+        "core": {}
       },
       "sort": 1100000,
       "_id": "1G3IG6yEej4LeAoh",
@@ -4769,20 +4760,23 @@
       "img": "icons/consumables/food/shank-meat-bone-glazed-red.webp",
       "effects": [],
       "system": {
+        "price": {
+          "value": 2.09
+        },
         "quantity": {
           "value": 2
-        },
-        "worn": {
-          "wearable": false,
-          "value": true
-        },
-        "gmdescription": {
-          "value": ""
         },
         "weight": {
           "value": 0.25
         },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "description": {
+          "value": ""
+        },
+        "gmdescription": {
           "value": ""
         },
         "equipmentType": {
@@ -4790,12 +4784,16 @@
         },
         "structure": {
           "max": 0,
+          "value": 0,
           "regeneration": false,
           "canBeTarget": false,
-          "hasStructure": false,
-          "value": 0
+          "hasStructure": false
         },
         "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": false
+        },
         "transform": {
           "difficulty": 0,
           "price": 2,
@@ -4805,13 +4803,6 @@
           "equipmentType": "food"
         },
         "mountEffect": {
-          "value": ""
-        },
-        "price": {
-          "value": 2.09
-        },
-        "parent_id": 0,
-        "effect": {
           "value": ""
         }
       },
@@ -4829,13 +4820,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Delikatesse (gewöhnlich)",
       "flags": {
-        "core": {
-          "sourceId": "Item.OKiUo4YO6GuGkVJH"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "tbd62INZE6iigqX8",
@@ -4846,39 +4836,39 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "effects": [],
       "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": "0"
         },
         "requirements": {
           "value": ""
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "-1 AT; -1 PA; -1 INI; -2 FK; Sinnenschärfe -2;"
-        },
-        "description": {
-          "value": ""
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 0
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "fatePoints"
+          "value": "fatePoints",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 0
+        "effect": {
+          "value": "-1 AT; -1 PA; -1 INI; -2 FK; Sinnenschärfe -2;"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": "WlHYLYf1L31BLT92",
@@ -4894,13 +4884,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Leichte Dunkelheit",
       "flags": {
-        "core": {
-          "sourceId": "Item.elwlVToO63mk3E2F"
-        }
+        "core": {}
       },
       "sort": 700000,
       "_id": "XCekV08wxIXh6NDf",

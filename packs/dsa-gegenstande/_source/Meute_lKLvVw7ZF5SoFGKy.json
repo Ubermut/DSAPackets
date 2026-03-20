@@ -14,7 +14,7 @@
       "value": "general"
     },
     "creatureClass": {
-      "value": "demon"
+      "value": "unknown"
     },
     "at": {
       "value": ""
@@ -51,7 +51,16 @@
       "value": 0
     },
     "damageType": "damage",
-    "attacktype": "standard"
+    "attacktype": "standard",
+    "structure": {
+      "hasStructure": false,
+      "canBeTarget": false,
+      "regeneration": false
+    },
+    "selectable": {
+      "value": true,
+      "cost": 3
+    }
   },
   "img": "systems/dsa5/icons/categories/trait.webp",
   "name": "Meute",
@@ -73,9 +82,9 @@
           "hasEffect": true,
           "effect": "+4 AT; +2 INI;",
           "damageValue": "",
-          "healingValue": ""
-        },
-        "effectKey": ""
+          "healingValue": "",
+          "effectKey": ""
+        }
       },
       "_id": "BXsG2hJewA5N05gu",
       "changes": [],
@@ -95,14 +104,15 @@
       "description": "",
       "statuses": [],
       "_stats": {
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": null,
         "systemVersion": null,
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
       "type": "base",
@@ -122,15 +132,16 @@
   },
   "_stats": {
     "systemId": "dsa5",
-    "systemVersion": "5.7.4",
-    "coreVersion": "12.331",
+    "systemVersion": "6.2.3",
+    "coreVersion": "13.351",
     "createdTime": 1683903673641,
-    "modifiedTime": 1722453000917,
-    "lastModifiedBy": "k2irxkER7dd27yKp",
+    "modifiedTime": 1769930729527,
+    "lastModifiedBy": "BjRA51V62nGFKtZ3",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "lKLvVw7ZF5SoFGKy",
-  "sort": 500000,
+  "sort": 4600000,
   "_key": "!items!lKLvVw7ZF5SoFGKy"
 }

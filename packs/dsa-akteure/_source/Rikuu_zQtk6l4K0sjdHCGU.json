@@ -2,25 +2,26 @@
   "img": "tokenizer/npc-images/base/zrll_zhshaa_copy_.Avatar.webp?1631252137202",
   "_stats": {
     "compendiumSource": null,
-    "modifiedTime": 1748075957974,
+    "modifiedTime": 1763195824607,
     "systemId": "dsa5",
-    "lastModifiedBy": "k2irxkER7dd27yKp",
+    "lastModifiedBy": "BjRA51V62nGFKtZ3",
     "createdTime": 1748075957974,
     "duplicateSource": null,
     "systemVersion": "6.2.3",
-    "coreVersion": "12.331"
+    "coreVersion": "13.351",
+    "exportSource": {
+      "worldId": "kartographen",
+      "uuid": null,
+      "coreVersion": "9.245",
+      "systemId": "dsa5",
+      "systemVersion": "2.0.4"
+    }
   },
   "flags": {
     "core": {},
-    "exportSource": {
-      "world": "kartographen",
-      "system": "dsa5",
-      "systemVersion": "2.0.4",
-      "coreVersion": "9.245"
-    },
-    "oppose": null
+    "oppose": {}
   },
-  "sort": 0,
+  "sort": 1100000,
   "type": "character",
   "prototypeToken": {
     "displayBars": 50,
@@ -101,7 +102,6 @@
       }
     },
     "prependAdjective": false,
-    "hexagonalShape": 0,
     "randomImg": false,
     "appendNumber": false,
     "bar1": {
@@ -153,7 +153,14 @@
     "occludable": {
       "radius": 0
     },
-    "height": 1
+    "height": 1,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "effects": [
     {
@@ -167,7 +174,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "changes": [
         {
@@ -220,7 +228,6 @@
         }
       ],
       "flags": {
-        "effectKey": "",
         "dsa5": {
           "auto": null,
           "editable": true,
@@ -230,7 +237,8 @@
           "customizable": true,
           "description": "Wasserwesen",
           "manual": 0,
-          "value": null
+          "value": null,
+          "effectKey": ""
         }
       },
       "description": "",
@@ -265,7 +273,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "changes": [
         {
@@ -282,7 +291,6 @@
         }
       ],
       "flags": {
-        "effectKey": "",
         "dsa5": {
           "auto": null,
           "editable": true,
@@ -292,7 +300,8 @@
           "customizable": true,
           "description": "Wasserwesen",
           "manual": 0,
-          "value": null
+          "value": null,
+          "effectKey": ""
         }
       },
       "description": "",
@@ -319,341 +328,244 @@
   ],
   "folder": "F3CZUiNmwPH1RFhz",
   "system": {
-    "happyTalents": {
-      "value": ""
-    },
     "characteristics": {
-      "ff": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#d5b467",
-        "species": 0,
-        "initial": 14,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.FF",
-        "modifier": -1,
-        "label": "CHAR.FF",
-        "type": "number",
-        "value": 13,
-        "refund": "Nope"
-      },
-      "kk": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#d6a878",
-        "species": 0,
-        "initial": 11,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.KK",
-        "modifier": 0,
-        "label": "CHAR.KK",
-        "type": "number",
-        "value": 11,
-        "refund": "Nope"
-      },
-      "kl": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#8259a3",
-        "species": 0,
-        "initial": 13,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.KL",
-        "modifier": 0,
-        "label": "CHAR.KL",
-        "type": "number",
-        "value": 13,
-        "refund": "Nope"
-      },
-      "ko": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#fbf5ea",
-        "species": 0,
+      "mu": {
+        "label": "CHAR.MU",
+        "abrev": "CHARAbbrev.MU",
+        "color": "#b3241a",
         "initial": 12,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.KO",
+        "species": 0,
         "modifier": 0,
-        "label": "CHAR.KO",
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 12,
         "refund": "Nope"
       },
-      "in": {
+      "kl": {
+        "label": "CHAR.KL",
+        "abrev": "CHARAbbrev.KL",
+        "color": "#8259a3",
+        "species": 0,
+        "initial": 13,
+        "modifier": 0,
+        "advances": 0,
         "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
+        "type": "number",
+        "value": 13,
+        "refund": "Nope"
+      },
+      "in": {
+        "label": "CHAR.IN",
+        "abrev": "CHARAbbrev.IN",
         "color": "#388834",
         "species": 0,
         "initial": 14,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.IN",
         "modifier": 2,
-        "label": "CHAR.IN",
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 16,
         "refund": "Nope"
       },
       "ch": {
-        "cost": "Siehe Steigerungsspalte",
+        "label": "CHAR.CH",
+        "abrev": "CHARAbbrev.CH",
         "color": "#0d0d0d",
         "species": 0,
         "initial": 12,
-        "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.CH",
         "modifier": 0,
-        "label": "CHAR.CH",
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
         "type": "number",
         "value": 12,
         "refund": "Nope"
       },
-      "mu": {
-        "cost": "Siehe Steigerungsspalte",
-        "color": "#b3241a",
-        "initial": 12,
+      "ff": {
+        "label": "CHAR.FF",
+        "abrev": "CHARAbbrev.FF",
+        "color": "#d5b467",
         "species": 0,
+        "initial": 14,
+        "modifier": -1,
         "advances": 0,
-        "bonus": 0,
-        "abrev": "CHARAbbrev.MU",
-        "modifier": 0,
-        "label": "CHAR.MU",
-        "type": "number",
-        "value": 12,
-        "refund": "Nope"
-      },
-      "ge": {
         "cost": "Siehe Steigerungsspalte",
-        "color": "#688ec4",
-        "species": 0,
-        "initial": 12,
-        "advances": 0,
         "bonus": 0,
-        "abrev": "CHARAbbrev.GE",
-        "modifier": 1,
-        "label": "CHAR.GE",
         "type": "number",
         "value": 13,
         "refund": "Nope"
-      }
-    },
-    "representations": {},
-    "hitbox": 0,
-    "freeLanguagePoints": {
-      "used": 0,
-      "value": 0
-    },
-    "healed": {
-      "tap": 0,
-      "source": ""
-    },
-    "feature": {
-      "magical": "",
-      "clerical": ""
-    },
-    "guidevalue": {
-      "magical": "in",
-      "effectToMessage": false,
-      "clerical": "-"
-    },
-    "details": {
-      "career": {
-        "value": ""
       },
-      "notes": {
-        "gmdescription": "",
-        "value": ""
-      },
-      "gender": {
-        "value": ""
-      },
-      "weight": {
-        "value": ""
-      },
-      "biography": {
-        "value": ""
-      },
-      "experience": {
-        "total": 0,
-        "spent": -916
-      },
-      "home": {
-        "value": ""
-      },
-      "distinguishingmark": {
-        "value": ""
-      },
-      "species": {
-        "value": ""
-      },
-      "culture": {
-        "value": ""
-      },
-      "eyecolor": {
-        "value": ""
-      },
-      "family": {
-        "value": ""
-      },
-      "haircolor": {
-        "value": ""
-      },
-      "socialstate": {
-        "value": ""
-      },
-      "Home": {
-        "value": ""
-      },
-      "age": {
-        "value": ""
-      },
-      "height": {
-        "value": ""
-      }
-    },
-    "energyfactor": {
-      "magical": "1",
-      "clerical": 1
-    },
-    "tradition": {
-      "magical": "",
-      "clerical": ""
-    },
-    "config": {
-      "autoBar": true
-    },
-    "tempValues": {
-      "Überreden": {
-        "name": "Unterstützung von Alara",
-        "taw": 0,
-        "tawplus": 0
-      },
-      "Fesseln/Entfesseln": {
-        "name": "Unterstützung von Zolin Zantschlächter",
-        "taw": 0,
-        "tawplus": 0
-      },
-      "Handwerkstalente": {
-        "name": "Unterstützung von Travin",
-        "taw": 0,
-        "tawplus": 0
-      }
-    },
-    "status": {
-      "dodge": {
-        "current": 0,
-        "max": 0,
-        "initial": 0,
+      "ge": {
+        "label": "CHAR.GE",
+        "abrev": "CHARAbbrev.GE",
+        "color": "#688ec4",
+        "species": 0,
+        "initial": 12,
+        "modifier": 1,
         "advances": 0,
-        "modifier": 0,
-        "value": 8
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
+        "type": "number",
+        "value": 13,
+        "refund": "Nope"
       },
+      "ko": {
+        "label": "CHAR.KO",
+        "abrev": "CHARAbbrev.KO",
+        "color": "#fbf5ea",
+        "species": 0,
+        "initial": 12,
+        "modifier": 0,
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
+        "type": "number",
+        "value": 12,
+        "refund": "Nope"
+      },
+      "kk": {
+        "label": "CHAR.KK",
+        "abrev": "CHARAbbrev.KK",
+        "color": "#d6a878",
+        "species": 0,
+        "initial": 11,
+        "modifier": 0,
+        "advances": 0,
+        "cost": "Siehe Steigerungsspalte",
+        "bonus": 0,
+        "type": "number",
+        "value": 11,
+        "refund": "Nope"
+      }
+    },
+    "hitbox": 0,
+    "status": {
       "wounds": {
-        "current": 0,
         "initial": 0,
-        "max": 0,
+        "value": 8,
         "advances": 0,
         "modifier": 8,
-        "value": 8
+        "current": 0,
+        "max": 0
       },
-      "initiative": {
-        "die": "1d6",
-        "current": 8.08,
-        "diemodifier": "",
+      "astralenergy": {
         "initial": 0,
+        "value": 23,
+        "advances": 3,
+        "modifier": 6,
+        "current": 0,
+        "max": 0
+      },
+      "karmaenergy": {
+        "initial": 0,
+        "value": 0,
         "advances": 0,
         "modifier": 0,
-        "rolled": false,
-        "value": 11,
-        "currentdice": 0
+        "current": 0,
+        "max": 0
+      },
+      "soulpower": {
+        "initial": 0,
+        "value": 4,
+        "modifier": -3,
+        "current": 0,
+        "advances": 0
+      },
+      "toughness": {
+        "initial": 0,
+        "value": 13,
+        "modifier": 0,
+        "current": 0,
+        "advances": 0
+      },
+      "captainvalue": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
       },
       "artifactradiation": {
         "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "dodge": {
+        "value": 8,
         "modifier": 0,
-        "value": 0
+        "max": 0,
+        "current": 0,
+        "initial": 0,
+        "advances": 0
+      },
+      "fatePoints": {
+        "value": 3,
+        "modifier": 0,
+        "current": null,
+        "initial": 3,
+        "advances": 0
+      },
+      "speed": {
+        "initial": 0,
+        "modifier": 0,
+        "value": 8,
+        "current": 0,
+        "advances": 0
+      },
+      "initiative": {
+        "value": 11,
+        "modifier": 0,
+        "current": 8.08,
+        "die": "1d6",
+        "diemodifier": "",
+        "initial": 0,
+        "advances": 0,
+        "rolled": false,
+        "currentdice": 0
+      },
+      "atbasis": {
+        "initial": 0,
+        "value": 7,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "encumbrance": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "bodyarmor": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "pabasis": {
+        "initial": 0,
+        "value": 8,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "fkbasis": {
+        "initial": 0,
+        "value": 8,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "size": {
+        "value": "average"
       },
       "exhaustion": {
         "value": 2
-      },
-      "atbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 7
       },
       "combat": {
         "oneRoundEffects": [],
         "oneTimeEffects": [],
         "stance": "WEAPONLENGTH.equal"
-      },
-      "captainvalue": {
-        "initial": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "speed": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 8
-      },
-      "encumbrance": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
-      },
-      "karmaenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "fatePoints": {
-        "current": null,
-        "initial": 3,
-        "advances": 0,
-        "modifier": 0,
-        "value": 3
-      },
-      "soulpower": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": -3,
-        "value": 4
-      },
-      "size": {
-        "value": "average"
-      },
-      "astralenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 3,
-        "modifier": 6,
-        "value": 23
-      },
-      "bodyarmor": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
-      },
-      "toughness": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 13
-      },
-      "fkbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 8
       },
       "actions": {
         "neutralaction": 0,
@@ -687,17 +599,114 @@
           "max": 1,
           "performed": 0
         }
-      },
-      "pabasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 8
       }
+    },
+    "details": {
+      "species": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "culture": {
+        "value": ""
+      },
+      "career": {
+        "value": ""
+      },
+      "socialstate": {
+        "value": ""
+      },
+      "home": {
+        "value": ""
+      },
+      "family": {
+        "value": ""
+      },
+      "age": {
+        "value": ""
+      },
+      "haircolor": {
+        "value": ""
+      },
+      "eyecolor": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "distinguishingmark": {
+        "value": ""
+      },
+      "biography": {
+        "value": ""
+      },
+      "notes": {
+        "value": "",
+        "gmdescription": ""
+      },
+      "experience": {
+        "total": 0,
+        "spent": -916
+      },
+      "Home": {
+        "value": ""
+      }
+    },
+    "guidevalue": {
+      "magical": "in",
+      "clerical": "-",
+      "effectToMessage": false
+    },
+    "energyfactor": {
+      "magical": "1",
+      "clerical": 1
+    },
+    "tradition": {
+      "magical": "",
+      "clerical": ""
+    },
+    "feature": {
+      "magical": "",
+      "clerical": ""
+    },
+    "happyTalents": {
+      "value": ""
+    },
+    "config": {
+      "autoBar": true
+    },
+    "freeLanguagePoints": {
+      "value": 0,
+      "used": 0
     },
     "sheetLocked": {
       "value": false
+    },
+    "representations": {},
+    "healed": {
+      "tap": 0,
+      "source": ""
+    },
+    "tempValues": {
+      "Überreden": {
+        "name": "Unterstützung von Alara",
+        "taw": 0,
+        "tawplus": 0
+      },
+      "Fesseln/Entfesseln": {
+        "name": "Unterstützung von Zolin Zantschlächter",
+        "taw": 0,
+        "tawplus": 0
+      },
+      "Handwerkstalente": {
+        "name": "Unterstützung von Travin",
+        "taw": 0,
+        "tawplus": 0
+      }
     }
   },
   "ownership": {
@@ -718,23 +727,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ch"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "body"
         },
         "talentValue": {
           "value": 0
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "in"
@@ -742,13 +739,25 @@
         "characteristic2": {
           "value": "ch"
         },
-        "group": {
-          "value": "body"
+        "characteristic3": {
+          "value": "ch"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -762,7 +771,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Singen",
       "flags": {
@@ -780,23 +790,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "body"
         },
         "talentValue": {
           "value": 6
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "ge"
@@ -804,13 +802,25 @@
         "characteristic2": {
           "value": "ko"
         },
-        "group": {
-          "value": "body"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 2,
-          "value": "yes"
+          "valmult": 2
+        },
+        "StF": {
+          "value": "D"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -824,7 +834,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Athletik",
       "flags": {
@@ -842,23 +853,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ko"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "nature"
         },
         "talentValue": {
           "value": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -866,13 +865,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "nature"
+        "characteristic3": {
+          "value": "ko"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -886,7 +897,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Fährtensuchen",
       "flags": {
@@ -904,23 +916,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "nature"
         },
         "talentValue": {
           "value": 7
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "ff"
@@ -928,13 +928,25 @@
         "characteristic2": {
           "value": "ge"
         },
-        "group": {
-          "value": "nature"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -948,7 +960,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Fesseln/Entfesseln",
       "flags": {
@@ -966,23 +979,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "in"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "nature"
         },
         "talentValue": {
           "value": 8
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -990,13 +991,25 @@
         "characteristic2": {
           "value": "kl"
         },
-        "group": {
-          "value": "nature"
+        "characteristic3": {
+          "value": "in"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1010,7 +1023,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Orientierung",
       "flags": {
@@ -1028,23 +1042,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ge"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "body"
         },
         "talentValue": {
           "value": 7
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "mu"
@@ -1052,13 +1054,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "body"
+        "characteristic3": {
+          "value": "ge"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1072,7 +1086,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Sich Verstecken",
       "flags": {
@@ -1090,23 +1105,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "mu"
@@ -1114,13 +1117,25 @@
         "characteristic2": {
           "value": "ch"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1134,7 +1149,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Heilkunde Wunden",
       "flags": {
@@ -1152,23 +1168,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ge"
-        },
-        "StF": {
-          "value": "H"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "meta"
         },
         "talentValue": {
           "value": 5
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": "Wildnisleben + Fährtensuchen + Tierkunde + Schleichen + Wurfspeere / 5"
         },
         "characteristic1": {
           "value": "mu"
@@ -1176,13 +1180,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "meta"
+        "characteristic3": {
+          "value": "ge"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "H"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Wildnisleben + Fährtensuchen + Tierkunde + Schleichen + Wurfspeere / 5"
         }
       },
       "ownership": {
@@ -1196,7 +1212,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Pirschjagd",
       "flags": {
@@ -1214,23 +1231,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "in"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "body"
         },
         "talentValue": {
           "value": 5
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -1238,13 +1243,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "body"
+        "characteristic3": {
+          "value": "in"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "maybe",
           "valadd": 0,
-          "valmult": 1,
-          "value": "maybe"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1258,7 +1275,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Sinnenschärfe",
       "flags": {
@@ -1276,23 +1294,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "knowledge"
         },
         "talentValue": {
           "value": 2
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -1300,13 +1306,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "knowledge"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1320,7 +1338,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Pflanzenkunde",
       "flags": {
@@ -1338,23 +1357,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 5
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -1362,13 +1369,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1382,7 +1401,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Lederarbeiten",
       "flags": {
@@ -1400,23 +1420,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 2
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -1424,13 +1432,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1444,7 +1464,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Fleischer",
       "flags": {
@@ -1462,23 +1483,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "nature"
         },
         "talentValue": {
           "value": 12
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "in"
@@ -1486,13 +1495,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "nature"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1506,7 +1527,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Fischen/Angeln",
       "flags": {
@@ -1524,23 +1546,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "in"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "knowledge"
         },
         "talentValue": {
           "value": 4
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "mu"
@@ -1548,13 +1558,25 @@
         "characteristic2": {
           "value": "kl"
         },
-        "group": {
-          "value": "knowledge"
+        "characteristic3": {
+          "value": "in"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1568,7 +1590,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Tierkunde",
       "flags": {
@@ -1586,23 +1609,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ch"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "social"
         },
         "talentValue": {
           "value": 3
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -1610,13 +1621,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "social"
+        "characteristic3": {
+          "value": "ch"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1630,7 +1653,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Menschenkenntnis",
       "flags": {
@@ -1648,23 +1672,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "body"
         },
         "talentValue": {
           "value": 15
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "ge"
@@ -1672,13 +1684,25 @@
         "characteristic2": {
           "value": "ko"
         },
-        "group": {
-          "value": "body"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 2,
-          "value": "yes"
+          "valmult": 2
+        },
+        "StF": {
+          "value": "D"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1692,7 +1716,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schwimmen",
       "flags": {
@@ -1710,23 +1735,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "in"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "knowledge"
         },
         "talentValue": {
           "value": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -1734,13 +1747,25 @@
         "characteristic2": {
           "value": "kl"
         },
-        "group": {
-          "value": "knowledge"
+        "characteristic3": {
+          "value": "in"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1754,7 +1779,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Geschichtswissen",
       "flags": {
@@ -1772,23 +1798,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "in"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "mu"
@@ -1796,13 +1810,25 @@
         "characteristic2": {
           "value": "kl"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "in"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1816,7 +1842,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Heilkunde Gift",
       "flags": {
@@ -1834,17 +1861,31 @@
       "effects": [],
       "folder": null,
       "system": {
+        "group": {
+          "value": "meta"
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "characteristic1": {
+          "value": "in"
+        },
+        "characteristic2": {
+          "value": "ff"
+        },
         "characteristic3": {
           "value": "ko"
-        },
-        "StF": {
-          "value": "H"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 4
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "H"
         },
         "gmdescription": {
           "value": ""
@@ -1852,22 +1893,8 @@
         "description": {
           "value": "Sinnenschärfe + Sinnenschärfe + Selbstbeherrschung + Wildnisleben / 4 + Gefahreninstinkt"
         },
-        "characteristic1": {
-          "value": "in"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "ff"
-        },
-        "group": {
-          "value": "meta"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1881,7 +1908,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Nachtwache",
       "flags": {
@@ -1899,23 +1927,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ge"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "body"
         },
         "talentValue": {
           "value": 6
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "mu"
@@ -1923,13 +1939,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "body"
+        "characteristic3": {
+          "value": "ge"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -1943,7 +1971,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schleichen",
       "flags": {
@@ -1961,23 +1990,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "in"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "knowledge"
         },
         "talentValue": {
           "value": 2
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -1985,13 +2002,25 @@
         "characteristic2": {
           "value": "kl"
         },
-        "group": {
-          "value": "knowledge"
+        "characteristic3": {
+          "value": "in"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2005,7 +2034,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Götter/Kulte",
       "flags": {
@@ -2023,23 +2053,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ko"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "nature"
         },
         "talentValue": {
           "value": 4
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "in"
@@ -2047,13 +2065,25 @@
         "characteristic2": {
           "value": "ge"
         },
-        "group": {
-          "value": "nature"
+        "characteristic3": {
+          "value": "ko"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2067,7 +2097,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wildnisleben",
       "flags": {
@@ -2085,17 +2116,31 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
+        "group": {
+          "value": "meta"
+        },
+        "talentValue": {
+          "value": 6
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
           "value": "ge"
         },
-        "StF": {
-          "value": "H"
+        "characteristic3": {
+          "value": "ge"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 6
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "H"
         },
         "gmdescription": {
           "value": ""
@@ -2103,22 +2148,8 @@
         "description": {
           "value": "Schwimmen + Akrobatik + Körperbeherrschung / 3 + Skifahren"
         },
-        "characteristic1": {
-          "value": "mu"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "ge"
-        },
-        "group": {
-          "value": "meta"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2132,7 +2163,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Surfen",
       "flags": {
@@ -2150,23 +2182,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "in"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "nature"
         },
         "talentValue": {
           "value": 3
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -2174,13 +2194,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "nature"
+        "characteristic3": {
+          "value": "in"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2194,7 +2226,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wettervorhersage",
       "flags": {
@@ -2212,23 +2245,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "H"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "meta"
         },
         "talentValue": {
           "value": 3
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": "Tanzen + Gaukeleien + Gaukeleien + Körperbeherrschung + Speere / 5<br><br> Wild mit der Waffe herumzuwirbeln sieht sehr beeindruckend aus, kann aber auch ziemlich gefährlich sein. Sollte also nur von Leuten verwendet werden, die Ahnung haben, bevor sie sich selbst verletzen oder die Waffe beschädigen. Wahre Meister in dieser Kunst sind novadische Schattentänzer."
         },
         "characteristic1": {
           "value": "ge"
@@ -2236,13 +2257,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "meta"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "H"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Tanzen + Gaukeleien + Gaukeleien + Körperbeherrschung + Speere / 5<br><br> Wild mit der Waffe herumzuwirbeln sieht sehr beeindruckend aus, kann aber auch ziemlich gefährlich sein. Sollte also nur von Leuten verwendet werden, die Ahnung haben, bevor sie sich selbst verletzen oder die Waffe beschädigen. Wahre Meister in dieser Kunst sind novadische Schattentänzer."
         }
       },
       "ownership": {
@@ -2256,7 +2289,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Waffenpose",
       "flags": {
@@ -2274,23 +2308,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "H"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "meta"
         },
         "talentValue": {
           "value": 4
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": "Wildnisleben + Pflanzenkunde + Sinnenschärfe / 3"
         },
         "characteristic1": {
           "value": "kl"
@@ -2298,13 +2320,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "meta"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "H"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Wildnisleben + Pflanzenkunde + Sinnenschärfe / 3"
         }
       },
       "ownership": {
@@ -2318,7 +2352,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kräuter Suchen",
       "flags": {
@@ -2336,23 +2371,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ch"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "body"
         },
         "talentValue": {
           "value": -2
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -2360,13 +2383,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "body"
+        "characteristic3": {
+          "value": "ch"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": -4,
-          "valmult": 1,
-          "value": "yes"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2380,7 +2415,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Stimmen Imitieren",
       "flags": {
@@ -2398,23 +2434,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ge"
-        },
-        "StF": {
-          "value": "H"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "meta"
         },
         "talentValue": {
           "value": 5
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": "Wildnisleben + Fährtensuchen + Tierkunde + Sich Verstecken + Wurfspeere / 5"
         },
         "characteristic1": {
           "value": "mu"
@@ -2422,13 +2446,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "meta"
+        "characteristic3": {
+          "value": "ge"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "H"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Wildnisleben + Fährtensuchen + Tierkunde + Sich Verstecken + Wurfspeere / 5"
         }
       },
       "ownership": {
@@ -2442,7 +2478,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Ansitzjagd",
       "flags": {
@@ -2460,23 +2497,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ch"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "knowledge"
         },
         "talentValue": {
           "value": 3
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -2484,13 +2509,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "knowledge"
+        "characteristic3": {
+          "value": "ch"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2504,7 +2541,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Sagen/Legenden",
       "flags": {
@@ -2522,23 +2560,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "body"
         },
         "talentValue": {
           "value": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "mu"
@@ -2546,13 +2572,25 @@
         "characteristic2": {
           "value": "ko"
         },
-        "group": {
-          "value": "body"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2566,7 +2604,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Selbstbeherrschung",
       "flags": {
@@ -2584,23 +2623,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ge"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "body"
         },
         "talentValue": {
           "value": 4
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "mu"
@@ -2608,13 +2635,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "body"
+        "characteristic3": {
+          "value": "ge"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 2,
-          "value": "yes"
+          "valmult": 2
+        },
+        "StF": {
+          "value": "D"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2628,7 +2667,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Körperbeherrschung",
       "flags": {
@@ -2646,23 +2686,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "body"
         },
         "talentValue": {
           "value": 6
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "mu"
@@ -2670,13 +2698,25 @@
         "characteristic2": {
           "value": "ge"
         },
-        "group": {
-          "value": "body"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 2,
-          "value": "yes"
+          "valmult": 2
+        },
+        "StF": {
+          "value": "D"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2690,7 +2730,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Klettern",
       "flags": {
@@ -2708,23 +2749,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 9
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -2732,13 +2761,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2752,7 +2793,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Holzbearbeitung",
       "flags": {
@@ -2770,23 +2812,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ch"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "social"
         },
         "talentValue": {
           "value": 2
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "mu"
@@ -2794,13 +2824,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "social"
+        "characteristic3": {
+          "value": "ch"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2814,7 +2856,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Überreden",
       "flags": {
@@ -2832,14 +2875,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 10
@@ -2847,21 +2890,21 @@
         "talentValue": {
           "value": 10
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2875,7 +2918,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfspeere",
       "flags": {
@@ -2893,14 +2937,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 3
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 3
         },
         "attack": {
           "value": 0
@@ -2908,21 +2952,21 @@
         "talentValue": {
           "value": 3
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -4,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -4,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2936,7 +2980,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Hiebwaffen",
       "flags": {},
@@ -2950,14 +2995,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 2
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 2
         },
         "attack": {
           "value": 6
@@ -2965,21 +3010,21 @@
         "talentValue": {
           "value": 8
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2993,7 +3038,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Dolche",
       "flags": {},
@@ -3007,14 +3053,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 4
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 4
         },
         "attack": {
           "value": 0
@@ -3022,21 +3068,21 @@
         "talentValue": {
           "value": 4
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -3050,7 +3096,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Ringen",
       "flags": {
@@ -3068,8 +3115,8 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -3077,16 +3124,16 @@
         "price": {
           "value": 10
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "ownership": {
         "default": 0
@@ -3099,13 +3146,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-D",
       "flags": {
-        "core": {
-          "sourceId": "Item.BGfRbsrZ2M2Y2wZ3"
-        }
+        "core": {}
       },
       "_id": "OCRi6UuKBIHCbZuF",
       "sort": 2800000,
@@ -3117,8 +3163,8 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -3126,16 +3172,16 @@
         "price": {
           "value": 1
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "ownership": {
         "default": 0
@@ -3148,13 +3194,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-S",
       "flags": {
-        "core": {
-          "sourceId": "Item.ntX4yPa0e9rmmqSZ"
-        }
+        "core": {}
       },
       "_id": "xN0OtnyZqB4BaWAX",
       "sort": 2900000,
@@ -3166,8 +3211,8 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -3175,16 +3220,16 @@
         "price": {
           "value": 0.1
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "ownership": {
         "default": 0
@@ -3197,13 +3242,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-H",
       "flags": {
-        "core": {
-          "sourceId": "Item.2wwyflxgKCiz9UIQ"
-        }
+        "core": {}
       },
       "_id": "G4piFlEAWb2stJCn",
       "sort": 3000000,
@@ -3215,8 +3259,8 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -3224,16 +3268,16 @@
         "price": {
           "value": 0.01
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "ownership": {
         "default": 0
@@ -3246,13 +3290,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-K",
       "flags": {
-        "core": {
-          "sourceId": "Item.IHSzojKYEn0FloQm"
-        }
+        "core": {}
       },
       "_id": "NDf42upvVWmHi8Ty",
       "sort": 3100000,
@@ -3264,29 +3307,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
+        "description": {
           "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 21
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": "+1 RS"
+        "APValue": {
+          "value": "0"
         },
-        "description": {
+        "max": {
+          "value": 21
+        },
+        "requirements": {
           "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": "+1 RS"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -3300,7 +3343,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Natürlicher Rüstungsschutz",
       "flags": {},
@@ -3314,29 +3358,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
+        "description": {
           "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 21
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
+        "max": {
+          "value": 21
+        },
+        "requirements": {
           "value": ""
         },
         "step": {
           "value": 8
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -3350,7 +3394,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Neugier",
       "flags": {},
@@ -3364,28 +3409,24 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 1
-        },
-        "worn": {
-          "wearable": true,
-          "value": true
-        },
         "price": {
           "value": null
         },
-        "parent_id": 0,
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "alles 1;"
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 0
         },
+        "effect": {
+          "value": "alles 1;"
+        },
+        "parent_id": 0,
         "description": {
           "value": "<p><span style=\"color: #191813; font-family: Signika;\">Eine kleine Hautverf&auml;rbung die eine Form &auml;hnlich des Archipels der Risso aufweist.</span></p>"
+        },
+        "gmdescription": {
+          "value": ""
         },
         "equipmentType": {
           "value": "tattoo"
@@ -3394,7 +3435,11 @@
           "max": 0,
           "value": 0
         },
-        "capacity": 0
+        "capacity": 0,
+        "worn": {
+          "value": true,
+          "wearable": true
+        }
       },
       "ownership": {
         "default": 0
@@ -3407,7 +3452,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zeichen der Inseele",
       "flags": {},
@@ -3421,39 +3467,39 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": ""
         },
         "requirements": {
           "value": ""
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 3
         },
         "step": {
           "value": 3
         },
         "category": {
-          "sub": 0,
-          "value": "language"
+          "value": "language",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 3
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -3467,7 +3513,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Rissoal",
       "flags": {},
@@ -3481,39 +3528,39 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": " Der Held kennt sich in bestimmten Arten von Wildnis besonders gut aus (siehe Liste, kann durch Meisterentscheid erweitert werden z.B. ''Norduthuriakundig''). Alle Proben die sich auf den Umgang mit dieser Wildnis (''Wettervorhersage'', ''Wildnisleben'', ''Tierkunde'', ''Pflanzenkunde'', weitere nach Meisterentscheid) beziehen sind um 3 Punkte erleichtert. \n<br />Mögliche Kundigkeiten: \n* ''Dschungel'' \n* ''Eis'' \n* ''Gebirge''\n* ''Höhlen''\n* ''Maraskan''\n* ''Meer''\n* ''Steppe''\n* ''Sumpf''\n* ''Wald''\n* ''Wüste''\n* weitere nach Meisterentscheid"
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 150 für die erste, 100 für alle Folgenden\n"
         },
         "requirements": {
           "value": " längerer Aufenthalt (min. 12 Monate, nicht zwingend am Stück) in entsprechendem Gelände, keine Lernzeit"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Naturtalente 3; Tierkunde 3; Pflanzenkunde 3; Pirschjagd 3; Ansitzjagd 3; Kräuter Suchen 3; Nachtwache 3;\n"
-        },
-        "description": {
-          "value": " Der Held kennt sich in bestimmten Arten von Wildnis besonders gut aus (siehe Liste, kann durch Meisterentscheid erweitert werden z.B. ''Norduthuriakundig''). Alle Proben die sich auf den Umgang mit dieser Wildnis (''Wettervorhersage'', ''Wildnisleben'', ''Tierkunde'', ''Pflanzenkunde'', weitere nach Meisterentscheid) beziehen sind um 3 Punkte erleichtert. \n<br />Mögliche Kundigkeiten: \n* ''Dschungel'' \n* ''Eis'' \n* ''Gebirge''\n* ''Höhlen''\n* ''Maraskan''\n* ''Meer''\n* ''Steppe''\n* ''Sumpf''\n* ''Wald''\n* ''Wüste''\n* weitere nach Meisterentscheid"
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "general"
+          "value": "general",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": "Naturtalente 3; Tierkunde 3; Pflanzenkunde 3; Pirschjagd 3; Ansitzjagd 3; Kräuter Suchen 3; Nachtwache 3;\n"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -3527,7 +3574,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Meereskundig",
       "flags": {},
@@ -3541,39 +3589,39 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": ""
         },
         "requirements": {
           "value": ""
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 3
         },
         "step": {
           "value": 2
         },
         "category": {
-          "sub": 0,
-          "value": "language"
+          "value": "language",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 3
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -3587,7 +3635,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Garethi",
       "flags": {},
@@ -3601,39 +3650,39 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": " Erschwernisse im Kampf unter Wasser sinken auf 0/0 für die folgenden Waffen: Speere, Dolche, Ringen, Raufen, Fechtwaffen, Ausweichen."
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 100"
         },
         "requirements": {
           "value": " Schwimmen 10"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": " Erschwernisse im Kampf unter Wasser sinken auf 0/0 für die folgenden Waffen: Speere, Dolche, Ringen, Raufen, Fechtwaffen, Ausweichen."
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -3647,7 +3696,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Unterwasserkampf",
       "flags": {},
@@ -3661,14 +3711,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "A"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -3676,21 +3726,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -10,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -10,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -3704,7 +3754,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schilde",
       "flags": {
@@ -3722,23 +3773,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "H"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "meta"
         },
         "talentValue": {
           "value": 2
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": "Galanterie + Galanterie + Dolche + Schneidern + Tätowieren / 5"
         },
         "characteristic1": {
           "value": "ch"
@@ -3746,13 +3785,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "meta"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "H"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Galanterie + Galanterie + Dolche + Schneidern + Tätowieren / 5"
         }
       },
       "ownership": {
@@ -3766,7 +3817,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Barbier",
       "flags": {
@@ -3784,14 +3836,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 3
@@ -3799,21 +3851,21 @@
         "talentValue": {
           "value": 3
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -3827,7 +3879,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Fechtwaffen",
       "flags": {
@@ -3845,39 +3898,39 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": ""
         },
         "requirements": {
           "value": ""
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 2
         },
         "step": {
           "value": 2
         },
         "category": {
-          "sub": 0,
-          "value": "language"
+          "value": "language",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 2
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -3891,7 +3944,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "L/S Rissoal",
       "flags": {},
@@ -3905,23 +3959,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "in"
@@ -3929,13 +3971,25 @@
         "characteristic2": {
           "value": "ch"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -3949,7 +4003,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Hauswirtschaft",
       "flags": {
@@ -3967,23 +4022,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "nature"
         },
         "talentValue": {
           "value": 6
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "in"
@@ -3991,13 +4034,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "nature"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4011,7 +4066,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Seefischerei",
       "flags": {
@@ -4029,23 +4085,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ch"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 7
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "mu"
@@ -4053,13 +4097,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "ch"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4073,7 +4129,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Abrichten",
       "flags": {
@@ -4091,23 +4148,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 5
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -4115,13 +4160,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4135,7 +4192,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Viehzucht",
       "flags": {
@@ -4153,23 +4211,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 3
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -4177,13 +4223,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4197,7 +4255,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kochen",
       "flags": {
@@ -4215,23 +4274,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "in"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "knowledge"
         },
         "talentValue": {
           "value": 7
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -4239,13 +4286,25 @@
         "characteristic2": {
           "value": "kl"
         },
-        "group": {
-          "value": "knowledge"
+        "characteristic3": {
+          "value": "in"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4259,7 +4318,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Rechnen",
       "flags": {
@@ -4277,14 +4337,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 4
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 4
         },
         "attack": {
           "value": 8
@@ -4292,21 +4352,21 @@
         "talentValue": {
           "value": 12
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -4320,7 +4380,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Speere",
       "flags": {
@@ -4338,23 +4399,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ch"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "social"
         },
         "talentValue": {
           "value": 8
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -4362,13 +4411,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "social"
+        "characteristic3": {
+          "value": "ch"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4382,7 +4443,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Lehren",
       "flags": {
@@ -4400,23 +4462,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 3
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "ff"
@@ -4424,13 +4474,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4444,7 +4506,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Webkunst",
       "flags": {
@@ -4462,23 +4525,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "knowledge"
         },
         "talentValue": {
           "value": 10
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -4486,13 +4537,25 @@
         "characteristic2": {
           "value": "kl"
         },
-        "group": {
-          "value": "knowledge"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4506,7 +4569,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schiffbau",
       "flags": {
@@ -4524,23 +4588,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 6
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "ff"
@@ -4548,13 +4600,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4568,7 +4632,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Seiler",
       "flags": {
@@ -4586,23 +4651,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ge"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "body"
         },
         "talentValue": {
           "value": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "ch"
@@ -4610,13 +4663,25 @@
         "characteristic2": {
           "value": "ge"
         },
-        "group": {
-          "value": "body"
+        "characteristic3": {
+          "value": "ge"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 2,
-          "value": "yes"
+          "valmult": 2
+        },
+        "StF": {
+          "value": "D"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4630,7 +4695,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Tanzen",
       "flags": {
@@ -4648,23 +4714,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 3
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -4672,13 +4726,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4692,7 +4758,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schneidern",
       "flags": {
@@ -4710,23 +4777,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 11
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -4734,13 +4789,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -4754,7 +4821,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zimmermann",
       "flags": {
@@ -4772,72 +4840,53 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ko"
-        },
-        "StF": {
-          "value": "C"
-        },
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Nebelwand und Morgendunst\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Nebelwand und Morgendunst\">Link ins Wiki</a> "
-        },
-        "range": {
-          "fullValue": "Die Nebelwolke kann in maximal ZfW Schritt Entfernung vom Elfen entstehen; maximal können ZfW mal 100 Raumschritt Nebel erzeugt werden.",
-          "value": "Die Nebelwolke kann in maximal ZfW Schri..."
-        },
-        "maintainCost": {
-          "value": "0"
-        },
-        "AsPCostDetail": {
-          "value": "1 AsP pro 20 Raumschritt Nebel, mindestens aber 4 AsP"
-        },
         "characteristic1": {
           "value": "kl"
-        },
-        "distribution": {
-          "value": "Ach 4, Elf 6, Mag 2, Dru 3, Geo 3"
         },
         "characteristic2": {
           "value": "ff"
         },
-        "duration": {
-          "fullValue": "doppelte ZfP* in Spielrunden, danach verflüchtigt sich der Nebel auf natürlich Art und Weise.",
-          "value": "doppelte ZfP* in Spielrunden, danach ver..."
-        },
-        "castingTime": {
-          "value": "5 Aktionen"
-        },
-        "canChangeRange": {
-          "value": "true"
-        },
-        "AsPCost": {
-          "value": 1
-        },
-        "targetCategory": {
-          "value": "Zone"
-        },
-        "feature": "Umwelt,  Elementar (Wasser),  Elementar (Luft)",
-        "variableBaseCost": "false",
-        "resistanceModifier": {
-          "value": "-"
-        },
-        "talentValue": {
-          "value": 8
+        "characteristic3": {
+          "value": "ko"
         },
         "effect": {
           "value": ""
         },
+        "castingTime": {
+          "value": "5 Aktionen"
+        },
+        "AsPCost": {
+          "value": 1
+        },
+        "AsPCostDetail": {
+          "value": "1 AsP pro 20 Raumschritt Nebel, mindestens aber 4 AsP"
+        },
+        "maintainCost": {
+          "value": "0"
+        },
+        "distribution": {
+          "value": "Ach 4, Elf 6, Mag 2, Dru 3, Geo 3"
+        },
+        "StF": {
+          "value": "C"
+        },
+        "resistanceModifier": {
+          "value": "-"
+        },
+        "canChangeCastingTime": {
+          "value": "true"
+        },
         "canChangeCost": {
           "value": "true"
         },
-        "effectFormula": {
-          "value": ""
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -4864,7 +4913,26 @@
             "zfw": 14,
             "rep": ","
           }
-        ]
+        ],
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
+        },
+        "range": {
+          "value": "Die Nebelwolke kann in maximal ZfW Schri...",
+          "fullValue": "Die Nebelwolke kann in maximal ZfW Schritt Entfernung vom Elfen entstehen; maximal können ZfW mal 100 Raumschritt Nebel erzeugt werden."
+        },
+        "duration": {
+          "value": "doppelte ZfP* in Spielrunden, danach ver...",
+          "fullValue": "doppelte ZfP* in Spielrunden, danach verflüchtigt sich der Nebel auf natürlich Art und Weise."
+        },
+        "targetCategory": {
+          "value": "Zone"
+        },
+        "talentValue": {
+          "value": 8
+        },
+        "feature": "Umwelt,  Elementar (Wasser),  Elementar (Luft)"
       },
       "ownership": {
         "default": 0
@@ -4877,7 +4945,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Nebelwand und Morgendunst",
       "flags": {},
@@ -4891,17 +4960,32 @@
       "effects": [],
       "folder": null,
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Hilfreiche Tatze, rettende Schwinge\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Hilfreiche Tatze, rettende Schwinge\">Link ins Wiki</a> "
+        "characteristic1": {
+          "value": "mu"
         },
-        "range": {
-          "value": "ZfP* x 100 Schritt"
+        "characteristic2": {
+          "value": "in"
+        },
+        "characteristic3": {
+          "value": "ch"
+        },
+        "effect": {
+          "value": ""
+        },
+        "castingTime": {
+          "value": "20 Aktionen"
+        },
+        "AsPCost": {
+          "value": 3
+        },
+        "AsPCostDetail": {
+          "value": "3 AsP für den Ruf + GW des Tieres in AsP für den Dienst"
         },
         "maintainCost": {
           "value": "0"
@@ -4909,19 +4993,20 @@
         "distribution": {
           "value": "Elf 4, Ach 3, Geo 3"
         },
-        "duration": {
-          "fullValue": "Der Ruf ergeht augenblicklich; wie lange das Tier benötigt, hängt von seiner Geschwindigkeit ab. Das Tier ist nach Ankunft ZfP* SR lang hilfsbereit gesinnt.",
-          "value": "Der Ruf ergeht augenblicklich; wie lange..."
+        "StF": {
+          "value": "D"
         },
-        "AsPCost": {
-          "value": 3
-        },
-        "feature": "Einfluss,  Verständigung",
         "resistanceModifier": {
           "value": "SK"
         },
-        "talentValue": {
-          "value": 8
+        "canChangeCastingTime": {
+          "value": "true"
+        },
+        "canChangeCost": {
+          "value": "true"
+        },
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -4931,40 +5016,24 @@
             "rep": ","
           }
         ],
-        "characteristic3": {
-          "value": "ch"
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
         },
-        "StF": {
-          "value": "D"
+        "range": {
+          "value": "ZfP* x 100 Schritt"
         },
-        "AsPCostDetail": {
-          "value": "3 AsP für den Ruf + GW des Tieres in AsP für den Dienst"
-        },
-        "characteristic1": {
-          "value": "mu"
-        },
-        "characteristic2": {
-          "value": "in"
-        },
-        "castingTime": {
-          "value": "20 Aktionen"
-        },
-        "canChangeRange": {
-          "value": "true"
+        "duration": {
+          "value": "Der Ruf ergeht augenblicklich; wie lange...",
+          "fullValue": "Der Ruf ergeht augenblicklich; wie lange das Tier benötigt, hängt von seiner Geschwindigkeit ab. Das Tier ist nach Ankunft ZfP* SR lang hilfsbereit gesinnt."
         },
         "targetCategory": {
           "value": "Zone"
         },
-        "variableBaseCost": "false",
-        "effect": {
-          "value": ""
+        "talentValue": {
+          "value": 8
         },
-        "canChangeCost": {
-          "value": "true"
-        },
-        "effectFormula": {
-          "value": ""
-        },
+        "feature": "Einfluss,  Verständigung",
         "choice": {
           "battlechoice": false,
           "value": false
@@ -4981,7 +5050,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Hilfreiche Tatze, rettende Schwinge",
       "flags": {},
@@ -4995,71 +5065,53 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ch"
-        },
-        "StF": {
-          "value": "C"
-        },
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Komm Kobold Komm\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Komm Kobold Komm\">Link ins Wiki</a> "
-        },
-        "range": {
-          "fullValue": "1 Meile Radius, innerhalb der sich der Kobold befinden muss.",
-          "value": "1 Meile Radius, innerhalb der sich der K..."
-        },
-        "maintainCost": {
-          "value": "0"
-        },
-        "AsPCostDetail": {
-          "value": "11 AsP (Sch: 7 AsP)"
-        },
         "characteristic1": {
           "value": "in"
-        },
-        "distribution": {
-          "value": "Sch 7"
         },
         "characteristic2": {
           "value": "in"
         },
-        "duration": {
-          "value": "je nach Situation"
-        },
-        "castingTime": {
-          "value": "7 Aktionen"
-        },
-        "canChangeRange": {
-          "value": "true"
-        },
-        "AsPCost": {
-          "value": 11
-        },
-        "targetCategory": {
-          "value": "Einzelwesen"
-        },
-        "feature": "Herbeirufung",
-        "variableBaseCost": "false",
-        "resistanceModifier": {
-          "value": "-"
-        },
-        "talentValue": {
-          "value": 5
+        "characteristic3": {
+          "value": "ch"
         },
         "effect": {
           "value": ""
         },
+        "castingTime": {
+          "value": "7 Aktionen"
+        },
+        "AsPCost": {
+          "value": 11
+        },
+        "AsPCostDetail": {
+          "value": "11 AsP (Sch: 7 AsP)"
+        },
+        "maintainCost": {
+          "value": "0"
+        },
+        "distribution": {
+          "value": "Sch 7"
+        },
+        "StF": {
+          "value": "C"
+        },
+        "resistanceModifier": {
+          "value": "-"
+        },
+        "canChangeCastingTime": {
+          "value": "true"
+        },
         "canChangeCost": {
           "value": "true"
         },
-        "effectFormula": {
-          "value": ""
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -5068,7 +5120,25 @@
             "zfw": 0,
             "rep": ","
           }
-        ]
+        ],
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
+        },
+        "range": {
+          "value": "1 Meile Radius, innerhalb der sich der K...",
+          "fullValue": "1 Meile Radius, innerhalb der sich der Kobold befinden muss."
+        },
+        "duration": {
+          "value": "je nach Situation"
+        },
+        "targetCategory": {
+          "value": "Einzelwesen"
+        },
+        "talentValue": {
+          "value": 5
+        },
+        "feature": "Herbeirufung"
       },
       "ownership": {
         "default": 0
@@ -5081,7 +5151,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Komm Kobold Komm",
       "flags": {},
@@ -5095,70 +5166,53 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Metamorpho Wasserform\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Metamorpho Wasserform\">Link ins Wiki</a> "
-        },
-        "range": {
-          "value": "Berührung"
-        },
-        "maintainCost": {
-          "value": "0"
-        },
-        "AsPCostDetail": {
-          "value": "1 AsP pro angefangenem Raumschritt verformter Humus"
-        },
         "characteristic1": {
           "value": "in"
-        },
-        "distribution": {
-          "value": ""
         },
         "characteristic2": {
           "value": "ge"
         },
-        "duration": {
-          "value": "augenblicklich"
-        },
-        "castingTime": {
-          "value": "je nach Komplexität zwisc..."
-        },
-        "canChangeRange": {
-          "value": "true"
-        },
-        "AsPCost": {
-          "value": 1
-        },
-        "targetCategory": {
-          "value": "bis zu 4xZfW Raumschritt ..."
-        },
-        "feature": "Elementar (Wasser),  Objekt",
-        "variableBaseCost": "false",
-        "resistanceModifier": {
-          "value": "-"
-        },
-        "talentValue": {
-          "value": 9
+        "characteristic3": {
+          "value": "ff"
         },
         "effect": {
           "value": ""
         },
+        "castingTime": {
+          "value": "je nach Komplexität zwisc..."
+        },
+        "AsPCost": {
+          "value": 1
+        },
+        "AsPCostDetail": {
+          "value": "1 AsP pro angefangenem Raumschritt verformter Humus"
+        },
+        "maintainCost": {
+          "value": "0"
+        },
+        "distribution": {
+          "value": ""
+        },
+        "StF": {
+          "value": "B"
+        },
+        "resistanceModifier": {
+          "value": "-"
+        },
+        "canChangeCastingTime": {
+          "value": "true"
+        },
         "canChangeCost": {
           "value": "true"
         },
-        "effectFormula": {
-          "value": ""
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -5167,7 +5221,24 @@
             "zfw": 0,
             "rep": ","
           }
-        ]
+        ],
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
+        },
+        "range": {
+          "value": "Berührung"
+        },
+        "duration": {
+          "value": "augenblicklich"
+        },
+        "targetCategory": {
+          "value": "bis zu 4xZfW Raumschritt ..."
+        },
+        "talentValue": {
+          "value": 9
+        },
+        "feature": "Elementar (Wasser),  Objekt"
       },
       "ownership": {
         "default": 0
@@ -5180,7 +5251,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Metamorpho Wasserform",
       "flags": {},
@@ -5194,72 +5266,53 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ch"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Elementarer Diener\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Elementarer Diener\">Link ins Wiki</a> "
-        },
-        "range": {
-          "fullValue": "3 Schritt bei der Herbeirufung; der Elementargeist kann sich danach frei bewegen.",
-          "value": "3 Schritt bei der Herbeirufung; der Elem..."
-        },
-        "maintainCost": {
-          "value": "0"
-        },
-        "AsPCostDetail": {
-          "value": "12 AsP"
-        },
         "characteristic1": {
           "value": "mu"
-        },
-        "distribution": {
-          "value": "Geo 6, Dru 5, Ach 4, Mag 4"
         },
         "characteristic2": {
           "value": "kl"
         },
-        "duration": {
-          "fullValue": "bis zur Erfüllung der Dienste, längstens jedoch bis zum nächsten Sonnenaufgang",
-          "value": "bis zur Erfüllung der Dienste, längstens..."
-        },
-        "castingTime": {
-          "value": "1 Spielrunde"
-        },
-        "canChangeRange": {
-          "value": "true"
-        },
-        "AsPCost": {
-          "value": 12
-        },
-        "targetCategory": {
-          "value": "Einzelwesen"
-        },
-        "feature": "Elementar (Gesamt),  Herbeirufung",
-        "variableBaseCost": "false",
-        "resistanceModifier": {
-          "value": "SK"
-        },
-        "talentValue": {
-          "value": 9
+        "characteristic3": {
+          "value": "ch"
         },
         "effect": {
           "value": ""
         },
+        "castingTime": {
+          "value": "1 Spielrunde"
+        },
+        "AsPCost": {
+          "value": 12
+        },
+        "AsPCostDetail": {
+          "value": "12 AsP"
+        },
+        "maintainCost": {
+          "value": "0"
+        },
+        "distribution": {
+          "value": "Geo 6, Dru 5, Ach 4, Mag 4"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "resistanceModifier": {
+          "value": "SK"
+        },
+        "canChangeCastingTime": {
+          "value": "true"
+        },
         "canChangeCost": {
           "value": "true"
         },
-        "effectFormula": {
-          "value": ""
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -5268,7 +5321,26 @@
             "zfw": 0,
             "rep": ","
           }
-        ]
+        ],
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
+        },
+        "range": {
+          "value": "3 Schritt bei der Herbeirufung; der Elem...",
+          "fullValue": "3 Schritt bei der Herbeirufung; der Elementargeist kann sich danach frei bewegen."
+        },
+        "duration": {
+          "value": "bis zur Erfüllung der Dienste, längstens...",
+          "fullValue": "bis zur Erfüllung der Dienste, längstens jedoch bis zum nächsten Sonnenaufgang"
+        },
+        "targetCategory": {
+          "value": "Einzelwesen"
+        },
+        "talentValue": {
+          "value": 9
+        },
+        "feature": "Elementar (Gesamt),  Herbeirufung"
       },
       "ownership": {
         "default": 0
@@ -5281,7 +5353,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Elementarer Diener",
       "flags": {},
@@ -5295,29 +5368,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
-          "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
+        "description": {
+          "value": "Risso können sich in ihrem Lebenszyklus entwickeln, wobei sich ihre Schuppenfarbe dabei ändert. Meist von grün nach blau, beim ersten Wasser, und dann von blau nach silbern beim zweiten Wasser"
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
-          "value": "Risso können sich in ihrem Lebenszyklus entwickeln, wobei sich ihre Schuppenfarbe dabei ändert. Meist von grün nach blau, beim ersten Wasser, und dann von blau nach silbern beim zweiten Wasser"
+        "max": {
+          "value": 0
+        },
+        "requirements": {
+          "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -5331,7 +5404,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Entwicklung der Risso",
       "flags": {},
@@ -5345,29 +5419,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
-          "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
+        "description": {
+          "value": "Amphibische Lebewesen können sowohl über als auch unterwasser leben können"
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
-          "value": "Amphibische Lebewesen können sowohl über als auch unterwasser leben können"
+        "max": {
+          "value": 0
+        },
+        "requirements": {
+          "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -5381,7 +5455,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Amphibisch",
       "flags": {},
@@ -5395,29 +5470,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
+        "description": {
           "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
+        "max": {
+          "value": 0
+        },
+        "requirements": {
           "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -5431,7 +5506,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Koboldfreund",
       "flags": {},
@@ -5445,29 +5521,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
+        "description": {
           "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
+        "max": {
+          "value": 0
+        },
+        "requirements": {
           "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -5481,7 +5557,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kälteresistenz",
       "flags": {},
@@ -5495,29 +5572,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
+        "description": {
           "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
+        "max": {
+          "value": 0
+        },
+        "requirements": {
           "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -5531,7 +5608,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Nachtsicht",
       "flags": {},
@@ -5545,29 +5623,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
+        "description": {
           "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 21
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
+        "max": {
+          "value": 21
+        },
+        "requirements": {
           "value": ""
         },
         "step": {
           "value": 6
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -5581,7 +5659,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Höhenangst",
       "flags": {},
@@ -5595,29 +5674,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
-          "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
+        "description": {
+          "value": "Risso mögen es nicht in der prallen Sonne zu sein, da das ihre Schuppen austrocknet und ihre Augen schmerzt."
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
-          "value": "Risso mögen es nicht in der prallen Sonne zu sein, da das ihre Schuppen austrocknet und ihre Augen schmerzt."
+        "max": {
+          "value": 0
+        },
+        "requirements": {
+          "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -5631,7 +5710,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Lichtscheu",
       "flags": {},
@@ -5645,29 +5725,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
-          "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 21
+        "description": {
+          "value": "Meerwesen ist es häufig unangenehm wenn weit entfernt von Gewässern sind. Die Landangst greift vor allem wenn sich das Meer (oder ein anderes Gewässer) außerhalb der Sichtweite oder Hörweite befindet, nicht jedoch wenn man sich wissentlich in der Nähe von Wasser befindet, und es nur gerade nicht sieht (zB in einem Haus in einer Hafenstadt)"
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": "Alles -1"
+        "APValue": {
+          "value": "0"
         },
-        "description": {
-          "value": "Meerwesen ist es häufig unangenehm wenn weit entfernt von Gewässern sind. Die Landangst greift vor allem wenn sich das Meer (oder ein anderes Gewässer) außerhalb der Sichtweite oder Hörweite befindet, nicht jedoch wenn man sich wissentlich in der Nähe von Wasser befindet, und es nur gerade nicht sieht (zB in einem Haus in einer Hafenstadt)"
+        "max": {
+          "value": 21
+        },
+        "requirements": {
+          "value": ""
         },
         "step": {
           "value": 6
+        },
+        "effect": {
+          "value": "Alles -1"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -5681,7 +5761,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Landangst",
       "flags": {},
@@ -5695,29 +5776,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
-          "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
+        "description": {
+          "value": "Risso können unterwasser sprechen"
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
-          "value": "Risso können unterwasser sprechen"
+        "max": {
+          "value": 0
+        },
+        "requirements": {
+          "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -5731,7 +5812,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Tiefensprache",
       "flags": {},
@@ -5754,7 +5836,8 @@
             "createdTime": null,
             "duplicateSource": null,
             "systemVersion": "6.2.3",
-            "coreVersion": "12.331"
+            "coreVersion": "13.351",
+            "exportSource": null
           },
           "changes": [
             {
@@ -5807,7 +5890,6 @@
             }
           ],
           "flags": {
-            "effectKey": "",
             "dsa5": {
               "auto": null,
               "editable": true,
@@ -5817,7 +5899,8 @@
               "customizable": true,
               "description": "Wasserwesen",
               "manual": 0,
-              "value": null
+              "value": null,
+              "effectKey": ""
             }
           },
           "description": "",
@@ -5852,7 +5935,8 @@
             "createdTime": null,
             "duplicateSource": null,
             "systemVersion": "6.2.3",
-            "coreVersion": "12.331"
+            "coreVersion": "13.351",
+            "exportSource": null
           },
           "changes": [
             {
@@ -5869,7 +5953,6 @@
             }
           ],
           "flags": {
-            "effectKey": "",
             "dsa5": {
               "auto": null,
               "editable": true,
@@ -5879,7 +5962,8 @@
               "customizable": true,
               "description": "Wasserwesen",
               "manual": 0,
-              "value": null
+              "value": null,
+              "effectKey": ""
             }
           },
           "description": "",
@@ -5906,29 +5990,29 @@
       ],
       "folder": "4j4OcDbrhNlTRz6l",
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
-          "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
+        "description": {
+          "value": "Wasserwesen müssen in Regelmäßigen Abständen mit Wasser in Kontakt sein."
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": ""
+        "APValue": {
+          "value": "0"
         },
-        "description": {
-          "value": "Wasserwesen müssen in Regelmäßigen Abständen mit Wasser in Kontakt sein."
+        "max": {
+          "value": 0
+        },
+        "requirements": {
+          "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -5943,13 +6027,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wasserwesen",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.disadvantages.CnP0RDAJMXiB0YJ8"
-        }
+        "core": {}
       },
       "_id": "t70BCHR8RQbideDL",
       "sort": 0,
@@ -5961,23 +6044,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "in"
-        },
-        "StF": {
-          "value": "G"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "gift"
         },
         "talentValue": {
           "value": 8
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "mu"
@@ -5985,13 +6056,25 @@
         "characteristic2": {
           "value": "ch"
         },
-        "group": {
-          "value": "gift"
+        "characteristic3": {
+          "value": "in"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "G"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -6005,7 +6088,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Tierempathie",
       "flags": {
@@ -6023,23 +6107,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ko"
-        },
-        "StF": {
-          "value": "H"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "meta"
         },
         "talentValue": {
           "value": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": "Galanterie + Heilkunde Wunden + Anatomie + Heilkunde Wunden + Ringen / 5"
         },
         "characteristic1": {
           "value": "kl"
@@ -6047,13 +6119,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "meta"
+        "characteristic3": {
+          "value": "ko"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "H"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Galanterie + Heilkunde Wunden + Anatomie + Heilkunde Wunden + Ringen / 5"
         }
       },
       "ownership": {
@@ -6067,7 +6151,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Massage",
       "flags": {
@@ -6085,23 +6170,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 7
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "ff"
@@ -6109,13 +6182,25 @@
         "characteristic2": {
           "value": "ge"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -6129,7 +6214,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Seefahrt",
       "flags": {
@@ -6147,23 +6233,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "knowledge"
         },
         "talentValue": {
           "value": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -6171,13 +6245,25 @@
         "characteristic2": {
           "value": "kl"
         },
-        "group": {
-          "value": "knowledge"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -6191,7 +6277,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Baukunst",
       "flags": {
@@ -6209,38 +6296,38 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": "Talentspezialisierung für Talent Abrichten"
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": "0"
         },
         "requirements": {
           "value": ""
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Abrichten TaW+2"
-        },
-        "description": {
-          "value": "Talentspezialisierung für Talent Abrichten"
-        },
         "rule": {
+          "value": ""
+        },
+        "maxRank": {
           "value": ""
         },
         "step": {
           "value": "1"
         },
         "category": {
-          "sub": 0,
-          "value": "general"
+          "value": "general",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
+        "effect": {
+          "value": "Abrichten TaW+2"
+        },
+        "mountEffect": {
           "value": ""
         }
       },
@@ -6255,7 +6342,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Spez. Meereswesen",
       "flags": {},
@@ -6269,23 +6357,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "kk"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 1
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -6293,13 +6369,25 @@
         "characteristic2": {
           "value": "ff"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "kk"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -6313,7 +6401,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Stellmacher",
       "flags": {
@@ -6331,39 +6420,39 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "folder": null,
       "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": ""
         },
         "requirements": {
           "value": ""
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 3
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "language"
+          "value": "language",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 3
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -6377,7 +6466,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Rssahh",
       "flags": {},
@@ -6391,14 +6481,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 2
@@ -6406,21 +6496,21 @@
         "talentValue": {
           "value": 2
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -6434,7 +6524,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihand-Hiebwaffen",
       "flags": {
@@ -6452,23 +6543,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "in"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "knowledge"
         },
         "talentValue": {
           "value": 7
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -6476,13 +6555,25 @@
         "characteristic2": {
           "value": "kl"
         },
-        "group": {
-          "value": "knowledge"
+        "characteristic3": {
+          "value": "in"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -6496,7 +6587,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Magiekunde",
       "flags": {
@@ -6514,14 +6606,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 1
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 1
         },
         "attack": {
           "value": 6
@@ -6529,21 +6621,21 @@
         "talentValue": {
           "value": 7
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -6557,7 +6649,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Infanteriewaffen",
       "flags": {
@@ -6575,23 +6668,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ko"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "knowledge"
         },
         "talentValue": {
           "value": 4
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -6599,13 +6680,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "knowledge"
+        "characteristic3": {
+          "value": "ko"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -6619,7 +6712,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Hüttenkunde",
       "flags": {
@@ -6637,23 +6731,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ff"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "knowledge"
         },
         "talentValue": {
           "value": 7
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "kl"
@@ -6661,13 +6743,25 @@
         "characteristic2": {
           "value": "kl"
         },
-        "group": {
-          "value": "knowledge"
+        "characteristic3": {
+          "value": "ff"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -6681,7 +6775,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Mechanik",
       "flags": {
@@ -6699,14 +6794,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 1
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 1
         },
         "attack": {
           "value": 6
@@ -6714,21 +6809,21 @@
         "talentValue": {
           "value": 7
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -6742,7 +6837,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Stäbe",
       "flags": {
@@ -6760,14 +6856,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 5
@@ -6775,21 +6871,21 @@
         "talentValue": {
           "value": 5
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -6803,7 +6899,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfmesser",
       "flags": {
@@ -6821,14 +6918,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 2
@@ -6836,21 +6933,21 @@
         "talentValue": {
           "value": 2
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -6864,7 +6961,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihandflegel",
       "flags": {
@@ -6882,14 +6980,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 5
@@ -6897,21 +6995,21 @@
         "talentValue": {
           "value": 5
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -6925,7 +7023,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfbeile",
       "flags": {
@@ -6943,65 +7042,65 @@
       "effects": [],
       "folder": null,
       "system": {
-        "damage": {
-          "value": "1d6+5"
-        },
-        "atmod": {
-          "offhandMod": 0,
+        "price": {
           "value": 0
         },
         "quantity": {
           "value": 1
         },
-        "worn": {
-          "value": true,
-          "offhand": false
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "tpplus": {
-          "step": 4,
-          "value": 12
-        },
-        "reach": {
-          "shieldSize": "average",
-          "value": "medium"
-        },
-        "combatskill": {
-          "value": "Speere"
-        },
         "weight": {
           "value": 1.5
-        },
-        "description": {
-          "value": ""
-        },
-        "pamod": {
-          "offhandMod": 0,
-          "value": -2
-        },
-        "damagetype": "damage",
-        "structure": {
-          "max": 0,
-          "value": 0
-        },
-        "damageThreshold": {
-          "value": 0
-        },
-        "price": {
-          "value": 0
-        },
-        "parent_id": 0,
-        "guidevalue": {
-          "value": "kk"
         },
         "effect": {
           "value": "-1 INI"
         },
+        "parent_id": 0,
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "specialization": {
           "value": false
-        }
+        },
+        "tpplus": {
+          "value": 12,
+          "step": 4
+        },
+        "damage": {
+          "value": "1d6+5"
+        },
+        "atmod": {
+          "value": 0,
+          "offhandMod": 0
+        },
+        "pamod": {
+          "value": -2,
+          "offhandMod": 0
+        },
+        "reach": {
+          "value": "medium",
+          "shieldSize": "average"
+        },
+        "damageThreshold": {
+          "value": 0
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "combatskill": {
+          "value": "Speere"
+        },
+        "worn": {
+          "value": true,
+          "offhand": false
+        },
+        "structure": {
+          "max": 0,
+          "value": 0
+        },
+        "damagetype": "damage"
       },
       "ownership": {
         "OkB1KdnOuvyQ8qU2": 3
@@ -7014,13 +7113,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Speer",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.weaponsandshields.jE7tzSjj37zNjLLU"
-        }
+        "core": {}
       },
       "_id": "cLvBweFLHnHHqJja",
       "sort": 2300000,
@@ -7032,66 +7130,66 @@
       "effects": [],
       "folder": null,
       "system": {
-        "damage": {
-          "value": "1d6+2"
-        },
-        "atmod": {
-          "offhandMod": 0,
+        "price": {
           "value": 0
         },
         "quantity": {
           "value": 1
+        },
+        "weight": {
+          "value": 0.75
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "specialization": {
+          "value": false
+        },
+        "tpplus": {
+          "value": 12,
+          "step": 4
+        },
+        "damage": {
+          "value": "1d6+2"
+        },
+        "atmod": {
+          "value": 0,
+          "offhandMod": 0
+        },
+        "pamod": {
+          "value": 0,
+          "offhandMod": 0
+        },
+        "reach": {
+          "value": "medium",
+          "shieldSize": "average"
+        },
+        "damageThreshold": {
+          "value": 0
+        },
+        "guidevalue": {
+          "value": "kk"
+        },
+        "combatskill": {
+          "value": "Dolche"
         },
         "worn": {
           "value": true,
           "offhand": false,
           "offHand": false
         },
-        "gmdescription": {
-          "value": ""
-        },
-        "tpplus": {
-          "step": 4,
-          "value": 12
-        },
-        "reach": {
-          "shieldSize": "average",
-          "value": "medium"
-        },
-        "combatskill": {
-          "value": "Dolche"
-        },
-        "weight": {
-          "value": 0.75
-        },
-        "description": {
-          "value": ""
-        },
-        "pamod": {
-          "offhandMod": 0,
-          "value": 0
-        },
-        "damagetype": "damage",
         "structure": {
           "max": 0,
           "value": 0
         },
-        "damageThreshold": {
-          "value": 0
-        },
-        "price": {
-          "value": 0
-        },
-        "parent_id": 0,
-        "guidevalue": {
-          "value": "kk"
-        },
-        "effect": {
-          "value": ""
-        },
-        "specialization": {
-          "value": false
-        }
+        "damagetype": "damage"
       },
       "ownership": {
         "OkB1KdnOuvyQ8qU2": 3
@@ -7104,13 +7202,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Langdolch",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.weaponsandshields.CkZi5AQhMK1IHXTL"
-        }
+        "core": {}
       },
       "_id": "wnl7kctt6hjShZ1O",
       "sort": 2100000,
@@ -7122,39 +7219,39 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "folder": null,
       "system": {
+        "description": {
+          "value": " Die Angreiferin wählt eine Erschwernis x. Die Reaktion auf eine Finte ist um x/2 (x mit der Kenntnis der SF Finte) erschwert. Trägt die Angreiferin einen Schild so ist das Manöver um zusätzlich +2 erschwert. Bei einer Finte zur Verwirrung erleidet der Gegner keine TP sondern verliert INI."
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 200"
         },
         "requirements": {
           "value": " GE 12"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": " Die Angreiferin wählt eine Erschwernis x. Die Reaktion auf eine Finte ist um x/2 (x mit der Kenntnis der SF Finte) erschwert. Trägt die Angreiferin einen Schild so ist das Manöver um zusätzlich +2 erschwert. Bei einer Finte zur Verwirrung erleidet der Gegner keine TP sondern verliert INI."
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -7168,7 +7265,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Finte",
       "flags": {},
@@ -7182,39 +7280,39 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "folder": null,
       "system": {
+        "description": {
+          "value": " Der Angreifer versucht eine verwundbare Stelle zu treffen. Gelingt der Angriff so wird die Rüstung ignoriert und es entsteht eine Wunde wenn mindestens 1 SP entsteht. Für je KO/2 Schadenspunkte entsteht eine weitere Wunde. Es ist möglich auf eine bestimmte Zone zu zielen. Dafür sind die Erschwernisse\n <br />Kopf +6\n <br />Brust +7\n <br />Bauch +6\n <br />Schwertarm +6\n <br />Schildarm +7\n <br />Beine +5\n<br />Misslingt ein Gezielter Stich so wird bei der Erschwernis für die nächste Aktion des Angreifers der Zuschlag vom RS ignoriert."
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 100"
         },
         "requirements": {
           "value": " [[Finte]]"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": " Der Angreifer versucht eine verwundbare Stelle zu treffen. Gelingt der Angriff so wird die Rüstung ignoriert und es entsteht eine Wunde wenn mindestens 1 SP entsteht. Für je KO/2 Schadenspunkte entsteht eine weitere Wunde. Es ist möglich auf eine bestimmte Zone zu zielen. Dafür sind die Erschwernisse\n <br />Kopf +6\n <br />Brust +7\n <br />Bauch +6\n <br />Schwertarm +6\n <br />Schildarm +7\n <br />Beine +5\n<br />Misslingt ein Gezielter Stich so wird bei der Erschwernis für die nächste Aktion des Angreifers der Zuschlag vom RS ignoriert."
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -7228,7 +7326,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Gezielter Stich",
       "flags": {},
@@ -7242,23 +7341,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ch"
-        },
-        "StF": {
-          "value": "H"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "meta"
         },
         "talentValue": {
           "value": 4
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": "Kriegskunst + Kriegskunst + Sinnenschärfe + Menschenkenntnis / 4, +1 von Speere, +1 von Dolche"
         },
         "characteristic1": {
           "value": "mu"
@@ -7266,13 +7353,25 @@
         "characteristic2": {
           "value": "in"
         },
-        "group": {
-          "value": "meta"
+        "characteristic3": {
+          "value": "ch"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "yes",
           "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "H"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": "Kriegskunst + Kriegskunst + Sinnenschärfe + Menschenkenntnis / 4, +1 von Speere, +1 von Dolche"
         }
       },
       "ownership": {
@@ -7286,7 +7385,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Gegner Einschätzen",
       "flags": {
@@ -7304,23 +7404,11 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
-          "value": "ch"
-        },
-        "StF": {
-          "value": "B"
-        },
-        "RPr": {
-          "value": "no"
+        "group": {
+          "value": "trade"
         },
         "talentValue": {
           "value": 0
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
         },
         "characteristic1": {
           "value": "in"
@@ -7328,13 +7416,25 @@
         "characteristic2": {
           "value": "ch"
         },
-        "group": {
-          "value": "trade"
+        "characteristic3": {
+          "value": "ch"
+        },
+        "RPr": {
+          "value": "no"
         },
         "burden": {
+          "value": "no",
           "valadd": 0,
-          "valmult": 1,
-          "value": "no"
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "description": {
+          "value": ""
         }
       },
       "ownership": {
@@ -7348,7 +7448,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Heilkunde Seele",
       "flags": {
@@ -7366,38 +7467,38 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": "Talentspezialisierung für Talent Zimmermann"
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": "0"
         },
         "requirements": {
           "value": ""
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Zimmermann TaW+2"
-        },
-        "description": {
-          "value": "Talentspezialisierung für Talent Zimmermann"
-        },
         "rule": {
+          "value": ""
+        },
+        "maxRank": {
           "value": ""
         },
         "step": {
           "value": "1"
         },
         "category": {
-          "sub": 0,
-          "value": "general"
+          "value": "general",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
+        "effect": {
+          "value": "Zimmermann TaW+2"
+        },
+        "mountEffect": {
           "value": ""
         }
       },
@@ -7412,7 +7513,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Spez. Schiffszimmermann",
       "flags": {},
@@ -7426,55 +7528,55 @@
       "effects": [],
       "folder": null,
       "system": {
+        "templates:": [
+          "equipment",
+          "description"
+        ],
         "damage": {
           "value": "1d6+4"
         },
-        "worn": {
-          "value": true
+        "specialization": {
+          "value": false
         },
-        "quantity": {
-          "value": 2
-        },
-        "ammunitiongroup": {
-          "value": "-"
-        },
-        "reach": {
-          "value": "5/10/15/25/40"
-        },
-        "attacktype": "piercing",
-        "combatskill": {
-          "value": "Wurfspeere"
-        },
-        "weight": {
-          "value": 2
+        "reloadTime": {
+          "value": 1,
+          "progress": 0
         },
         "reachtp": {
           "value": "+3/+1/0/–1/–1"
         },
+        "reach": {
+          "value": "5/10/15/25/40"
+        },
+        "ammunitiongroup": {
+          "value": "-"
+        },
         "currentAmmo": {
           "value": ""
         },
-        "damagetype": "damage",
+        "combatskill": {
+          "value": "Wurfspeere"
+        },
+        "worn": {
+          "value": true
+        },
         "structure": {
           "max": 0,
           "value": 0
         },
-        "reloadTime": {
-          "progress": 0,
-          "value": 1
+        "quantity": {
+          "value": 2
         },
+        "attacktype": "piercing",
+        "weight": {
+          "value": 2
+        },
+        "damagetype": "damage",
         "price": {
           "value": null
         },
         "effect": {
           "value": ""
-        },
-        "templates:": [
-          "equipment",
-          "description"
-        ],
-        "specialization": {
-          "value": false
         }
       },
       "ownership": {
@@ -7489,13 +7591,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Harpune",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa5.weaponsandshields.c83xpMNNzXwCGLoT"
-        }
+        "core": {}
       },
       "_id": "a0DasLcEXQ3AgJ0C",
       "sort": 0,
@@ -7507,17 +7608,31 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
+        "group": {
+          "value": "trade"
+        },
+        "talentValue": {
+          "value": 7
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
           "value": "ff"
         },
-        "StF": {
-          "value": "B"
+        "characteristic3": {
+          "value": "ff"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 7
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
         },
         "gmdescription": {
           "value": ""
@@ -7525,22 +7640,8 @@
         "description": {
           "value": ""
         },
-        "characteristic1": {
-          "value": "kl"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "ff"
-        },
-        "group": {
-          "value": "trade"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -7556,13 +7657,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Feinmechanik",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.w6ns5DaqpmLmWt41"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "74VVL7avXvWHsMdE",
@@ -7575,28 +7676,36 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 1
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
         },
-        "description": {
-          "value": ""
+        "price": {
+          "value": 0
+        },
+        "quantity": {
+          "value": 1
         },
         "weight": {
           "value": 0.1
         },
-        "sideEffect": "Die Anwenderin ist für 4 Stunden unglaublich hungrig und kann sich kaum zurückhalten, wenn sie etwas zu Essen sieht.",
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0,
         "equipmentType": {
           "value": "alchemy"
         },
-        "quality": {
-          "secretValue": "Alchemy.C",
-          "value": "Alchemy.U"
-        },
         "QLList": "",
+        "quality": {
+          "value": "Alchemy.U",
+          "secretValue": "Alchemy.C"
+        },
         "charges": 1,
+        "maxCharges": 1,
+        "sideEffect": "Die Anwenderin ist für 4 Stunden unglaublich hungrig und kann sich kaum zurückhalten, wenn sie etwas zu Essen sieht.",
         "effects": {
           "duration": "",
           "damage": "",
@@ -7607,15 +7716,7 @@
           "description": "augenblickliche Regeneration von 2W6+4 LeP",
           "healingValue": ""
         },
-        "price": {
-          "value": 0
-        },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "targetEffect": false,
-        "maxCharges": 1
+        "targetEffect": false
       },
       "ownership": {
         "default": 0,
@@ -7630,7 +7731,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Heiltrank 3",
       "flags": {},

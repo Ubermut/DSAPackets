@@ -8,7 +8,8 @@
     "createdTime": 1746252024459,
     "duplicateSource": null,
     "systemVersion": "6.2.3",
-    "coreVersion": "12.331"
+    "coreVersion": "13.351",
+    "exportSource": null
   },
   "flags": {
     "core": {}
@@ -131,7 +132,6 @@
       }
     },
     "prependAdjective": false,
-    "hexagonalShape": 0,
     "randomImg": false,
     "appendNumber": false,
     "bar1": {
@@ -183,245 +183,207 @@
     "occludable": {
       "radius": 0
     },
-    "height": 1.5
+    "height": 1.5,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "effects": [],
   "system": {
-    "actionCount": {
-      "value": 1
-    },
-    "happyTalents": {
-      "value": ""
-    },
-    "flight": {
-      "value": ""
-    },
     "characteristics": {
-      "ff": {
-        "color": "#d5b467",
-        "species": 0,
-        "initial": 12,
-        "advances": 0,
-        "abrev": "CHARAbbrev.FF",
-        "modifier": 0,
-        "label": "CHAR.FF"
-      },
-      "kk": {
-        "color": "#d6a878",
-        "species": 0,
-        "initial": 11,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KK",
-        "modifier": 0,
-        "label": "CHAR.KK"
-      },
-      "kl": {
-        "color": "#8259a3",
-        "species": 0,
-        "initial": 11,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KL",
-        "modifier": 0,
-        "label": "CHAR.KL"
-      },
-      "ko": {
-        "color": "#fbf5ea",
-        "species": 0,
-        "initial": 12,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KO",
-        "modifier": 0,
-        "label": "CHAR.KO"
-      },
-      "in": {
-        "color": "#388834",
-        "species": 0,
-        "initial": 15,
-        "advances": 0,
-        "abrev": "CHARAbbrev.IN",
-        "modifier": 0,
-        "label": "CHAR.IN"
-      },
-      "ch": {
-        "color": "#0d0d0d",
-        "species": 0,
-        "initial": 14,
-        "advances": 0,
-        "abrev": "CHARAbbrev.CH",
-        "modifier": 0,
-        "label": "CHAR.CH"
-      },
       "mu": {
+        "label": "CHAR.MU",
+        "abrev": "CHARAbbrev.MU",
         "color": "#b3241a",
         "initial": 15,
         "species": 0,
-        "advances": 0,
-        "abrev": "CHARAbbrev.MU",
         "modifier": 0,
-        "label": "CHAR.MU"
+        "advances": 0
+      },
+      "kl": {
+        "label": "CHAR.KL",
+        "abrev": "CHARAbbrev.KL",
+        "color": "#8259a3",
+        "species": 0,
+        "initial": 11,
+        "modifier": 0,
+        "advances": 0
+      },
+      "in": {
+        "label": "CHAR.IN",
+        "abrev": "CHARAbbrev.IN",
+        "color": "#388834",
+        "species": 0,
+        "initial": 15,
+        "modifier": 0,
+        "advances": 0
+      },
+      "ch": {
+        "label": "CHAR.CH",
+        "abrev": "CHARAbbrev.CH",
+        "color": "#0d0d0d",
+        "species": 0,
+        "initial": 14,
+        "modifier": 0,
+        "advances": 0
+      },
+      "ff": {
+        "label": "CHAR.FF",
+        "abrev": "CHARAbbrev.FF",
+        "color": "#d5b467",
+        "species": 0,
+        "initial": 12,
+        "modifier": 0,
+        "advances": 0
       },
       "ge": {
+        "label": "CHAR.GE",
+        "abrev": "CHARAbbrev.GE",
         "color": "#688ec4",
         "species": 0,
         "initial": 18,
-        "advances": 0,
-        "abrev": "CHARAbbrev.GE",
         "modifier": 0,
-        "label": "CHAR.GE"
+        "advances": 0
+      },
+      "ko": {
+        "label": "CHAR.KO",
+        "abrev": "CHARAbbrev.KO",
+        "color": "#fbf5ea",
+        "species": 0,
+        "initial": 12,
+        "modifier": 0,
+        "advances": 0
+      },
+      "kk": {
+        "label": "CHAR.KK",
+        "abrev": "CHARAbbrev.KK",
+        "color": "#d6a878",
+        "species": 0,
+        "initial": 11,
+        "modifier": 0,
+        "advances": 0
       }
-    },
-    "count": {
-      "label": "count",
-      "value": "1"
-    },
-    "description": {
-      "value": ""
     },
     "hitbox": 0,
-    "feature": {
-      "magical": "",
-      "clerical": ""
-    },
-    "guidevalue": {
-      "magical": "-",
-      "clerical": "-"
-    },
-    "specialRules": {
-      "value": ""
-    },
-    "energyfactor": {
-      "magical": 1,
-      "clerical": 1
-    },
-    "details": {
-      "experience": {
-        "total": 0,
-        "spent": 0
-      }
-    },
-    "creatureClass": {
-      "value": "elemental"
-    },
-    "behaviour": {
-      "value": ""
-    },
-    "tradition": {
-      "magical": "",
-      "clerical": ""
-    },
-    "config": {
-      "autoSize": true,
-      "autoBar": true
-    },
-    "merchantType": false,
     "status": {
-      "dodge": {
-        "max": 0,
-        "modifier": 16,
-        "value": 0
-      },
       "wounds": {
-        "current": 8,
         "initial": 0,
-        "max": 0,
+        "value": 21,
         "advances": 0,
         "modifier": 21,
-        "value": 21
+        "current": 8,
+        "max": 0
       },
-      "initiative": {
-        "die": "1d6",
-        "initial": 20,
-        "multiplier": 1,
-        "modifier": 0,
-        "tooltip": "12+0+0+20+0+0+0+0 = 32 (KO + Modifikator + Effekte + (MU + MU + GE + IN)/5 + Modifikator + Belastung + Effekte + Initiativewürfel)",
-        "rolled": false,
-        "current": 20.2,
-        "diemodifier": "-",
-        "nextaction": 21,
-        "gearmodifier": 0,
-        "value": "20.20",
-        "currentdice": 0,
-        "fullmodifier": 0
-      },
-      "artifactradiation": {
+      "astralenergy": {
         "initial": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "atbasis": {
+        "value": 50,
+        "advances": 0,
+        "modifier": 50,
         "current": 0,
+        "max": 0
+      },
+      "karmaenergy": {
         "initial": 0,
+        "value": 0,
         "advances": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0,
+        "max": 0
       },
-      "combat": {
-        "oneRoundEffects": [],
-        "oneTimeEffects": []
+      "soulpower": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 10
+      },
+      "toughness": {
+        "initial": 0,
+        "value": 12,
+        "modifier": 0
       },
       "captainvalue": {
         "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "artifactradiation": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "dodge": {
+        "value": 0,
+        "modifier": 16,
+        "max": 0
+      },
+      "fatePoints": {
+        "value": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0
       },
       "speed": {
         "initial": 0,
         "modifier": 10,
         "value": 0
       },
-      "encumbrance": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
+      "initiative": {
+        "value": "20.20",
+        "modifier": 0,
+        "current": 20.2,
+        "die": "1d6",
+        "diemodifier": "-",
+        "initial": 20,
+        "multiplier": 1,
+        "tooltip": "12+0+0+20+0+0+0+0 = 32 (KO + Modifikator + Effekte + (MU + MU + GE + IN)/5 + Modifikator + Belastung + Effekte + Initiativewürfel)",
+        "rolled": false,
+        "nextaction": 21,
+        "gearmodifier": 0,
+        "currentdice": 0,
+        "fullmodifier": 0
       },
-      "karmaenergy": {
-        "current": 0,
+      "atbasis": {
         "initial": 0,
-        "max": 0,
+        "value": 0,
         "advances": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0
       },
-      "fatePoints": {
-        "current": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "soulpower": {
+      "encumbrance": {
         "initial": 0,
-        "modifier": 10,
-        "value": 0
+        "value": 0,
+        "current": 0
+      },
+      "bodyarmor": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "pabasis": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
+      },
+      "fkbasis": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
       },
       "size": {
         "value": "average"
       },
-      "astralenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 50,
-        "value": 50
-      },
-      "bodyarmor": {
-        "current": 0,
-        "initial": 0,
-        "value": 0
-      },
-      "toughness": {
-        "initial": 0,
-        "modifier": 0,
-        "value": 12
+      "combat": {
+        "oneRoundEffects": [],
+        "oneTimeEffects": []
       },
       "attackSize": {
         "value": "PARADE"
-      },
-      "fkbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
       },
       "actions": {
         "movementaction": 0,
@@ -462,22 +424,67 @@
         },
         "spendInitiative": false,
         "ataction": 1
-      },
-      "pabasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
       }
     },
+    "guidevalue": {
+      "magical": "-",
+      "clerical": "-"
+    },
+    "energyfactor": {
+      "magical": 1,
+      "clerical": 1
+    },
+    "tradition": {
+      "magical": "",
+      "clerical": ""
+    },
+    "feature": {
+      "magical": "",
+      "clerical": ""
+    },
+    "happyTalents": {
+      "value": ""
+    },
+    "config": {
+      "autoBar": true,
+      "autoSize": true
+    },
+    "details": {
+      "experience": {
+        "total": 0,
+        "spent": 0
+      }
+    },
+    "actionCount": {
+      "value": 1
+    },
+    "count": {
+      "value": "1",
+      "label": "count"
+    },
+    "creatureClass": {
+      "value": "elemental"
+    },
+    "behaviour": {
+      "value": ""
+    },
+    "flight": {
+      "value": ""
+    },
+    "specialRules": {
+      "value": ""
+    },
     "conjuringDifficulty": {
-      "control": 0,
-      "value": 0
+      "value": 0,
+      "control": 0
+    },
+    "description": {
+      "value": ""
     },
     "sheetLocked": {
       "value": false
-    }
+    },
+    "merchantType": false
   },
   "folder": "embhtCjyxcVQoIIW",
   "ownership": {
@@ -493,14 +500,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -508,21 +515,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -537,13 +544,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kettenstäbe",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.226BaiUnbC8a02EI"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "226BaiUnbC8a02EI",
@@ -556,14 +563,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -571,21 +578,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": true,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 0
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": true,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 0,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -600,13 +607,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Lanzenreiten",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.4lQMyQA76B3k2qC3"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "4lQMyQA76B3k2qC3",
@@ -619,14 +626,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -634,21 +641,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -5,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -5,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -663,13 +670,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Blasrohr",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.5RIyzGs1cZlo5KSM"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "5RIyzGs1cZlo5KSM",
@@ -682,14 +689,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -697,21 +704,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -726,13 +733,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kettenwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.BnyH20zV6sSUVP6L"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "BnyH20zV6sSUVP6L",
@@ -745,14 +752,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -760,21 +767,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 0
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 0,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -789,13 +796,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Belagerungswaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.C35OB8c3U96PkOi4"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "C35OB8c3U96PkOi4",
@@ -808,14 +815,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -823,21 +830,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -852,13 +859,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Raufen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.DVR2e9H5OmUwOTAx"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "DVR2e9H5OmUwOTAx",
@@ -871,14 +878,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -886,21 +893,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -915,13 +922,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Anderthalbhänder",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.DbhjV4W59gLQtOCD"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "DbhjV4W59gLQtOCD",
@@ -934,14 +941,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -949,21 +956,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -978,13 +985,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfmesser",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.Ju1yU6ebEnUMoo7c"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "Ju1yU6ebEnUMoo7c",
@@ -997,14 +1004,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1012,21 +1019,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1041,13 +1048,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Diskus",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.LEG7m1tkOxrTocUG"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "LEG7m1tkOxrTocUG",
@@ -1060,14 +1067,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1075,21 +1082,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1104,13 +1111,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfspeere",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.N87xkSBj7rLh9UCI"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "N87xkSBj7rLh9UCI",
@@ -1123,14 +1130,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1138,21 +1145,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -4,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -4,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1167,13 +1174,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Hiebwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.NtAsVa3mRdfHWbLT"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "NtAsVa3mRdfHWbLT",
@@ -1186,14 +1193,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1201,21 +1208,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1230,13 +1237,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Infanteriewaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.OXVG7xUn8NgQcbSU"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "OXVG7xUn8NgQcbSU",
@@ -1249,14 +1256,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1264,21 +1271,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": true,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": true,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1293,13 +1300,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Peitsche",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.Od7bzJ6edTm4CD6C"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "Od7bzJ6edTm4CD6C",
@@ -1312,14 +1319,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1327,21 +1334,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1356,13 +1363,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Dolche",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.UZ4W2yrSlJOEs4jB"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "UZ4W2yrSlJOEs4jB",
@@ -1375,14 +1382,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1390,21 +1397,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1419,13 +1426,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schleuder",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.UhfzjjnojBQjxBDJ"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "UhfzjjnojBQjxBDJ",
@@ -1438,14 +1445,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "A"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1453,21 +1460,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1482,13 +1489,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Parierwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Item.0aN7R5SL6xkbAsBO"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "sort": 0,
@@ -1501,14 +1508,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1516,21 +1523,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -5,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -5,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1545,13 +1552,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Armbrust",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.awBvPLMvFu4KcQUE"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "awBvPLMvFu4KcQUE",
@@ -1564,14 +1571,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1579,21 +1586,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1608,13 +1615,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schwerter",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.cvEA2xbXgOfrocqA"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "cvEA2xbXgOfrocqA",
@@ -1627,14 +1634,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1642,21 +1649,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1671,13 +1678,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfbeile",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.favwZuUV7oqLbaVM"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "favwZuUV7oqLbaVM",
@@ -1690,14 +1697,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1705,21 +1712,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1734,13 +1741,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Stäbe",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.gdCgGX8gOQZaPMck"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "gdCgGX8gOQZaPMck",
@@ -1753,14 +1760,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1768,21 +1775,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1797,13 +1804,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Ringen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.jAUJXa4oSKGEijdC"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "jAUJXa4oSKGEijdC",
@@ -1816,14 +1823,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "A"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1831,21 +1838,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1860,13 +1867,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schilde",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.naOdsGgQ0g3TtFA5"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "naOdsGgQ0g3TtFA5",
@@ -1879,14 +1886,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1894,21 +1901,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1923,13 +1930,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihand-Hiebwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.njo6NjEzUBDpsjEv"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "njo6NjEzUBDpsjEv",
@@ -1942,14 +1949,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1957,21 +1964,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1986,13 +1993,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Fechtwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.o4BXASK78J7uakFZ"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "o4BXASK78J7uakFZ",
@@ -2005,14 +2012,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2020,21 +2027,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2049,13 +2056,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Säbel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.oP79ub1B8wetV5xv"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "oP79ub1B8wetV5xv",
@@ -2068,14 +2075,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2083,21 +2090,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2112,13 +2119,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihandflegel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.sVSpXuv6xffj8PNW"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "sVSpXuv6xffj8PNW",
@@ -2131,14 +2138,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2146,21 +2153,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2175,13 +2182,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Bogen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.t1HFkkvYGP0M8JuD"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "t1HFkkvYGP0M8JuD",
@@ -2194,14 +2201,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2209,21 +2216,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2238,13 +2245,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Speere",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.tCO38y9uOLT3y6gh"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "tCO38y9uOLT3y6gh",
@@ -2257,14 +2264,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2272,21 +2279,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2301,13 +2308,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihandschwerter/-säbel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.y4qU3t8GP8URMRDW"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "y4qU3t8GP8URMRDW",
@@ -2319,8 +2326,8 @@
       "img": "systems/dsa5/icons/money-D.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2328,16 +2335,16 @@
         "price": {
           "value": 10
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2352,13 +2359,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-D",
       "flags": {
-        "core": {
-          "sourceId": "Item.BGfRbsrZ2M2Y2wZ3"
-        }
+        "core": {}
       },
       "_id": "OCRi6UuKBIHCbZuF",
       "sort": 0,
@@ -2369,8 +2375,8 @@
       "img": "systems/dsa5/icons/money-S.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2378,16 +2384,16 @@
         "price": {
           "value": 1
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2402,13 +2408,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-S",
       "flags": {
-        "core": {
-          "sourceId": "Item.ntX4yPa0e9rmmqSZ"
-        }
+        "core": {}
       },
       "_id": "xN0OtnyZqB4BaWAX",
       "sort": 0,
@@ -2419,8 +2424,8 @@
       "img": "systems/dsa5/icons/money-H.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2428,16 +2433,16 @@
         "price": {
           "value": 0.1
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2452,13 +2457,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-H",
       "flags": {
-        "core": {
-          "sourceId": "Item.2wwyflxgKCiz9UIQ"
-        }
+        "core": {}
       },
       "_id": "G4piFlEAWb2stJCn",
       "sort": 0,
@@ -2469,8 +2473,8 @@
       "img": "systems/dsa5/icons/money-K.webp",
       "effects": [],
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2478,16 +2482,16 @@
         "price": {
           "value": 0.01
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "folder": null,
       "ownership": {
@@ -2502,13 +2506,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-K",
       "flags": {
-        "core": {
-          "sourceId": "Item.IHSzojKYEn0FloQm"
-        }
+        "core": {}
       },
       "_id": "NDf42upvVWmHi8Ty",
       "sort": 0,
@@ -2520,44 +2523,38 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "damage": {
-          "value": "1d6"
+        "description": {
+          "value": "<p>Dieser D&auml;mon erleidet durch profane Angriffe halben&nbsp; Schaden</p>"
         },
         "gmdescription": {
           "value": ""
         },
-        "reach": {
-          "value": "short"
-        },
-        "attacktype": "standard",
-        "selectable": {
-          "cost": 1,
-          "value": true
-        },
-        "description": {
-          "value": "<p>Dieser D&auml;mon erleidet durch profane Angriffe halben&nbsp; Schaden</p>"
-        },
-        "damagetype": "damage",
-        "duration": {
-          "value": ""
-        },
-        "pa": 0,
-        "AsPCost": {
-          "value": 0
-        },
-        "at": {
-          "value": null
-        },
-        "reloadTime": {
-          "value": "1"
+        "APValue": {
+          "value": "0"
         },
         "traitType": {
           "value": "general"
         },
-        "mountEffect": {
+        "creatureClass": {
+          "value": "demon"
+        },
+        "at": {
+          "value": null
+        },
+        "pa": 0,
+        "reach": {
+          "value": "short"
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "duration": {
           "value": ""
         },
         "aspect": {
@@ -2566,9 +2563,15 @@
         "effect": {
           "value": ""
         },
-        "creatureClass": {
-          "value": "demon"
-        }
+        "mountEffect": {
+          "value": ""
+        },
+        "attacktype": "standard",
+        "selectable": {
+          "cost": 1,
+          "value": true
+        },
+        "damagetype": "damage"
       },
       "ownership": {
         "g4RrF7Y2SjTsFdVp": 3,
@@ -2583,13 +2586,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Resistenz gegen profanen Schaden",
       "flags": {
-        "core": {
-          "sourceId": "Item.TMi0v8gtKMgvlcdr"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "GeQuyCkokgKFvLW9",
@@ -2601,50 +2603,38 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "damage": {
-          "value": "1d6"
+        "description": {
+          "value": "<p>Das Wesen erh&auml;lt keinen Schaden durch ein Element</p>\n<p>&nbsp;</p>"
         },
         "gmdescription": {
           "value": ""
         },
-        "reach": {
-          "value": "short"
-        },
-        "attacktype": "standard",
-        "selectable": {
-          "cost": 6,
-          "value": true
-        },
-        "description": {
-          "value": "<p>Das Wesen erh&auml;lt keinen Schaden durch ein Element</p>\n<p>&nbsp;</p>"
-        },
-        "resistance": {
-          "immunity": true,
-          "vulnerability": false
-        },
-        "structure": {
-          "hasStructure": false
-        },
-        "duration": {
-          "value": ""
-        },
-        "pa": 0,
-        "AsPCost": {
-          "value": 0
-        },
-        "at": {
-          "value": null
-        },
-        "reloadTime": {
-          "value": "1"
+        "APValue": {
+          "value": "0"
         },
         "traitType": {
           "value": "resistance"
         },
-        "mountEffect": {
+        "creatureClass": {
+          "value": "elemental"
+        },
+        "at": {
+          "value": null
+        },
+        "pa": 0,
+        "reach": {
+          "value": "short"
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "duration": {
           "value": ""
         },
         "aspect": {
@@ -2653,8 +2643,20 @@
         "effect": {
           "value": ""
         },
-        "creatureClass": {
-          "value": "elemental"
+        "mountEffect": {
+          "value": ""
+        },
+        "attacktype": "standard",
+        "selectable": {
+          "cost": 6,
+          "value": true
+        },
+        "resistance": {
+          "immunity": true,
+          "vulnerability": false
+        },
+        "structure": {
+          "hasStructure": false
         },
         "damageType": "damageAir"
       },
@@ -2671,13 +2673,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Immunität Element Luft",
       "flags": {
-        "core": {
-          "sourceId": "Item.UAcAtIc8iAsAbYWA"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "oPCGeyW1lgAqjcep",
@@ -2688,28 +2689,56 @@
       "img": "systems/dsa5/icons/categories/trait.webp",
       "effects": [],
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "damage": {
-          "value": "1d6"
-        },
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
         },
+        "APValue": {
+          "value": "0"
+        },
+        "traitType": {
+          "value": "resistance"
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "at": {
+          "value": null
+        },
+        "pa": 0,
         "reach": {
           "value": "short"
+        },
+        "damage": {
+          "value": "1d6"
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "duration": {
+          "value": ""
+        },
+        "aspect": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 0
         },
         "attacktype": "standard",
         "selectable": {
           "cost": null,
           "value": false
-        },
-        "description": {
-          "value": ""
         },
         "weight": {
           "value": 0
@@ -2720,34 +2749,6 @@
         },
         "structure": {
           "hasStructure": false
-        },
-        "duration": {
-          "value": ""
-        },
-        "pa": 0,
-        "AsPCost": {
-          "value": 0
-        },
-        "at": {
-          "value": null
-        },
-        "reloadTime": {
-          "value": "1"
-        },
-        "traitType": {
-          "value": "resistance"
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "aspect": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "creatureClass": {
-          "value": "unknown"
         },
         "damageType": "damage"
       },
@@ -2765,7 +2766,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Immunität Physischer Schaden",
       "flags": {
@@ -2783,17 +2785,32 @@
       "effects": [],
       "folder": null,
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Leib des Windes\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Leib des Windes\">Link ins Wiki</a> "
+        "characteristic1": {
+          "value": "mu"
         },
-        "range": {
-          "value": "selbst"
+        "characteristic2": {
+          "value": "ge"
+        },
+        "characteristic3": {
+          "value": "kk"
+        },
+        "effect": {
+          "value": ""
+        },
+        "castingTime": {
+          "value": "20 Aktionen"
+        },
+        "AsPCost": {
+          "value": 12
+        },
+        "AsPCostDetail": {
+          "value": "12 AsP + 1 AsP pro SR"
         },
         "maintainCost": {
           "value": "0"
@@ -2801,19 +2818,20 @@
         "distribution": {
           "value": "Elf 3, Ach 2, Dru 2, Geo 2"
         },
-        "duration": {
-          "fullValue": "je nach AsP-Aufwand, höchstens ZfP* SR (A)",
-          "value": "je nach AsP-Aufwand, höchstens ZfP* SR (..."
+        "StF": {
+          "value": "E"
         },
-        "AsPCost": {
-          "value": 12
-        },
-        "feature": "Form, Elementar (Luft)",
         "resistanceModifier": {
           "value": "-"
         },
-        "talentValue": {
-          "value": 12
+        "canChangeCastingTime": {
+          "value": "true"
+        },
+        "canChangeCost": {
+          "value": "true"
+        },
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -2841,42 +2859,26 @@
             "rep": ""
           }
         ],
-        "characteristic3": {
-          "value": "kk"
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
         },
-        "StF": {
-          "value": "E"
+        "range": {
+          "value": "selbst"
         },
-        "AsPCostDetail": {
-          "value": "12 AsP + 1 AsP pro SR"
-        },
-        "characteristic1": {
-          "value": "mu"
-        },
-        "characteristic2": {
-          "value": "ge"
-        },
-        "castingTime": {
-          "value": "20 Aktionen"
-        },
-        "canChangeRange": {
-          "value": "true"
+        "duration": {
+          "value": "je nach AsP-Aufwand, höchstens ZfP* SR (...",
+          "fullValue": "je nach AsP-Aufwand, höchstens ZfP* SR (A)"
         },
         "targetCategory": {
           "value": "Einzelperson, freiwillig"
         },
-        "variableBaseCost": "false",
-        "effect": {
-          "value": ""
+        "talentValue": {
+          "value": 12
         },
+        "feature": "Form, Elementar (Luft)",
         "fixedZfP": {
           "value": "4W6-2"
-        },
-        "canChangeCost": {
-          "value": "true"
-        },
-        "effectFormula": {
-          "value": ""
         },
         "choice": {
           "battlechoice": false,
@@ -2896,7 +2898,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Leib des Windes",
       "flags": {
@@ -2914,17 +2917,32 @@
       "img": "systems/dsa5/icons/spellicons/Orcanofaxius.png",
       "effects": [],
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Orcanofaxius Luftstrahl\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Orcanofaxius Luftstrahl\">Link ins Wiki</a> "
+        "characteristic1": {
+          "value": "kl"
         },
-        "range": {
-          "value": "21 Schritt"
+        "characteristic2": {
+          "value": "ff"
+        },
+        "characteristic3": {
+          "value": "ko"
+        },
+        "effect": {
+          "value": ""
+        },
+        "castingTime": {
+          "value": "4 Aktionen"
+        },
+        "AsPCost": {
+          "value": 1
+        },
+        "AsPCostDetail": {
+          "value": "Anzahl der TP in AsP (s.o.)"
         },
         "maintainCost": {
           "value": "0"
@@ -2932,18 +2950,20 @@
         "distribution": {
           "value": "Mag 2, Ach 2, Geo 2"
         },
-        "duration": {
-          "value": "augenblicklich"
+        "StF": {
+          "value": "C"
         },
-        "AsPCost": {
-          "value": 1
-        },
-        "feature": "Schaden, Elementar (Luft)",
         "resistanceModifier": {
           "value": "-"
         },
-        "talentValue": {
-          "value": 12
+        "canChangeCastingTime": {
+          "value": "true"
+        },
+        "canChangeCost": {
+          "value": "true"
+        },
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -2977,42 +2997,25 @@
             "rep": ""
           }
         ],
-        "characteristic3": {
-          "value": "ko"
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
         },
-        "StF": {
-          "value": "C"
+        "range": {
+          "value": "21 Schritt"
         },
-        "AsPCostDetail": {
-          "value": "Anzahl der TP in AsP (s.o.)"
-        },
-        "characteristic1": {
-          "value": "kl"
-        },
-        "characteristic2": {
-          "value": "ff"
-        },
-        "castingTime": {
-          "value": "4 Aktionen"
-        },
-        "canChangeRange": {
-          "value": "true"
+        "duration": {
+          "value": "augenblicklich"
         },
         "targetCategory": {
           "value": "Einzelwesen (kann auch auf ein einzelnes Objekt gezielt werden, um Strukturschaden anzurichten)."
         },
-        "variableBaseCost": "false",
-        "effect": {
-          "value": ""
+        "talentValue": {
+          "value": 12
         },
+        "feature": "Schaden, Elementar (Luft)",
         "fixedZfP": {
           "value": "4W6-2"
-        },
-        "canChangeCost": {
-          "value": "true"
-        },
-        "effectFormula": {
-          "value": ""
         },
         "choice": {
           "battlechoice": false,
@@ -3033,7 +3036,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Orcanofaxius Luftstrahl",
       "flags": {
@@ -3050,17 +3054,32 @@
       "img": "systems/dsa5/icons/spellicons/Orcanosphaero.png",
       "effects": [],
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Orcanosphaero Luftball\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Orcanosphaero Luftball\">Link ins Wiki</a> "
+        "characteristic1": {
+          "value": "mu"
         },
-        "range": {
-          "value": "49 Schritt"
+        "characteristic2": {
+          "value": "in"
+        },
+        "characteristic3": {
+          "value": "ko"
+        },
+        "effect": {
+          "value": ""
+        },
+        "castingTime": {
+          "value": "7 Aktionen"
+        },
+        "AsPCost": {
+          "value": 21
+        },
+        "AsPCostDetail": {
+          "value": "21 AsP plus 1W6 LeP plus 1 Punkt Erschöpfung"
         },
         "maintainCost": {
           "value": "0"
@@ -3068,18 +3087,20 @@
         "distribution": {
           "value": "Mag 2, Ach 2, Geo 1"
         },
-        "duration": {
-          "value": "augenblicklich"
+        "StF": {
+          "value": "D"
         },
-        "AsPCost": {
-          "value": 21
-        },
-        "feature": "Elementar (Luft), Schaden, Telekinese",
         "resistanceModifier": {
           "value": "-"
         },
-        "talentValue": {
-          "value": 0
+        "canChangeCastingTime": {
+          "value": "true"
+        },
+        "canChangeCost": {
+          "value": "true"
+        },
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -3089,42 +3110,25 @@
             "rep": ""
           }
         ],
-        "characteristic3": {
-          "value": "ko"
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
         },
-        "StF": {
-          "value": "D"
+        "range": {
+          "value": "49 Schritt"
         },
-        "AsPCostDetail": {
-          "value": "21 AsP plus 1W6 LeP plus 1 Punkt Erschöpfung"
-        },
-        "characteristic1": {
-          "value": "mu"
-        },
-        "characteristic2": {
-          "value": "in"
-        },
-        "castingTime": {
-          "value": "7 Aktionen"
-        },
-        "canChangeRange": {
-          "value": "true"
+        "duration": {
+          "value": "augenblicklich"
         },
         "targetCategory": {
           "value": "Zone"
         },
-        "variableBaseCost": "false",
-        "effect": {
-          "value": ""
+        "talentValue": {
+          "value": 0
         },
+        "feature": "Elementar (Luft), Schaden, Telekinese",
         "fixedZfP": {
           "value": "4W6-2"
-        },
-        "canChangeCost": {
-          "value": "true"
-        },
-        "effectFormula": {
-          "value": ""
         },
         "choice": {
           "battlechoice": false,
@@ -3145,7 +3149,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Orcanosphaero Luftball",
       "flags": {
@@ -3162,17 +3167,32 @@
       "img": "systems/dsa5/icons/spellicons/Manifesto.png",
       "effects": [],
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Manifesto Element\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Manifesto Element\">Link ins Wiki</a> "
+        "characteristic1": {
+          "value": "kl"
         },
-        "range": {
-          "value": "Die Manifestation erscheint maximal 1 Schritt vom Zaubernden entfernt."
+        "characteristic2": {
+          "value": "in"
+        },
+        "characteristic3": {
+          "value": "ch"
+        },
+        "effect": {
+          "value": ""
+        },
+        "castingTime": {
+          "value": "10 Aktionen"
+        },
+        "AsPCost": {
+          "value": 3
+        },
+        "AsPCostDetail": {
+          "value": "3 AsP"
         },
         "maintainCost": {
           "value": "0"
@@ -3180,18 +3200,20 @@
         "distribution": {
           "value": "Ach 7, Elf 2, Hex 3, Srl 3, Dru 5, Geo 5, Mag 5"
         },
-        "duration": {
-          "value": "Nach maximal einer Minute verschwinden flüchtige Manifestation auf natürliche Weise (Windhauch vergeht, Feuer erlischt etc.), während sich bleibende Manifestationen (Wasser, Sand, Erde, Steinchen) nach ZfP* Spielrunden auflösen."
+        "StF": {
+          "value": "A"
         },
-        "AsPCost": {
-          "value": 3
-        },
-        "feature": "Elementar (Gesamt)",
         "resistanceModifier": {
           "value": "SK"
         },
-        "talentValue": {
-          "value": 12
+        "canChangeCastingTime": {
+          "value": "true"
+        },
+        "canChangeCost": {
+          "value": "true"
+        },
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -3207,42 +3229,25 @@
             "rep": ""
           }
         ],
-        "characteristic3": {
-          "value": "ch"
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
         },
-        "StF": {
-          "value": "A"
+        "range": {
+          "value": "Die Manifestation erscheint maximal 1 Schritt vom Zaubernden entfernt."
         },
-        "AsPCostDetail": {
-          "value": "3 AsP"
-        },
-        "characteristic1": {
-          "value": "kl"
-        },
-        "characteristic2": {
-          "value": "in"
-        },
-        "castingTime": {
-          "value": "10 Aktionen"
-        },
-        "canChangeRange": {
-          "value": "true"
+        "duration": {
+          "value": "Nach maximal einer Minute verschwinden flüchtige Manifestation auf natürliche Weise (Windhauch vergeht, Feuer erlischt etc.), während sich bleibende Manifestationen (Wasser, Sand, Erde, Steinchen) nach ZfP* Spielrunden auflösen."
         },
         "targetCategory": {
           "value": "Einzelobjekt, Zone"
         },
-        "variableBaseCost": "false",
-        "effect": {
-          "value": ""
+        "talentValue": {
+          "value": 12
         },
+        "feature": "Elementar (Gesamt)",
         "fixedZfP": {
           "value": "4W6-2"
-        },
-        "canChangeCost": {
-          "value": "true"
-        },
-        "effectFormula": {
-          "value": ""
         },
         "choice": {
           "battlechoice": false,
@@ -3263,7 +3268,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Manifesto Element",
       "flags": {
@@ -3280,14 +3286,48 @@
       "img": "systems/dsa5/icons/spellicons/Aeolitus.png",
       "effects": [],
       "system": {
-        "damage": {
-          "value": "3W6-2"
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
         },
+        "APValue": {
+          "value": "0"
+        },
+        "traitType": {
+          "value": "meleeAttack"
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "at": {
+          "value": 18
+        },
+        "pa": 0,
         "reach": {
           "value": "HNS"
+        },
+        "damage": {
+          "value": "3W6-2"
+        },
+        "reloadTime": {
+          "value": "1"
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "duration": {
+          "value": ""
+        },
+        "aspect": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         },
         "tpplus": {
           "step": null,
@@ -3297,35 +3337,14 @@
           "cost": null,
           "value": false
         },
-        "description": {
-          "value": ""
-        },
-        "duration": {
-          "value": ""
-        },
-        "AsPCost": {
-          "value": 0
-        },
-        "traitType": {
-          "value": "meleeAttack"
-        },
-        "mountEffect": {
-          "value": ""
-        },
         "damageThreshold": {
           "value": null
         },
         "guidevalue": {
           "value": "-"
         },
-        "aspect": {
-          "value": ""
-        },
         "twohanded": {
           "value": false
-        },
-        "APValue": {
-          "value": "0"
         },
         "atmod": {
           "offhandMod": null,
@@ -3348,24 +3367,11 @@
         "structure": {
           "hasStructure": false
         },
-        "pa": 0,
         "effects": {
           "hasAmmoEffect": false
         },
-        "at": {
-          "value": 18
-        },
-        "reloadTime": {
-          "value": "1"
-        },
-        "effect": {
-          "value": ""
-        },
         "specialization": {
           "value": false
-        },
-        "creatureClass": {
-          "value": "unknown"
         },
         "attackSize": {
           "value": "DEFAULT"
@@ -3385,7 +3391,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Luftschlag",
       "flags": {
@@ -3402,17 +3409,52 @@
       "img": "systems/dsa5/icons/spellicons/Orcanofaxius.png",
       "effects": [],
       "system": {
-        "damage": {
-          "value": "2W6"
-        },
-        "ammunitiongroup": {
-          "value": "-"
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
         },
+        "APValue": {
+          "value": "0"
+        },
+        "traitType": {
+          "value": "rangeAttack"
+        },
+        "creatureClass": {
+          "value": "unknown"
+        },
+        "at": {
+          "value": null
+        },
+        "pa": 0,
         "reach": {
           "value": "3/5/14/25/35"
+        },
+        "damage": {
+          "value": "2W6"
+        },
+        "reloadTime": {
+          "value": 1,
+          "progress": 0
+        },
+        "AsPCost": {
+          "value": 0
+        },
+        "duration": {
+          "value": ""
+        },
+        "aspect": {
+          "value": ""
+        },
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
+        },
+        "ammunitiongroup": {
+          "value": "-"
         },
         "tpplus": {
           "step": null,
@@ -3425,23 +3467,8 @@
         "combatskill": {
           "value": "none"
         },
-        "description": {
-          "value": ""
-        },
         "reachtp": {
           "value": "+2/+1/+1/0/0"
-        },
-        "duration": {
-          "value": ""
-        },
-        "AsPCost": {
-          "value": 0
-        },
-        "traitType": {
-          "value": "rangeAttack"
-        },
-        "mountEffect": {
-          "value": ""
         },
         "damageThreshold": {
           "value": null
@@ -3449,14 +3476,8 @@
         "guidevalue": {
           "value": "-"
         },
-        "aspect": {
-          "value": ""
-        },
         "twohanded": {
           "value": false
-        },
-        "APValue": {
-          "value": "0"
         },
         "atmod": {
           "offhandMod": null,
@@ -3479,25 +3500,11 @@
         "structure": {
           "hasStructure": false
         },
-        "pa": 0,
         "effects": {
           "hasAmmoEffect": false
         },
-        "at": {
-          "value": null
-        },
-        "reloadTime": {
-          "progress": 0,
-          "value": 1
-        },
-        "effect": {
-          "value": ""
-        },
         "specialization": {
           "value": false
-        },
-        "creatureClass": {
-          "value": "unknown"
         },
         "attackSize": {
           "value": "PARADE"
@@ -3517,7 +3524,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Luftstoß",
       "flags": {
@@ -3534,39 +3542,39 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "effects": [],
       "system": {
+        "description": {
+          "value": " Die Angreiferin wählt eine Erschwernis x. Die Reaktion auf eine Finte ist um x/2 (x mit der Kenntnis der SF Finte) erschwert. Trägt die Angreiferin einen Schild so ist das Manöver um zusätzlich +2 erschwert. Bei einer Finte zur Verwirrung erleidet der Gegner keine TP sondern verliert INI."
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 200"
         },
         "requirements": {
           "value": " GE 12"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": " Die Angreiferin wählt eine Erschwernis x. Die Reaktion auf eine Finte ist um x/2 (x mit der Kenntnis der SF Finte) erschwert. Trägt die Angreiferin einen Schild so ist das Manöver um zusätzlich +2 erschwert. Bei einer Finte zur Verwirrung erleidet der Gegner keine TP sondern verliert INI."
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": null,
@@ -3582,7 +3590,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Finte",
       "flags": {
@@ -3599,39 +3608,39 @@
       "img": "systems/dsa5/icons/categories/ability_general.webp",
       "effects": [],
       "system": {
+        "description": {
+          "value": " Der Kämpfer versucht ein Schild zu zerstören. Der Angreifer kann sich seinen Angriff um zusätzlich x Punkte erschweren. Gelingt der Angriff so muss die Verteidigerin eine BF+x Probe ablegen. Wird der Angriff pariert so steigt der BF des Schildes um 1. Wird der Angriff vorsichtig pariert so passiert nichts."
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": " 100"
         },
         "requirements": {
           "value": "Niederwerfen, KK 15"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": " Der Kämpfer versucht ein Schild zu zerstören. Der Angreifer kann sich seinen Angriff um zusätzlich x Punkte erschweren. Gelingt der Angriff so muss die Verteidigerin eine BF+x Probe ablegen. Wird der Angriff pariert so steigt der BF des Schildes um 1. Wird der Angriff vorsichtig pariert so passiert nichts."
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "Combat"
+          "value": "Combat",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "folder": null,
@@ -3647,7 +3656,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schildspalter",
       "flags": {
@@ -3665,17 +3675,31 @@
       "effects": [],
       "folder": null,
       "system": {
+        "group": {
+          "value": "body"
+        },
+        "talentValue": {
+          "value": 18
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
         "characteristic3": {
           "value": "ge"
-        },
-        "StF": {
-          "value": "D"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 18
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
         },
         "gmdescription": {
           "value": ""
@@ -3683,22 +3707,8 @@
         "description": {
           "value": ""
         },
-        "characteristic1": {
-          "value": "mu"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "in"
-        },
-        "group": {
-          "value": "body"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -3714,13 +3724,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Fliegen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.q7zOdl49VK1QQk0z"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "BZBmgqXAojuHVj6K"
@@ -3736,17 +3746,31 @@
       "effects": [],
       "folder": null,
       "system": {
+        "group": {
+          "value": "body"
+        },
+        "talentValue": {
+          "value": 18
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
         "characteristic3": {
           "value": "ge"
-        },
-        "StF": {
-          "value": "D"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 18
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
         },
         "gmdescription": {
           "value": ""
@@ -3754,22 +3778,8 @@
         "description": {
           "value": ""
         },
-        "characteristic1": {
-          "value": "mu"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "in"
-        },
-        "group": {
-          "value": "body"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -3785,13 +3795,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Körperbeherrschung",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.rj7PXPTKksrIU3t7"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "BZBmgqXAojuHVj6K"
@@ -3807,17 +3817,31 @@
       "effects": [],
       "folder": null,
       "system": {
+        "group": {
+          "value": "body"
+        },
+        "talentValue": {
+          "value": 10
+        },
+        "characteristic1": {
+          "value": "ge"
+        },
+        "characteristic2": {
+          "value": "ko"
+        },
         "characteristic3": {
           "value": "kk"
-        },
-        "StF": {
-          "value": "D"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 10
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
         },
         "gmdescription": {
           "value": ""
@@ -3825,22 +3849,8 @@
         "description": {
           "value": ""
         },
-        "characteristic1": {
-          "value": "ge"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "ko"
-        },
-        "group": {
-          "value": "body"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -3856,13 +3866,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Athletik",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.0bqbVpjgBxPOLizq"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "BZBmgqXAojuHVj6K"
@@ -3878,17 +3888,31 @@
       "effects": [],
       "folder": null,
       "system": {
+        "group": {
+          "value": "social"
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
         "characteristic3": {
           "value": "ch"
-        },
-        "StF": {
-          "value": "B"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 4
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
         },
         "gmdescription": {
           "value": ""
@@ -3896,22 +3920,8 @@
         "description": {
           "value": ""
         },
-        "characteristic1": {
-          "value": "kl"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "in"
-        },
-        "group": {
-          "value": "social"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -3927,13 +3937,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Menschenkenntnis",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.Iu2aySPc40NvrsSA"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "BZBmgqXAojuHVj6K"
@@ -3949,17 +3959,31 @@
       "effects": [],
       "folder": null,
       "system": {
+        "group": {
+          "value": "body"
+        },
+        "talentValue": {
+          "value": 4
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "ko"
+        },
         "characteristic3": {
           "value": "kk"
-        },
-        "StF": {
-          "value": "D"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 4
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
         },
         "gmdescription": {
           "value": ""
@@ -3967,22 +3991,8 @@
         "description": {
           "value": ""
         },
-        "characteristic1": {
-          "value": "mu"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "ko"
-        },
-        "group": {
-          "value": "body"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -3998,13 +4008,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Selbstbeherrschung",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.pThidi82g5jluywC"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "BZBmgqXAojuHVj6K"
@@ -4020,17 +4030,31 @@
       "effects": [],
       "folder": null,
       "system": {
-        "characteristic3": {
+        "group": {
+          "value": "body"
+        },
+        "talentValue": {
+          "value": 14
+        },
+        "characteristic1": {
+          "value": "kl"
+        },
+        "characteristic2": {
           "value": "in"
         },
-        "StF": {
-          "value": "D"
+        "characteristic3": {
+          "value": "in"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 14
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
         },
         "gmdescription": {
           "value": ""
@@ -4038,22 +4062,8 @@
         "description": {
           "value": ""
         },
-        "characteristic1": {
-          "value": "kl"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "in"
-        },
-        "group": {
-          "value": "body"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -4069,13 +4079,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Sinnenschärfe",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.6haNxbM6Rk9hTDJQ"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "BZBmgqXAojuHVj6K"
@@ -4091,17 +4101,31 @@
       "effects": [],
       "folder": null,
       "system": {
+        "group": {
+          "value": "social"
+        },
+        "talentValue": {
+          "value": 3
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
         "characteristic3": {
           "value": "ch"
-        },
-        "StF": {
-          "value": "B"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 3
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
         },
         "gmdescription": {
           "value": ""
@@ -4109,22 +4133,8 @@
         "description": {
           "value": ""
         },
-        "characteristic1": {
-          "value": "mu"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "in"
-        },
-        "group": {
-          "value": "social"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -4140,13 +4150,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Überreden",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.zPXVld34n4J6PVp1"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "BZBmgqXAojuHVj6K"
@@ -4162,17 +4172,31 @@
       "effects": [],
       "folder": null,
       "system": {
+        "group": {
+          "value": "body"
+        },
+        "talentValue": {
+          "value": 14
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "in"
+        },
         "characteristic3": {
           "value": "ge"
-        },
-        "StF": {
-          "value": "D"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 14
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "D"
         },
         "gmdescription": {
           "value": ""
@@ -4183,22 +4207,8 @@
         "checked": {
           "value": false
         },
-        "characteristic1": {
-          "value": "mu"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "in"
-        },
-        "group": {
-          "value": "body"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -4214,13 +4224,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Sich Verstecken",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.skills.2vGOw7Gyemp4XEk5"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "BZBmgqXAojuHVj6K"
@@ -4235,17 +4245,32 @@
       "img": "systems/dsa5/icons/spellicons/Aeolitus.png",
       "effects": [],
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Aeolitus Windgebraus\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Aeolitus Windgebraus\">Link ins Wiki</a> "
+        "characteristic1": {
+          "value": "kl"
         },
-        "range": {
-          "value": "ZfP* x 2 Schritt, Basisbreite des Kegels maximal ZfW Schritt"
+        "characteristic2": {
+          "value": "ch"
+        },
+        "characteristic3": {
+          "value": "ko"
+        },
+        "effect": {
+          "value": ""
+        },
+        "castingTime": {
+          "value": "3 Aktionen"
+        },
+        "AsPCost": {
+          "value": 4
+        },
+        "AsPCostDetail": {
+          "value": "4 AsP (Sch: 3 AsP)"
         },
         "maintainCost": {
           "value": "0"
@@ -4253,18 +4278,20 @@
         "distribution": {
           "value": "Geo 4, Elf 7, Sch 3, Srl 3, Ach 5, Dru 5, Mag 5"
         },
-        "duration": {
-          "value": "augenblicklich"
+        "StF": {
+          "value": "B"
         },
-        "AsPCost": {
-          "value": 4
-        },
-        "feature": "Umwelt, Elementar (Luft)",
         "resistanceModifier": {
           "value": "-"
         },
-        "talentValue": {
-          "value": 0
+        "canChangeCastingTime": {
+          "value": "true"
+        },
+        "canChangeCost": {
+          "value": "true"
+        },
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -4292,42 +4319,25 @@
             "rep": ""
           }
         ],
-        "characteristic3": {
-          "value": "ko"
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
         },
-        "StF": {
-          "value": "B"
+        "range": {
+          "value": "ZfP* x 2 Schritt, Basisbreite des Kegels maximal ZfW Schritt"
         },
-        "AsPCostDetail": {
-          "value": "4 AsP (Sch: 3 AsP)"
-        },
-        "characteristic1": {
-          "value": "kl"
-        },
-        "characteristic2": {
-          "value": "ch"
-        },
-        "castingTime": {
-          "value": "3 Aktionen"
-        },
-        "canChangeRange": {
-          "value": "true"
+        "duration": {
+          "value": "augenblicklich"
         },
         "targetCategory": {
           "value": "Zone"
         },
-        "variableBaseCost": "false",
-        "effect": {
-          "value": ""
+        "talentValue": {
+          "value": 0
         },
+        "feature": "Umwelt, Elementar (Luft)",
         "fixedZfP": {
           "value": "4W6-2"
-        },
-        "canChangeCost": {
-          "value": "true"
-        },
-        "effectFormula": {
-          "value": ""
         },
         "choice": {
           "battlechoice": false,
@@ -4348,7 +4358,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Aeolitus Windgebraus",
       "flags": {
@@ -4365,46 +4376,11 @@
       "img": "systems/dsa5/icons/spellicons/Nebelleib.png",
       "effects": [],
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
-        },
-        "gmdescription": {
-          "value": "Mag"
-        },
         "description": {
           "value": " <a href=\"https://41.verschluesse.lt/wiki/Nebelleib\">Link ins Wiki</a> "
         },
-        "range": {
-          "value": "selbst"
-        },
-        "maintainCost": {
-          "value": "0"
-        },
-        "distribution": {
-          "value": "Dru 3"
-        },
-        "duration": {
-          "value": "nach AsP-Einsatz (beim Zaubervorgang festzulegen), jedoch maximal ZfW Spielrunden"
-        },
-        "AsPCost": {
-          "value": 7
-        },
-        "feature": "Form, Elementar (Luft), Elementar (Wasser)",
-        "resistanceModifier": {
-          "value": "-"
-        },
-        "talentValue": {
-          "value": 0
-        },
-        "modifications": [],
-        "characteristic3": {
-          "value": "ko"
-        },
-        "StF": {
-          "value": "D"
-        },
-        "AsPCostDetail": {
-          "value": "7 AsP für die Verwandlung + 3 AsP pro Spielrunde (muss beim Zaubervorgang festgelegt werden)"
+        "gmdescription": {
+          "value": "Mag"
         },
         "characteristic1": {
           "value": "mu"
@@ -4412,27 +4388,62 @@
         "characteristic2": {
           "value": "in"
         },
-        "castingTime": {
-          "value": "20 Aktionen"
+        "characteristic3": {
+          "value": "ko"
         },
-        "canChangeRange": {
-          "value": "true"
-        },
-        "targetCategory": {
-          "value": "Einzelperson, freiwillig"
-        },
-        "variableBaseCost": "false",
         "effect": {
           "value": ""
         },
-        "fixedZfP": {
-          "value": "4W6-2"
+        "castingTime": {
+          "value": "20 Aktionen"
+        },
+        "AsPCost": {
+          "value": 7
+        },
+        "AsPCostDetail": {
+          "value": "7 AsP für die Verwandlung + 3 AsP pro Spielrunde (muss beim Zaubervorgang festgelegt werden)"
+        },
+        "maintainCost": {
+          "value": "0"
+        },
+        "distribution": {
+          "value": "Dru 3"
+        },
+        "StF": {
+          "value": "D"
+        },
+        "resistanceModifier": {
+          "value": "-"
+        },
+        "canChangeCastingTime": {
+          "value": "true"
         },
         "canChangeCost": {
           "value": "true"
         },
+        "canChangeRange": {
+          "value": "true"
+        },
+        "modifications": [],
+        "variableBaseCost": "false",
         "effectFormula": {
           "value": ""
+        },
+        "range": {
+          "value": "selbst"
+        },
+        "duration": {
+          "value": "nach AsP-Einsatz (beim Zaubervorgang festzulegen), jedoch maximal ZfW Spielrunden"
+        },
+        "targetCategory": {
+          "value": "Einzelperson, freiwillig"
+        },
+        "talentValue": {
+          "value": 0
+        },
+        "feature": "Form, Elementar (Luft), Elementar (Wasser)",
+        "fixedZfP": {
+          "value": "4W6-2"
         },
         "choice": {
           "battlechoice": false,
@@ -4453,7 +4464,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Nebelleib",
       "flags": {
@@ -4470,17 +4482,32 @@
       "img": "systems/dsa5/icons/spellicons/Nebelwand.png",
       "effects": [],
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Nebelwand und Morgendunst\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Nebelwand und Morgendunst\">Link ins Wiki</a> "
+        "characteristic1": {
+          "value": "kl"
         },
-        "range": {
-          "value": "Die Nebelwolke kann in maximal ZfW Schritt Entfernung vom Elfen entstehen; maximal können ZfW mal 100 Raumschritt Nebel erzeugt werden."
+        "characteristic2": {
+          "value": "ff"
+        },
+        "characteristic3": {
+          "value": "ko"
+        },
+        "effect": {
+          "value": ""
+        },
+        "castingTime": {
+          "value": "5 Aktionen"
+        },
+        "AsPCost": {
+          "value": 1
+        },
+        "AsPCostDetail": {
+          "value": "1 AsP pro 20 Raumschritt Nebel, mindestens aber 4 AsP"
         },
         "maintainCost": {
           "value": "0"
@@ -4488,18 +4515,20 @@
         "distribution": {
           "value": "Ach 4, Elf 6, Mag 2, Dru 3, Geo 3"
         },
-        "duration": {
-          "value": "doppelte ZfP* in Spielrunden, danach verflüchtigt sich der Nebel auf natürlich Art und Weise."
+        "StF": {
+          "value": "C"
         },
-        "AsPCost": {
-          "value": 1
-        },
-        "feature": "Umwelt, Elementar (Wasser), Elementar (Luft)",
         "resistanceModifier": {
           "value": "-"
         },
-        "talentValue": {
-          "value": 0
+        "canChangeCastingTime": {
+          "value": "true"
+        },
+        "canChangeCost": {
+          "value": "true"
+        },
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -4527,42 +4556,25 @@
             "rep": ""
           }
         ],
-        "characteristic3": {
-          "value": "ko"
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
         },
-        "StF": {
-          "value": "C"
+        "range": {
+          "value": "Die Nebelwolke kann in maximal ZfW Schritt Entfernung vom Elfen entstehen; maximal können ZfW mal 100 Raumschritt Nebel erzeugt werden."
         },
-        "AsPCostDetail": {
-          "value": "1 AsP pro 20 Raumschritt Nebel, mindestens aber 4 AsP"
-        },
-        "characteristic1": {
-          "value": "kl"
-        },
-        "characteristic2": {
-          "value": "ff"
-        },
-        "castingTime": {
-          "value": "5 Aktionen"
-        },
-        "canChangeRange": {
-          "value": "true"
+        "duration": {
+          "value": "doppelte ZfP* in Spielrunden, danach verflüchtigt sich der Nebel auf natürlich Art und Weise."
         },
         "targetCategory": {
           "value": "Zone"
         },
-        "variableBaseCost": "false",
-        "effect": {
-          "value": ""
+        "talentValue": {
+          "value": 0
         },
+        "feature": "Umwelt, Elementar (Wasser), Elementar (Luft)",
         "fixedZfP": {
           "value": "4W6-2"
-        },
-        "canChangeCost": {
-          "value": "true"
-        },
-        "effectFormula": {
-          "value": ""
         },
         "choice": {
           "battlechoice": false,
@@ -4583,7 +4595,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Nebelwand und Morgendunst",
       "flags": {
@@ -4600,17 +4613,32 @@
       "img": "systems/dsa5/icons/spellicons/Wand_aus_Luft.png",
       "effects": [],
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Wand aus Luft\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Wand aus Luft\">Link ins Wiki</a> "
+        "characteristic1": {
+          "value": "mu"
         },
-        "range": {
-          "value": "Die Wand darf bei ihrer Entstehung maximal 7 Schritt vom Geoden entfernt sein; danach verbleibt sie an dem Ort, an dem sie beschworen wurde. Die maximale Länge der Wand beträgt ZfW x 2 Schritt."
+        "characteristic2": {
+          "value": "kl"
+        },
+        "characteristic3": {
+          "value": "ch"
+        },
+        "effect": {
+          "value": ""
+        },
+        "castingTime": {
+          "value": "30 Aktionen"
+        },
+        "AsPCost": {
+          "value": 5
+        },
+        "AsPCostDetail": {
+          "value": "5 AsP plus 2 AsP pro Schritt Länge der Barriere"
         },
         "maintainCost": {
           "value": "0"
@@ -4618,18 +4646,20 @@
         "distribution": {
           "value": "Geo 4, Dru 3, Mag 3"
         },
-        "duration": {
-          "value": "ZfP* Spielrunden"
+        "StF": {
+          "value": "D"
         },
-        "AsPCost": {
-          "value": 5
-        },
-        "feature": "Elementar (Luft)",
         "resistanceModifier": {
           "value": "-"
         },
-        "talentValue": {
-          "value": 0
+        "canChangeCastingTime": {
+          "value": "true"
+        },
+        "canChangeCost": {
+          "value": "true"
+        },
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -4639,42 +4669,25 @@
             "rep": ""
           }
         ],
-        "characteristic3": {
-          "value": "ch"
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
         },
-        "StF": {
-          "value": "D"
+        "range": {
+          "value": "Die Wand darf bei ihrer Entstehung maximal 7 Schritt vom Geoden entfernt sein; danach verbleibt sie an dem Ort, an dem sie beschworen wurde. Die maximale Länge der Wand beträgt ZfW x 2 Schritt."
         },
-        "AsPCostDetail": {
-          "value": "5 AsP plus 2 AsP pro Schritt Länge der Barriere"
-        },
-        "characteristic1": {
-          "value": "mu"
-        },
-        "characteristic2": {
-          "value": "kl"
-        },
-        "castingTime": {
-          "value": "30 Aktionen"
-        },
-        "canChangeRange": {
-          "value": "true"
+        "duration": {
+          "value": "ZfP* Spielrunden"
         },
         "targetCategory": {
           "value": "Zone"
         },
-        "variableBaseCost": "false",
-        "effect": {
-          "value": ""
+        "talentValue": {
+          "value": 0
         },
+        "feature": "Elementar (Luft)",
         "fixedZfP": {
           "value": "4W6-2"
-        },
-        "canChangeCost": {
-          "value": "true"
-        },
-        "effectFormula": {
-          "value": ""
         },
         "choice": {
           "battlechoice": false,
@@ -4695,7 +4708,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wand aus Luft",
       "flags": {
@@ -4712,18 +4726,32 @@
       "img": "systems/dsa5/icons/spellicons/Wettermeisterschaft.png",
       "effects": [],
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Wettermeisterschaft\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Wettermeisterschaft\">Link ins Wiki</a> "
+        "characteristic1": {
+          "value": "mu"
         },
-        "range": {
-          "fullValue": "Das Zentrum der Wirkungszone kann maximal ZfW mal 50 Schritt vom Druiden entfernt entstehen, und der Druide muss diesen Ort sehen können. Die Zone veränderten Wetters hat einen Radius von ZfW mal 50 Schritt (auf Wunsch auch weniger).",
-          "value": "Das Zentrum der Wirkungszone kann maxima..."
+        "characteristic2": {
+          "value": "ch"
+        },
+        "characteristic3": {
+          "value": "ge"
+        },
+        "effect": {
+          "value": ""
+        },
+        "castingTime": {
+          "value": "1 Spielrunde"
+        },
+        "AsPCost": {
+          "value": 5
+        },
+        "AsPCostDetail": {
+          "value": "5 AsP für die prinzipielle Veränderung plus 3 AsP pro Punkt Veränderung der Wetterlage (s.o.); von der Summe werden ZfP* AsP abgezogen; der Zauber kostet jedoch mindestens 6 AsP."
         },
         "maintainCost": {
           "value": "0"
@@ -4731,19 +4759,20 @@
         "distribution": {
           "value": "Ach 3, Geo 4, Dru 5, Hex 2, Mag 2"
         },
-        "duration": {
-          "fullValue": "Nach Ende der Zauberdauer bleibt die erzeugte Wetterlage für eine Viertelstunde (3 Spielrunden) bestehen. Danach gleicht sich das Wetter auf natürliche Weise (Austausch von warmer und kalter Luft, Wolken ziehen ...) der Umgebung an, was eine weitere Spielrunde dauert (nach Meisterentscheid auch länger). Ist das herbeigerufene Wetter für die Region typisch, kann es auch länger Bestand haben.",
-          "value": "Nach Ende der Zauberdauer bleibt die erz..."
+        "StF": {
+          "value": "E"
         },
-        "AsPCost": {
-          "value": 5
-        },
-        "feature": "Elementar (Luft), Umwelt",
         "resistanceModifier": {
           "value": "SK"
         },
-        "talentValue": {
-          "value": 0
+        "canChangeCastingTime": {
+          "value": "true"
+        },
+        "canChangeCost": {
+          "value": "true"
+        },
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -4759,42 +4788,27 @@
             "rep": ""
           }
         ],
-        "characteristic3": {
-          "value": "ge"
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
         },
-        "StF": {
-          "value": "E"
+        "range": {
+          "value": "Das Zentrum der Wirkungszone kann maxima...",
+          "fullValue": "Das Zentrum der Wirkungszone kann maximal ZfW mal 50 Schritt vom Druiden entfernt entstehen, und der Druide muss diesen Ort sehen können. Die Zone veränderten Wetters hat einen Radius von ZfW mal 50 Schritt (auf Wunsch auch weniger)."
         },
-        "AsPCostDetail": {
-          "value": "5 AsP für die prinzipielle Veränderung plus 3 AsP pro Punkt Veränderung der Wetterlage (s.o.); von der Summe werden ZfP* AsP abgezogen; der Zauber kostet jedoch mindestens 6 AsP."
-        },
-        "characteristic1": {
-          "value": "mu"
-        },
-        "characteristic2": {
-          "value": "ch"
-        },
-        "castingTime": {
-          "value": "1 Spielrunde"
-        },
-        "canChangeRange": {
-          "value": "true"
+        "duration": {
+          "value": "Nach Ende der Zauberdauer bleibt die erz...",
+          "fullValue": "Nach Ende der Zauberdauer bleibt die erzeugte Wetterlage für eine Viertelstunde (3 Spielrunden) bestehen. Danach gleicht sich das Wetter auf natürliche Weise (Austausch von warmer und kalter Luft, Wolken ziehen ...) der Umgebung an, was eine weitere Spielrunde dauert (nach Meisterentscheid auch länger). Ist das herbeigerufene Wetter für die Region typisch, kann es auch länger Bestand haben."
         },
         "targetCategory": {
           "value": "Zone"
         },
-        "variableBaseCost": "false",
-        "effect": {
-          "value": ""
+        "talentValue": {
+          "value": 0
         },
+        "feature": "Elementar (Luft), Umwelt",
         "fixedZfP": {
           "value": "4W6-2"
-        },
-        "canChangeCost": {
-          "value": "true"
-        },
-        "effectFormula": {
-          "value": ""
         },
         "choice": {
           "battlechoice": false,
@@ -4814,7 +4828,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wettermeisterschaft",
       "flags": {
@@ -4831,17 +4846,32 @@
       "img": "systems/dsa5/icons/spellicons/Windhose_2.png",
       "effects": [],
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Windhose\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Windhose\">Link ins Wiki</a> "
+        "characteristic1": {
+          "value": "mu"
         },
-        "range": {
-          "value": "Die Trombe (Windhose) entsteht maximal ZfW mal 20 Schritt vom Druiden entfernt; der Durchmesser beträgt maximal ZfW Schritt und hängt ansonsten von den eingesetzten AsP ab."
+        "characteristic2": {
+          "value": "in"
+        },
+        "characteristic3": {
+          "value": "kk"
+        },
+        "effect": {
+          "value": ""
+        },
+        "castingTime": {
+          "value": "15 Aktionen"
+        },
+        "AsPCost": {
+          "value": 1
+        },
+        "AsPCostDetail": {
+          "value": "1 AsP pro Schritt Durchmesser; weitere AsP (max. ZfW) können zur Steigerung der Windstärke eingesetzt werden."
         },
         "maintainCost": {
           "value": "0"
@@ -4849,18 +4879,20 @@
         "distribution": {
           "value": "Geo 4, Dru 5, Mag 2"
         },
-        "duration": {
-          "value": "20 Kampfrunden (A)"
+        "StF": {
+          "value": "D"
         },
-        "AsPCost": {
-          "value": 1
-        },
-        "feature": "Elementar (Luft), Umwelt",
         "resistanceModifier": {
           "value": "-"
         },
-        "talentValue": {
-          "value": 0
+        "canChangeCastingTime": {
+          "value": "true"
+        },
+        "canChangeCost": {
+          "value": "true"
+        },
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -4876,42 +4908,25 @@
             "rep": ""
           }
         ],
-        "characteristic3": {
-          "value": "kk"
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
         },
-        "StF": {
-          "value": "D"
+        "range": {
+          "value": "Die Trombe (Windhose) entsteht maximal ZfW mal 20 Schritt vom Druiden entfernt; der Durchmesser beträgt maximal ZfW Schritt und hängt ansonsten von den eingesetzten AsP ab."
         },
-        "AsPCostDetail": {
-          "value": "1 AsP pro Schritt Durchmesser; weitere AsP (max. ZfW) können zur Steigerung der Windstärke eingesetzt werden."
-        },
-        "characteristic1": {
-          "value": "mu"
-        },
-        "characteristic2": {
-          "value": "in"
-        },
-        "castingTime": {
-          "value": "15 Aktionen"
-        },
-        "canChangeRange": {
-          "value": "true"
+        "duration": {
+          "value": "20 Kampfrunden (A)"
         },
         "targetCategory": {
           "value": "Zone"
         },
-        "variableBaseCost": "false",
-        "effect": {
-          "value": ""
+        "talentValue": {
+          "value": 0
         },
+        "feature": "Elementar (Luft), Umwelt",
         "fixedZfP": {
           "value": "4W6-2"
-        },
-        "canChangeCost": {
-          "value": "true"
-        },
-        "effectFormula": {
-          "value": ""
         },
         "choice": {
           "battlechoice": false,
@@ -4932,7 +4947,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Windhose",
       "flags": {
@@ -4949,17 +4965,32 @@
       "img": "systems/dsa5/icons/spellicons/Solidirid.png",
       "effects": [],
       "system": {
-        "canChangeCastingTime": {
-          "value": "true"
+        "description": {
+          "value": " <a href=\"https://41.verschluesse.lt/wiki/Solidirid Weg aus Licht\">Link ins Wiki</a> "
         },
         "gmdescription": {
           "value": "Mag"
         },
-        "description": {
-          "value": " <a href=\"https://41.verschluesse.lt/wiki/Solidirid Weg aus Licht\">Link ins Wiki</a> "
+        "characteristic1": {
+          "value": "in"
         },
-        "range": {
-          "value": "Die Brücke beginnt zu Füßen des Elfen, die maximale Spannweite beträgt ZfW mal 7 Schritt."
+        "characteristic2": {
+          "value": "ko"
+        },
+        "characteristic3": {
+          "value": "kk"
+        },
+        "effect": {
+          "value": ""
+        },
+        "castingTime": {
+          "value": "10 Aktionen + 1 Aktion für je 5 Schritt Spannweite"
+        },
+        "AsPCost": {
+          "value": 3
+        },
+        "AsPCostDetail": {
+          "value": "3 AsP + 1 AsP pro Schritt Spannweite"
         },
         "maintainCost": {
           "value": "0"
@@ -4967,18 +4998,20 @@
         "distribution": {
           "value": "Elf 4, Mag 2"
         },
-        "duration": {
-          "value": "ZfW mal 10 Aktionen (A)"
+        "StF": {
+          "value": "D"
         },
-        "AsPCost": {
-          "value": 3
-        },
-        "feature": "Umwelt, Elementar (Luft)",
         "resistanceModifier": {
           "value": "-"
         },
-        "talentValue": {
-          "value": 0
+        "canChangeCastingTime": {
+          "value": "true"
+        },
+        "canChangeCost": {
+          "value": "true"
+        },
+        "canChangeRange": {
+          "value": "true"
         },
         "modifications": [
           {
@@ -5006,42 +5039,25 @@
             "rep": ""
           }
         ],
-        "characteristic3": {
-          "value": "kk"
+        "variableBaseCost": "false",
+        "effectFormula": {
+          "value": ""
         },
-        "StF": {
-          "value": "D"
+        "range": {
+          "value": "Die Brücke beginnt zu Füßen des Elfen, die maximale Spannweite beträgt ZfW mal 7 Schritt."
         },
-        "AsPCostDetail": {
-          "value": "3 AsP + 1 AsP pro Schritt Spannweite"
-        },
-        "characteristic1": {
-          "value": "in"
-        },
-        "characteristic2": {
-          "value": "ko"
-        },
-        "castingTime": {
-          "value": "10 Aktionen + 1 Aktion für je 5 Schritt Spannweite"
-        },
-        "canChangeRange": {
-          "value": "true"
+        "duration": {
+          "value": "ZfW mal 10 Aktionen (A)"
         },
         "targetCategory": {
           "value": "Zone"
         },
-        "variableBaseCost": "false",
-        "effect": {
-          "value": ""
+        "talentValue": {
+          "value": 0
         },
+        "feature": "Umwelt, Elementar (Luft)",
         "fixedZfP": {
           "value": "4W6-2"
-        },
-        "canChangeCost": {
-          "value": "true"
-        },
-        "effectFormula": {
-          "value": ""
         },
         "choice": {
           "battlechoice": false,
@@ -5062,7 +5078,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "6.2.3",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Solidirid Weg aus Licht",
       "flags": {

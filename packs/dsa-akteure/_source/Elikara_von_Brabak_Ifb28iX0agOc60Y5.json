@@ -8,7 +8,8 @@
     "createdTime": 1685646846059,
     "duplicateSource": null,
     "systemVersion": "5.7.4",
-    "coreVersion": "12.331"
+    "coreVersion": "13.351",
+    "exportSource": null
   },
   "flags": {
     "core": {}
@@ -92,7 +93,6 @@
       }
     },
     "prependAdjective": false,
-    "hexagonalShape": 0,
     "randomImg": false,
     "appendNumber": false,
     "bar1": {
@@ -144,7 +144,14 @@
     "occludable": {
       "radius": 0
     },
-    "height": 1
+    "height": 1,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "effects": [
     {
@@ -158,11 +165,11 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "changes": [],
       "flags": {
-        "effectKey": "",
         "dsa5": {
           "auto": null,
           "editable": true,
@@ -174,7 +181,8 @@
           "description": "Eiserner Wille I",
           "manual": 0,
           "hasEffect": true,
-          "value": null
+          "value": null,
+          "effectKey": ""
         }
       },
       "description": "",
@@ -209,7 +217,8 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "changes": [],
       "flags": {
@@ -257,279 +266,195 @@
     }
   ],
   "system": {
-    "freeLanguagePoints": {
-      "used": 0,
-      "value": 0
-    },
-    "happyTalents": {
-      "value": ""
-    },
     "characteristics": {
-      "ff": {
-        "color": "#d5b467",
-        "species": 0,
-        "initial": 15,
-        "advances": 0,
-        "abrev": "CHARAbbrev.FF",
-        "modifier": 0,
-        "label": "CHAR.FF"
-      },
-      "kk": {
-        "color": "#d6a878",
-        "species": 0,
-        "initial": 11,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KK",
-        "modifier": 0,
-        "label": "CHAR.KK"
-      },
-      "kl": {
-        "color": "#8259a3",
-        "species": 0,
-        "initial": 16,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KL",
-        "modifier": 0,
-        "label": "CHAR.KL"
-      },
-      "ko": {
-        "color": "#fbf5ea",
-        "species": 0,
-        "initial": 13,
-        "advances": 0,
-        "abrev": "CHARAbbrev.KO",
-        "modifier": 0,
-        "label": "CHAR.KO"
-      },
-      "in": {
-        "color": "#388834",
-        "species": 0,
-        "initial": 13,
-        "advances": 0,
-        "abrev": "CHARAbbrev.IN",
-        "modifier": 0,
-        "label": "CHAR.IN"
-      },
-      "ch": {
-        "color": "#0d0d0d",
-        "species": 0,
-        "initial": 14,
-        "advances": 0,
-        "abrev": "CHARAbbrev.CH",
-        "modifier": 0,
-        "label": "CHAR.CH"
-      },
       "mu": {
+        "label": "CHAR.MU",
+        "abrev": "CHARAbbrev.MU",
         "color": "#b3241a",
         "initial": 14,
         "species": 0,
-        "advances": 0,
-        "abrev": "CHARAbbrev.MU",
         "modifier": 0,
-        "label": "CHAR.MU"
+        "advances": 0
+      },
+      "kl": {
+        "label": "CHAR.KL",
+        "abrev": "CHARAbbrev.KL",
+        "color": "#8259a3",
+        "species": 0,
+        "initial": 16,
+        "modifier": 0,
+        "advances": 0
+      },
+      "in": {
+        "label": "CHAR.IN",
+        "abrev": "CHARAbbrev.IN",
+        "color": "#388834",
+        "species": 0,
+        "initial": 13,
+        "modifier": 0,
+        "advances": 0
+      },
+      "ch": {
+        "label": "CHAR.CH",
+        "abrev": "CHARAbbrev.CH",
+        "color": "#0d0d0d",
+        "species": 0,
+        "initial": 14,
+        "modifier": 0,
+        "advances": 0
+      },
+      "ff": {
+        "label": "CHAR.FF",
+        "abrev": "CHARAbbrev.FF",
+        "color": "#d5b467",
+        "species": 0,
+        "initial": 15,
+        "modifier": 0,
+        "advances": 0
       },
       "ge": {
+        "label": "CHAR.GE",
+        "abrev": "CHARAbbrev.GE",
         "color": "#688ec4",
         "species": 0,
         "initial": 11,
-        "advances": 0,
-        "abrev": "CHARAbbrev.GE",
         "modifier": 0,
-        "label": "CHAR.GE"
+        "advances": 0
+      },
+      "ko": {
+        "label": "CHAR.KO",
+        "abrev": "CHARAbbrev.KO",
+        "color": "#fbf5ea",
+        "species": 0,
+        "initial": 13,
+        "modifier": 0,
+        "advances": 0
+      },
+      "kk": {
+        "label": "CHAR.KK",
+        "abrev": "CHARAbbrev.KK",
+        "color": "#d6a878",
+        "species": 0,
+        "initial": 11,
+        "modifier": 0,
+        "advances": 0
       }
-    },
-    "feature": {
-      "magical": "",
-      "clerical": ""
-    },
-    "guidevalue": {
-      "magical": "-",
-      "effectToMessage": false,
-      "clerical": "-"
-    },
-    "details": {
-      "career": {
-        "value": ""
-      },
-      "notes": {
-        "gmdescription": "",
-        "value": ""
-      },
-      "gender": {
-        "value": ""
-      },
-      "weight": {
-        "value": ""
-      },
-      "organisation": {
-        "value": ""
-      },
-      "biography": {
-        "value": ""
-      },
-      "experience": {
-        "total": 0,
-        "spent": 0
-      },
-      "title": {
-        "value": ""
-      },
-      "home": {
-        "value": ""
-      },
-      "distinguishingmark": {
-        "value": ""
-      },
-      "species": {
-        "value": ""
-      },
-      "soulanimal": {
-        "value": ""
-      },
-      "culture": {
-        "value": ""
-      },
-      "eyecolor": {
-        "value": ""
-      },
-      "family": {
-        "value": ""
-      },
-      "haircolor": {
-        "value": ""
-      },
-      "socialstate": {
-        "value": ""
-      },
-      "Home": {
-        "value": ""
-      },
-      "age": {
-        "value": ""
-      },
-      "height": {
-        "value": ""
-      }
-    },
-    "energyfactor": {
-      "magical": "1",
-      "clerical": 1
-    },
-    "tradition": {
-      "magical": "",
-      "clerical": ""
     },
     "hitbox": 0,
-    "config": {
-      "autoBar": true
-    },
     "status": {
-      "dodge": {
-        "max": 0,
-        "modifier": 0,
-        "value": 0
-      },
       "wounds": {
-        "current": 8,
         "initial": 0,
-        "max": 0,
+        "value": 29,
         "advances": 0,
         "modifier": 10,
-        "value": 29
+        "current": 8,
+        "max": 0
       },
-      "initiative": {
-        "die": "1d6",
-        "current": 0,
-        "diemodifier": "",
-        "nextaction": 11,
-        "initial": 9,
-        "multiplier": 1,
-        "modifier": 0,
-        "gearmodifier": 0,
-        "rolled": false,
-        "value": "9.09",
-        "currentdice": 0
-      },
-      "artifactradiation": {
+      "astralenergy": {
         "initial": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "exhaustion": {
-        "value": 0
-      },
-      "atbasis": {
-        "current": 0,
-        "initial": 0,
+        "value": 6,
         "advances": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0,
+        "max": 0
       },
-      "combat": {
-        "oneRoundEffects": [],
-        "oneTimeEffects": [],
-        "stance": "equal"
+      "karmaenergy": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0,
+        "max": 0
+      },
+      "soulpower": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "toughness": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
       },
       "captainvalue": {
         "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "artifactradiation": {
+        "initial": 0,
+        "value": 0,
+        "modifier": 0
+      },
+      "dodge": {
+        "value": 0,
         "modifier": 0,
-        "value": 0
+        "max": 0
+      },
+      "fatePoints": {
+        "value": 3,
+        "modifier": 0,
+        "current": null
       },
       "speed": {
         "initial": 0,
         "modifier": 0,
         "value": 0
       },
-      "encumbrance": {
+      "initiative": {
+        "value": "9.09",
+        "modifier": 0,
         "current": 0,
-        "initial": 0,
-        "value": 0
+        "die": "1d6",
+        "diemodifier": "",
+        "nextaction": 11,
+        "initial": 9,
+        "multiplier": 1,
+        "gearmodifier": 0,
+        "rolled": false,
+        "currentdice": 0
       },
-      "karmaenergy": {
-        "current": 0,
+      "atbasis": {
         "initial": 0,
-        "max": 0,
+        "value": 0,
         "advances": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0
       },
-      "fatePoints": {
-        "current": null,
-        "modifier": 0,
-        "value": 3
-      },
-      "soulpower": {
+      "encumbrance": {
         "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "bodyarmor": {
+        "initial": 0,
+        "value": 0,
+        "current": 0
+      },
+      "pabasis": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
         "modifier": 0,
-        "value": 0
+        "current": 0
+      },
+      "fkbasis": {
+        "initial": 0,
+        "value": 0,
+        "advances": 0,
+        "modifier": 0,
+        "current": 0
       },
       "size": {
         "value": "average"
       },
-      "astralenergy": {
-        "current": 0,
-        "initial": 0,
-        "max": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 6
-      },
-      "bodyarmor": {
-        "current": 0,
-        "initial": 0,
+      "exhaustion": {
         "value": 0
       },
-      "toughness": {
-        "initial": 0,
-        "modifier": 0,
-        "value": 0
-      },
-      "fkbasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
+      "combat": {
+        "oneRoundEffects": [],
+        "oneTimeEffects": [],
+        "stance": "equal"
       },
       "actions": {
         "movementactions": {
@@ -568,14 +493,98 @@
           "max": 1,
           "performed": 0
         }
-      },
-      "pabasis": {
-        "current": 0,
-        "initial": 0,
-        "advances": 0,
-        "modifier": 0,
-        "value": 0
       }
+    },
+    "details": {
+      "species": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "culture": {
+        "value": ""
+      },
+      "career": {
+        "value": ""
+      },
+      "socialstate": {
+        "value": ""
+      },
+      "home": {
+        "value": ""
+      },
+      "family": {
+        "value": ""
+      },
+      "age": {
+        "value": ""
+      },
+      "haircolor": {
+        "value": ""
+      },
+      "eyecolor": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "distinguishingmark": {
+        "value": ""
+      },
+      "biography": {
+        "value": ""
+      },
+      "notes": {
+        "value": "",
+        "gmdescription": ""
+      },
+      "experience": {
+        "total": 0,
+        "spent": 0
+      },
+      "organisation": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "soulanimal": {
+        "value": ""
+      },
+      "Home": {
+        "value": ""
+      }
+    },
+    "guidevalue": {
+      "magical": "-",
+      "clerical": "-",
+      "effectToMessage": false
+    },
+    "energyfactor": {
+      "magical": "1",
+      "clerical": 1
+    },
+    "tradition": {
+      "magical": "",
+      "clerical": ""
+    },
+    "feature": {
+      "magical": "",
+      "clerical": ""
+    },
+    "happyTalents": {
+      "value": ""
+    },
+    "config": {
+      "autoBar": true
+    },
+    "freeLanguagePoints": {
+      "value": 0,
+      "used": 0
     },
     "sheetLocked": {
       "value": false
@@ -594,14 +603,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -609,21 +618,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -638,13 +647,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kettenstäbe",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.226BaiUnbC8a02EI"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "226BaiUnbC8a02EI",
@@ -657,14 +666,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -672,21 +681,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": true,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 0
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": true,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 0,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -701,13 +710,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Lanzenreiten",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.4lQMyQA76B3k2qC3"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "4lQMyQA76B3k2qC3",
@@ -720,14 +729,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -735,21 +744,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -5,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -5,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -764,13 +773,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Blasrohr",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.5RIyzGs1cZlo5KSM"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "5RIyzGs1cZlo5KSM",
@@ -783,14 +792,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -798,21 +807,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -827,13 +836,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Kettenwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.BnyH20zV6sSUVP6L"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "BnyH20zV6sSUVP6L",
@@ -846,14 +855,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -861,21 +870,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 0
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 0,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -890,13 +899,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Belagerungswaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.C35OB8c3U96PkOi4"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "C35OB8c3U96PkOi4",
@@ -909,14 +918,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -924,21 +933,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -953,13 +962,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Raufen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.DVR2e9H5OmUwOTAx"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "DVR2e9H5OmUwOTAx",
@@ -972,14 +981,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -987,21 +996,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1016,13 +1025,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Anderthalbhänder",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.DbhjV4W59gLQtOCD"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "DbhjV4W59gLQtOCD",
@@ -1035,14 +1044,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1050,21 +1059,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1079,13 +1088,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfmesser",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.Ju1yU6ebEnUMoo7c"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "Ju1yU6ebEnUMoo7c",
@@ -1098,14 +1107,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1113,21 +1122,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1142,13 +1151,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Diskus",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.LEG7m1tkOxrTocUG"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "LEG7m1tkOxrTocUG",
@@ -1161,14 +1170,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1176,21 +1185,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1205,13 +1214,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfspeere",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.N87xkSBj7rLh9UCI"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "N87xkSBj7rLh9UCI",
@@ -1224,14 +1233,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1239,21 +1248,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -4,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -4,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1268,13 +1277,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Hiebwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.NtAsVa3mRdfHWbLT"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "NtAsVa3mRdfHWbLT",
@@ -1287,14 +1296,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1302,21 +1311,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1331,13 +1340,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Infanteriewaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.OXVG7xUn8NgQcbSU"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "OXVG7xUn8NgQcbSU",
@@ -1350,14 +1359,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1365,21 +1374,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": true,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": true,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1394,13 +1403,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Peitsche",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.Od7bzJ6edTm4CD6C"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "Od7bzJ6edTm4CD6C",
@@ -1413,14 +1422,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 2
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 2
         },
         "attack": {
           "value": 2
@@ -1428,21 +1437,21 @@
         "talentValue": {
           "value": 4
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1457,13 +1466,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Dolche",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.UZ4W2yrSlJOEs4jB"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "UZ4W2yrSlJOEs4jB",
@@ -1476,14 +1485,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1491,21 +1500,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1520,13 +1529,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schleuder",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.UhfzjjnojBQjxBDJ"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "UhfzjjnojBQjxBDJ",
@@ -1539,14 +1548,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "C"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1554,21 +1563,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -5,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -5,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1583,13 +1592,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Armbrust",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.awBvPLMvFu4KcQUE"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "awBvPLMvFu4KcQUE",
@@ -1602,14 +1611,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1617,21 +1626,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1646,13 +1655,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schwerter",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.cvEA2xbXgOfrocqA"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "cvEA2xbXgOfrocqA",
@@ -1665,14 +1674,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1680,21 +1689,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1709,13 +1718,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Wurfbeile",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.favwZuUV7oqLbaVM"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "favwZuUV7oqLbaVM",
@@ -1728,14 +1737,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1743,21 +1752,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1772,13 +1781,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Stäbe",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.gdCgGX8gOQZaPMck"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "gdCgGX8gOQZaPMck",
@@ -1791,14 +1800,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1806,21 +1815,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1835,13 +1844,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Ringen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.jAUJXa4oSKGEijdC"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "jAUJXa4oSKGEijdC",
@@ -1854,14 +1863,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "A"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1869,21 +1878,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1898,13 +1907,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Schilde",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.naOdsGgQ0g3TtFA5"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "naOdsGgQ0g3TtFA5",
@@ -1917,14 +1926,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1932,21 +1941,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -1961,13 +1970,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihand-Hiebwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.njo6NjEzUBDpsjEv"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "njo6NjEzUBDpsjEv",
@@ -1980,14 +1989,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -1995,21 +2004,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -1,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -1,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2024,13 +2033,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Fechtwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.o4BXASK78J7uakFZ"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "o4BXASK78J7uakFZ",
@@ -2043,14 +2052,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2058,21 +2067,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2087,13 +2096,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Säbel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.oP79ub1B8wetV5xv"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "oP79ub1B8wetV5xv",
@@ -2106,14 +2115,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2121,21 +2130,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2150,13 +2159,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihandflegel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.sVSpXuv6xffj8PNW"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "sVSpXuv6xffj8PNW",
@@ -2169,14 +2178,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "E"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2184,21 +2193,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "range",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "range"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2213,13 +2222,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Bogen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.t1HFkkvYGP0M8JuD"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "t1HFkkvYGP0M8JuD",
@@ -2232,14 +2241,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2247,21 +2256,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -3,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -3,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2276,13 +2285,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Speere",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.tCO38y9uOLT3y6gh"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "tCO38y9uOLT3y6gh",
@@ -2295,14 +2304,14 @@
       "effects": [],
       "folder": null,
       "system": {
-        "parry": {
-          "value": 0
-        },
         "StF": {
           "value": "D"
         },
         "guidevalue": {
           "value": "kk"
+        },
+        "parry": {
+          "value": 0
         },
         "attack": {
           "value": 0
@@ -2310,21 +2319,21 @@
         "talentValue": {
           "value": 0
         },
+        "weapontype": {
+          "onlyattack": false,
+          "value": "melee",
+          "twoHanded": false
+        },
+        "burden": {
+          "value": "yes",
+          "valadd": -2,
+          "valmult": 1
+        },
         "gmdescription": {
           "value": ""
         },
         "description": {
           "value": ""
-        },
-        "weapontype": {
-          "twoHanded": false,
-          "onlyattack": false,
-          "value": "melee"
-        },
-        "burden": {
-          "valadd": -2,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "ownership": {
@@ -2339,13 +2348,13 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zweihandschwerter/-säbel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.y4qU3t8GP8URMRDW"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "y4qU3t8GP8URMRDW",
@@ -2358,8 +2367,8 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2367,16 +2376,16 @@
         "price": {
           "value": 10
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "ownership": {
         "default": 0,
@@ -2390,13 +2399,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-D",
       "flags": {
-        "core": {
-          "sourceId": "Item.BGfRbsrZ2M2Y2wZ3"
-        }
+        "core": {}
       },
       "_id": "OCRi6UuKBIHCbZuF",
       "sort": 0,
@@ -2408,8 +2416,8 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2417,16 +2425,16 @@
         "price": {
           "value": 1
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "ownership": {
         "default": 0,
@@ -2440,13 +2448,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-S",
       "flags": {
-        "core": {
-          "sourceId": "Item.ntX4yPa0e9rmmqSZ"
-        }
+        "core": {}
       },
       "_id": "xN0OtnyZqB4BaWAX",
       "sort": 0,
@@ -2458,8 +2465,8 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2467,16 +2474,16 @@
         "price": {
           "value": 0.1
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "ownership": {
         "default": 0,
@@ -2490,13 +2497,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-H",
       "flags": {
-        "core": {
-          "sourceId": "Item.2wwyflxgKCiz9UIQ"
-        }
+        "core": {}
       },
       "_id": "G4piFlEAWb2stJCn",
       "sort": 0,
@@ -2508,8 +2514,8 @@
       "effects": [],
       "folder": null,
       "system": {
-        "quantity": {
-          "value": 0
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
@@ -2517,16 +2523,16 @@
         "price": {
           "value": 0.01
         },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": ""
+        "quantity": {
+          "value": 0
         },
         "weight": {
           "value": 0
-        }
+        },
+        "effect": {
+          "value": ""
+        },
+        "parent_id": 0
       },
       "ownership": {
         "default": 0,
@@ -2540,13 +2546,12 @@
         "createdTime": null,
         "duplicateSource": null,
         "systemVersion": null,
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Money-K",
       "flags": {
-        "core": {
-          "sourceId": "Item.IHSzojKYEn0FloQm"
-        }
+        "core": {}
       },
       "_id": "NDf42upvVWmHi8Ty",
       "sort": 0,
@@ -2557,17 +2562,31 @@
       "img": "icons/tools/laboratory/vials-blue-pink.webp",
       "effects": [],
       "system": {
+        "group": {
+          "value": "trade"
+        },
+        "talentValue": {
+          "value": 14
+        },
+        "characteristic1": {
+          "value": "mu"
+        },
+        "characteristic2": {
+          "value": "kl"
+        },
         "characteristic3": {
           "value": "ff"
-        },
-        "StF": {
-          "value": "B"
         },
         "RPr": {
           "value": "no"
         },
-        "talentValue": {
-          "value": 14
+        "burden": {
+          "value": "yes",
+          "valadd": 0,
+          "valmult": 1
+        },
+        "StF": {
+          "value": "B"
         },
         "gmdescription": {
           "value": ""
@@ -2575,22 +2594,8 @@
         "description": {
           "value": ""
         },
-        "characteristic1": {
-          "value": "mu"
-        },
         "choice": {
           "value": false
-        },
-        "characteristic2": {
-          "value": "kl"
-        },
-        "group": {
-          "value": "trade"
-        },
-        "burden": {
-          "valadd": 0,
-          "valmult": 1,
-          "value": "yes"
         }
       },
       "folder": null,
@@ -2606,7 +2611,8 @@
         "createdTime": 1686332013403,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Alchimie",
       "flags": {},
@@ -2619,102 +2625,102 @@
       "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
       "effects": [],
       "system": {
-        "gmdescription": {
-          "value": ""
-        },
         "description": {
           "value": ""
         },
-        "failed": "1, 2, 3, 4, 8, 9, 13, 14, 18, 19, 20, 22, 38, 40, 43",
-        "requirement": {
+        "gmdescription": {
           "value": ""
+        },
+        "difficulty": {
+          "value": 8,
+          "analyze": 4,
+          "bonusValue": 0
+        },
+        "failed": "1, 2, 3, 4, 8, 9, 13, 14, 18, 19, 20, 22, 38, 40, 43",
+        "sideeffects": "",
+        "simpleRecipe": false,
+        "brewing": {
+          "value": "<p>&raquo;Zerhau das Meteoreisen in einem M&ouml;rser, desgleichen tu mit dem Diamanten. Vermisch nun das klare Blut &ndash; welches wohl von jenem seie, dem der Tranck Nutzen bringen soll &ndash; mit dem geschmolzenen Schnee und gib beides in einen Kolben aus Gold. Zerschneid nun die Cairanhalme in jeweils sieben St&uuml;cke und die Alraunen in jeweils drei St&uuml;cke und zermahl den trucknen Thonnys zu feinem Staube. Mach nun bei Madalicht ein Feuer, so hei&szlig; wie du kannst, und setz den Kolben darauf. La&szlig; es einmal wallen, und es wird gr&uuml;n, nimms herunter und gib den Thonnys zu, la&szlig; es wiederum aufwallen, und es wird bleulich, nimms herunter und f&uuml;g die Alraun zu, la&szlig; wallen bis es purpurn wird, nimms runter und gib nun das Eisen, den Diamanten und das Cairan bei und la&szlig; wallen, bis es milchwei&szlig; ist. Sprich itzo den Namen der Mondin und f&uuml;g die Drachentrenen hinzu, so wird das Gebreu wei&szlig; leuchten. Nimms nun vom Feuer und la&szlig; es im Madalicht abk&uuml;hlen. Was dir bleibt, ist eine wasserklare Fl&uuml;ssigkeit ohne jeden Geruch, die dir die KRAFT wiedergibt, so du sie innerhalb der nechsten 3 Jahre trinckst.&laquo; &mdash;Pheredonios Melenaar, Die Macht der Elemente, Zorgan, ca. 700 BF</p>"
+        },
+        "ingredients": {
+          "value": "<p>ein kleines St&uuml;ck Meteoreisen, 1 Skrupel Diamant-<br>staub, 20 Unzen klares Blut, 10 Unzen Schnee vom 1. Hesin-<br>de, 7 ganze Halme vom Kairanrohr, 3 zus&auml;tzliche Alraunen, 2<br>B&uuml;schel Thonnys, 1 Skrupel Drachentr&auml;nen</p>"
         },
         "type": {
           "value": "A"
         },
-        "simpleRecipe": false,
-        "difficulty": {
-          "analyze": 4,
-          "bonusValue": 0,
-          "value": 8
+        "requirement": {
+          "value": ""
         },
-        "brewing": {
-          "value": "<p>&raquo;Zerhau das Meteoreisen in einem M&ouml;rser, desgleichen tu mit dem Diamanten. Vermisch nun das klare Blut &ndash; welches wohl von jenem seie, dem der Tranck Nutzen bringen soll &ndash; mit dem geschmolzenen Schnee und gib beides in einen Kolben aus Gold. Zerschneid nun die Cairanhalme in jeweils sieben St&uuml;cke und die Alraunen in jeweils drei St&uuml;cke und zermahl den trucknen Thonnys zu feinem Staube. Mach nun bei Madalicht ein Feuer, so hei&szlig; wie du kannst, und setz den Kolben darauf. La&szlig; es einmal wallen, und es wird gr&uuml;n, nimms herunter und gib den Thonnys zu, la&szlig; es wiederum aufwallen, und es wird bleulich, nimms herunter und f&uuml;g die Alraun zu, la&szlig; wallen bis es purpurn wird, nimms runter und gib nun das Eisen, den Diamanten und das Cairan bei und la&szlig; wallen, bis es milchwei&szlig; ist. Sprich itzo den Namen der Mondin und f&uuml;g die Drachentrenen hinzu, so wird das Gebreu wei&szlig; leuchten. Nimms nun vom Feuer und la&szlig; es im Madalicht abk&uuml;hlen. Was dir bleibt, ist eine wasserklare Fl&uuml;ssigkeit ohne jeden Geruch, die dir die KRAFT wiedergibt, so du sie innerhalb der nechsten 3 Jahre trinckst.&laquo; &mdash;Pheredonios Melenaar, Die Macht der Elemente, Zorgan, ca. 700 BF</p>"
+        "additionalEffects": {
+          "value": ""
         },
+        "targetEffect": false,
         "effects": {
           "A": {
+            "description": "Regeneration von 1W6 AsP bei leichter Geistesverwirrung (KL –2 für 1 Stunde)",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "1d6 AsP",
             "healingOverMaximum": false,
             "effect": "-2 KL;",
-            "description": "Regeneration von 1W6 AsP bei leichter Geistesverwirrung (KL –2 für 1 Stunde)",
             "healingValue": ""
           },
           "B": {
+            "description": "Der Anwender erhält 2W6 verlorene AsP zurück, die er jedoch binnen der nächsten Stunde verbrauchen muss, sonst droht ihm schwerer Kopfschmerz (KL, IN, GE, FF je –4 für 7 Stunden).",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "2d6 AsP",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Der Anwender erhält 2W6 verlorene AsP zurück, die er jedoch binnen der nächsten Stunde verbrauchen muss, sonst droht ihm schwerer Kopfschmerz (KL, IN, GE, FF je –4 für 7 Stunden).",
             "healingValue": ""
           },
           "C": {
+            "description": "Der Anwender erhält 3W6 AsP zurück.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "3d6 AsP",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Der Anwender erhält 3W6 AsP zurück.",
             "healingValue": ""
           },
           "D": {
+            "description": "Der Anwender erhält 3W6+6 AsP, auch wenn dadurch die AsP-Zahl über den Grundwert steigt, jedoch werden die über- schüssigen Punkte von den LeP abgezogen.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "3d6+6 AsP",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Der Anwender erhält 3W6+6 AsP, auch wenn dadurch die AsP-Zahl über den Grundwert steigt, jedoch werden die über- schüssigen Punkte von den LeP abgezogen.",
             "healingValue": ""
           },
           "E": {
+            "description": "Der Anwender erhält 5W6+6 AsP, auch wenn dadurch die AsP-Zahl über den Grundwert steigt, jedoch werden die über- schüssigen Punkte von den LeP abgezogen.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "5d6+6 AsP",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Der Anwender erhält 5W6+6 AsP, auch wenn dadurch die AsP-Zahl über den Grundwert steigt, jedoch werden die über- schüssigen Punkte von den LeP abgezogen.",
             "healingValue": ""
           },
           "F": {
+            "description": "Der Anwender erhält 2W20+5 AsP, auch über den Grund- wert hinaus, ohne Abzug von LeP.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "2d20 +5 AsP",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Der Anwender erhält 2W20+5 AsP, auch über den Grund- wert hinaus, ohne Abzug von LeP.",
             "healingValue": ""
           }
-        },
-        "sideeffects": "",
-        "additionalEffects": {
-          "value": ""
         },
         "price": {
           "brewing": 300,
           "value": 600
-        },
-        "ingredients": {
-          "value": "<p>ein kleines St&uuml;ck Meteoreisen, 1 Skrupel Diamant-<br>staub, 20 Unzen klares Blut, 10 Unzen Schnee vom 1. Hesin-<br>de, 7 ganze Halme vom Kairanrohr, 3 zus&auml;tzliche Alraunen, 2<br>B&uuml;schel Thonnys, 1 Skrupel Drachentr&auml;nen</p>"
-        },
-        "targetEffect": false
+        }
       },
       "folder": null,
       "ownership": {
@@ -2729,13 +2735,12 @@
         "createdTime": 1686331548032,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zaubertrank",
       "flags": {
-        "core": {
-          "sourceId": "Item.QfqyA4CsmckAQo2G"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "VNX4V9KE7Yn3GtjT",
@@ -2747,39 +2752,39 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": "Talentspezialisierung für Talent Alchimie"
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": "0"
         },
         "requirements": {
           "value": ""
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Alchimie TaW+2; "
-        },
-        "description": {
-          "value": "Talentspezialisierung für Talent Alchimie"
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": null
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "general"
+          "value": "general",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": null
+        "effect": {
+          "value": "Alchimie TaW+2; "
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2794,7 +2799,8 @@
         "createdTime": 1686332173702,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Spez. Mutanda",
       "flags": {},
@@ -2808,38 +2814,38 @@
       "effects": [],
       "folder": null,
       "system": {
+        "description": {
+          "value": "Talentspezialisierung für Talent Alchimie"
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": "0"
         },
         "requirements": {
           "value": ""
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": "Alchimie TaW+2; "
-        },
-        "description": {
-          "value": "Talentspezialisierung für Talent Alchimie"
-        },
         "rule": {
+          "value": ""
+        },
+        "maxRank": {
           "value": ""
         },
         "step": {
           "value": "1"
         },
         "category": {
-          "sub": 0,
-          "value": "general"
+          "value": "general",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
+        "effect": {
+          "value": "Alchimie TaW+2; "
+        },
+        "mountEffect": {
           "value": ""
         }
       },
@@ -2855,7 +2861,8 @@
         "createdTime": 1686332187076,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Spez. Spagyrik",
       "flags": {},
@@ -2869,29 +2876,29 @@
       "effects": [],
       "folder": null,
       "system": {
-        "APValue": {
-          "value": "0"
-        },
-        "requirements": {
+        "description": {
           "value": ""
-        },
-        "mountEffect": {
-          "value": ""
-        },
-        "max": {
-          "value": 0
         },
         "gmdescription": {
           "value": ""
         },
-        "effect": {
-          "value": "-6 AsP;"
+        "APValue": {
+          "value": "0"
         },
-        "description": {
+        "max": {
+          "value": 0
+        },
+        "requirements": {
           "value": ""
         },
         "step": {
           "value": 1
+        },
+        "effect": {
+          "value": "-6 AsP;"
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -2906,7 +2913,8 @@
         "createdTime": 1686332235759,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Viertelzauberer",
       "flags": {},
@@ -2929,11 +2937,11 @@
             "createdTime": null,
             "duplicateSource": null,
             "systemVersion": null,
-            "coreVersion": "12.331"
+            "coreVersion": "13.351",
+            "exportSource": null
           },
           "changes": [],
           "flags": {
-            "effectKey": "",
             "dsa5": {
               "auto": null,
               "editable": true,
@@ -2945,7 +2953,8 @@
               "description": "Eiserner Wille I",
               "manual": 0,
               "hasEffect": true,
-              "value": null
+              "value": null,
+              "effectKey": ""
             }
           },
           "description": "",
@@ -2972,39 +2981,39 @@
       ],
       "folder": null,
       "system": {
+        "description": {
+          "value": " Der Held hat geistige Techniken erlernt, die es ihm ermöglichen seinen Geist gegen magische Beeinflussung zu schützen. Konzentriert er sich (was eine Aktion und 1 Punkt Erschöpfung kostet) erhöht sich die MR des Charakters um 3 für eine SR. Der Charakter kann sich außerdem freiwillig entscheiden seine MR für 1 SR um 3 zu senken."
+        },
+        "gmdescription": {
+          "value": ""
+        },
         "APValue": {
           "value": "200"
         },
         "requirements": {
           "value": "MU 13, IN 12"
         },
-        "mountEffect": {
-          "value": ""
-        },
-        "gmdescription": {
-          "value": ""
-        },
-        "effect": {
-          "value": ""
-        },
-        "description": {
-          "value": " Der Held hat geistige Techniken erlernt, die es ihm ermöglichen seinen Geist gegen magische Beeinflussung zu schützen. Konzentriert er sich (was eine Aktion und 1 Punkt Erschöpfung kostet) erhöht sich die MR des Charakters um 3 für eine SR. Der Charakter kann sich außerdem freiwillig entscheiden seine MR für 1 SR um 3 zu senken."
-        },
         "rule": {
           "value": ""
+        },
+        "maxRank": {
+          "value": 1
         },
         "step": {
           "value": 1
         },
         "category": {
-          "sub": 0,
-          "value": "magical"
+          "value": "magical",
+          "sub": 0
         },
         "list": {
           "value": ""
         },
-        "maxRank": {
-          "value": 1
+        "effect": {
+          "value": ""
+        },
+        "mountEffect": {
+          "value": ""
         }
       },
       "ownership": {
@@ -3020,13 +3029,12 @@
         "createdTime": 1686332273001,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Eiserner Wille I",
       "flags": {
-        "core": {
-          "sourceId": "Item.KDZwEM7GfmwWcBen"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "kfGh537qJWixGd1f",
@@ -3038,102 +3046,102 @@
       "effects": [],
       "folder": null,
       "system": {
-        "gmdescription": {
-          "value": ""
-        },
         "description": {
           "value": ""
         },
-        "failed": "1, 2, 3, 8, 9, 12, 13, 14, 21, 23, 24, 27",
-        "requirement": {
+        "gmdescription": {
           "value": ""
+        },
+        "difficulty": {
+          "value": 6,
+          "analyze": 3,
+          "bonusValue": 0
+        },
+        "failed": "1, 2, 3, 8, 9, 12, 13, 14, 21, 23, 24, 27",
+        "sideeffects": "",
+        "simpleRecipe": false,
+        "brewing": {
+          "value": "<p><em>&raquo;Nur zuzubereiten, wenn Kor und Marbo in Quadratur stehen. Zerhau den Opaal inmitten eines gro&szlig;en Heptagramma unter freiem Himmel. L&ouml;se nun das Feuerkraut in dem Feuer und stell beides desgleichen ins Pentagramma. Nun mu&szlig;t du eilig sein: Der Kn&ouml;terich wird in g&uuml;ldenem Tiegel verrieben, das Blut hinzugef&uuml;gt und beides vermischt. Hinein nun den Opaalstaub und das Feuer. Tritt zur&uuml;ck, denn itzo fehrt eine Flamme gen Himmel. Sprich nun einen Saft, Kraft auf die Alraun und wirf selbige in die nun brodelnde Mischung, worauf ein weiterer Blitz, diesmal von gr&uuml;ner Farbe, in die H&ouml;he schie&szlig;t. La&szlig; die Mixthur nun k&uuml;hlen und sch&ouml;pf die gr&uuml;nliche Fl&uuml;ssigkeit, die oben steht, ab und f&uuml;lle sie in ein undurchsichtiges Gefe&szlig;. Sie wird sich wohl zwei Jahr halten, und jeden, der sie trinkt, in einen rasenden Irren verwandeln.&laquo; </em>&mdash;Pheredonios Melenaar, Die Macht der Elemente, Zorgan, ca. 700 BF</p>"
+        },
+        "ingredients": {
+          "value": "<p>&nbsp;1 Feueropal, 5 Unzen Feuerkraut, 10 Unzen echtes Premer Feuer, 1 ganzer Schleimiger Sumpfkn&ouml;terich, 5 Unzen Blut von einem durch das Beil gerichteten wahnsinnigen M&ouml;rder, 1 zus&auml;tzliche Alraune; KARNIFILO oder Schuppenn eines Marus</p>"
         },
         "type": {
           "value": "N"
         },
-        "simpleRecipe": false,
-        "difficulty": {
-          "analyze": 3,
-          "bonusValue": 0,
-          "value": 6
+        "requirement": {
+          "value": ""
         },
-        "brewing": {
-          "value": "<p><em>&raquo;Nur zuzubereiten, wenn Kor und Marbo in Quadratur stehen. Zerhau den Opaal inmitten eines gro&szlig;en Heptagramma unter freiem Himmel. L&ouml;se nun das Feuerkraut in dem Feuer und stell beides desgleichen ins Pentagramma. Nun mu&szlig;t du eilig sein: Der Kn&ouml;terich wird in g&uuml;ldenem Tiegel verrieben, das Blut hinzugef&uuml;gt und beides vermischt. Hinein nun den Opaalstaub und das Feuer. Tritt zur&uuml;ck, denn itzo fehrt eine Flamme gen Himmel. Sprich nun einen Saft, Kraft auf die Alraun und wirf selbige in die nun brodelnde Mischung, worauf ein weiterer Blitz, diesmal von gr&uuml;ner Farbe, in die H&ouml;he schie&szlig;t. La&szlig; die Mixthur nun k&uuml;hlen und sch&ouml;pf die gr&uuml;nliche Fl&uuml;ssigkeit, die oben steht, ab und f&uuml;lle sie in ein undurchsichtiges Gefe&szlig;. Sie wird sich wohl zwei Jahr halten, und jeden, der sie trinkt, in einen rasenden Irren verwandeln.&laquo; </em>&mdash;Pheredonios Melenaar, Die Macht der Elemente, Zorgan, ca. 700 BF</p>"
+        "additionalEffects": {
+          "value": ""
         },
+        "targetEffect": false,
         "effects": {
           "A": {
+            "description": "Erhöhte Aggressivität für 1 SR (Jähzorn +7, auch wenn der Anwender diesen Nachteil nicht haben sollte), dem Opfer trieft Schaum aus dem Mund. Darf bei einem überraschenden Kampfbeginn infolge des Jähzorns seine INI mit +3 bestimmen.",
             "duration": "100",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "Selbstbeherrschung -7; +3 INI",
-            "description": "Erhöhte Aggressivität für 1 SR (Jähzorn +7, auch wenn der Anwender diesen Nachteil nicht haben sollte), dem Opfer trieft Schaum aus dem Mund. Darf bei einem überraschenden Kampfbeginn infolge des Jähzorns seine INI mit +3 bestimmen.",
             "healingValue": ""
           },
           "B": {
+            "description": "Erhöhte Aggressivität für 1 SR (Jähzorn +7, auch wenn der Anwender diesen Nachteil nicht haben sollte). Darf bei einem überraschenden Kampfbeginn infolge des Jähzorns seine INI mit +3 bestimmen und hat AT +1",
             "duration": "100",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+1 AT; Selbstbeherrschung -7; +3 INI",
-            "description": "Erhöhte Aggressivität für 1 SR (Jähzorn +7, auch wenn der Anwender diesen Nachteil nicht haben sollte). Darf bei einem überraschenden Kampfbeginn infolge des Jähzorns seine INI mit +3 bestimmen und hat AT +1",
             "healingValue": ""
           },
           "C": {
+            "description": "Der Anwender schlägt für 7 KR auf alles ein, was sich bewegt, dabei hat er eine um 2 verbesserte AT und eine um 2 verschlechterte PA und erzielt einen zusätzlichen Trefferpunkt und INI +3",
             "duration": "8",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+2 AT; -2 PA; -2 AW; +1 TP; +3 INI;",
-            "description": "Der Anwender schlägt für 7 KR auf alles ein, was sich bewegt, dabei hat er eine um 2 verbesserte AT und eine um 2 verschlechterte PA und erzielt einen zusätzlichen Trefferpunkt und INI +3",
             "healingValue": ""
           },
           "D": {
+            "description": "Der Anwender greift für W20+7 KR wild alles an, richtet sich in erster Linie allerdings gegen wirkliche Gegner. Es gibt eine AT/PA-Verschiebung von 5 Punkten sowie TP +2.",
             "duration": "1d20 +7",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+5 AT; -5 PA; -5 AW;+2 TP; +3 INI;",
-            "description": "Der Anwender greift für W20+7 KR wild alles an, richtet sich in erster Linie allerdings gegen wirkliche Gegner. Es gibt eine AT/PA-Verschiebung von 5 Punkten sowie TP +2.",
             "healingValue": ""
           },
           "E": {
+            "description": "Die Wirkung des Kampfrauschs hält 1 SR an, richtet sich in erster Linie gegen wirkliche Gegner und ergibt eine AT/PA-Verschiebung von 5 Punkten sowie TP +3.",
             "duration": "100",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+5 AT; -5 PA; +3 TP; +3 INI;",
-            "description": "Die Wirkung des Kampfrauschs hält 1 SR an, richtet sich in erster Linie gegen wirkliche Gegner und ergibt eine AT/PA-Verschiebung von 5 Punkten sowie TP +3.",
             "healingValue": ""
           },
           "F": {
+            "description": "Die AT steigt für 3 SR um 12, die PA fällt auf 0, die TP steigen um 5, das Opfer nimmt keine Schmerzen mehr wahr – und es besteht die Gefahr (bei 19 und 20 auf W20), dass das Opfer den Nachteil Blutrausch erhält und diesem verfällt, sobald es in einem Kampf die erste Wunde hinnehmen musste und ihm eine Selbstbeherrschungs-Probe +7 misslingt.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+12 AT; -20 PA; -20 AW; +5 TP; +3 INI;",
-            "description": "Die AT steigt für 3 SR um 12, die PA fällt auf 0, die TP steigen um 5, das Opfer nimmt keine Schmerzen mehr wahr – und es besteht die Gefahr (bei 19 und 20 auf W20), dass das Opfer den Nachteil Blutrausch erhält und diesem verfällt, sobald es in einem Kampf die erste Wunde hinnehmen musste und ihm eine Selbstbeherrschungs-Probe +7 misslingt.",
             "healingValue": ""
           }
-        },
-        "sideeffects": "",
-        "additionalEffects": {
-          "value": ""
         },
         "price": {
           "brewing": 200,
           "value": 400
-        },
-        "ingredients": {
-          "value": "<p>&nbsp;1 Feueropal, 5 Unzen Feuerkraut, 10 Unzen echtes Premer Feuer, 1 ganzer Schleimiger Sumpfkn&ouml;terich, 5 Unzen Blut von einem durch das Beil gerichteten wahnsinnigen M&ouml;rder, 1 zus&auml;tzliche Alraune; KARNIFILO oder Schuppenn eines Marus</p>"
-        },
-        "targetEffect": false
+        }
       },
       "ownership": {
         "OkB1KdnOuvyQ8qU2": 3,
@@ -3147,13 +3155,12 @@
         "createdTime": 1686403696782,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Berserkerelixier",
       "flags": {
-        "core": {
-          "sourceId": "Item.xupnjYE842svVRMu"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "XkoFgO5vFgkCXcCC",
@@ -3165,102 +3172,102 @@
       "effects": [],
       "folder": null,
       "system": {
-        "gmdescription": {
-          "value": ""
-        },
         "description": {
           "value": ""
         },
-        "failed": "1, 4, 18, 22, 36, 37",
-        "requirement": {
+        "gmdescription": {
           "value": ""
+        },
+        "difficulty": {
+          "value": 1,
+          "analyze": 1,
+          "bonusValue": 0
+        },
+        "failed": "1, 4, 18, 22, 36, 37",
+        "sideeffects": "",
+        "simpleRecipe": false,
+        "brewing": {
+          "value": "<p>&raquo;Im Rondra-Mond beim Lichte des Ucuri herzustellen. Zerstampf den Granat wohl, so dass jedoch sein Feuer erhalten bleibt. Mische den Staub mit dem Alcohol und dem Bluthe, auf dass eine Mixthur von wohlroter Farbe entstehet. Zerreibe nun den Sch&ouml;&szlig;ling des Finage mit einer silbernen Reibe und zersto&szlig; das getrucknete Basiliscum in einem M&ouml;rser aus Messing. Gib nun beides zu dem roten Breie, misch es gut unter und stell es in ein Pentagramma, das dem Lichte des Ucuri zugewandt ist, und la&szlig; es dorten f&uuml;r eine Nacht stehen, so trennt sich das Feste von dem Fl&uuml;ssigen, welchletzteres du vorsichtig absch&ouml;pfst. Dies ist das gew&uuml;nschte Elixier, welches dir den Mut einer L&ouml;win verschafft. Es helt sich wohl zwei Jahr.&laquo; &mdash;Pheredonios Melenaar, Die Macht der Elemente, Zorgan, ca. 700 BF</p>"
+        },
+        "ingredients": {
+          "value": "<p>1 Skrupel Granatstaub, 5 Unzen reiner Alkohol, 3 Unzen frisches L&ouml;winnenblut, 1 Sch&ouml;ssling Finage, 2 B&uuml;schel Basiliskum</p>"
         },
         "type": {
           "value": "H"
         },
-        "simpleRecipe": false,
-        "difficulty": {
-          "analyze": 1,
-          "bonusValue": 0,
-          "value": 1
+        "requirement": {
+          "value": ""
         },
-        "brewing": {
-          "value": "<p>&raquo;Im Rondra-Mond beim Lichte des Ucuri herzustellen. Zerstampf den Granat wohl, so dass jedoch sein Feuer erhalten bleibt. Mische den Staub mit dem Alcohol und dem Bluthe, auf dass eine Mixthur von wohlroter Farbe entstehet. Zerreibe nun den Sch&ouml;&szlig;ling des Finage mit einer silbernen Reibe und zersto&szlig; das getrucknete Basiliscum in einem M&ouml;rser aus Messing. Gib nun beides zu dem roten Breie, misch es gut unter und stell es in ein Pentagramma, das dem Lichte des Ucuri zugewandt ist, und la&szlig; es dorten f&uuml;r eine Nacht stehen, so trennt sich das Feste von dem Fl&uuml;ssigen, welchletzteres du vorsichtig absch&ouml;pfst. Dies ist das gew&uuml;nschte Elixier, welches dir den Mut einer L&ouml;win verschafft. Es helt sich wohl zwei Jahr.&laquo; &mdash;Pheredonios Melenaar, Die Macht der Elemente, Zorgan, ca. 700 BF</p>"
+        "additionalEffects": {
+          "value": ""
         },
+        "targetEffect": false,
         "effects": {
           "A": {
+            "description": "1 MU-Punkt für 1 SR und unbedachtes Verhalten (IN–1 für 1 Stunde)",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+1 MU; -1 IN;",
-            "description": "1 MU-Punkt für 1 SR und unbedachtes Verhalten (IN–1 für 1 Stunde)",
             "healingValue": ""
           },
           "B": {
+            "description": "2 MU-Punkte für 2 SR",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+2 MU",
-            "description": "2 MU-Punkte für 2 SR",
             "healingValue": ""
           },
           "C": {
+            "description": "3 MU-Punkte für 3 SR",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+3 MU;",
-            "description": "3 MU-Punkte für 3 SR",
             "healingValue": ""
           },
           "D": {
+            "description": "7 MU-Punkte für 7 SR",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+7 MU;",
-            "description": "7 MU-Punkte für 7 SR",
             "healingValue": ""
           },
           "E": {
+            "description": "Euphorie (3 MU-Punkte für einen Tag, alle vorhandenen Ängste aus Nachteilen sind halbiert.)",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+3 MU; MU 4;",
-            "description": "Euphorie (3 MU-Punkte für einen Tag, alle vorhandenen Ängste aus Nachteilen sind halbiert.)",
             "healingValue": ""
           },
           "F": {
+            "description": "5 MU-Punkte für 1 Tag und halbierte Ängste aus Nachteilen – und am nächsten Tag starke Depressionen: Der Mut sinkt für einen Tag um 7 Punkte.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+7 MU; MU 7;",
-            "description": "5 MU-Punkte für 1 Tag und halbierte Ängste aus Nachteilen – und am nächsten Tag starke Depressionen: Der Mut sinkt für einen Tag um 7 Punkte.",
             "healingValue": ""
           }
-        },
-        "sideeffects": "",
-        "additionalEffects": {
-          "value": ""
         },
         "price": {
           "brewing": 200,
           "value": 400
-        },
-        "ingredients": {
-          "value": "<p>1 Skrupel Granatstaub, 5 Unzen reiner Alkohol, 3 Unzen frisches L&ouml;winnenblut, 1 Sch&ouml;ssling Finage, 2 B&uuml;schel Basiliskum</p>"
-        },
-        "targetEffect": false
+        }
       },
       "ownership": {
         "default": 0,
@@ -3275,13 +3282,12 @@
         "createdTime": 1686403703449,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Mutelixier",
       "flags": {
-        "core": {
-          "sourceId": "Item.4UFUO6z6haRl1OJR"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "4Zh4XZn6AjhmnzM1",
@@ -3292,102 +3298,102 @@
       "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
       "effects": [],
       "system": {
-        "gmdescription": {
-          "value": ""
-        },
         "description": {
           "value": ""
         },
+        "gmdescription": {
+          "value": ""
+        },
+        "difficulty": {
+          "value": 6,
+          "analyze": 3,
+          "bonusValue": 0
+        },
         "failed": "",
-        "requirement": {
+        "sideeffects": "",
+        "simpleRecipe": false,
+        "brewing": {
+          "value": ""
+        },
+        "ingredients": {
           "value": ""
         },
         "type": {
           "value": "H"
         },
-        "simpleRecipe": false,
-        "difficulty": {
-          "analyze": 3,
-          "bonusValue": 0,
-          "value": 6
-        },
-        "brewing": {
+        "requirement": {
           "value": ""
         },
+        "additionalEffects": {
+          "value": ""
+        },
+        "targetEffect": false,
         "effects": {
           "A": {
+            "description": "BF -1",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "BF -1",
             "healingValue": ""
           },
           "B": {
+            "description": "BF -3",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "BF -3",
             "healingValue": ""
           },
           "C": {
+            "description": "BF -3, +1 TP",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "Waffenbalsam-TP 1;",
-            "description": "BF -3, +1 TP",
             "healingValue": ""
           },
           "D": {
+            "description": "-3 BF, +1 TP, Gilt als magische Waffe",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "Waffenbalsam-TP 1;",
-            "description": "-3 BF, +1 TP, Gilt als magische Waffe",
             "healingValue": ""
           },
           "E": {
+            "description": "Bruchfaktor –3, die Waffe wird für etwa eine Woche so gut wie unzerbrechlich (mit der Ausnahme magischen Schadens), gilt solange als magische Waffe und richtet 2 TP mehr an.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "Waffenbalsam-TP 2;",
-            "description": "Bruchfaktor –3, die Waffe wird für etwa eine Woche so gut wie unzerbrechlich (mit der Ausnahme magischen Schadens), gilt solange als magische Waffe und richtet 2 TP mehr an.",
             "healingValue": ""
           },
           "F": {
+            "description": "Die Waffe gilt als magisch, wird in der Tat unzerbrechlich, leuchtet in grellem weißen Feuer, erzeugt 4 Trefferpunkte mehr – und zerfällt nach 7 Spielrunden unwiederbringlich zu Staub",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "Waffenbalsam-TP 4;",
-            "description": "Die Waffe gilt als magisch, wird in der Tat unzerbrechlich, leuchtet in grellem weißen Feuer, erzeugt 4 Trefferpunkte mehr – und zerfällt nach 7 Spielrunden unwiederbringlich zu Staub",
             "healingValue": ""
           }
-        },
-        "sideeffects": "",
-        "additionalEffects": {
-          "value": ""
         },
         "price": {
           "brewing": 180,
           "value": 350
-        },
-        "ingredients": {
-          "value": ""
-        },
-        "targetEffect": false
+        }
       },
       "folder": null,
       "ownership": {
@@ -3403,13 +3409,12 @@
         "createdTime": 1682958037548,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Waffenbalsam",
       "flags": {
-        "core": {
-          "sourceId": "Item.LFl6bod9rJn3tJqx"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "6kXCuG8MHByN6838",
@@ -3421,102 +3426,102 @@
       "effects": [],
       "folder": null,
       "system": {
-        "gmdescription": {
-          "value": ""
-        },
         "description": {
           "value": ""
         },
-        "failed": "1, 3, 4, 10, 12, 18, 22, 23, 29, 30",
-        "requirement": {
+        "gmdescription": {
           "value": ""
+        },
+        "difficulty": {
+          "value": 6,
+          "analyze": 4,
+          "bonusValue": 0
+        },
+        "failed": "1, 3, 4, 10, 12, 18, 22, 23, 29, 30",
+        "sideeffects": "",
+        "simpleRecipe": false,
+        "brewing": {
+          "value": "<p><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&raquo;</span><em>Den Blutstein zerschlag zuv&ouml;rderst in einem M&ouml;rser aus gehertetem Messinge und gib das Pulver in ein glesernes Gefe&szlig;, in welchem das Vitriol dem Madalichte zugewandt harrt. Dorten la&szlig; es drei Tage stehen, derweil du die Alraun fein passierst und dasselbige auch mit dem Finage anstellest. Die Cairanhalme zerspalt siebenfach, auf dass du ein und zwanzig feine Stebchen erhelst. Stell diese nun in das Gefe&szlig; mit dem Vitriole und f&uuml;g dorten inmitten die Past aus Alraun und Finag ein worobendrauf du das Auge legest, so dass es dich anblicket. Sprich nun von oben herab einen Adlers Aug und Luxens Ohr und tritt schnell beiseiten, denn aus den Stebchen trachten dich Finger silbrigen Lichts zu ergreifen. So diese wieder verschwunden sind, tritt wieder hinzu und r&uuml;hr kreftig um. Hier wird sich nun das Klare vom Semigen trennen. Wart noch einen Tag, und gie&szlig; das Klare v&ouml;rsichtig ab, denn es ist das Elixir der Sichren Pfeile, welches sich wohl ein drittel Jahr lang bewahrt.&laquo;</em> &mdash;Pheredonios Melenaar, Die Macht der Elemente, Zorgan, ca. 700 BF</p>"
+        },
+        "ingredients": {
+          "value": "<p>5 Unzen Angbarer Blutstein, 1 zus&auml;tzliche Alraune, 1 Sch&ouml;ssling Finage, 3 Halme Kairan, 20 Unzen Brabaker Vitriol, 1 Auge vom Bergadler; ADLERAUGE</p>"
         },
         "type": {
           "value": "H"
         },
-        "simpleRecipe": false,
-        "difficulty": {
-          "analyze": 4,
-          "bonusValue": 0,
-          "value": 6
+        "requirement": {
+          "value": ""
         },
-        "brewing": {
-          "value": "<p><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&raquo;</span><em>Den Blutstein zerschlag zuv&ouml;rderst in einem M&ouml;rser aus gehertetem Messinge und gib das Pulver in ein glesernes Gefe&szlig;, in welchem das Vitriol dem Madalichte zugewandt harrt. Dorten la&szlig; es drei Tage stehen, derweil du die Alraun fein passierst und dasselbige auch mit dem Finage anstellest. Die Cairanhalme zerspalt siebenfach, auf dass du ein und zwanzig feine Stebchen erhelst. Stell diese nun in das Gefe&szlig; mit dem Vitriole und f&uuml;g dorten inmitten die Past aus Alraun und Finag ein worobendrauf du das Auge legest, so dass es dich anblicket. Sprich nun von oben herab einen Adlers Aug und Luxens Ohr und tritt schnell beiseiten, denn aus den Stebchen trachten dich Finger silbrigen Lichts zu ergreifen. So diese wieder verschwunden sind, tritt wieder hinzu und r&uuml;hr kreftig um. Hier wird sich nun das Klare vom Semigen trennen. Wart noch einen Tag, und gie&szlig; das Klare v&ouml;rsichtig ab, denn es ist das Elixir der Sichren Pfeile, welches sich wohl ein drittel Jahr lang bewahrt.&laquo;</em> &mdash;Pheredonios Melenaar, Die Macht der Elemente, Zorgan, ca. 700 BF</p>"
+        "additionalEffects": {
+          "value": ""
         },
+        "targetEffect": false,
         "effects": {
           "A": {
+            "description": "Für einen Schuss steigt der Fernkampfwert des Anwenders um 1 Punkt.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+1 FK",
-            "description": "Für einen Schuss steigt der Fernkampfwert des Anwenders um 1 Punkt.",
             "healingValue": ""
           },
           "B": {
+            "description": "Der Fernkampfwert des Anwenders steigt für 1 SR um 1 Punkt.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+1 FK;",
-            "description": "Der Fernkampfwert des Anwenders steigt für 1 SR um 1 Punkt.",
             "healingValue": ""
           },
           "C": {
+            "description": "Der Fernkampfwert des Anwenders steigt für 1 SR um 3 Punkte.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+3 FK;",
-            "description": "Der Fernkampfwert des Anwenders steigt für 1 SR um 3 Punkte.",
             "healingValue": ""
           },
           "D": {
+            "description": "Der Fernkampfwert steigt um 7 Punkte, jedoch ist der Charakter ansonsten nur noch zu langsamen Bewegungen fähig (AT/PA –5, INI –3, GE –3, GS halbiert).",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+7 FK;-4 AT; -4 PA; -3 INI; -3 GE; -4 GS;",
-            "description": "Der Fernkampfwert steigt um 7 Punkte, jedoch ist der Charakter ansonsten nur noch zu langsamen Bewegungen fähig (AT/PA –5, INI –3, GE –3, GS halbiert).",
             "healingValue": ""
           },
           "E": {
+            "description": "Der Fernkampfwert steigt um 15 Punkte, jedoch ist der Anwender für 1 SR auf nichts anderes als das Schießen konzentriert und nimmt seine Umgebung kaum mehr wahr.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+15 FK;",
-            "description": "Der Fernkampfwert steigt um 15 Punkte, jedoch ist der Anwender für 1 SR auf nichts anderes als das Schießen konzentriert und nimmt seine Umgebung kaum mehr wahr.",
             "healingValue": ""
           },
           "F": {
+            "description": "Der Fernkampfwert steigt um 15 Punkte, jedoch ist der Anwender für 1 SR auf nichts anderes als das Schießen konzentriert und nimmt seine Umgebung kaum mehr wahr. zudem kann der Schütze auch schneller Pfeile abfeuern (wie die Sonderfertigkeit Schnellladen), jedoch sinkt danach das entsprechende Talent für eine Woche um 7 Punkte.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "+15 FK;",
-            "description": "Der Fernkampfwert steigt um 15 Punkte, jedoch ist der Anwender für 1 SR auf nichts anderes als das Schießen konzentriert und nimmt seine Umgebung kaum mehr wahr. zudem kann der Schütze auch schneller Pfeile abfeuern (wie die Sonderfertigkeit Schnellladen), jedoch sinkt danach das entsprechende Talent für eine Woche um 7 Punkte.",
             "healingValue": ""
           }
-        },
-        "sideeffects": "",
-        "additionalEffects": {
-          "value": ""
         },
         "price": {
           "brewing": 180,
           "value": 350
-        },
-        "ingredients": {
-          "value": "<p>5 Unzen Angbarer Blutstein, 1 zus&auml;tzliche Alraune, 1 Sch&ouml;ssling Finage, 3 Halme Kairan, 20 Unzen Brabaker Vitriol, 1 Auge vom Bergadler; ADLERAUGE</p>"
-        },
-        "targetEffect": false
+        }
       },
       "ownership": {
         "default": 0,
@@ -3531,13 +3536,12 @@
         "createdTime": 1686403710564,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Zielwasser",
       "flags": {
-        "core": {
-          "sourceId": "Item.xupnjYE842svVRMu"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "GyORB44Bg9g0469X",
@@ -3549,102 +3553,102 @@
       "effects": [],
       "folder": null,
       "system": {
-        "gmdescription": {
-          "value": ""
-        },
         "description": {
           "value": ""
         },
-        "failed": "1, 4, 17, 21, 37",
-        "requirement": {
+        "gmdescription": {
           "value": ""
+        },
+        "difficulty": {
+          "value": 3,
+          "analyze": 3,
+          "bonusValue": 0
+        },
+        "failed": "1, 4, 17, 21, 37",
+        "sideeffects": "",
+        "simpleRecipe": false,
+        "brewing": {
+          "value": "<p><em>&raquo;</em><em>Grabe ein Loch in den Boden und entz&uuml;nde ein Feuer. Zersto&szlig;e den Achat in Splitter und mische die Bruchst&uuml;cke zusammen mit dem Harz in die rauchende Holzkohle. Stelle einen Kessel in die Grube, gef&uuml;llt mit Salzwasser und r&uuml;hre den Schwefel hinein. Das Wasser wird sch&auml;umen und Blasen werfen. Decke die Grube zu, dass nur ein kleines Loch verbleibt und &ouml;ffne es nur, um Kohle nachzulegen. Wenn die Nacht am tiefsten ist, r&uuml;hre die Haare in den Kessel. Nur wenn Du das Tier mit blo&szlig;en H&auml;nden erlegt hast, verf&auml;rbt sich der Trunk schwarz. Decke es zu und warte, bis die Kohle verkohlt ist. In den Kessel gebe einige Tropfen frisches Quellwasser und r&uuml;hre, bis sich das Wasser mit den Klumpen vermischt hat. Diesen Trank fl&ouml;&szlig;e nun einem schwachen Krieger ein, er wird den Mut eines B&auml;ren sp&uuml;ren.</em><em style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&laquo;</em><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\"> &mdash;</span>Transkription aus dem Orkischen</p>"
+        },
+        "ingredients": {
+          "value": "<p>5 Stein Holzkohle, 2 Karat Blutachat, 1 Skrupel Schwefel, 3 Schank Salzwasser, 1 Unze Ilmenblatt-Harz, ein B&uuml;schel Haare vom Fell eines Vielfra&szlig;es, ein paar Tropfen Quellwasser.</p>"
         },
         "type": {
           "value": "S"
         },
-        "simpleRecipe": false,
-        "difficulty": {
-          "analyze": 3,
-          "bonusValue": 0,
-          "value": 3
+        "requirement": {
+          "value": ""
         },
-        "brewing": {
-          "value": "<p><em>&raquo;</em><em>Grabe ein Loch in den Boden und entz&uuml;nde ein Feuer. Zersto&szlig;e den Achat in Splitter und mische die Bruchst&uuml;cke zusammen mit dem Harz in die rauchende Holzkohle. Stelle einen Kessel in die Grube, gef&uuml;llt mit Salzwasser und r&uuml;hre den Schwefel hinein. Das Wasser wird sch&auml;umen und Blasen werfen. Decke die Grube zu, dass nur ein kleines Loch verbleibt und &ouml;ffne es nur, um Kohle nachzulegen. Wenn die Nacht am tiefsten ist, r&uuml;hre die Haare in den Kessel. Nur wenn Du das Tier mit blo&szlig;en H&auml;nden erlegt hast, verf&auml;rbt sich der Trunk schwarz. Decke es zu und warte, bis die Kohle verkohlt ist. In den Kessel gebe einige Tropfen frisches Quellwasser und r&uuml;hre, bis sich das Wasser mit den Klumpen vermischt hat. Diesen Trank fl&ouml;&szlig;e nun einem schwachen Krieger ein, er wird den Mut eines B&auml;ren sp&uuml;ren.</em><em style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&laquo;</em><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\"> &mdash;</span>Transkription aus dem Orkischen</p>"
+        "additionalEffects": {
+          "value": ""
         },
+        "targetEffect": false,
         "effects": {
           "A": {
+            "description": "Der Anwender fühlt für einen Tag leichte Zuversicht. Eine Probe, die unter Einfluss einer schlechten Eigenschaft verfehlt wurde, darf wiederholt werden oder eine anstehende Probe, die unter Einfluss einer schlechten Eigenschaft stehen wird, darf zweimal abgelegt werden, das bessere Resultat zählt.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Der Anwender fühlt für einen Tag leichte Zuversicht. Eine Probe, die unter Einfluss einer schlechten Eigenschaft verfehlt wurde, darf wiederholt werden oder eine anstehende Probe, die unter Einfluss einer schlechten Eigenschaft stehen wird, darf zweimal abgelegt werden, das bessere Resultat zählt.",
             "healingValue": ""
           },
           "B": {
+            "description": "Eine Schlechte Eigenschaft nach Wahl des Anwenders, die als Angst gilt, sinkt für eine Spielrunde um die Hälfte, eine auf Grund der Angst kürzlich misslungene Probe darf wiederholt werden.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Eine Schlechte Eigenschaft nach Wahl des Anwenders, die als Angst gilt, sinkt für eine Spielrunde um die Hälfte, eine auf Grund der Angst kürzlich misslungene Probe darf wiederholt werden.",
             "healingValue": ""
           },
           "C": {
+            "description": "Eine Schlechte Eigenschaft nach Wahl des Anwenders, die als Angst gilt, sinkt für eine Stunde um die Hälfte, eine auf Grund der Angst kürzlich misslungene Probe darf wiederholt werden.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Eine Schlechte Eigenschaft nach Wahl des Anwenders, die als Angst gilt, sinkt für eine Stunde um die Hälfte, eine auf Grund der Angst kürzlich misslungene Probe darf wiederholt werden.",
             "healingValue": ""
           },
           "D": {
+            "description": "Eine Schlechte Eigenschaft nach Wahl des Anwenders, die als Angst gilt, sinkt für eine Stunde auf 0, eine auf Grund der Angst kürzlich misslungene Probe darf wiederholt werden.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Eine Schlechte Eigenschaft nach Wahl des Anwenders, die als Angst gilt, sinkt für eine Stunde auf 0, eine auf Grund der Angst kürzlich misslungene Probe darf wiederholt werden.",
             "healingValue": ""
           },
           "E": {
+            "description": "Eine Schlechte Eigenschaft nach Wahl des Anwenders, die als Angst gilt, sinkt für eine Stunde auf 0, eine auf Grund der Angst kürzlich misslungene Probe darf wiederholt werden. Außerdem sinken alle anderen Ängste auf die Hälfte",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Eine Schlechte Eigenschaft nach Wahl des Anwenders, die als Angst gilt, sinkt für eine Stunde auf 0, eine auf Grund der Angst kürzlich misslungene Probe darf wiederholt werden. Außerdem sinken alle anderen Ängste auf die Hälfte",
             "healingValue": ""
           },
           "F": {
+            "description": "Alle Schlechten Eigenschaften, die als Ängste gelten, sind für die Wirkungsdauer einer Stunde ausgeschaltet. Der Anwender erhält außerdem MU +3 und bekommt den Nachteil Impulsiv.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": true,
             "effect": "+3 MU; KL -5; IN -5;",
-            "description": "Alle Schlechten Eigenschaften, die als Ängste gelten, sind für die Wirkungsdauer einer Stunde ausgeschaltet. Der Anwender erhält außerdem MU +3 und bekommt den Nachteil Impulsiv.",
             "healingValue": ""
           }
-        },
-        "sideeffects": "",
-        "additionalEffects": {
-          "value": ""
         },
         "price": {
           "brewing": 100,
           "value": 200
-        },
-        "ingredients": {
-          "value": "<p>5 Stein Holzkohle, 2 Karat Blutachat, 1 Skrupel Schwefel, 3 Schank Salzwasser, 1 Unze Ilmenblatt-Harz, ein B&uuml;schel Haare vom Fell eines Vielfra&szlig;es, ein paar Tropfen Quellwasser.</p>"
-        },
-        "targetEffect": false
+        }
       },
       "ownership": {
         "default": 0,
@@ -3659,13 +3663,12 @@
         "createdTime": 1686403715067,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Furchtlostropfen",
       "flags": {
-        "core": {
-          "sourceId": "Item.xupnjYE842svVRMu"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "rUHZ38a8XdiKzVhH",
@@ -3677,102 +3680,102 @@
       "effects": [],
       "folder": null,
       "system": {
-        "gmdescription": {
-          "value": ""
-        },
         "description": {
           "value": ""
         },
-        "failed": "1, 2, 3, 4, 6, 9, 13, 14, 18, 19, 21, 22, 24, 25, 33, 34",
-        "requirement": {
+        "gmdescription": {
           "value": ""
+        },
+        "difficulty": {
+          "value": 4,
+          "analyze": 4,
+          "bonusValue": 0
+        },
+        "failed": "1, 2, 3, 4, 6, 9, 13, 14, 18, 19, 21, 22, 24, 25, 33, 34",
+        "sideeffects": "",
+        "simpleRecipe": false,
+        "brewing": {
+          "value": "<p><em>&raquo;Zuvoerderst gebet die Nachgeburt in ein kleines Sch&aelig;lchen, roestet&rsquo;s bis sie trocken ist und entflammet&rsquo;s mit einem Feuerfunken. Sind die Flammen erloschen, vermenget&rsquo;s, was bleibt, mit dem Roszschweisz und broeselet den Ghoulmond mit hinein. Tuet&rsquo;s in den Autoklav und kochet&rsquo;s, bis es blau werdet und alles darin zerfallet. Derweil enthauptet und zerstoszet die Eicheln zu Staube. Nehmet die Essenz aus dem Autoklav und lasset&rsquo;s erkalten. Drauf destillieret draus 49 Tropfen, vermischet&rsquo;s mit dem Yaganoel und gebet ausreichend Eichelpulver zu, um drei grosze Pastillen draus zu drehen. Gut bewahrtet, wirken&rsquo;s ein halbes und ein viertel Jahr.&laquo;</em> &mdash;Kleiner Paramanthus, Abschrift der Anatomischen Akademie zu Vinsalt von etwa 800 BF</p>"
+        },
+        "ingredients": {
+          "value": "<p>eine halbe Handvoll von der Nachgeburt einer Frau im Kindbett, 6 Unzen Pferdeschwei&szlig;, 5 getrocknete Bl&auml;tter Gulmond, mehrere Steineicheln, 2 Flux Yagan-&Ouml;l</p>"
         },
         "type": {
           "value": "S"
         },
-        "simpleRecipe": false,
-        "difficulty": {
-          "analyze": 4,
-          "bonusValue": 0,
-          "value": 4
+        "requirement": {
+          "value": ""
         },
-        "brewing": {
-          "value": "<p><em>&raquo;Zuvoerderst gebet die Nachgeburt in ein kleines Sch&aelig;lchen, roestet&rsquo;s bis sie trocken ist und entflammet&rsquo;s mit einem Feuerfunken. Sind die Flammen erloschen, vermenget&rsquo;s, was bleibt, mit dem Roszschweisz und broeselet den Ghoulmond mit hinein. Tuet&rsquo;s in den Autoklav und kochet&rsquo;s, bis es blau werdet und alles darin zerfallet. Derweil enthauptet und zerstoszet die Eicheln zu Staube. Nehmet die Essenz aus dem Autoklav und lasset&rsquo;s erkalten. Drauf destillieret draus 49 Tropfen, vermischet&rsquo;s mit dem Yaganoel und gebet ausreichend Eichelpulver zu, um drei grosze Pastillen draus zu drehen. Gut bewahrtet, wirken&rsquo;s ein halbes und ein viertel Jahr.&laquo;</em> &mdash;Kleiner Paramanthus, Abschrift der Anatomischen Akademie zu Vinsalt von etwa 800 BF</p>"
+        "additionalEffects": {
+          "value": ""
         },
+        "targetEffect": false,
         "effects": {
           "A": {
+            "description": "Außer einem gewissen Wohlbefinden keine Wirkung (d.h. normale Regeneration von AuP und Abbau von Erschöpfung, allerdings geringere Auswirkungen störender Einflüsse)",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Außer einem gewissen Wohlbefinden keine Wirkung (d.h. normale Regeneration von AuP und Abbau von Erschöpfung, allerdings geringere Auswirkungen störender Einflüsse)",
             "healingValue": ""
           },
           "B": {
+            "description": "Der Anwender regeneriert in der nächsten Spielrunde 1W6 AuP zusätzlich und 1 Erschöpfung.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "1 Ers",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Der Anwender regeneriert in der nächsten Spielrunde 1W6 AuP zusätzlich und 1 Erschöpfung.",
             "healingValue": ""
           },
           "C": {
+            "description": "Für 1W6 SR jeweils Regeneration von 1W6 AuP zusätzlich sowie Abbau von 2 Punkte Erschöpfung.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "2 Ers",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Für 1W6 SR jeweils Regeneration von 1W6 AuP zusätzlich sowie Abbau von 2 Punkte Erschöpfung.",
             "healingValue": ""
           },
           "D": {
+            "description": "Für 1W6+2 SR jeweils Regeneration von 1W6 AuP zusätz- lich sowie Abbau von 1W6 Punkt Erschöpfung.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "1d6 Ers",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Für 1W6+2 SR jeweils Regeneration von 1W6 AuP zusätz- lich sowie Abbau von 1W6 Punkt Erschöpfung.",
             "healingValue": ""
           },
           "E": {
+            "description": "Innerhalb der nächsten 7 SR regeneriert der Anwender sämtliche AuP und baut 3W6+8 Punkte Erschöpfung ab.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "3d6+8 Ers",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Innerhalb der nächsten 7 SR regeneriert der Anwender sämtliche AuP und baut 3W6+8 Punkte Erschöpfung ab.",
             "healingValue": ""
           },
           "F": {
+            "description": "1W6+6 SR jeweils Regeneration 1W6+2 AuP zusätzlich (sowie Abbau von 3 Punkten Erschöpfung je SR), auch über das Maximum hinaus, doch fühlt sich der Anwender am nächsten Tag sehr geschwächt: Alle Aktionen kosten das Doppelte an AuP, Erschöpfung steigt ebenfalls doppelt so schnell.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "50 Ers",
             "healingOverMaximum": false,
             "effect": "+15 FK;",
-            "description": "1W6+6 SR jeweils Regeneration 1W6+2 AuP zusätzlich (sowie Abbau von 3 Punkten Erschöpfung je SR), auch über das Maximum hinaus, doch fühlt sich der Anwender am nächsten Tag sehr geschwächt: Alle Aktionen kosten das Doppelte an AuP, Erschöpfung steigt ebenfalls doppelt so schnell.",
             "healingValue": ""
           }
-        },
-        "sideeffects": "",
-        "additionalEffects": {
-          "value": ""
         },
         "price": {
           "brewing": 50,
           "value": 100
-        },
-        "ingredients": {
-          "value": "<p>eine halbe Handvoll von der Nachgeburt einer Frau im Kindbett, 6 Unzen Pferdeschwei&szlig;, 5 getrocknete Bl&auml;tter Gulmond, mehrere Steineicheln, 2 Flux Yagan-&Ouml;l</p>"
-        },
-        "targetEffect": false
+        }
       },
       "ownership": {
         "default": 0,
@@ -3787,13 +3790,12 @@
         "createdTime": 1686403718249,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Pastillen gegen Erschöpfung",
       "flags": {
-        "core": {
-          "sourceId": "Item.xupnjYE842svVRMu"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "uIEbHy1N0lDTTghx",
@@ -3804,102 +3806,102 @@
       "img": "icons/consumables/potions/potion-tube-corked-labeled-cyan.webp",
       "effects": [],
       "system": {
-        "gmdescription": {
-          "value": ""
-        },
         "description": {
           "value": ""
         },
-        "failed": "1, 2, 5, 21, 22, 28",
-        "requirement": {
+        "gmdescription": {
           "value": ""
+        },
+        "difficulty": {
+          "value": 4,
+          "analyze": 4,
+          "bonusValue": 0
+        },
+        "failed": "1, 2, 5, 21, 22, 28",
+        "sideeffects": "",
+        "simpleRecipe": false,
+        "brewing": {
+          "value": "<p>&raquo;Koche das blutige Robbenherz mit den Algen in wenig Wasser gut aus, als ob Du eine Br&uuml;he zubereitetest. Bereite das Eiswasser in einem Kessel vor, gib den Jaspis hinein und warte, bis sich Eiskristalle bilden. Gie&szlig;e umgehend den hei&szlig;en Sud &uuml;ber die Gulmondbl&auml;tter in den Kessel, die Eiskristalle werden sich umgehend mit der dunklen Fl&uuml;ssigkeit verbinden und ihr jegliche Farbe entziehen und zu Boden sinken. Bevor Du den Trunke nutzt, sch&uuml;ttele die Kristallflocken auf. &laquo; &mdash;Rezeptur von Clea Cornweyler, 1026 BF</p>"
+        },
+        "ingredients": {
+          "value": "<p>das Herz einer Robbe, 1 Karat Jaspis, 1 Schank Eis-<br>wasser aus Ifirns Ozean, 5 Gulmond-Bl&auml;tter, 1 Unze Algen</p>"
         },
         "type": {
           "value": "M"
         },
-        "simpleRecipe": false,
-        "difficulty": {
-          "analyze": 4,
-          "bonusValue": 0,
-          "value": 4
+        "requirement": {
+          "value": ""
         },
-        "brewing": {
-          "value": "<p>&raquo;Koche das blutige Robbenherz mit den Algen in wenig Wasser gut aus, als ob Du eine Br&uuml;he zubereitetest. Bereite das Eiswasser in einem Kessel vor, gib den Jaspis hinein und warte, bis sich Eiskristalle bilden. Gie&szlig;e umgehend den hei&szlig;en Sud &uuml;ber die Gulmondbl&auml;tter in den Kessel, die Eiskristalle werden sich umgehend mit der dunklen Fl&uuml;ssigkeit verbinden und ihr jegliche Farbe entziehen und zu Boden sinken. Bevor Du den Trunke nutzt, sch&uuml;ttele die Kristallflocken auf. &laquo; &mdash;Rezeptur von Clea Cornweyler, 1026 BF</p>"
+        "additionalEffects": {
+          "value": ""
         },
+        "targetEffect": false,
         "effects": {
           "A": {
+            "description": "Schützt 1 Stunde vor Kälteschaden, wird die Haut allerdings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Schützt 1 Stunde vor Kälteschaden, wird die Haut allerdings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke.",
             "healingValue": ""
           },
           "B": {
+            "description": "Schützt 4 Stundn vor Kälteschaden, wird die Haut aller- dings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Schützt 4 Stundn vor Kälteschaden, wird die Haut aller- dings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke.",
             "healingValue": ""
           },
           "C": {
+            "description": "Schützt 12 Stundn vor Kälteschaden, wird die Haut aller- dings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Schützt 12 Stundn vor Kälteschaden, wird die Haut aller- dings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke.",
             "healingValue": ""
           },
           "D": {
+            "description": "Schützt 1 Tag vor Kälteschaden, wird die Haut aller- dings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Schützt 1 Tag vor Kälteschaden, wird die Haut aller- dings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke.",
             "healingValue": ""
           },
           "E": {
+            "description": "Schützt 3 Tage vor Kälteschaden, wird die Haut aller- dings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Schützt 3 Tage vor Kälteschaden, wird die Haut aller- dings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke.",
             "healingValue": ""
           },
           "F": {
+            "description": "Schützt 3 Tage vor Kälteschaden, wird die Haut allerdings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke. Zusätzlich wachsen dem Anwender Schwimmhäute zwischen den Fingern und Zehen",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "Schwimmen TaW+3",
-            "description": "Schützt 3 Tage vor Kälteschaden, wird die Haut allerdings nicht feucht gehalten, erleidet der Anwender 1W6+2 SP/Tag und regeneriert in der kommenden Ruhephase nur mit halber Stärke. Zusätzlich wachsen dem Anwender Schwimmhäute zwischen den Fingern und Zehen",
             "healingValue": ""
           }
-        },
-        "sideeffects": "",
-        "additionalEffects": {
-          "value": ""
         },
         "price": {
           "brewing": 180,
           "value": 350
-        },
-        "ingredients": {
-          "value": "<p>das Herz einer Robbe, 1 Karat Jaspis, 1 Schank Eis-<br>wasser aus Ifirns Ozean, 5 Gulmond-Bl&auml;tter, 1 Unze Algen</p>"
-        },
-        "targetEffect": false
+        }
       },
       "folder": null,
       "ownership": {
@@ -3914,13 +3916,12 @@
         "createdTime": 1686406264651,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Ifirnstrunk",
       "flags": {
-        "core": {
-          "sourceId": "Item.NrVnh9bopw8puWls"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "uRZVAA4cJALGxyXr",
@@ -3931,102 +3932,102 @@
       "img": "icons/consumables/potions/potion-round-stopped-yellow-green.webp",
       "effects": [],
       "system": {
-        "gmdescription": {
-          "value": ""
-        },
         "description": {
           "value": ""
         },
-        "failed": "1, 4, 8, 13, 15, 22, 23, 33",
-        "requirement": {
+        "gmdescription": {
           "value": ""
+        },
+        "difficulty": {
+          "value": 6,
+          "analyze": 0,
+          "bonusValue": 0
+        },
+        "failed": "1, 4, 8, 13, 15, 22, 23, 33",
+        "sideeffects": "",
+        "simpleRecipe": false,
+        "brewing": {
+          "value": "<p>&raquo;Zu bereiten w&auml;hrend der D&auml;mmerung bei Kelch oder Helm. Zerreibe die Alraun mit den Drachenschuppen in einem M&ouml;rser aus Bimsstein und mische sie unter die Atmon-Paste. L&ouml;se den Brei in warmem Weinbrand auf und schwenke dreimal um. Wenn guter Duft emporsteigt, ist es richtig. Lege das Spinnengewebe und die Libellenfl&uuml;gel auf das Gebr&auml;u, dass es nicht untergeht. K&uuml;hle es, &uuml;berschichte es mit dem Nebel, setz den Alembic darauf und sprich NIHILOGRAVO. Was durch den Nebel aufsteiget, fange auf. Streben die Tropfen nach oben, so f&uuml;lle die Phiole kopf&uuml;ber und verschlie&szlig;e sie gut. Das Elixier macht den K&ouml;rper leicht und h&auml;lt sich &uuml;bers Jahr.&laquo; &mdash;Rezeptur der Halle des Quecksilbers zu Festum, 1034 BF</p>"
+        },
+        "ingredients": {
+          "value": "<p>das Spinnennetz eines bornischen Waldspringers, 8 Libellenfl&uuml;gel, Brei eines Atmon-B&uuml;schels, 1 zus&auml;tzliche Alraune, 3 Drachenschuppen, 1 Schank Nebel vom 1. Boron, 1 Ma&szlig; Weinbrand; NIHILOGRAVO</p>"
         },
         "type": {
           "value": "M"
         },
-        "simpleRecipe": false,
-        "difficulty": {
-          "analyze": 0,
-          "bonusValue": 0,
-          "value": 6
+        "requirement": {
+          "value": ""
         },
-        "brewing": {
-          "value": "<p>&raquo;Zu bereiten w&auml;hrend der D&auml;mmerung bei Kelch oder Helm. Zerreibe die Alraun mit den Drachenschuppen in einem M&ouml;rser aus Bimsstein und mische sie unter die Atmon-Paste. L&ouml;se den Brei in warmem Weinbrand auf und schwenke dreimal um. Wenn guter Duft emporsteigt, ist es richtig. Lege das Spinnengewebe und die Libellenfl&uuml;gel auf das Gebr&auml;u, dass es nicht untergeht. K&uuml;hle es, &uuml;berschichte es mit dem Nebel, setz den Alembic darauf und sprich NIHILOGRAVO. Was durch den Nebel aufsteiget, fange auf. Streben die Tropfen nach oben, so f&uuml;lle die Phiole kopf&uuml;ber und verschlie&szlig;e sie gut. Das Elixier macht den K&ouml;rper leicht und h&auml;lt sich &uuml;bers Jahr.&laquo; &mdash;Rezeptur der Halle des Quecksilbers zu Festum, 1034 BF</p>"
+        "additionalEffects": {
+          "value": ""
         },
+        "targetEffect": false,
         "effects": {
           "A": {
+            "description": "Der Anwender spürt für eine Spielrunde die Leichtigkeit seiner Bewegungen (Bei geeigneter Anwendung sind jedwede körperlichen Talente um 1 Punkt erleichtert).",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "Körpertalente 1;",
-            "description": "Der Anwender spürt für eine Spielrunde die Leichtigkeit seiner Bewegungen (Bei geeigneter Anwendung sind jedwede körperlichen Talente um 1 Punkt erleichtert).",
             "healingValue": ""
           },
           "B": {
+            "description": "Das Körpergewicht des Anwenders verringert sich für 1 SR. Körperliche Talentproben sind um 3 Punkte erleichtert (körperliche Eigenschaftsproben um 1 Punkt), was auch in die Berechnung von Sprungweiten und anderen Distanzen einfließt.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "KK 1; GE 1; KO 1; FF 1; Körpertalente 3;",
-            "description": "Das Körpergewicht des Anwenders verringert sich für 1 SR. Körperliche Talentproben sind um 3 Punkte erleichtert (körperliche Eigenschaftsproben um 1 Punkt), was auch in die Berechnung von Sprungweiten und anderen Distanzen einfließt.",
             "healingValue": ""
           },
           "C": {
+            "description": "Das Körpergewicht des Anwenders verringert sich für 2 SR. Körperliche Talentproben sind um 7 Punkte erleichtert (körperliche Eigenschaftsproben um 3 Punkt), was auch in die Berechnung von Sprungweiten und anderen Distanzen einfließt.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "Körpertalente 7; KK 3; GE 3; FF 3; KO 3;",
-            "description": "Das Körpergewicht des Anwenders verringert sich für 2 SR. Körperliche Talentproben sind um 7 Punkte erleichtert (körperliche Eigenschaftsproben um 3 Punkt), was auch in die Berechnung von Sprungweiten und anderen Distanzen einfließt.",
             "healingValue": ""
           },
           "D": {
+            "description": "Das Körpergewicht des Anwenders verringert sich für 3 SR. Körperliche Talentproben sind um 12 Punkte erleichtert (körperliche Eigenschaftsproben um 4 Punkte), was auch in die Berechnung von Sprungweiten und anderen Distanzen einfließt.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "Körpertalente 12; GE 4; KK 4; FF 4; KO 4;",
-            "description": "Das Körpergewicht des Anwenders verringert sich für 3 SR. Körperliche Talentproben sind um 12 Punkte erleichtert (körperliche Eigenschaftsproben um 4 Punkte), was auch in die Berechnung von Sprungweiten und anderen Distanzen einfließt.",
             "healingValue": ""
           },
           "E": {
+            "description": "Der Körper des Anwenders ist für 5 SR komplett schwerelos – nicht jedoch seine Kleidung und Ausrüstung. Er kann unbekleidet schweben, im bekleideten Zustand sind sehr weite Sprünge möglich – die Weite und Höhe ist Spielleiterentscheid nach Berücksichtigung der getragenen Ausrüstung.",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Der Körper des Anwenders ist für 5 SR komplett schwerelos – nicht jedoch seine Kleidung und Ausrüstung. Er kann unbekleidet schweben, im bekleideten Zustand sind sehr weite Sprünge möglich – die Weite und Höhe ist Spielleiterentscheid nach Berücksichtigung der getragenen Ausrüstung.",
             "healingValue": ""
           },
           "F": {
+            "description": "Der Körper des Anwenders ist für Stunde komplett schwere- los – nicht jedoch seine Kleidung und Ausrüstung. Er kann unbekleidet schweben, im bekleideten Zustand sind sehr weite Sprünge möglich – die Weite und Höhe ist Spielleiterentscheid nach Berücksichtigung der getragenen Ausrüstung. Nach Ablauf der Zeit große Anpassungsschwierigkeiten mit Schwindel und Übelkeit (IN, CH, FF und GE für 1 Stunde –3).",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Der Körper des Anwenders ist für Stunde komplett schwere- los – nicht jedoch seine Kleidung und Ausrüstung. Er kann unbekleidet schweben, im bekleideten Zustand sind sehr weite Sprünge möglich – die Weite und Höhe ist Spielleiterentscheid nach Berücksichtigung der getragenen Ausrüstung. Nach Ablauf der Zeit große Anpassungsschwierigkeiten mit Schwindel und Übelkeit (IN, CH, FF und GE für 1 Stunde –3).",
             "healingValue": ""
           }
-        },
-        "sideeffects": "",
-        "additionalEffects": {
-          "value": ""
         },
         "price": {
           "brewing": 350,
           "value": 700
-        },
-        "ingredients": {
-          "value": "<p>das Spinnennetz eines bornischen Waldspringers, 8 Libellenfl&uuml;gel, Brei eines Atmon-B&uuml;schels, 1 zus&auml;tzliche Alraune, 3 Drachenschuppen, 1 Schank Nebel vom 1. Boron, 1 Ma&szlig; Weinbrand; NIHILOGRAVO</p>"
-        },
-        "targetEffect": false
+        }
       },
       "folder": null,
       "ownership": {
@@ -4041,13 +4042,12 @@
         "createdTime": 1686406984025,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Levitationselixier",
       "flags": {
-        "core": {
-          "sourceId": "Item.wm5S6W5VDQs8Es6i"
-        }
+        "core": {}
       },
       "sort": 0,
       "_id": "Jpr7etD74RTWYumb",
@@ -4058,105 +4058,105 @@
       "img": "systems/dsa5/icons/itemicons/Sonstiges/beutel_0.webp",
       "effects": [],
       "system": {
-        "poison": {
-          "value": null
+        "description": {
+          "value": ""
         },
         "gmdescription": {
           "value": ""
         },
-        "description": {
-          "value": ""
+        "difficulty": {
+          "value": 3,
+          "analyze": 2,
+          "bonusValue": 0
         },
         "failed": "",
-        "requirement": {
+        "sideeffects": "",
+        "simpleRecipe": true,
+        "brewing": {
           "value": ""
+        },
+        "ingredients": {
+          "value": "<p>Die Wurzel der Frisundrose (auch Nieswurz ge-<br>nannt) wird zersto&szlig;en, mit dem gehackten und getrockneten<br>Kern einer Paprika- oder Pfeffer-Pflanze vermengt und zu feinem Pulver zermahlen.</p>"
         },
         "type": {
           "value": "E"
         },
-        "simpleRecipe": true,
-        "difficulty": {
-          "analyze": 2,
-          "bonusValue": 0,
-          "value": 3
-        },
-        "brewing": {
+        "requirement": {
           "value": ""
         },
+        "additionalEffects": {
+          "value": ""
+        },
+        "targetEffect": true,
         "effects": {
           "A": {
+            "description": "Wer von dieser Substanz getroffen wird, erliegt einem starken Niesreiz, der auch die Tränenproduktion anregt ",
             "duration": "10",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "-2 AT; -2 PA;  Sinnenschärfe -6;",
-            "description": "Wer von dieser Substanz getroffen wird, erliegt einem starken Niesreiz, der auch die Tränenproduktion anregt ",
             "healingValue": ""
           },
           "B": {
+            "description": "",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "",
             "healingValue": ""
           },
           "C": {
+            "description": "",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "",
             "healingValue": ""
           },
           "D": {
+            "description": "",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "",
             "healingValue": ""
           },
           "E": {
+            "description": "",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "",
             "healingValue": ""
           },
           "F": {
+            "description": "",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "",
             "healingValue": ""
           }
         },
-        "sideeffects": "",
-        "additionalEffects": {
-          "value": ""
+        "poison": {
+          "value": null
         },
         "price": {
           "brewing": 5,
           "value": 10
-        },
-        "ingredients": {
-          "value": "<p>Die Wurzel der Frisundrose (auch Nieswurz ge-<br>nannt) wird zersto&szlig;en, mit dem gehackten und getrockneten<br>Kern einer Paprika- oder Pfeffer-Pflanze vermengt und zu feinem Pulver zermahlen.</p>"
-        },
-        "targetEffect": true
+        }
       },
       "folder": null,
       "ownership": {
@@ -4171,13 +4171,12 @@
         "createdTime": 1692337926279,
         "duplicateSource": null,
         "systemVersion": "2.0.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Tränenkraut",
       "flags": {
-        "core": {
-          "sourceId": "Item.N3btnEFUVsAJWQa3"
-        }
+        "core": {}
       },
       "_id": "Lm0K050GYZFuDz9U",
       "sort": 0,
@@ -4189,102 +4188,102 @@
       "effects": [],
       "folder": null,
       "system": {
-        "gmdescription": {
-          "value": ""
-        },
         "description": {
           "value": ""
         },
-        "failed": "1, 3, 5, 18, 19, 21, 22, 24,41",
-        "requirement": {
+        "gmdescription": {
           "value": ""
+        },
+        "difficulty": {
+          "value": 2,
+          "analyze": 1,
+          "bonusValue": 0
+        },
+        "failed": "1, 3, 5, 18, 19, 21, 22, 24,41",
+        "sideeffects": "",
+        "simpleRecipe": false,
+        "brewing": {
+          "value": "<p><em>&raquo;Zuv&ouml;rderst nimm alle festen Zuthaten, den Dechsen-Schwanz wohlweislich getrucknet, und zermahl sie all und einzeln zu einem feinen Staube. So du eine Arganwurz hast, zerschneide sie nun in Scheiben von eines Pergamentes Dicke. So du W&uuml;rsel hast, flicht ihn zu einem Netze von der Gr&ouml;&szlig;e des Gefe&szlig;es, welches du zur Herstellung zu verwenden gedenkst. Mische nun die Steube miteinand und f&uuml;ll das Gefe&szlig; mit einer Lage desselben, auf welches du eine Lage der Argan oder des W&uuml;rsels heufst, gefolgt in selbiger Reihe von Staub und Kraut, bis dass das Gefe&szlig; voll. Sch&uuml;tte nun den Morgenthau dar&uuml;ber und bedeke alles mit einem blauen Tuche. Lasse nun das Gefe&szlig; stehen, wo es warm ist und r&uuml;hr es nicht an bis zum siebten Tage, seih die Fl&uuml;ssigkeit ab und bewahr sie ohne Licht, so erh&auml;lt sie sich wohl 2 Jahre und wird dir augenblicklich Gesundheit wiedergeben.&laquo;</em> &mdash;Pheredonios Melenaar, Die Macht der Elemente, Zorgan, ca. 700 BF</p>\n<p>&nbsp;</p>\n<ul>\n<li>Heiltrank darf 7 Tage nicht bewegt werden</li>\n</ul>"
+        },
+        "ingredients": {
+          "value": "<p>der Schwanz einer beliebigen Eidechse, 1 Skrupel Gold, 1 Arganwurzel oder 1 Bund Wirselkraut, 10 Unzen Morgentau</p>\n<p>&nbsp;</p>"
         },
         "type": {
           "value": "S"
         },
-        "simpleRecipe": false,
-        "difficulty": {
-          "analyze": 1,
-          "bonusValue": 0,
-          "value": 2
+        "requirement": {
+          "value": ""
         },
-        "brewing": {
-          "value": "<p><em>&raquo;Zuv&ouml;rderst nimm alle festen Zuthaten, den Dechsen-Schwanz wohlweislich getrucknet, und zermahl sie all und einzeln zu einem feinen Staube. So du eine Arganwurz hast, zerschneide sie nun in Scheiben von eines Pergamentes Dicke. So du W&uuml;rsel hast, flicht ihn zu einem Netze von der Gr&ouml;&szlig;e des Gefe&szlig;es, welches du zur Herstellung zu verwenden gedenkst. Mische nun die Steube miteinand und f&uuml;ll das Gefe&szlig; mit einer Lage desselben, auf welches du eine Lage der Argan oder des W&uuml;rsels heufst, gefolgt in selbiger Reihe von Staub und Kraut, bis dass das Gefe&szlig; voll. Sch&uuml;tte nun den Morgenthau dar&uuml;ber und bedeke alles mit einem blauen Tuche. Lasse nun das Gefe&szlig; stehen, wo es warm ist und r&uuml;hr es nicht an bis zum siebten Tage, seih die Fl&uuml;ssigkeit ab und bewahr sie ohne Licht, so erh&auml;lt sie sich wohl 2 Jahre und wird dir augenblicklich Gesundheit wiedergeben.&laquo;</em> &mdash;Pheredonios Melenaar, Die Macht der Elemente, Zorgan, ca. 700 BF</p>\n<p>&nbsp;</p>\n<ul>\n<li>Heiltrank darf 7 Tage nicht bewegt werden</li>\n</ul>"
+        "additionalEffects": {
+          "value": ""
         },
+        "targetEffect": false,
         "effects": {
           "A": {
+            "description": "Der Anwender regeneriert augenblicklich 1W6 LeP, erleidet jedoch eine leichte Sinnestrübung (KL, GE –1 für 1 Stunde).",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "1d6",
             "healingOverMaximum": false,
             "effect": "-1 GE; -1 KL;",
-            "description": "Der Anwender regeneriert augenblicklich 1W6 LeP, erleidet jedoch eine leichte Sinnestrübung (KL, GE –1 für 1 Stunde).",
             "healingValue": ""
           },
           "B": {
+            "description": "augenblickliche Regeneration von 1W6+2 LeP",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "1d6+2",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "augenblickliche Regeneration von 1W6+2 LeP",
             "healingValue": ""
           },
           "C": {
+            "description": "augenblickliche Regeneration von 2W6+4 LeP",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "2d6+4",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "augenblickliche Regeneration von 2W6+4 LeP",
             "healingValue": ""
           },
           "D": {
+            "description": "augenblickliche Regeneration von 3W6+6 LeP",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "3d6+6",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "augenblickliche Regeneration von 3W6+6 LeP",
             "healingValue": ""
           },
           "E": {
+            "description": "Heilung aller verlorenen LeP",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "100",
             "healingOverMaximum": false,
             "effect": "",
-            "description": "Heilung aller verlorenen LeP",
             "healingValue": ""
           },
           "F": {
+            "description": "Der Trank bringt 3W6+25 LeP zurück, auch über das Maximum hinaus, neutralisiert jedoch die Wirkung aller anderen alchimistisch-magischen Tränke, Gifte und Elixiere für eine Woche (also auch alle weiteren Heiltränke, die innerhalb der nächsten Woche genossen werden).",
             "duration": "",
             "damage": "",
             "damageValue": "",
             "healing": "3d6+25",
             "healingOverMaximum": true,
             "effect": "",
-            "description": "Der Trank bringt 3W6+25 LeP zurück, auch über das Maximum hinaus, neutralisiert jedoch die Wirkung aller anderen alchimistisch-magischen Tränke, Gifte und Elixiere für eine Woche (also auch alle weiteren Heiltränke, die innerhalb der nächsten Woche genossen werden).",
             "healingValue": ""
           }
-        },
-        "sideeffects": "",
-        "additionalEffects": {
-          "value": ""
         },
         "price": {
           "brewing": 50,
           "value": 100
-        },
-        "ingredients": {
-          "value": "<p>der Schwanz einer beliebigen Eidechse, 1 Skrupel Gold, 1 Arganwurzel oder 1 Bund Wirselkraut, 10 Unzen Morgentau</p>\n<p>&nbsp;</p>"
-        },
-        "targetEffect": false
+        }
       },
       "ownership": {
         "default": 0,
@@ -4299,13 +4298,12 @@
         "createdTime": 1724320701906,
         "duplicateSource": null,
         "systemVersion": "5.7.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Heiltrank",
       "flags": {
-        "core": {
-          "sourceId": "Item.xupnjYE842svVRMu"
-        }
+        "core": {}
       },
       "sort": 2200000,
       "_id": "NkpoyQINlQc9MPAT",
@@ -4316,39 +4314,47 @@
       "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
       "effects": [],
       "system": {
-        "consumed": {
-          "value": false
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "price": {
+          "value": 350
         },
         "quantity": {
           "value": 2
         },
-        "gmdescription": {
+        "weight": {
+          "value": 0.1
+        },
+        "effect": {
           "value": ""
+        },
+        "parent_id": 0,
+        "equipmentType": {
+          "value": "alchemy"
+        },
+        "QLList": "",
+        "quality": {
+          "value": "Alchemy.U",
+          "secretValue": "Alchemy.C"
+        },
+        "charges": 1,
+        "maxCharges": 1,
+        "consumed": {
+          "value": false
         },
         "qualityValue": 17,
         "alchemydescription": {
           "value": ""
         },
-        "description": {
-          "value": ""
-        },
-        "weight": {
-          "value": 0.1
-        },
         "sideEffect": "Die Haut des Anwenders färbt sich für 4 SR violett.",
-        "equipmentType": {
-          "value": "alchemy"
-        },
-        "quality": {
-          "secretValue": "Alchemy.C",
-          "value": "Alchemy.U"
-        },
         "recipeName": "Waffenbalsam",
         "duration": {
           "value": ""
         },
-        "QLList": "",
-        "charges": 1,
         "effects": {
           "duration": "",
           "damage": "",
@@ -4362,17 +4368,9 @@
         "transform": {
           "value": false
         },
-        "price": {
-          "value": 350
-        },
-        "parent_id": 0,
-        "effect": {
-          "value": ""
-        },
         "attackEffect": false,
         "healingValue": "",
-        "targetEffect": false,
-        "maxCharges": 1
+        "targetEffect": false
       },
       "folder": null,
       "ownership": {
@@ -4387,7 +4385,8 @@
         "createdTime": 1724321941624,
         "duplicateSource": null,
         "systemVersion": "5.7.4",
-        "coreVersion": "12.331"
+        "coreVersion": "13.351",
+        "exportSource": null
       },
       "name": "Waffenbalsam (C+)",
       "flags": {},

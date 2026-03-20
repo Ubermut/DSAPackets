@@ -3,12 +3,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.351",
     "systemId": "dsa5",
     "systemVersion": "6.2.3",
     "createdTime": 1761220849040,
     "modifiedTime": 1761221136246,
-    "lastModifiedBy": "wKZQPtkrWls0Xsaf"
+    "lastModifiedBy": "wKZQPtkrWls0Xsaf",
+    "exportSource": null
   },
   "flags": {
     "core": {}
@@ -129,7 +130,6 @@
       }
     },
     "prependAdjective": false,
-    "hexagonalShape": 0,
     "randomImg": false,
     "appendNumber": false,
     "bar1": {
@@ -181,7 +181,14 @@
     "occludable": {
       "radius": 0
     },
-    "height": 1
+    "height": 1,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "effects": [
     {
@@ -189,7 +196,6 @@
       "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
       "origin": "Kultistin",
       "flags": {
-        "effectKey": "wound",
         "dsa5": {
           "value": null,
           "editable": true,
@@ -201,7 +207,8 @@
           "wound": true,
           "createNew": true,
           "auto": null,
-          "manual": 0
+          "manual": 0,
+          "effectKey": "wound"
         }
       },
       "statuses": [
@@ -228,12 +235,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.effects!WSngTi7qoG0aYLH6.bX8yvvJbzVkaluSP"
     },
@@ -242,7 +250,6 @@
       "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
       "origin": "Kultistin",
       "flags": {
-        "effectKey": "wound",
         "dsa5": {
           "value": null,
           "editable": true,
@@ -254,7 +261,8 @@
           "wound": true,
           "createNew": true,
           "auto": null,
-          "manual": 0
+          "manual": 0,
+          "effectKey": "wound"
         }
       },
       "statuses": [
@@ -281,12 +289,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.effects!WSngTi7qoG0aYLH6.sb0OLbQqZbVk1eRb"
     },
@@ -295,7 +304,6 @@
       "img": "icons/svg/skull.svg",
       "description": "CONDITIONDESCRIPTION.dead",
       "flags": {
-        "effectKey": "",
         "dsa5": {
           "description": "CONDITIONDESCRIPTION.dead",
           "auto": true,
@@ -303,7 +311,8 @@
           "value": 1,
           "effectTemplate": "",
           "absolute": false,
-          "effectValue": 2
+          "effectValue": 2,
+          "effectKey": ""
         },
         "core": {
           "overlay": true
@@ -333,12 +342,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.effects!WSngTi7qoG0aYLH6.O10b1WNa2UCl5DDT"
     }
@@ -677,10 +687,6 @@
         "StF": {
           "value": "E"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -703,6 +709,10 @@
           "valadd": -1,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -717,18 +727,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.226BaiUnbC8a02EI",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Kettenstäbe",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.226BaiUnbC8a02EI"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "226BaiUnbC8a02EI",
@@ -744,10 +754,6 @@
         "StF": {
           "value": "E"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -770,6 +776,10 @@
           "valadd": 0,
           "valmult": 0
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -784,18 +794,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.4lQMyQA76B3k2qC3",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Lanzenreiten",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.4lQMyQA76B3k2qC3"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "4lQMyQA76B3k2qC3",
@@ -811,10 +821,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -837,6 +843,10 @@
           "valadd": -5,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -851,18 +861,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.5RIyzGs1cZlo5KSM",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Blasrohr",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.5RIyzGs1cZlo5KSM"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "5RIyzGs1cZlo5KSM",
@@ -878,10 +888,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -904,6 +910,10 @@
           "valadd": -3,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -918,18 +928,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.BnyH20zV6sSUVP6L",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Kettenwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.BnyH20zV6sSUVP6L"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "BnyH20zV6sSUVP6L",
@@ -945,10 +955,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -971,6 +977,10 @@
           "valadd": 0,
           "valmult": 0
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -985,18 +995,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.C35OB8c3U96PkOi4",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Belagerungswaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.C35OB8c3U96PkOi4"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "C35OB8c3U96PkOi4",
@@ -1012,10 +1022,6 @@
         "StF": {
           "value": "C"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1038,6 +1044,10 @@
           "valadd": 0,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1052,18 +1062,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.DVR2e9H5OmUwOTAx",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Raufen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.DVR2e9H5OmUwOTAx"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "DVR2e9H5OmUwOTAx",
@@ -1079,10 +1089,6 @@
         "StF": {
           "value": "E"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1105,6 +1111,10 @@
           "valadd": -2,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1119,18 +1129,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.DbhjV4W59gLQtOCD",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Anderthalbhänder",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.DbhjV4W59gLQtOCD"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "DbhjV4W59gLQtOCD",
@@ -1146,10 +1156,6 @@
         "StF": {
           "value": "C"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1172,6 +1178,10 @@
           "valadd": -3,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1186,18 +1196,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.Ju1yU6ebEnUMoo7c",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Wurfmesser",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.Ju1yU6ebEnUMoo7c"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "Ju1yU6ebEnUMoo7c",
@@ -1213,10 +1223,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1239,6 +1245,10 @@
           "valadd": -2,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1253,18 +1263,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.LEG7m1tkOxrTocUG",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Diskus",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.LEG7m1tkOxrTocUG"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "LEG7m1tkOxrTocUG",
@@ -1280,10 +1290,6 @@
         "StF": {
           "value": "C"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1306,6 +1312,10 @@
           "valadd": -2,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1320,18 +1330,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.N87xkSBj7rLh9UCI",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Wurfspeere",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.N87xkSBj7rLh9UCI"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "N87xkSBj7rLh9UCI",
@@ -1347,10 +1357,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1373,6 +1379,10 @@
           "valadd": -4,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1387,18 +1397,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.NtAsVa3mRdfHWbLT",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Hiebwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.NtAsVa3mRdfHWbLT"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "QoNo10xqBllpyITB"
@@ -1417,10 +1427,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1443,6 +1449,10 @@
           "valadd": -3,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1457,18 +1467,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.OXVG7xUn8NgQcbSU",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Infanteriewaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.OXVG7xUn8NgQcbSU"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "QoNo10xqBllpyITB"
@@ -1487,10 +1497,6 @@
         "StF": {
           "value": "E"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1513,6 +1519,10 @@
           "valadd": -1,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1527,18 +1537,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.Od7bzJ6edTm4CD6C",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Peitsche",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.Od7bzJ6edTm4CD6C"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "Od7bzJ6edTm4CD6C",
@@ -1554,10 +1564,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1580,6 +1586,10 @@
           "valadd": -1,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1594,18 +1604,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.UZ4W2yrSlJOEs4jB",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Dolche",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.UZ4W2yrSlJOEs4jB"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "QoNo10xqBllpyITB"
@@ -1624,10 +1634,6 @@
         "StF": {
           "value": "E"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1650,6 +1656,10 @@
           "valadd": -2,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1664,18 +1674,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.UhfzjjnojBQjxBDJ",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Schleuder",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.UhfzjjnojBQjxBDJ"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "UhfzjjnojBQjxBDJ",
@@ -1691,10 +1701,6 @@
         "StF": {
           "value": "A"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1717,6 +1723,10 @@
           "valadd": -1,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1731,18 +1741,18 @@
       "_stats": {
         "compendiumSource": "Item.0aN7R5SL6xkbAsBO",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Parierwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Item.0aN7R5SL6xkbAsBO"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "sort": 0,
@@ -1758,10 +1768,6 @@
         "StF": {
           "value": "C"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1784,6 +1790,10 @@
           "valadd": -5,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1798,18 +1808,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.awBvPLMvFu4KcQUE",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Armbrust",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.awBvPLMvFu4KcQUE"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "awBvPLMvFu4KcQUE",
@@ -1825,10 +1835,6 @@
         "StF": {
           "value": "E"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1851,6 +1857,10 @@
           "valadd": -2,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1865,18 +1875,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.cvEA2xbXgOfrocqA",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Schwerter",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.cvEA2xbXgOfrocqA"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "cvEA2xbXgOfrocqA",
@@ -1892,10 +1902,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1918,6 +1924,10 @@
           "valadd": -2,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1932,18 +1942,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.favwZuUV7oqLbaVM",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Wurfbeile",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.favwZuUV7oqLbaVM"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "favwZuUV7oqLbaVM",
@@ -1959,10 +1969,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -1985,6 +1991,10 @@
           "valadd": -2,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -1999,18 +2009,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.gdCgGX8gOQZaPMck",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Stäbe",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.gdCgGX8gOQZaPMck"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "gdCgGX8gOQZaPMck",
@@ -2026,10 +2036,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -2052,6 +2058,10 @@
           "valadd": 0,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -2066,18 +2076,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.jAUJXa4oSKGEijdC",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Ringen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.jAUJXa4oSKGEijdC"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "jAUJXa4oSKGEijdC",
@@ -2093,10 +2103,6 @@
         "StF": {
           "value": "A"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -2119,6 +2125,10 @@
           "valadd": 0,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -2133,18 +2143,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.naOdsGgQ0g3TtFA5",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Schilde",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.naOdsGgQ0g3TtFA5"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "naOdsGgQ0g3TtFA5",
@@ -2160,10 +2170,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -2186,6 +2192,10 @@
           "valadd": -3,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -2200,18 +2210,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.njo6NjEzUBDpsjEv",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Zweihand-Hiebwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.njo6NjEzUBDpsjEv"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         },
         "dsa5": {
           "actorId": "QoNo10xqBllpyITB"
@@ -2230,10 +2240,6 @@
         "StF": {
           "value": "E"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -2256,6 +2262,10 @@
           "valadd": -1,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -2270,18 +2280,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.o4BXASK78J7uakFZ",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Fechtwaffen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.o4BXASK78J7uakFZ"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "o4BXASK78J7uakFZ",
@@ -2297,10 +2307,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -2323,6 +2329,10 @@
           "valadd": -2,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -2337,18 +2347,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.oP79ub1B8wetV5xv",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Säbel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.oP79ub1B8wetV5xv"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "oP79ub1B8wetV5xv",
@@ -2364,10 +2374,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -2390,6 +2396,10 @@
           "valadd": 0,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -2404,18 +2414,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.sVSpXuv6xffj8PNW",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Zweihandflegel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.sVSpXuv6xffj8PNW"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "sVSpXuv6xffj8PNW",
@@ -2431,10 +2441,6 @@
         "StF": {
           "value": "E"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -2457,6 +2463,10 @@
           "valadd": -3,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -2471,18 +2481,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.t1HFkkvYGP0M8JuD",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Bogen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.t1HFkkvYGP0M8JuD"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "t1HFkkvYGP0M8JuD",
@@ -2498,10 +2508,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -2524,6 +2530,10 @@
           "valadd": -3,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -2538,18 +2548,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.tCO38y9uOLT3y6gh",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Speere",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.tCO38y9uOLT3y6gh"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "tCO38y9uOLT3y6gh",
@@ -2565,10 +2575,6 @@
         "StF": {
           "value": "D"
         },
-        "trainedValue": null,
-        "useDerivation": false,
-        "selectedSourceTalent": null,
-        "derivations": [],
         "guidevalue": {
           "value": "kk"
         },
@@ -2591,6 +2597,10 @@
           "valadd": -2,
           "valmult": 1
         },
+        "trainedValue": null,
+        "useDerivation": false,
+        "selectedSourceTalent": null,
+        "derivations": [],
         "gmdescription": {
           "value": ""
         },
@@ -2605,18 +2615,18 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.combatskills.y4qU3t8GP8URMRDW",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Zweihandschwerter/-säbel",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Compendium.dsa5.combatskills.y4qU3t8GP8URMRDW"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "_id": "y4qU3t8GP8URMRDW",
@@ -2656,18 +2666,17 @@
       "_stats": {
         "compendiumSource": "Item.BGfRbsrZ2M2Y2wZ3",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Money-D",
       "flags": {
-        "core": {
-          "sourceId": "Item.BGfRbsrZ2M2Y2wZ3"
-        }
+        "core": {}
       },
       "_id": "OCRi6UuKBIHCbZuF",
       "sort": 0,
@@ -2706,18 +2715,17 @@
       "_stats": {
         "compendiumSource": "Item.ntX4yPa0e9rmmqSZ",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Money-S",
       "flags": {
-        "core": {
-          "sourceId": "Item.ntX4yPa0e9rmmqSZ"
-        }
+        "core": {}
       },
       "_id": "xN0OtnyZqB4BaWAX",
       "sort": 0,
@@ -2756,18 +2764,17 @@
       "_stats": {
         "compendiumSource": "Item.2wwyflxgKCiz9UIQ",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Money-H",
       "flags": {
-        "core": {
-          "sourceId": "Item.2wwyflxgKCiz9UIQ"
-        }
+        "core": {}
       },
       "_id": "G4piFlEAWb2stJCn",
       "sort": 0,
@@ -2806,18 +2813,17 @@
       "_stats": {
         "compendiumSource": "Item.IHSzojKYEn0FloQm",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Money-K",
       "flags": {
-        "core": {
-          "sourceId": "Item.IHSzojKYEn0FloQm"
-        }
+        "core": {}
       },
       "_id": "NDf42upvVWmHi8Ty",
       "sort": 0,
@@ -2871,12 +2877,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Schnellziehen",
       "flags": {},
@@ -2932,12 +2939,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Meisterparade",
       "flags": {},
@@ -2993,12 +3001,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Rüstungsgewöhnung I",
       "flags": {},
@@ -3054,12 +3063,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Wuchtschlag",
       "flags": {},
@@ -3115,12 +3125,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Finte",
       "flags": {},
@@ -3176,12 +3187,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Aufmerksamkeit",
       "flags": {},
@@ -3237,12 +3249,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Niederwerfen",
       "flags": {},
@@ -3298,12 +3311,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Herausragende Orientierung",
       "flags": {},
@@ -3359,12 +3373,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Formation",
       "flags": {},
@@ -3420,12 +3435,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Waffenwurf",
       "flags": {},
@@ -3481,12 +3497,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Ausweichen III",
       "flags": {},
@@ -3544,18 +3561,18 @@
       "_stats": {
         "compendiumSource": "Item.wULpLt6beX4rYLT5",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Gegner Einschätzen",
       "flags": {
         "core": {
-          "sourceID": "Item.DGC7DGsJk0DnQXj4",
-          "sourceId": "Item.wULpLt6beX4rYLT5"
+          "sourceID": "Item.DGC7DGsJk0DnQXj4"
         }
       },
       "sort": 0,
@@ -3610,12 +3627,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Ausweichen I",
       "flags": {},
@@ -3671,12 +3689,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Beidhändiger Kampf I",
       "flags": {},
@@ -3732,12 +3751,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Linkhand",
       "flags": {},
@@ -3831,18 +3851,17 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa-packets.dsa-gegenstande.Item.saNnybfwowwDJUbl",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Streitaxt (links)",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa-packets.dsa-gegenstande.Item.saNnybfwowwDJUbl"
-        }
+        "core": {}
       },
       "_id": "p1K6NwmX516JUQp2",
       "sort": 600000,
@@ -3933,18 +3952,17 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa-packets.dsa-gegenstande.Item.saNnybfwowwDJUbl",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Streitaxt",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa-packets.dsa-gegenstande.Item.saNnybfwowwDJUbl"
-        }
+        "core": {}
       },
       "_id": "TnZLccRi6EPNz3Cj",
       "sort": 600000,
@@ -4035,18 +4053,17 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa-packets.dsa-gegenstande.Item.B5QQAdinKrtWgaKi",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Rundschild",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa-packets.dsa-gegenstande.Item.B5QQAdinKrtWgaKi"
-        }
+        "core": {}
       },
       "_id": "FnmdNivZuHv9JK99",
       "sort": 600000,
@@ -4186,18 +4203,17 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa-packets.dsa-gegenstande.Item.shVy2qPz0ZqUyaJW",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "name": "Bastardschwert",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.dsa-packets.dsa-gegenstande.Item.shVy2qPz0ZqUyaJW"
-        }
+        "core": {}
       },
       "_id": "K3gyTLahrNdUJmDV",
       "sort": 100000,
@@ -4218,12 +4234,13 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.zauber.Item.n6uX27Y2W6XBYHE2",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -4342,12 +4359,13 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.zauber.Item.4XXFsMavqesibvz2",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -4453,12 +4471,13 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.zauber.Item.8MU9ZFaVEc4g7z7S",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -4558,12 +4577,13 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.zauber.Item.ICHx5uA86EYeW1Za",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
@@ -4675,12 +4695,13 @@
       "_stats": {
         "compendiumSource": "Compendium.dsa5.zauber.Item.uuTMjNOemQXzCKuP",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "dsa5",
         "systemVersion": "6.2.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "ownership": {
         "default": 0,
